@@ -24,9 +24,9 @@ tags: ["遊戲設計"]
 
 ## 定義單位方塊的屬性
 例如在我的實作測試中作了一個簡單的牆壁、地板組合，單元如下：
-![basic blocks](/images/posts/0001/KnZSeeI.png)
+![basic blocks](/images/posts/game-design/0001/KnZSeeI.png)
 接著要詳細實作規則定義，基本上就是定義要有怎樣的 Tag 的物件才能接上。
-![connectivity](/images/posts/0001/bGUxUDkl.jpg)
+![connectivity](/images/posts/game-design/0001/bGUxUDkl.jpg)
 以這邊的例子來說就是要把牆壁的區域對接、地板的區域對接。
 
 就寫個 Script 來定義這些屬性。
@@ -35,13 +35,13 @@ tags: ["遊戲設計"]
 首先當然是產生一些 Empty Game Object 來存放各個單元。
 
 就把預先做好的單元在每個格子都塞好一份：
-![environment](/images/posts/0001/rhw1pObl.jpg)
-![setup](/images/posts/0001/uXcaEj1l.jpg)
+![environment](/images/posts/game-design/0001/rhw1pObl.jpg)
+![setup](/images/posts/game-design/0001/uXcaEj1l.jpg)
 上圖塞四份是因為我懶得紀錄各個單元的旋轉版本，所以就直接複製四份。雖然應該算是沒效率四倍，但是因為好寫又沒有即時的需求就這樣做了。
 
 也因為複製四倍這種因素，產生過程中都直接把 Renderer 關好關滿。
 
-## 開始崩塌（Collapse）
+## 開始<abbr title="Collapse">崩塌</abbr>
 這邊是個循環，基本過程就是：
 1. 尋找熵（Entropy）最低的格子
 
@@ -57,20 +57,23 @@ tags: ["遊戲設計"]
 
 所以每做一個循環就會像這樣：
 - 執行前
-![before](/images/posts/0001/bcqgiEcl.jpg)
+![before](/images/posts/game-design/0001/bcqgiEcl.jpg)
 - 執行後
-![after](/images/posts/0001/srRPTd5l.jpg)
+![after](/images/posts/game-design/0001/srRPTd5l.jpg)
 
 會崩塌一格，並且讓週邊鄰居的可能性變少。
 
 接著就無限執行循環直到每一格的未來都決定好：
-![full](/images/posts/0001/K42uSg4.gif)
+![full](/images/posts/game-design/0001/K42uSg4.gif)
 
 實作上就是如此的樸實無華。
 
 # 延伸議題
+
 此外的延伸議題有：
+
 ## 錯誤應對
+
 簡單來說根據你單塊選項、銜接規則的設計，可能會出現某個位置完全沒有選項能與週邊銜接。這時候有兩種做法。
 - 正解－回溯變更
 
@@ -86,6 +89,7 @@ tags: ["遊戲設計"]
     而隨著方塊的總量越多，單次產生所需要的時間也越來越長，為了避免大量的時間都被浪費在重新產生，寫個踏實的歷史步驟紀錄系統也比較重要。
 
 ## 可用程度偵測
+
 根據關卡需求，可能要寫一些自動化的條件來偵測關卡的可用程度。
 
 例如說各方塊通行區域的連通程度等等，加深自動化的有效性。
@@ -93,7 +97,9 @@ tags: ["遊戲設計"]
 也同樣可以在可用程度過低的時候直接重新產生，不用浪費時間，更不用人力檢查。
 
 ## 預先設計條件加強可用程度
+
 以我遊戲需求，我只寫了確保邊緣一定是牆壁的機制。但延伸可以考慮的面向就包含：
+
 - 整張地圖的連通程度（有沒有房間被隔開無法通行）
 - 可通行區域的面積
 
@@ -102,9 +108,11 @@ tags: ["遊戲設計"]
 就看專案需求來決定要走好寫但是產生過程比較困難，或者是確保可以產生出來但比較難寫的版本。
 
 ## 三維化
+
 目前我寫的版本只用了兩維，不過其實三維的概念也是一模一樣的，只是邊界銜接條件精細度可能要寫比較多。事前準備稍微複雜點但概念還是一致。
 
 ## 多核心化
+
 老實說我還不太確定怎樣平行化比較好 XD
 
 

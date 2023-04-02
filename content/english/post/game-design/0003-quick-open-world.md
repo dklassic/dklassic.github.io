@@ -1,8 +1,8 @@
 ---
 title: "A quick and dirty large scale city production workflow"
 date: 2021-03-29T19:16:23+08:00
-draft: true
-tags: ["Gamedev"]
+draft: false
+tags: ["Game Design"]
 ---
 
 # Introduction
@@ -24,30 +24,52 @@ Open Street Map is a community contributed map data, and this workflow relies he
 
 ## Buildings
 
-With Blender plugin Blender-GIS[1], one can retrieve models such like this: https://imgur.com/qAebT6J. They are mostly blocks extruded from outlines, but pretty serviceable for cities.
+With Blender plugin [Blender-GIS](https://github.com/domlysz/BlenderGIS), one can retrieve models such like this:
 
-But with some other plugin like Blender-OSM[2], you can actually generate different kinds of roof: https://imgur.com/f6dt7az. If you further purchase the premium version of Blender-OSM[3], textures will be included: https://imgur.com/sKHFBvn.
+![buildings](/images/posts/game-design/0003/1.png)
 
-I on the other hand wanted to challenge myself making shaders, also I think a less realistic but customable material is much useful, so I wired a Unity HDRP/URP shader out of Shader Graph[4](https://imgur.com/VjeNatZ, https://imgur.com/bYxBsOp).
+They are mostly blocks extruded from outlines, but pretty serviceable for cities.
 
-Here's day night cycle in motion (auto exposure setting is a bit off I think it is actually pretty good) https://imgur.com/kPLgbdY.
+But with some other plugin like [Blender-OSM](https://gumroad.com/l/blender-osm), you can actually generate different kinds of roof:
+
+![roof](/images/posts/game-design/0003/2.png)
+
+If you further purchase the [premium version of Blender-OSM](https://gumroad.com/l/blosm), textures will be included:
+
+![texture](/images/posts/game-design/0003/3.png)
+
+I on the other hand wanted to challenge myself making shaders, also I think a less realistic but customable material is much useful, so I [wired a Unity HDRP/URP shader out of Shader Graph](https://github.com/dklassic/Unity-Simple-Building-Triplanar-Shader)
+
+![custom shader](/images/posts/game-design/0003/4.jpg)
+![building result](/images/posts/game-design/0003/5.png)
+
+Here are some footage in motion:
+
+![moving across](/images/posts/game-design/0003/6.gif)
+![flying across](/images/posts/game-design/0003/7.gif)
+![day night cycle](/images/posts/game-design/0003/8.gif)
+
 
 ## Roads
 
-Blender-GIS and Blender-OSM both provides road retrieval tool, but Blender-OSM provides a full mesh out of the box. Here's an example: https://imgur.com/Nic7wW1.
+Blender-GIS and Blender-OSM both provides road retrieval tool, but Blender-OSM provides a full mesh out of the box. Here's an example:
 
-Roads are also separated by type, so I follow Roman Papush's Road Shader Tutorial[5] and made several variations(https://imgur.com/7akfI8X, https://imgur.com/ZJbUyka).
+![road mesh](/images/posts/game-design/0003/9.png)
+
+Roads are also separated by type, so I follow [Roman Papush's Road Shader Tutorial](https://youtu.be/vhrIEcVSI5M) and made several variations.
+
+![all road materials](/images/posts/game-design/0003/10.png)
+![road showcase](/images/posts/game-design/0003/11.png)
 
 ## Result
-https://imgur.com/sd7OSYb
 
-https://imgur.com/t2eAWgN
+![result1](/images/posts/game-design/0003/12.png)
+![result2](/images/posts/game-design/0003/13.png)
+![result3](/images/posts/game-design/0003/14.png)
+![result4](/images/posts/game-design/0003/15.png)
+![result5](/images/posts/game-design/0003/16.png)
 
-https://imgur.com/iUyqNi5
-
-https://imgur.com/k8qh7dX
-
-https://imgur.com/uLmufX6 (skybox based on Jannik Boysen's tutorial[6])
+Skybox is based on [Jannik Boysen's tutorial]((https://medium.com/@jannik_boysen/procedural-skybox-shader-137f6b0cb77c)).
 
 You definitely cannot make a GTA of the city you live in out of the box with this workflow, but I think the result is perfectly serviceable as a basis, more importantly already usable as a complicated background.
 
@@ -72,26 +94,27 @@ Since OSM is community contributed, the quality and density of data varies quite
 
 ## Improperly solved relation
 
-OSM consists of some complicated relation, and the tools mentioned above can't solve all of them properly. Here's Shinjiku government building solved by Blender-GIS https://imgur.com/3mteLBS, while the actual data contains a much detailed model https://imgur.com/V4zdDdY.
+OSM consists of some complicated relation, and the tools mentioned above can't solve all of them properly. Here's Shinjiku government building solved by Blender-GIS:
+
+![bad resolve](/images/posts/game-design/0003/17.png)
+
+While the actual data contains a much detailed model:
+
+![good resolve](/images/posts/game-design/0003/18.png)
 
 # Conclusion
+
 I initially though I can effortlessly made a driving game based in Tokyo open world, but it turns out much more work is required. But I've learnt quite a lot from this attempt and still believes this is possible. Thank you for reading this piece and hopefully it is any bit useful to you.
 
-# Resources
-[1] Blender-GIS: https://github.com/domlysz/BlenderGIS
+# Extra Resources
 
-[2] Blender-OSM (free version): https://gumroad.com/l/blender-osm
+My custom building exterior Shader Graph's interior mapping part is based on the GameDevGuide tutorial:
 
-[3] Blender-OSM (premium version): https://gumroad.com/l/blosm
-
-[4] My custom building exterior Shader Graph: https://github.com/dklassic/Unity-Simple-Building-Triplanar-Shader
-
-interior mapping part is based on the GameDevGuide tutorial: https://youtu.be/dUjNoIxQXAA
-
-[5] Roman Papush's Procedural Road Shader Graph Tutorial: https://youtu.be/vhrIEcVSI5M
-
-[6] Jannik Boysen's Skybox Shader Graph Tutorial: https://medium.com/@jannik_boysen/procedural-skybox-shader-137f6b0cb77c
+{{< youtube dUjNoIxQXAA >}}
 
 # Bonus
-Houdini released a set of game dev tools last year focusing on utilizing OSM data. Might worth a try: https://youtube.com/playlist?list=PLXNFA1EysfYkFzKS--S3_3393X2z1F_e0. I think the highlight is the intersection solving tool.
+
+Houdini released a set of game dev tools last year focusing on utilizing OSM data. Might worth a try, and here's an [official tutorial playlist on the tool](https://youtube.com/playlist?list=PLXNFA1EysfYkFzKS--S3_3393X2z1F_e0).
+
+I think the highlight is the intersection solving tool.
 

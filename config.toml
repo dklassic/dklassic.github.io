@@ -4,7 +4,7 @@ title = 'Chosen Concept - DK Liao Games'
 theme = 'mini'
 defaultContentLanguage = 'en'
 hasCJKLanguage = true
-paginate = 5
+paginate = 10
 [permalinks]
   posts = '/posts/:title/'
 [markup]

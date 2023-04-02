@@ -5,16 +5,20 @@ draft: false
 tags: ["遊戲設計"]
 ---
 
-上篇大致上講述了 Wave Function Collapse 的基本概念。如果照著做的話大概可以做出像這樣的東西：
+[上篇]({{< ref "/0001-wave-function-collapse" >}})大致上講述了 Wave Function Collapse 的基本概念。如果照著做的話大概可以做出像這樣的東西：
 
-![early-result](/images/posts/0002/pF36Ds5.png)
+![early-result](/images/posts/game-design/0002/pF36Ds5.png)
 
 無論基本方塊有多少，這時候都已經可以無限量自動產生出關卡結構。但是像這樣的關卡顯然還過於格狀粗糙，遠遠不到可以實用的程度。
 
 # 精緻化手段
+
 在這裡分享我研究 Wave Function Collapse 期間得出的兩個主要精緻化手段：
+
 ## 邊界條件的多樣化與精細化
-![divide-more](/images/posts/0002/AxfjDPK.png)
+
+![divide-more](/images/posts/game-design/0002/AxfjDPK.png)
+
 簡單點就是像我這樣。
 
 多樣化在於原本邊界條件是牆壁與地板，在這裡多加了圍欄。而精細化在於原本邊界條件只分成兩部分，在這裡則是直接切割為了四部分。
@@ -23,16 +27,20 @@ tags: ["遊戲設計"]
 
 
 ## 轉接器
-![adapter](/images/posts/0002/l6Ggkre.png)
+
+![adapter](/images/posts/game-design/0002/l6Ggkre.png)
+
 簡單來說是一個允許邊界條件之間轉換的零件。
 
 由於這樣的零件存在，就可以讓所有邊界條件隨時切換，讓關卡版面不至於太死板。
 
 發揮以上兩點之後就有辦法自動產生像這樣的盤面：
-![result1](/images/posts/0002/BjvB2iC.png)
-![result2](/images/posts/0002/d5NUnEo.png)
-![result3](/images/posts/0002/H78iV51.png)
-![result3](/images/posts/0002/tZWCzfs.png)
+
+![result1](/images/posts/game-design/0002/BjvB2iC.png)
+![result2](/images/posts/game-design/0002/d5NUnEo.png)
+![result3](/images/posts/game-design/0002/H78iV51.png)
+![result3](/images/posts/game-design/0002/tZWCzfs.png)
+
 雖然由於使用的是簡單的方塊，當然還是看起來很醜。但結構已經看起來不像是具備特定意圖的設計師擺放出來的樣子了。在人造建築上可能是稍嫌奇怪，但如果將這樣的東西使用在天然島嶼（例如說就像 Bad North 那樣），效果可以說是一流。
 
 而如果是單純產生房間形狀的話，應該也可以輕易製作出像 Ape Escape 的關卡結構。

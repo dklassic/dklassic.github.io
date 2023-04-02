@@ -5,3 +5,22 @@ draft: true
 # tags: [""]
 ---
 
+## YouTube Privacy Enhanced Shortcode
+
+{{< youtube ZJthWmvUzzc >}}
+
+
+---
+
+## Twitter Simple Shortcode
+
+{{< twitter_simple 1085870671291310081 >}}
+
+
+---
+
+## Vimeo Simple Shortcode
+
+{{< vimeo_simple 48912912 >}}
+
+<abbr title=""></abbr>
