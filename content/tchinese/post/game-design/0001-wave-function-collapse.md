@@ -20,30 +20,41 @@ tags: ["遊戲設計"]
 
 
 # 具體的實作方法
+
 總之 Wave Function Collapse 比較簡單的做法是對規則形狀的物件做。為了方便舉例就以方形舉例。
 
 ## 定義單位方塊的屬性
+
 例如在我的實作測試中作了一個簡單的牆壁、地板組合，單元如下：
+
 ![basic blocks](/images/posts/game-design/0001/KnZSeeI.png)
+
 接著要詳細實作規則定義，基本上就是定義要有怎樣的 Tag 的物件才能接上。
+
 ![connectivity](/images/posts/game-design/0001/bGUxUDkl.jpg)
+
 以這邊的例子來說就是要把牆壁的區域對接、地板的區域對接。
 
 就寫個 Script 來定義這些屬性。
 
 ## 生成環境
+
 首先當然是產生一些 Empty Game Object 來存放各個單元。
 
 就把預先做好的單元在每個格子都塞好一份：
+
 ![environment](/images/posts/game-design/0001/rhw1pObl.jpg)
 ![setup](/images/posts/game-design/0001/uXcaEj1l.jpg)
+
 上圖塞四份是因為我懶得紀錄各個單元的旋轉版本，所以就直接複製四份。雖然應該算是沒效率四倍，但是因為好寫又沒有即時的需求就這樣做了。
 
 也因為複製四倍這種因素，產生過程中都直接把 Renderer 關好關滿。
 
 ## 開始<abbr title="Collapse">崩塌</abbr>
+
 這邊是個循環，基本過程就是：
-1. 尋找熵（Entropy）最低的格子
+
+1. 尋找<abbr title="Entropy">熵</abbr>最低的格子
 
     簡單來說就是可選選項最少的格子。如果機率都一樣的話就用隨機。
 
@@ -56,14 +67,19 @@ tags: ["遊戲設計"]
     因為將一格的未來確定之後，附近鄰居可以與該格接起來的選項就變少了。所以要更新選項、熵值。
 
 所以每做一個循環就會像這樣：
+
 - 執行前
+
 ![before](/images/posts/game-design/0001/bcqgiEcl.jpg)
+
 - 執行後
+
 ![after](/images/posts/game-design/0001/srRPTd5l.jpg)
 
 會崩塌一格，並且讓週邊鄰居的可能性變少。
 
 接著就無限執行循環直到每一格的未來都決定好：
+
 ![full](/images/posts/game-design/0001/K42uSg4.gif)
 
 實作上就是如此的樸實無華。

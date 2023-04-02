@@ -1,6 +1,6 @@
 ---
 title: "04. Early Level Design with Wave Function Collapse"
-date: 2023-04-02T19:07:26+08:00
+date: 2022-10-17T10:10:00+08:00
 draft: true
 tags: ["Autopanic"]
 ---

@@ -6,20 +6,22 @@ tags: ["Game Design"]
 ---
 
 # Introduction
+
 Open world games always fascinates me. But actually making one is pretty intimidating as a solo dev, while a procedural toolset might work, making a robust one might be tedious and thereby time consuming. After being burnt out from an older project, I decided to take a break and have some fun. So I decided to test how fast can I hack an open world with the least tools and costs.
 
 The final result here is shown using Unity, but I believe the tools prior and general workflow is perfectly doable in any engine.
 
 # The Goal
+
 The goal is to hack an open world with the least tools and costs. So let's make it clear what it means:
 
-Almost zero barrier to replicate the attempt for anyone
-
-Making a large scale city is the actual attempt, it can serve as actual level but most probably usable as a background
+- Almost zero barrier to replicate the attempt for anyone
+- Making a large scale city is the actual attempt, it can serve as actual level but most probably usable as a background
 
 Also I will be focusing on the workflow rather than the actual steps above, but all tools used here has a lot of YouTube tutorials out there, I'm just trying to hack them together.
 
 # The Workflow
+
 Open Street Map is a community contributed map data, and this workflow relies heavily on it. OSM surprisingly has a lot of 3D building markers in it, so we can retrieve both the buildings and road information out of it.
 
 ## Buildings
@@ -74,6 +76,7 @@ Skybox is based on [Jannik Boysen's tutorial]((https://medium.com/@jannik_boysen
 You definitely cannot make a GTA of the city you live in out of the box with this workflow, but I think the result is perfectly serviceable as a basis, more importantly already usable as a complicated background.
 
 # Limitation
+
 It is free! So of course there are caveats. Here are some for you to consider:
 
 ## Road intersection unsolved

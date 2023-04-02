@@ -1,7 +1,7 @@
 ---
 title: "07. 介面系統"
 date: 2022-10-19T10:10:01+08:00
-draft: true
+draft: false
 tags: ["自動混亂"]
 ---
 
@@ -11,10 +11,13 @@ tags: ["自動混亂"]
 
 回過頭來，當時我切實地需要一套 UI 系統，因為光是要生成敵人出來測試，就必須要仰賴 UI 系統。所以我先做了一個這樣的敵人生成工具：
 
+![enemy spawner](/images/posts/autopanic-devlog/0007/1.png)
 
 如此一來，我終於不需要反覆拖拉，在編輯器跟遊戲內交替操作。
+
 這個系統後續被擴張到可以輕易支援各種介面的顯示，我只要使用很簡單的程式碼宣告介面的構成，就可以產生出像這樣的介面：
-```
+
+```csharp
 protected override void InitializeUI()
 {
     systemWindow ??= NewWindow("ui_system", DefaultSetup);
@@ -27,9 +30,10 @@ protected override void InitializeUI()
     exitUI = AddButton("ui_system_Exit", systemWindow, () => OpenSubMenu(7));
 }
 ```
-
+![system menu](/images/posts/autopanic-devlog/0007/2.png)
 
 完成了這樣可用性極高的介面系統後，我就可以輕易地為了各種測試用途製作對應的遊戲內介面：
 
+![all debug menus](/images/posts/autopanic-devlog/0007/3.gif)
 
 其實如果認真想起「介面」一詞，本來就是人與機器之間的互動手段。所以為了要設計好遊戲，先設計好一套能輕鬆拿來設計遊戲的介面似乎是很理所當然的事情。

@@ -1,7 +1,7 @@
 ---
 title: "02. Early Design"
 date: 2022-10-16T10:00:03+08:00
-draft: true
+draft: false
 tags: ["Autopanic"]
 ---
 Early Design

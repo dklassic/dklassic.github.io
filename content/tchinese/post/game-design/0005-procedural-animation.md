@@ -71,7 +71,7 @@ Animation Curve 是個很適合拿來提供調整空間的工具，第一個是�
 
 ![more vehicle example](/images/posts/game-design/0005/6.gif)
 
-# 前傾（Lead）與拖行（Drag）
+# <abbr title="Lead">前傾</abbr>與<abbr title="Drag">拖行</abbr>
 這部分可以有兩種實作方向：位移與旋轉。
 
 位移的部分，可以讓角色的角度相對於移動方向地前傾或後仰，呈現出主動前進跟被腳拖著走的感受。
@@ -82,7 +82,7 @@ Animation Curve 是個很適合拿來提供調整空間的工具，第一個是�
 
 ![jakob's gif](/images/posts/game-design/0005/7.gif)
 
-{{< twitter_simple 1399100594288218112 >}}
+{{< twitter_simple Jakob_Wahlberg 1399100594288218112 >}}
 
 # 雜項討論點
 
