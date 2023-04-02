@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Chosen Concept - DK Liao Games</title>
+    <link>http://blog.chosenconcept.dev/post/</link>
+    <description>Recent content in Posts on Chosen Concept - DK Liao Games</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Apr 2023 19:07:26 +0800</lastBuildDate><atom:link href="http://blog.chosenconcept.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Hugo</title>
+      <link>http://blog.chosenconcept.dev/post/hello-hugo/</link>
+      <pubDate>Sun, 02 Apr 2023 19:07:26 +0800</pubDate>
+      
+      <guid>http://blog.chosenconcept.dev/post/hello-hugo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

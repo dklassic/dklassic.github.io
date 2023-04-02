@@ -2,3 +2,40 @@ baseURL = 'http://blog.chosenconcept.dev/'
 languageCode = 'en-us'
 title = 'Chosen Concept - DK Liao Games'
 theme = 'mini'
+defaultContentLanguage = 'en'
+hasCJKLanguage = true
+paginate = 5
+[permalinks]
+  posts = '/posts/:title/'
+[markup]
+  [markup.highlight]
+    guessSyntax = true
+    style = 'emacs'
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[languages]
+  [languages.en]
+    title = 'Chosen Concept - DK Liao Games'
+    contentDir = 'content/english'
+    languageName = 'English'
+    weight = 1
+    [languages.en.params]
+  [languages.tw]
+    title = 'Chosen Concept - DK Liao Games'
+    contentDir = 'content/tchinese'
+    languageName = '正體中文'
+    weight = 2
+    [languages.tw.params]
+      [languages.tw.params.navigation]
+[social]
+  twitter = 'https://www.twitter.com/randomdevdk'
+[params]
+  author = 'DK Liao'
+  description = 'A small site about random stuffs'
+  math = true
+  showToc = true
