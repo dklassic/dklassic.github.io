@@ -19,8 +19,8 @@ showTip: false
 
 ---
 
-![Screenshot 1](/images/games/autopanic-zero/autopaniczero_screenshot_1.png)
-![Screenshot 2](/images/games/autopanic-zero/autopaniczero_screenshot_2.png)
-![Screenshot 3](/images/games/autopanic-zero/autopaniczero_screenshot_3.png)
-![Screenshot 4](/images/games/autopanic-zero/autopaniczero_screenshot_4.png)
-![Screenshot 5](/images/games/autopanic-zero/autopaniczero_screenshot_5.png)
+![Screenshot 1](/images/games/autopanic-zero/autopaniczero_screenshot_tw_1.png)
+![Screenshot 2](/images/games/autopanic-zero/autopaniczero_screenshot_tw_2.png)
+![Screenshot 3](/images/games/autopanic-zero/autopaniczero_screenshot_tw_3.png)
+![Screenshot 4](/images/games/autopanic-zero/autopaniczero_screenshot_tw_4.png)
+![Screenshot 5](/images/games/autopanic-zero/autopaniczero_screenshot_tw_5.png)
