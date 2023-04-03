@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Faqs on Chosen Concept - DK Liao Games</title>
+    <link>http://blog.chosenconcept.dev/faq/</link>
+    <description>Recent content in Faqs on Chosen Concept - DK Liao Games</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Apr 2023 19:07:26 +0800</lastBuildDate><atom:link href="http://blog.chosenconcept.dev/faq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autopanic FAQ</title>
+      <link>http://blog.chosenconcept.dev/faq/autopanic/</link>
+      <pubDate>Sun, 02 Apr 2023 19:07:26 +0800</pubDate>
+      
+      <guid>http://blog.chosenconcept.dev/faq/autopanic/</guid>
+      <description>Created: May 10, 2022
+Last Updated April 3, 2023: Here are answers to frequently asked questions about my first game, Autopanic!
+What is Autopanic? 🔗Autopanic is fully diegetic twinstick shooter with rogue-like elements in which you need to follow the guidance of an AI to reach the top floor of a mysteries facility. Autopanic aims to deliver some interesting narrative design along with satisfying fast-paced combat.
+Rogue-like elements will provide some variance during gameplay and you need to fully learn the mechanics to make it to the end.</description>
+    </item>
+    
+    <item>
+      <title>Autopanic Zero FAQ</title>
+      <link>http://blog.chosenconcept.dev/faq/autopanic-zero/</link>
+      <pubDate>Sun, 02 Apr 2023 19:07:26 +0800</pubDate>
+      
+      <guid>http://blog.chosenconcept.dev/faq/autopanic-zero/</guid>
+      <description>Created: May 10, 2022
+Last Updated Apri 3, 2023: Here are answers to frequently asked questions about my second game, Autopanic Zero!
+Where does Autopanic Zero come from? 🔗Autopanic is originally designed to be a shoot ‘em up when it started, most designs back then are accidentally the same (e.g. survive 30 minutes and stuffs). Here’s an old Reddit post of its early days.
+Anyways after wrapping up some core pillars of Autopanic in May 2022, I decided to take a look at this phenomenal game called Vampire Survivor that stormed the internet.</description>
+    </item>
+    
+  </channel>
+</rss>

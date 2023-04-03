@@ -1,12 +1,14 @@
 ---
 title: "Autopanic Presskit"
+date: 2022-05-10T19:07:26+08:00
 draft: false
 enableComments: false
 showToc: true
 showTip: false
 ---
 
-<!-- dummy.account@gmail.com -->
+<!-- dummy.account@outmail.com -->
+<!-- another.account@glook.com -->
 # Factsheet
 
 ## Developer
@@ -52,7 +54,7 @@ Autopanic started out as a small shoot 'em up in 2020, later evolved into more o
 
 # Logo & Icon
 
-![autopanic-logo](/images/games/autopanic/LibraryLogo_en.png)
+![autopanic-logo](/images/games/autopanic/LibraryLogoBlack_en.png)
 
 # Awards & Recognition
 

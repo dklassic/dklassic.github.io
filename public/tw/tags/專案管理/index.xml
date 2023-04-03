@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>專案管理 on Chosen Concept - DK Liao Games</title>
+    <link>http://blog.chosenconcept.dev/tw/tags/%E5%B0%88%E6%A1%88%E7%AE%A1%E7%90%86/</link>
+    <description>Recent content in 專案管理 on Chosen Concept - DK Liao Games</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Oct 2022 10:10:01 +0800</lastBuildDate><atom:link href="http://blog.chosenconcept.dev/tw/tags/%E5%B0%88%E6%A1%88%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>團隊溝通與合作開發的建議</title>
+      <link>http://blog.chosenconcept.dev/tw/post/game-design/0011-bad-communication/</link>
+      <pubDate>Sun, 16 Oct 2022 10:10:01 +0800</pubDate>
+      
+      <guid>http://blog.chosenconcept.dev/tw/post/game-design/0011-bad-communication/</guid>
+      <description>開發日誌中，我都會繼續著重在解釋《自動混亂》的每個要素是怎麼完成的。 畢竟解釋作品的完成前，很難跟人說明一些從開發過程中學習到的概念。但是唯獨</description>
+    </item>
+    
+  </channel>
+</rss>

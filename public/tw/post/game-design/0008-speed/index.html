@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>速度感的表現 | Chosen Concept - DK Liao Games</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="原文是回覆 Unity3D 板上板友提問的內容「想問一下有關Nier/原神 跑步的動作 實現問題」。最近決定將幾篇回答內容寫得比較完整的文章整理起來，用更泛用的">
+<meta name="generator" content="Hugo 0.111.3">
+
+
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+
+
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	
+		<a href="/tw/"> <span class="arrow">←</span>首頁</a>
+	
+	<a href="/tw/tags">標籤</a>
+	<a href="/tw/game-list">遊戲</a>
+	<a href="/tw/about">關於</a>
+
+	
+
+	
+</nav>
+
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">速度感的表現</h1>
+
+    
+          <div class="tip">
+        <time datetime="2022-08-13 12:00:04 &#43;0800 CST">2022 年 08 月 13 日</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          1615 字
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          4 分鐘
+        </span>
+    </div>
+    
+        <div class="tags">
+            
+                <a href="http://blog.chosenconcept.dev/tw/tags/%E9%81%8A%E6%88%B2%E8%A8%AD%E8%A8%88">遊戲設計</a>
+            
+        </div>
+    
+    
+
+    
+        
+  
+    <aside class="toc">
+      <details>
+          <summary>目錄
+          </summary>
+          <div>
+              <nav id="TableOfContents">
+  <ul>
+    <li><a href="#關於鏡頭能有的表現">關於鏡頭能有的表現</a>
+      <ul>
+        <li><a href="#彈簧鏡頭">彈簧鏡頭</a></li>
+        <li><a href="#增加鏡頭晃動幅度">增加鏡頭晃動幅度</a></li>
+        <li><a href="#增大鏡頭的abbr-titlefield-of-view-fov視角大小abbr">增大鏡頭的<abbr title="Field of View; FOV">視角大小</abbr></a></li>
+        <li><a href="#在畫面邊緣加入abbr-titlespeed-line速度線abbr效果">在畫面邊緣加入<abbr title="Speed Line">速度線</abbr>效果</a></li>
+      </ul>
+    </li>
+    <li><a href="#關於其他能有的表現">關於其他能有的表現</a>
+      <ul>
+        <li><a href="#加入加速動畫">加入加速動畫</a></li>
+        <li><a href="#加入加速特效">加入加速特效</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+          </div>
+      </details>
+    </aside>
+  
+
+
+    
+
+
+    <div class="content">
+      <p><a href="https://forum.gamer.com.tw/C.php?bsn=60602&amp;snA=4208&amp;s_author=kkl006" target="_blank" rel="noopener">原文</a>是回覆 Unity3D 板上板友提問的內容「<a href="https://forum.gamer.com.tw/C.php?bsn=60602&amp;snA=4208" target="_blank" rel="noopener">想問一下有關Nier/原神 跑步的動作 實現問題</a>」。最近決定將幾篇回答內容寫得比較完整的文章整理起來，用更泛用的方式翻寫一遍。比起給別人看更像是讓自己筆記起來，知道自己在這個時候的想法。</p>
+<p>本文是一篇關於構成「衝刺感、速度感、加速感」常見元素的文章。</p>
+<hr>
+<p>基本上衝刺感的目標就是：<strong>讓人覺得發生了加速</strong>。</p>
+<p>只是觀察速度很快的東西本身並不會讓人感受到衝刺感，而是觀察到加速才會。</p>
+<p>舉例來說&hellip;&hellip;相對於地表是靜止的一個人，其實也是相對地球核心大概以每小時 1674 公里的速度被地球自轉甩動著，同時又被太陽公轉、銀河系核心公轉用超高速甩動著。然而在地表的人顯然不覺得自己正在以極高速移動中。</p>
+<p>扯遠了。</p>
+<p>基本上就是要對人<abbr title="Sell Physicality">展現出物理狀態</abbr>，因此就算準備了一個慢跑跟和世界紀錄百米衝刺一樣的跑步動畫做切換，也不代表玩家一定就能感受到衝刺感。相反地如果能清楚展現狀態的變化，就算其實速度很慢也會讓人有衝刺的感覺。</p>
+<p>因此要讓人感覺的衝刺的關鍵就是要讓人感受到加速，具體實作手段大多都是可以調整鏡頭達成，而反而不是動畫本身，這邊有點流水帳地提大量的選項：</p>
+<h1 id="關於鏡頭能有的表現">關於鏡頭能有的表現 <a href="#%e9%97%9c%e6%96%bc%e9%8f%a1%e9%a0%ad%e8%83%bd%e6%9c%89%e7%9a%84%e8%a1%a8%e7%8f%be" class="anchor">🔗</a></h1><h2 id="彈簧鏡頭">彈簧鏡頭 <a href="#%e5%bd%88%e7%b0%a7%e9%8f%a1%e9%a0%ad" class="anchor">🔗</a></h2><p>不要把鏡頭鎖死在相對角色固定距離，而是讓鏡頭像是被角色用一個彈簧拉著。</p>
+<p>這樣子玩家可以更清楚地看到角色相對場景的移動狀態，同時感受到鏡頭需要加速追著角色跑的物理性質。</p>
+<p>要注意需要將鏡頭稍微瞄向角色面對的角度，而不是單純看向角色，不然玩家會看不清楚移動目標。</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/game-design/0008/1.png" alt="dice slide"  / class="medium-zoom-image">
+</p></p>
+<h2 id="增加鏡頭晃動幅度">增加鏡頭晃動幅度 <a href="#%e5%a2%9e%e5%8a%a0%e9%8f%a1%e9%a0%ad%e6%99%83%e5%8b%95%e5%b9%85%e5%ba%a6" class="anchor">🔗</a></h2><p>模仿鏡頭追角色的辛苦程度產生的額外晃動會讓人有速度比較快的錯覺，但要抓準幅度跟頻率免得引起動態暈。</p>
+<p>參考實作：<a href="https://youtu.be/I7pTinIl0vg?t=11" target="_blank" rel="noopener">戰爭機器的衝刺動作</a>，實際速度很慢但是卻很有速度感。</p>
+<h2 id="增大鏡頭的abbr-titlefield-of-view-fov視角大小abbr">增大鏡頭的<abbr title="Field of View; FOV">視角大小</abbr> <a href="#%e5%a2%9e%e5%a4%a7%e9%8f%a1%e9%a0%ad%e7%9a%84abbr-titlefield-of-view-fov%e8%a6%96%e8%a7%92%e5%a4%a7%e5%b0%8fabbr" class="anchor">🔗</a></h2><p>衝刺時增加視角大小可以讓玩家更清楚地看見角色相對於場景的位置變化，更能讓人感受到速度感。</p>
+<p>另一方面角色在超高速移動時，擴大視角大小也比較方便看清楚環境去做移動。</p>
+<h2 id="在畫面邊緣加入abbr-titlespeed-line速度線abbr效果">在畫面邊緣加入<abbr title="Speed Line">速度線</abbr>效果 <a href="#%e5%9c%a8%e7%95%ab%e9%9d%a2%e9%82%8a%e7%b7%a3%e5%8a%a0%e5%85%a5abbr-titlespeed-line%e9%80%9f%e5%ba%a6%e7%b7%9aabbr%e6%95%88%e6%9e%9c" class="anchor">🔗</a></h2><p>速度線真正的意義是：<strong>模仿動態模糊的表現</strong>。</p>
+<p>簡單來說攝影機是有快門速度的，並不是拍攝瞬間靜止的樣貌。如果物體移動太快就會變成模糊的視覺，而對移動中的鏡頭，離鏡頭物理距離最近的地方（像是最接近的地面）相對移動速度會比較快，因此在畫面邊緣才會有動態模糊的效果。</p>
+<p>當然可以直接加入鏡頭移動造成的模糊，但應該滿多玩家不太喜歡鏡頭動態模糊的表現；相對的加入假造的速度線可以產生鏡頭邊緣動態模糊的錯覺，進而增加速度感。</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/game-design/0008/2.png" alt="camera motion blur"  / class="medium-zoom-image">
+</p></p>
+<h1 id="關於其他能有的表現">關於其他能有的表現 <a href="#%e9%97%9c%e6%96%bc%e5%85%b6%e4%bb%96%e8%83%bd%e6%9c%89%e7%9a%84%e8%a1%a8%e7%8f%be" class="anchor">🔗</a></h1><h2 id="加入加速動畫">加入加速動畫 <a href="#%e5%8a%a0%e5%85%a5%e5%8a%a0%e9%80%9f%e5%8b%95%e7%95%ab" class="anchor">🔗</a></h2><p>發生加速的期間，角色會用相對大的力道踩踏，所以如果你仔細看《尼爾：人工生命》、《原神》的動畫，他的角色在從慢跑改成衝刺的瞬間會做出身體更往前傾的動作版本；相較之下完成加速後的穩定跑步，傾角就沒那麼大。</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/game-design/0008/3.png" alt="dash"  / class="medium-zoom-image">
+</p></p>
+<h2 id="加入加速特效">加入加速特效 <a href="#%e5%8a%a0%e5%85%a5%e5%8a%a0%e9%80%9f%e7%89%b9%e6%95%88" class="anchor">🔗</a></h2><p>畢竟目標是「傳達加速的力道」，所以除了加入衝刺加速動畫以外，只要能讓玩家「感覺很用力」就好。所以如果增加像是現實世界很用力的時候會發生的視覺效果，就可以達到暗示玩家的效果。</p>
+<p>例如說加速期間會向後飛濺沙塵，簡單點甚至不做動畫，單純在轉入衝刺時向後飛濺沙塵就好。</p>
+<p>另一個很常用，現實世界也很好類比的就是像是撞開了靜止的空氣產生衝擊波，現實世界最好的例子就是<a href="https://youtu.be/-1ywUmBpVGY" target="_blank" rel="noopener">戰鬥機突破音障的瞬間</a>。</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/game-design/0008/4.png" alt="sonic"  / class="medium-zoom-image">
+</p></p>
+<p>以上提供參考。</p>
+<p>其中有鏡頭的部分是從這篇演講「<a href="https://youtu.be/n_A0RqeGado" target="_blank" rel="noopener">Vehicle Feel Masterclass: Balancing Arcade Accessibility with Simulation Depth</a>」出來的，雖然這篇是講載具，但是其實對人物也非常適用。
+如果沒時間的話，推薦看 <a href="https://youtu.be/n_A0RqeGado?t=1642" target="_blank" rel="noopener">27:22</a>～29:22 一段他示範改變鏡頭性質會影響到速度感的例子。</p>
+<p>總之展現衝刺感、加速感、速度感的手段千奇百怪，上面表列的這些也只是常用的手段。其實其中一些也就是好好地展現物件在現實世界會有的狀態時就能讓人感受到速度感，例如說模仿鏡頭動態模糊、現實世界的加速的物理狀態。</p>
+<p>可以自己實驗看看哪些比較符合想像，再去使用就好，不一定要全都做，也沒有說不做上面這些就展現不了速度感。</p>
+<p>但總之有嘗試做這些東西的話，就算是一個方塊也或許能展現出速度感：</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/game-design/0008/5.gif" alt="taipei drift"  / class="medium-zoom-image">
+</p></p>
+
+    </div>
+
+    
+    
+  <div id="comment">
+    
+    
+    <script src="https://utteranc.es/client.js"
+        repo="dklassic/comment-utterances"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+        <div id="social">
+
+
+    <a class="symbol" href="https://www.twitter.com/randomdevdk" rel="me" target="_blank">
+        
+        <svg fill="#bbbbbb" width="28" height="28" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="438.536px" height="438.536px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 438.536;"
+	 xml:space="preserve">
+<g>
+	<path d="M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123
+		C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126
+		h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225
+		C438.532,59.576,430.49,40.204,414.41,24.123z M335.471,168.735c0.191,1.713,0.288,4.278,0.288,7.71
+		c0,15.989-2.334,32.025-6.995,48.104c-4.661,16.087-11.8,31.504-21.416,46.254c-9.606,14.749-21.074,27.791-34.396,39.115
+		c-13.325,11.32-29.311,20.365-47.968,27.117c-18.648,6.762-38.637,10.143-59.953,10.143c-33.116,0-63.76-8.952-91.931-26.836
+		c4.568,0.568,9.329,0.855,14.275,0.855c27.6,0,52.439-8.565,74.519-25.7c-12.941-0.185-24.506-4.179-34.688-11.991
+		c-10.185-7.803-17.273-17.699-21.271-29.691c4.947,0.76,8.658,1.137,11.132,1.137c4.187,0,9.042-0.76,14.56-2.279
+		c-13.894-2.669-25.598-9.562-35.115-20.697c-9.519-11.136-14.277-23.84-14.277-38.114v-0.571
+		c10.085,4.755,19.602,7.229,28.549,7.422c-17.321-11.613-25.981-28.265-25.981-49.963c0-10.66,2.758-20.747,8.278-30.264
+		c15.035,18.464,33.311,33.213,54.816,44.252c21.507,11.038,44.54,17.227,69.092,18.558c-0.95-3.616-1.427-8.186-1.427-13.704
+		c0-16.562,5.853-30.692,17.56-42.399c11.703-11.706,25.837-17.561,42.394-17.561c17.515,0,32.079,6.283,43.688,18.846
+		c13.134-2.474,25.892-7.33,38.26-14.56c-4.757,14.652-13.613,25.788-26.55,33.402c12.368-1.716,23.88-4.95,34.537-9.708
+		C357.458,149.793,347.462,160.166,335.471,168.735z"/>
+</g>
+</svg>
+
+    </a>
+
+
+</div>
+
+    
+
+    <div class="copyright">
+    
+       © Copyright 
+       2023 
+       <span class="split">
+        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
+  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
+</svg>
+       </span>
+       DK Liao
+    
+    </div>
+
+    
+      <div class="powerby">
+        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+      </div>
+    
+</footer>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S+Yti0U7QtuZvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+const images = Array.from(document.querySelectorAll("img.medium-zoom-image"));
+images.forEach(img => {
+  mediumZoom(img, {
+    margin: 0,  
+    scrollOffset: 40,  
+    container: null,  
+    template: null  
+  });
+});
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>規模化 AI 設計 | Chosen Concept - DK Liao Games</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="《自動混亂》的設計重點之一是「恰到好處」，體現在戰鬥設計上就有： 限縮遊戲環境，以房間制進行 限制敵人登場數量 比起完全可靠的機制，只要玩家看不出">
+<meta name="generator" content="Hugo 0.111.3">
+
+
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+
+
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	
+		<a href="/tw/"> <span class="arrow">←</span>首頁</a>
+	
+	<a href="/tw/tags">標籤</a>
+	<a href="/tw/game-list">遊戲</a>
+	<a href="/tw/about">關於</a>
+
+	
+
+	
+</nav>
+
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">規模化 AI 設計</h1>
+
+    
+          <div class="tip">
+        <time datetime="2022-12-18 10:00:23 &#43;0800 CST">2022 年 12 月 18 日</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          1449 字
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          3 分鐘
+        </span>
+    </div>
+    
+        <div class="tags">
+            
+                <a href="http://blog.chosenconcept.dev/tw/tags/%E8%87%AA%E5%8B%95%E6%B7%B7%E4%BA%82%E9%9B%B6%E5%BC%8F">自動混亂零式</a>
+            
+                <a href="http://blog.chosenconcept.dev/tw/tags/%E9%81%8A%E6%88%B2%E8%A8%AD%E8%A8%88">遊戲設計</a>
+            
+        </div>
+    
+    
+
+    
+        
+  
+    <aside class="toc">
+      <details>
+          <summary>目錄
+          </summary>
+          <div>
+              <nav id="TableOfContents">
+  <ul>
+    <li><a href="#自動混亂的-ai-運作流程與統一管理化架構">《自動混亂》的 AI 運作流程與統一管理化架構</a></li>
+    <li><a href="#多核心化">多核心化</a></li>
+  </ul>
+</nav>
+          </div>
+      </details>
+    </aside>
+  
+
+
+    
+
+
+    <div class="content">
+      <p>《自動混亂》的設計重點之一是「恰到好處」，體現在戰鬥設計上就有：</p>
+<ul>
+<li>限縮遊戲環境，以房間制進行</li>
+<li>限制敵人登場數量</li>
+<li>比起完全可靠的機制，只要玩家看不出有問題就好</li>
+</ul>
+<p>《自動混亂：零式》則要面對原作十倍以上的敵人數量級。</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-zero-devlog/0000/1.jpg" alt="autopanic"  / class="medium-zoom-image">
+</p></p>
+<blockquote>
+<p>《自動混亂》中，關卡板塊最多規劃到 8x8 的程度，同時登場敵人最多八個</p>
+</blockquote>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-zero-devlog/0000/2.jpg" alt="autopanic zero"  / class="medium-zoom-image">
+</p></p>
+<blockquote>
+<p>《自動混亂：零式》的敵人總量顯著多很多</p>
+</blockquote>
+<p>製作《自動混亂：零式》時，目的已經先被決定了：極大量敵人的戰鬥。也因此不存在什麼繞路手段，就只能直球對決面對。</p>
+<p>總之這邊介紹一下為了《零式》的大量敵人做了什麼調整，而這樣的設計又為原作帶來了怎樣的回饋。我們先來重新介紹一下原作的敵人 AI 邏輯。</p>
+<h1 id="自動混亂的-ai-運作流程與統一管理化架構">《自動混亂》的 AI 運作流程與統一管理化架構 <a href="#%e8%87%aa%e5%8b%95%e6%b7%b7%e4%ba%82%e7%9a%84-ai-%e9%81%8b%e4%bd%9c%e6%b5%81%e7%a8%8b%e8%88%87%e7%b5%b1%e4%b8%80%e7%ae%a1%e7%90%86%e5%8c%96%e6%9e%b6%e6%a7%8b" class="anchor">🔗</a></h1><p>原作的敵人 AI 基本上可以拆為：<code>Enemy</code>、<code>EnemyController</code> 與 <code>EnemyBehavior</code> 三個要素：</p>
+<ul>
+<li><code>Enemy</code> 定義最基本的可互動性，以《自動混亂》來說就是互相傷害的互動與血量、狀態的紀錄為主</li>
+<li><code>EnemyController</code> 驅動實際的移動、視覺的表現</li>
+<li><code>EnemyBehaviour</code> 字面上負責決定角色接下來的行動，例如使用武器、決定移動與轉向</li>
+</ul>
+<p><code>Enemy</code> 因為只有狀態紀錄，是個純資料的存在。而另外兩組程式各自跑在自己 Update() 裡進行更新，也不算有特別的理由，畢竟這就是最常態的 Unity 程式寫法，自然而然寫成了這樣。</p>
+<p>除此之外還有一些獨立要素一樣自己跑在自己的 Update() 裡，像是：</p>
+<ul>
+<li>控制角色圖像的程式（圖像生成、圖像變化、圖像的閒置動畫）</li>
+<li>控制程序性動畫的程式</li>
+</ul>
+<p>總之雖然沒有整理得很乾淨，但應該算是簡單好懂也能順利執行的程式。不過實際上使用 Unity 的 Update() 進行更新的效率並不是很高，對於總量不多的遊戲來說難以注意到，但一旦將 Update() 的數量級大增，效率之差就會顯現出來。（參考<a href="https://blog.unity.com/engine-platform/10000-update-calls" target="_blank" rel="noopener">官方自己的測試結果</a>）</p>
+<p>此外，使用 Update() 更新的話就難以預期這些程式的執行順序，對於某些強耦合的系統來說會構成問題。將之執行順序管理起來會對於長遠來說程式可靠性更有幫助。</p>
+<p>之前本來就實作了一個 <code>EnemyManager</code> 來統一管理敵人的生成與破壞，也因此改在這邊統一管理所有元件的更新：</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-zero-devlog/0000/3.png" alt="manager"  / class="medium-zoom-image">
+</p></p>
+<p>原先交給 <code>EnemyBehaviour</code> 更新的周邊環境碰撞偵測獨立拉出來一項為 EnemyVectorUpdate()，這邊就不多解釋運作方式，可以參考過去寫過的<a href="http://blog.chosenconcept.dev/tw/post/game-design/0004-low-cost-ai/">低效能需求 AI 介紹</a>。</p>
+<p>然後把一些視覺相關的更新都統一包進去給 <code>EnemyController</code> 一起更新，畢竟我遊戲中大多數視覺更新都跟移動機制本身有關，所以交給負責移動的 <code>EnemyController</code> 統一更新也算合適。</p>
+<h1 id="多核心化">多核心化 <a href="#%e5%a4%9a%e6%a0%b8%e5%bf%83%e5%8c%96" class="anchor">🔗</a></h1><p>由於我的 AI 基本上仰賴大量 Raycast 掌握環境狀態，所以讓 100 個敵人 AI 隨機閒晃更新起來會長這樣：</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-zero-devlog/0000/4.png" alt="original"  / class="medium-zoom-image">
+</p></p>
+<p>單顆核心直接被橘色的 Raycast 塞滿，在原作可能還好，但對於大量敵人的《零式》就是個問題了。在閱讀過 cjcat 的「<a href="http://allenchou.net/2021/05/delayed-result-gathering-chinese/" target="_blank" rel="noopener">延遲蒐集結果</a>」後，我決定嘗試將 Raycast 改以 Job 執行，善用現代處理器的多核心。</p>
+<p>首先將每個敵人各自的更新方式多執行緒化：</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-zero-devlog/0000/5.png" alt="threaded"  / class="medium-zoom-image">
+</p></p>
+<p>可以看到下面一排零碎的橘色片段，證明了這些 Raycast 確實成功交給了多個核心去分開執行。</p>
+<p>看起來執行時間反而比較長可以有幾種解讀方式：</p>
+<ul>
+<li>單純測試環境隨機性造成</li>
+<li>過少的 Raycast 指令數去交給 Job 執行可能成本反而比單核心執行高</li>
+</ul>
+<p>由於差距之大，後者的影響顯然比較大。總之繼續進一步設法整併所有敵人的 Raycast 一次發出所有指令：</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-zero-devlog/0000/6.png" alt="combined"  / class="medium-zoom-image">
+</p></p>
+<p>這樣就總算降低了需求！這個 Update 從 2.29ms 降為 1.87ms 大概節省了 18% 的時間，實際意義則是原本要用 0.42ms 執行的計算被降低為 0.035ms！而這個節省幅度也會隨著敵人數、進行的 Raycast 數量而增加。</p>
+<p>例如將敵人的 raycast 精度從 10 個方向提升為 20 個方向時，節省幅度就變成 3.21ms→2.34ms 的 27%，計算從 0.87ms 降為 0.073ms：</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-zero-devlog/0000/7.png" alt="larger request"  / class="medium-zoom-image">
+</p>
+<p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-zero-devlog/0000/8.png" alt="larger request combined"  / class="medium-zoom-image">
+</p></p>
+<p>總之雖然對於原作的敵人規模來說實用度沒那麼高，但如果玩家的電腦配置是低時脈多核心的情境，多少還是可以有一些幫助吧（？）</p>
+<p>能看著誇張的敵人數量在畫面上漫遊卻繼續以高幀率執行也是相當的舒壓 XD</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-zero-devlog/0000/9.gif" alt="swarm"  / class="medium-zoom-image">
+</p></p>
+
+    </div>
+
+    
+    
+  <div id="comment">
+    
+    
+    <script src="https://utteranc.es/client.js"
+        repo="dklassic/comment-utterances"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+        <div id="social">
+
+
+    <a class="symbol" href="https://www.twitter.com/randomdevdk" rel="me" target="_blank">
+        
+        <svg fill="#bbbbbb" width="28" height="28" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="438.536px" height="438.536px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 438.536;"
+	 xml:space="preserve">
+<g>
+	<path d="M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123
+		C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126
+		h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225
+		C438.532,59.576,430.49,40.204,414.41,24.123z M335.471,168.735c0.191,1.713,0.288,4.278,0.288,7.71
+		c0,15.989-2.334,32.025-6.995,48.104c-4.661,16.087-11.8,31.504-21.416,46.254c-9.606,14.749-21.074,27.791-34.396,39.115
+		c-13.325,11.32-29.311,20.365-47.968,27.117c-18.648,6.762-38.637,10.143-59.953,10.143c-33.116,0-63.76-8.952-91.931-26.836
+		c4.568,0.568,9.329,0.855,14.275,0.855c27.6,0,52.439-8.565,74.519-25.7c-12.941-0.185-24.506-4.179-34.688-11.991
+		c-10.185-7.803-17.273-17.699-21.271-29.691c4.947,0.76,8.658,1.137,11.132,1.137c4.187,0,9.042-0.76,14.56-2.279
+		c-13.894-2.669-25.598-9.562-35.115-20.697c-9.519-11.136-14.277-23.84-14.277-38.114v-0.571
+		c10.085,4.755,19.602,7.229,28.549,7.422c-17.321-11.613-25.981-28.265-25.981-49.963c0-10.66,2.758-20.747,8.278-30.264
+		c15.035,18.464,33.311,33.213,54.816,44.252c21.507,11.038,44.54,17.227,69.092,18.558c-0.95-3.616-1.427-8.186-1.427-13.704
+		c0-16.562,5.853-30.692,17.56-42.399c11.703-11.706,25.837-17.561,42.394-17.561c17.515,0,32.079,6.283,43.688,18.846
+		c13.134-2.474,25.892-7.33,38.26-14.56c-4.757,14.652-13.613,25.788-26.55,33.402c12.368-1.716,23.88-4.95,34.537-9.708
+		C357.458,149.793,347.462,160.166,335.471,168.735z"/>
+</g>
+</svg>
+
+    </a>
+
+
+</div>
+
+    
+
+    <div class="copyright">
+    
+       © Copyright 
+       2023 
+       <span class="split">
+        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
+  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
+</svg>
+       </span>
+       DK Liao
+    
+    </div>
+
+    
+      <div class="powerby">
+        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+      </div>
+    
+</footer>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S+Yti0U7QtuZvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+const images = Array.from(document.querySelectorAll("img.medium-zoom-image"));
+images.forEach(img => {
+  mediumZoom(img, {
+    margin: 0,  
+    scrollOffset: 40,  
+    container: null,  
+    template: null  
+  });
+});
+</script>
+
+  </body>
+</html>

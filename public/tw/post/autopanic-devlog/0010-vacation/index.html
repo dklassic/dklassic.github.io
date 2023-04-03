@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>10. 重新出發前的長假－輕鬆玩的小專案 | Chosen Concept - DK Liao Games</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="總之因為差點把自己燃燒殆盡，所以說好要在搞定最重要的骨幹後就先放幾個月的長假再說。 所以長假要幹什麼呢？當然是寫更多遊戲啦！ Enemy Within 🔗我先寫了一個">
+<meta name="generator" content="Hugo 0.111.3">
+
+
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+
+
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	
+		<a href="/tw/"> <span class="arrow">←</span>首頁</a>
+	
+	<a href="/tw/tags">標籤</a>
+	<a href="/tw/game-list">遊戲</a>
+	<a href="/tw/about">關於</a>
+
+	
+
+	
+</nav>
+
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">10. 重新出發前的長假－輕鬆玩的小專案</h1>
+
+    
+          <div class="tip">
+        <time datetime="2022-10-22 15:25:06 &#43;0800 CST">2022 年 10 月 22 日</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          1439 字
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          3 分鐘
+        </span>
+    </div>
+    
+        <div class="tags">
+            
+                <a href="http://blog.chosenconcept.dev/tw/tags/%E8%87%AA%E5%8B%95%E6%B7%B7%E4%BA%82">自動混亂</a>
+            
+        </div>
+    
+    
+
+    
+        
+  
+    <aside class="toc">
+      <details>
+          <summary>目錄
+          </summary>
+          <div>
+              <nav id="TableOfContents">
+  <ul>
+    <li><a href="#enemy-within">Enemy Within</a></li>
+    <li><a href="#taipei-bus-drift">Taipei Bus Drift</a></li>
+  </ul>
+</nav>
+          </div>
+      </details>
+    </aside>
+  
+
+
+    
+
+
+    <div class="content">
+      <p>總之因為差點把自己燃燒殆盡，所以說好要在搞定最重要的骨幹後就先放幾個月的長假再說。</p>
+<p>所以長假要幹什麼呢？當然是寫更多遊戲啦！</p>
+<h1 id="enemy-within">Enemy Within <a href="#enemy-within" class="anchor">🔗</a></h1><p>我先寫了一個簡單的小遊戲，基本想法是要做一個單人版的《阿瓦隆》。主要原因還是因為跟朋友玩了《桌遊模擬器》後，覺得遊戲虛擬空間中重現現實桌遊的物理性質，其實意外地很有趣。
+這個小專案的目的有：</p>
+<ul>
+<li>試著用 Unity 的 HDRP 示範場景內建的素材快速拼湊出乍看之下好像還行的視覺</li>
+<li>測試一些穩定性比較低的物理互動看有沒有辦法帶來樂趣</li>
+</ul>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0010/1.gif" alt="enemy within selection"  / class="medium-zoom-image">
+</p></p>
+<blockquote>
+<p>選擇要出任務的人，看結果</p>
+</blockquote>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0010/2.gif" alt="enemy within vote"  / class="medium-zoom-image">
+</p></p>
+<blockquote>
+<p>《阿瓦隆》每次出任務的投票系統當然也要做</p>
+</blockquote>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0010/3.gif" alt="enemy within throw"  / class="medium-zoom-image">
+</p></p>
+<blockquote>
+<p>不是直接把卡片瞬移過去，而是用物理系統丟到桌上</p>
+</blockquote>
+<p>總之這個實驗讓我得出了兩個結論：</p>
+<ul>
+<li>能有效善用 HDRP 的話，可以很輕易地做出看起來很潮的畫面感</li>
+<li>使用物理系統執行的東西，雖然可靠性很低，但是這種隨機性的物理互動會帶來動態的視覺密度提升</li>
+</ul>
+<p>後者的概念是「比起增加模型的精細度，讓物件會變化本身就是一種視覺密度、品質的提升」。</p>
+<p>但當然以物理系統來說會有穩定性的問題，像是為了要確保所有卡片能夠正確丟上桌面必須做一些反覆的測試跟額外的保證系統。</p>
+<p>總之簡單測試下還不錯，後來就沒有執著於真的要寫完遊戲邏輯的部分了。不過這樣整理起來，如果有準備一些各有特色的人物頭像，似乎就可以當有效的作品使用。</p>
+<h1 id="taipei-bus-drift">Taipei Bus Drift <a href="#taipei-bus-drift" class="anchor">🔗</a></h1><p>基本上是個半搞笑的作品，就是，「台北公車司機開車像在開賽車」，其實應該是全台灣都有這狀況吧 XD</p>
+<p>最當初是發現有個 <a href="https://github.com/domlysz/BlenderGIS" target="_blank" rel="noopener">Blender 套件</a>可以自動擷取 Open Street Map 的資料，然後就瞬間發想出要寫一個關於這樣的遊戲：</p>
+<blockquote>
+<p>「在台北開公車，跑公車路線，載乘客然後當氮氣加速把乘客噴射出去」的賽車遊戲</p>
+</blockquote>
+<p>這個小專案的目的有：</p>
+<ul>
+<li>繼續測試 HDRP 能帶來乍看之下視覺品質的效果</li>
+<li>測試一個據說實作起來很簡單的賽車操控機制</li>
+<li>看看能不能直接拉入一些現實世界的資料來輔助設計</li>
+</ul>
+<p>所謂實作起來很簡單的賽車操控機制就是，與其模擬真實車輛的運作方式，把車子當作一顆球去推動這個球的移動簡單又有效。可以參考這個影片：<a href="https://youtu.be/Ki-tWT50cEQ" target="_blank" rel="noopener">Mario Kart&rsquo;s Drifting | Mix and Jam</a>。</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0010/4.png" alt="sphere collision"  / class="medium-zoom-image">
+</p></p>
+<blockquote>
+<p>移動運算使用的 Collider 是普通的球體的情況下，物理計算基本上很穩定，不用考慮各種真實車輛的物理問題</p>
+</blockquote>
+<p>順帶一提也是為什麼我<a href="http://blog.chosenconcept.dev/tw/post/game-design/0008-speed/">對速度感的表現稍微有些研究心得</a> XD</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0010/5.gif" alt="bus movement"  / class="medium-zoom-image">
+</p>
+<p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0010/6.gif" alt="bus route"  / class="medium-zoom-image">
+</p></p>
+<p>總之其實算是一個不錯的挑戰，公車路線的抓取跟產生賽道是我朋友寫的程式 XD</p>
+<p>以結果而論，單純仰賴一些 HDRP 內建的視覺性質，像是 SSR 的實作等等的確可以迅速產生乍看之下很有效的視覺，這個概念本身也有一些不錯的遊戲性質，像是：</p>
+<blockquote>
+<p>公車路線通常不會彎曲，理論上作為賽道其實沒有太大意義；但是如果為了取得公車站乘客進行氮氣加速的話，就可以讓玩家依然有一些決策空間。</p>
+</blockquote>
+<p>總之要延伸這個主題做出一個簡單的惡搞作品似乎還算容易，還可以完成一條公車路線就可以客製化外觀成那個路線的公車的樣子（？</p>
+<p>不過也有一些額外問題要克服：</p>
+<ul>
+<li>公車站 GPS、Open Street Map 資料是不準確的，所以不太可能一氣呵成弄出實用的遊戲地圖</li>
+<li>直接使用公車路線還是有點太枯燥，也許必須自製路線或加入其他障礙、加成效果來提升趣味</li>
+<li>公車路線不是每條都有經過城市範圍，必須挑選</li>
+<li>Open Street Map 標記的台北建築資料不夠完整，要嘛人工處理，要嗎得取得更完整的資料（像是<a href="https://addr.gov.taipei/M2019/indexPwd.aspx#" target="_blank" rel="noopener">台北市政府的建築套繪圖</a>完整度跟準確性都會高很多）</li>
+<li>資料繁多，站點位置、物件必須動態生成管理，不然資源需求會太高</li>
+</ul>
+<p>總之因為沒有很確定的專案未來，所以這個公車的小專案就做到這裡為止擱置了。</p>
+<p>但這時候我一時好奇查了一下，發現東京的 Open Street Map 標記超完整，讓我萌生了一個想法：</p>
+<blockquote>
+<p>也許我可以快速地做出一款在假想的東京開車的作品？</p>
+</blockquote>
+<p>結論是顯然不太能，但是個有趣的挑戰，下篇就講這個。</p>
+
+    </div>
+
+    
+    
+  <div id="comment">
+    
+    
+    <script src="https://utteranc.es/client.js"
+        repo="dklassic/comment-utterances"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+        <div id="social">
+
+
+    <a class="symbol" href="https://www.twitter.com/randomdevdk" rel="me" target="_blank">
+        
+        <svg fill="#bbbbbb" width="28" height="28" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="438.536px" height="438.536px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 438.536;"
+	 xml:space="preserve">
+<g>
+	<path d="M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123
+		C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126
+		h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225
+		C438.532,59.576,430.49,40.204,414.41,24.123z M335.471,168.735c0.191,1.713,0.288,4.278,0.288,7.71
+		c0,15.989-2.334,32.025-6.995,48.104c-4.661,16.087-11.8,31.504-21.416,46.254c-9.606,14.749-21.074,27.791-34.396,39.115
+		c-13.325,11.32-29.311,20.365-47.968,27.117c-18.648,6.762-38.637,10.143-59.953,10.143c-33.116,0-63.76-8.952-91.931-26.836
+		c4.568,0.568,9.329,0.855,14.275,0.855c27.6,0,52.439-8.565,74.519-25.7c-12.941-0.185-24.506-4.179-34.688-11.991
+		c-10.185-7.803-17.273-17.699-21.271-29.691c4.947,0.76,8.658,1.137,11.132,1.137c4.187,0,9.042-0.76,14.56-2.279
+		c-13.894-2.669-25.598-9.562-35.115-20.697c-9.519-11.136-14.277-23.84-14.277-38.114v-0.571
+		c10.085,4.755,19.602,7.229,28.549,7.422c-17.321-11.613-25.981-28.265-25.981-49.963c0-10.66,2.758-20.747,8.278-30.264
+		c15.035,18.464,33.311,33.213,54.816,44.252c21.507,11.038,44.54,17.227,69.092,18.558c-0.95-3.616-1.427-8.186-1.427-13.704
+		c0-16.562,5.853-30.692,17.56-42.399c11.703-11.706,25.837-17.561,42.394-17.561c17.515,0,32.079,6.283,43.688,18.846
+		c13.134-2.474,25.892-7.33,38.26-14.56c-4.757,14.652-13.613,25.788-26.55,33.402c12.368-1.716,23.88-4.95,34.537-9.708
+		C357.458,149.793,347.462,160.166,335.471,168.735z"/>
+</g>
+</svg>
+
+    </a>
+
+
+</div>
+
+    
+
+    <div class="copyright">
+    
+       © Copyright 
+       2023 
+       <span class="split">
+        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
+  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
+</svg>
+       </span>
+       DK Liao
+    
+    </div>
+
+    
+      <div class="powerby">
+        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+      </div>
+    
+</footer>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S+Yti0U7QtuZvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+const images = Array.from(document.querySelectorAll("img.medium-zoom-image"));
+images.forEach(img => {
+  mediumZoom(img, {
+    margin: 0,  
+    scrollOffset: 40,  
+    container: null,  
+    template: null  
+  });
+});
+</script>
+
+  </body>
+</html>

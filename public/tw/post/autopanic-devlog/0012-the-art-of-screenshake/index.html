@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>絕對有保證的遊戲爽感 | Chosen Concept - DK Liao Games</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="2013 年，Vlambeer 的 Jan Willem Nijman 進行了一個演講，名為「The art of screenshake」。 影片觀看數達到 31 萬，應該就足以說明這部影片對整個遊戲">
+<meta name="generator" content="Hugo 0.111.3">
+
+
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+
+
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	
+		<a href="/tw/"> <span class="arrow">←</span>首頁</a>
+	
+	<a href="/tw/tags">標籤</a>
+	<a href="/tw/game-list">遊戲</a>
+	<a href="/tw/about">關於</a>
+
+	
+
+	
+</nav>
+
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">絕對有保證的遊戲爽感</h1>
+
+    
+          <div class="tip">
+        <time datetime="2022-11-14 01:08:39 &#43;0800 CST">2022 年 11 月 14 日</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          1543 字
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          4 分鐘
+        </span>
+    </div>
+    
+        <div class="tags">
+            
+                <a href="http://blog.chosenconcept.dev/tw/tags/%E8%87%AA%E5%8B%95%E6%B7%B7%E4%BA%82">自動混亂</a>
+            
+                <a href="http://blog.chosenconcept.dev/tw/tags/%E9%81%8A%E6%88%B2%E8%A8%AD%E8%A8%88">遊戲設計</a>
+            
+        </div>
+    
+    
+
+    
+        
+  
+
+
+    
+
+
+    <div class="content">
+      <p>2013 年，Vlambeer 的 Jan Willem Nijman 進行了一個演講，名為「<a href="https://youtu.be/AJdEqssNZ-U" target="_blank" rel="noopener">The art of screenshake</a>」。</p>
+<p>影片觀看數達到 31 萬，應該就足以說明這部影片對整個遊戲界的影響力有多大。要記得這影片應該是只有遊戲從業人員才會看的，31 萬也許只是有中等觀看次數的 YouTube 影片，但實質上的意義可能是很大量的遊戲從業者都受到這部影片的影響。</p>
+<p>《自動混亂》的遊戲機制，基本目標就是要爽。沒了。</p>
+<p>我沒有什麼要做出獨特遊戲機制的想法，但最低標準就是要一套玩家無論怎樣玩都會很爽的射擊遊戲機制。</p>
+<p>2020 年 11 月 28 日的我看了這部影片，然後就想說&hellip;&hellip;等等，不是照著這部影片一步一步做就會做出怎樣玩都會很爽的遊戲嗎？</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/1.png" alt="view history"  / class="medium-zoom-image">
+</p></p>
+<blockquote>
+<p>歷史性的一刻，一個禮拜後遊戲體驗就有了無限倍的強化</p>
+</blockquote>
+<p>總之基本上只要看一遍這個影片，就可以做出玩起來體驗很好的遊戲。就算不是射擊遊戲，有很多概念都可以被直接沿用。總之《自動混亂》的遊戲性完全奠基於這個設計，可以說是看完這部影片人人都能抄一份《自動混亂》出來了（？</p>
+<p>處理前：</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/2.gif" alt="before"  / class="medium-zoom-image">
+</p></p>
+<p>處理後：</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/3.gif" alt="after"  / class="medium-zoom-image">
+</p></p>
+<p>但說起來都簡單，終究比不上實際體驗一遍，所以我做了這個測試版本讓大家親身玩玩看這些效果的差異：</p>
+<p><a href="https://www.dropbox.com/s/1gfqygt95or83wv/%E8%87%AA%E5%8B%95%E6%B7%B7%E4%BA%82%E9%81%8A%E6%88%B2%E7%88%BD%E6%84%9F%E5%B1%95%E7%A4%BA.zip?dl=0" target="_blank" rel="noopener">下載連結</a></p>
+<p>想要抄出一份《自動混亂》，不如作者本人直接教大家怎麼抄（？？？</p>
+<p>可以先去玩玩看再來詳細看說明，也可以先看完說明再去玩，都行。</p>
+<p>當然更重要的是，這邊的設計都是以「讓玩家爽」為前提，所以如果前提就是要「不讓玩家爽」的話，這邊的設計就未必適用。兩個設計方向都是可行的，這篇文章<strong>不是</strong>告訴你「讓玩家爽」才是正確的。</p>
+<p>但如果你想要讓玩家爽，卻意外造成玩家不爽的話，那這篇文章就可以給你一些設計要素參考。</p>
+<p>以下逐一加入要素介紹：</p>
+<ol>
+<li>首先是基本的樣子</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/4.gif" alt="step 1"  / class="medium-zoom-image">
+</p></p>
+<ol start="2">
+<li>
+<p>基本動畫</p>
+<p>總之有動畫會比沒動畫好，這邊舉例是加上了腳。</p>
+</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/5.gif" alt="step 2"  / class="medium-zoom-image">
+</p></p>
+<ol start="3">
+<li>
+<p>降低敵人擊殺時間</p>
+<p>過高的敵人擊殺時間會降低爽感。</p>
+<p>即便是以難度著稱的魂系遊戲一般的敵人也都很脆。</p>
+</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/6.gif" alt="step 3"  / class="medium-zoom-image">
+</p></p>
+<ol start="4">
+<li>
+<p>高射速</p>
+<p>高射速永遠比較爽。</p>
+</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/7.gif" alt="step 4"  / class="medium-zoom-image">
+</p></p>
+<ol start="5">
+<li>
+<p>提升敵人數量</p>
+<p>即便是同樣的戰鬥時間，大量低血量敵人戰鬥起來，通常比少量高血量敵人體驗還要好。</p>
+</li>
+<li>
+<p>更大的子彈</p>
+<p>現實世界的子彈很小顆，但記得我們不是現實世界，要爽就要大顆的子彈。</p>
+<p>即便是擬真槍戰作品，實際上也會讓子彈能被玩家清晰看見，好像每一發都是打曳光彈一樣。現實世界中的子彈如果擊發出去，可是肉眼完全追不上的。</p>
+</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/8.gif" alt="step 6"  / class="medium-zoom-image">
+</p></p>
+<ol start="7">
+<li>
+<p>槍口焰</p>
+<p>嗯，記得做。</p>
+</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/9.gif" alt="step 7"  / class="medium-zoom-image">
+</p></p>
+<ol start="8">
+<li>
+<p>更快的子彈</p>
+<p>飛得快就是爽。不過要注意碰撞判定問題，以免子彈直接穿過敵人。</p>
+</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/10.gif" alt="step 8"  / class="medium-zoom-image">
+</p></p>
+<ol start="9">
+<li>
+<p>準度低一點</p>
+<p>筆直的彈道很無聊，增加隨機性看起來會更豐富。</p>
+</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/11.gif" alt="step 9"  / class="medium-zoom-image">
+</p></p>
+<ol start="10">
+<li>
+<p>命中特效</p>
+<p>打中了敵人記得噴一些東西出來。</p>
+</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/12.gif" alt="step 10"  / class="medium-zoom-image">
+</p></p>
+<ol start="11">
+<li>
+<p>受擊反應</p>
+<p>敵人受到攻擊時產生反應很重要。</p>
+</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/13.gif" alt="step 11"  / class="medium-zoom-image">
+</p></p>
+<ol start="12">
+<li>
+<p>敵人擊退</p>
+<p>讓玩家可以擊退敵人的話，也會讓敵人的行動產生額外的隨機性。也會增加一些戰術考量。</p>
+</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/14.gif" alt="step 12"  / class="medium-zoom-image">
+</p></p>
+<ol start="13">
+<li>
+<p>場地永久性</p>
+<p>盡量殘留可以讓玩家看到自己豐功偉業的要素，像是讓敵人的屍體留存。</p>
+</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/15.gif" alt="step 13"  / class="medium-zoom-image">
+</p></p>
+<ol start="14">
+<li>
+<p>鏡頭平滑跟隨</p>
+<p>拜託不要卡死在角色背後固定距離，要像綁著彈簧一樣拉著走。</p>
+<p>完全貼死：
+<p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/16.gif" alt="step 14-1"  / class="medium-zoom-image">
+</p></p>
+<p>平滑跟隨：
+<p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/17.gif" alt="step 14-2"  / class="medium-zoom-image">
+</p></p>
+</li>
+<li>
+<p>鏡頭晃動</p>
+<p>晃起來會增加爽感，但要注意晃動的方式並不是「隨便晃」，而是要有規律地推動鏡頭。</p>
+<p>《自動混亂》的做法是鏡頭會往玩家射擊的反方向推動。</p>
+</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/18.gif" alt="step 15"  / class="medium-zoom-image">
+</p></p>
+<ol start="16">
+<li>
+<p>玩家擊退</p>
+<p>同敵人可以被擊退，玩家也可以被自己擊退，增加變化性。</p>
+<p>《自動混亂》中，設計上是只有一種武器會造成玩家自己被擊退。</p>
+</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/19.gif" alt="step 16"  / class="medium-zoom-image">
+</p></p>
+<ol start="17">
+<li>
+<p>打擊暫停</p>
+<p>藉由暫停整個遊戲來強調打擊的力道，要小心別過頭會讓玩家反而感到不耐煩。</p>
+<p>以《自動混亂》為例，我實作的方式不是暫停，而是  1/10 流速的慢動作。我的慢動作時間是根據武器的威力計算，並且隨著連續發動會降低長度。</p>
+<p>不過這個效果 Gif 應該很難看出來，建議實際實行起來檢視。</p>
+<p>沒有打擊暫停：
+<p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/20.gif" alt="step 17-1"  / class="medium-zoom-image">
+</p></p>
+<p>有打擊暫停，命中瞬間有三幀的慢動作：
+<p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/21.gif" alt="step 17-2"  / class="medium-zoom-image">
+</p></p>
+</li>
+<li>
+<p>槍枝擊退動畫</p>
+<p>同樣可以強調武器的威力、打擊的力道。</p>
+<p>《自動混亂》中會考慮武器的傷害來決定擊退／後座力的程度。</p>
+</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/22.gif" alt="step 18"  / class="medium-zoom-image">
+</p></p>
+<ol start="19">
+<li>
+<p>敵人隨機爆炸</p>
+<p>讚啦！</p>
+</li>
+</ol>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0012/23.gif" alt="step 19"  / class="medium-zoom-image">
+</p></p>
+<p>總之就是這樣，歡迎大家下載試玩交流，把我從別人偷來的設計也一起偷走，大家一起賺大錢（？？？？</p>
+
+    </div>
+
+    
+    
+  <div id="comment">
+    
+    
+    <script src="https://utteranc.es/client.js"
+        repo="dklassic/comment-utterances"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+        <div id="social">
+
+
+    <a class="symbol" href="https://www.twitter.com/randomdevdk" rel="me" target="_blank">
+        
+        <svg fill="#bbbbbb" width="28" height="28" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="438.536px" height="438.536px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 438.536;"
+	 xml:space="preserve">
+<g>
+	<path d="M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123
+		C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126
+		h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225
+		C438.532,59.576,430.49,40.204,414.41,24.123z M335.471,168.735c0.191,1.713,0.288,4.278,0.288,7.71
+		c0,15.989-2.334,32.025-6.995,48.104c-4.661,16.087-11.8,31.504-21.416,46.254c-9.606,14.749-21.074,27.791-34.396,39.115
+		c-13.325,11.32-29.311,20.365-47.968,27.117c-18.648,6.762-38.637,10.143-59.953,10.143c-33.116,0-63.76-8.952-91.931-26.836
+		c4.568,0.568,9.329,0.855,14.275,0.855c27.6,0,52.439-8.565,74.519-25.7c-12.941-0.185-24.506-4.179-34.688-11.991
+		c-10.185-7.803-17.273-17.699-21.271-29.691c4.947,0.76,8.658,1.137,11.132,1.137c4.187,0,9.042-0.76,14.56-2.279
+		c-13.894-2.669-25.598-9.562-35.115-20.697c-9.519-11.136-14.277-23.84-14.277-38.114v-0.571
+		c10.085,4.755,19.602,7.229,28.549,7.422c-17.321-11.613-25.981-28.265-25.981-49.963c0-10.66,2.758-20.747,8.278-30.264
+		c15.035,18.464,33.311,33.213,54.816,44.252c21.507,11.038,44.54,17.227,69.092,18.558c-0.95-3.616-1.427-8.186-1.427-13.704
+		c0-16.562,5.853-30.692,17.56-42.399c11.703-11.706,25.837-17.561,42.394-17.561c17.515,0,32.079,6.283,43.688,18.846
+		c13.134-2.474,25.892-7.33,38.26-14.56c-4.757,14.652-13.613,25.788-26.55,33.402c12.368-1.716,23.88-4.95,34.537-9.708
+		C357.458,149.793,347.462,160.166,335.471,168.735z"/>
+</g>
+</svg>
+
+    </a>
+
+
+</div>
+
+    
+
+    <div class="copyright">
+    
+       © Copyright 
+       2023 
+       <span class="split">
+        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
+  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
+</svg>
+       </span>
+       DK Liao
+    
+    </div>
+
+    
+      <div class="powerby">
+        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+      </div>
+    
+</footer>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S+Yti0U7QtuZvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+const images = Array.from(document.querySelectorAll("img.medium-zoom-image"));
+images.forEach(img => {
+  mediumZoom(img, {
+    margin: 0,  
+    scrollOffset: 40,  
+    container: null,  
+    template: null  
+  });
+});
+</script>
+
+  </body>
+</html>

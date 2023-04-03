@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>自動混亂零式 on Chosen Concept - DK Liao Games</title>
+    <link>http://blog.chosenconcept.dev/tw/tags/%E8%87%AA%E5%8B%95%E6%B7%B7%E4%BA%82%E9%9B%B6%E5%BC%8F/</link>
+    <description>Recent content in 自動混亂零式 on Chosen Concept - DK Liao Games</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Dec 2022 10:00:23 +0800</lastBuildDate><atom:link href="http://blog.chosenconcept.dev/tw/tags/%E8%87%AA%E5%8B%95%E6%B7%B7%E4%BA%82%E9%9B%B6%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>規模化 AI 設計</title>
+      <link>http://blog.chosenconcept.dev/tw/post/autopanic-zero-devlog/0000-scalable-ai/</link>
+      <pubDate>Sun, 18 Dec 2022 10:00:23 +0800</pubDate>
+      
+      <guid>http://blog.chosenconcept.dev/tw/post/autopanic-zero-devlog/0000-scalable-ai/</guid>
+      <description>《自動混亂》的設計重點之一是「恰到好處」，體現在戰鬥設計上就有： 限縮遊戲環境，以房間制進行 限制敵人登場數量 比起完全可靠的機制，只要玩家看不出</description>
+    </item>
+    
+  </channel>
+</rss>

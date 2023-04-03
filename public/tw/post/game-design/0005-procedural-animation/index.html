@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>程序性動畫實作雜談 | Chosen Concept - DK Liao Games</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="程序性動畫，廣義來說只要有用到程式控制而不是單純播放動畫的情境應該都可以稱為程序性動畫。而這篇主要要提的是跟角色移動有關的程序性動畫。 例如說">
+<meta name="generator" content="Hugo 0.111.3">
+
+
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+
+
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	
+		<a href="/tw/"> <span class="arrow">←</span>首頁</a>
+	
+	<a href="/tw/tags">標籤</a>
+	<a href="/tw/game-list">遊戲</a>
+	<a href="/tw/about">關於</a>
+
+	
+
+	
+</nav>
+
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">程序性動畫實作雜談</h1>
+
+    
+          <div class="tip">
+        <time datetime="2021-09-10 19:16:01 &#43;0800 CST">2021 年 09 月 10 日</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          1861 字
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          4 分鐘
+        </span>
+    </div>
+    
+        <div class="tags">
+            
+                <a href="http://blog.chosenconcept.dev/tw/tags/%E9%81%8A%E6%88%B2%E8%A8%AD%E8%A8%88">遊戲設計</a>
+            
+        </div>
+    
+    
+
+    
+        
+  
+    <aside class="toc">
+      <details>
+          <summary>目錄
+          </summary>
+          <div>
+              <nav id="TableOfContents">
+  <ul>
+    <li><a href="#多足步行">多足步行</a></li>
+    <li><a href="#雙足">雙足</a></li>
+    <li><a href="#旋翼">旋翼</a></li>
+    <li><a href="#車輛">車輛</a></li>
+    <li><a href="#abbr-titlelead前傾abbr與abbr-titledrag拖行abbr"><abbr title="Lead">前傾</abbr>與<abbr title="Drag">拖行</abbr></a></li>
+    <li><a href="#雜項討論點">雜項討論點</a></li>
+  </ul>
+</nav>
+          </div>
+      </details>
+    </aside>
+  
+
+
+    
+
+
+    <div class="content">
+      <p><abbr title="Procedural Animation">程序性動畫</abbr>，廣義來說只要有用到程式控制而不是單純播放動畫的情境應該都可以稱為程序性動畫。而這篇主要要提的是跟角色移動有關的程序性動畫。</p>
+<p>例如說最常見的就是所謂的 <abbr title="Inverse Kinematic">IK</abbr>，會拿來呈現：</p>
+<ul>
+<li>根據地形調整出正確的腳落點</li>
+<li>固定大部分動畫的同時，調整局部區域，例如在人物移動動畫中額外使用 IK 處理手持物件的動畫</li>
+<li>線材的模擬（參考：<a href="https://www.youtube.com/watch?v=PGk0rnyTa1U" target="_blank" rel="noopener">Sebastian Lague 最近有部影片</a>用很鉅細靡遺地解釋了這部分</li>
+</ul>
+<p>我想要利用的是完全只使用程式控制的動畫表現，對我來說程序性動畫展現了幾種價值：</p>
+<ul>
+<li>根據物理性質模擬的高品質動畫</li>
+<li>根據位置資訊自動化表現</li>
+<li>可擴充性廣</li>
+</ul>
+<p>雖然長年熟練動畫十二法則的動畫師肯定能做出更有魅力的動畫，但是根據物理性質產生的高品質動畫實作時間短暫且品質優異；自動根據位置調整的動畫，代表說遊戲系統的判定不會反過來受到動畫系統的限制；而可擴充性廣主要想提的情境，大概就是能用多種參數調整物理性質，或更直接的：做了一隻腳後，要做一百隻也沒問題。</p>
+<p>下圖使用了四足配置、拖行（上半身被腳拖著走）動態傾斜，完全沒有使用任何預先製作的動畫：</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/game-design/0005/1.gif" alt="movement example"  / class="medium-zoom-image">
+</p></p>
+<p>另一方面，我正在製作的遊戲，在視覺設計上非常簡化。偏真實的素材做出稍微不符合真實的動作結果就會很礙眼，但是如果視覺上很簡化的話，就可以相對無視這點。</p>
+<p>但這個主題畢竟沒有真的很泛用的方式討論，所以在這邊針對所有我嘗試實作的程序性動畫都做一些流水帳式的說明，提供點參考。</p>
+<h1 id="多足步行">多足步行 <a href="#%e5%a4%9a%e8%b6%b3%e6%ad%a5%e8%a1%8c" class="anchor">🔗</a></h1><p>多足步行設計大概是我最早看到，也最讓我感到震撼的程序性動畫類型。最震撼的地方就是製作的難度有多低。</p>
+<p>基本上就是以角色為中心，設定幾個方向做為腳延伸出去的方向後往地板打射線找到落點。每當腳踩的位置遠離判定位置超過指定距離時，就讓那隻腳移動去指定位置。</p>
+<p>其他可以提的要點大概有：</p>
+<ul>
+<li>製造一些隨機錯位的情境（例如純粹的初始位置隨機），避免動起來的結果太固定</li>
+<li>根據角色位移的速度改變腳的移動速度，就可以避免敵人移動速度很慢時會看起來很奇怪</li>
+<li>移動到目標地點的速度在水平跟垂直方向上可以有一些變化，例如說舉起很慢但是放下</li>
+</ul>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/game-design/0005/2.png" alt="component quick glance"  / class="medium-zoom-image">
+</p></p>
+<p>Animation Curve 是個很適合拿來提供調整空間的工具，第一個是腿的形狀設定、第二個則是移動過程中高度變化的情境，上圖設定可以呈現出舉起很慢放下很快的笨重感。</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/game-design/0005/3.gif" alt="multileg example"  / class="medium-zoom-image">
+</p></p>
+<h1 id="雙足">雙足 <a href="#%e9%9b%99%e8%b6%b3" class="anchor">🔗</a></h1><p>雙足跟多足設計上需要的方針比較不太一樣。三足以上的系統視覺上比較不容易感受到重心不穩的問題，而且腳的平均分散也代表說腳隨時都在前導狀態。</p>
+<p>由於這套系統是根據位移變化去移動，可以說是導因為果的狀態（本來應該是先移動腳再移動重心，程序性動畫變成先移動），所以判斷腳落點的時候必須往移動方向做點預判看起來才不會像是拖著腳移動，但是現實世界的雙足生物移動時，結束移動的同時腳必然都會收在目標要移動到的位置。也就變成我在程序性雙足實作上很容易做成多跨出一步要再收回的狀態，並不是做得很好。</p>
+<p>這部分還有待再研究清楚，但當然可以藉由設定目標不是生物來繞過問題 XD 不過如果總有一天可以成功研究出高品質的程序性雙足，就代表說可以輕易處理出低成本的大量路人角色。</p>
+<h1 id="旋翼">旋翼 <a href="#%e6%97%8b%e7%bf%bc" class="anchor">🔗</a></h1><p>根據移動速度改變旋翼旋轉的速度，根據旋轉速度來改變對應旋轉方向的旋翼轉速。可以說是最簡單的形式。</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/game-design/0005/4.gif" alt="copter example"  / class="medium-zoom-image">
+</p></p>
+<h1 id="車輛">車輛 <a href="#%e8%bb%8a%e8%bc%9b" class="anchor">🔗</a></h1><p>基本上跟上面的旋翼一樣，移動速度拿來轉動輪胎。如果是兩輪或者廣義兩輪（履帶）的坦克，可以讓角色在原地旋轉時展現出一輪順轉、一輪逆轉。</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/game-design/0005/5.gif" alt="vehicle example"  / class="medium-zoom-image">
+</p></p>
+<p>如果是超過兩輪的車輛則必須要考慮前導輪轉軸的問題，前軸導引方向的輪子（無論是單輪或雙輪）要隨著轉彎而改變轉軸角度。</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/game-design/0005/6.gif" alt="more vehicle example"  / class="medium-zoom-image">
+</p></p>
+<h1 id="abbr-titlelead前傾abbr與abbr-titledrag拖行abbr"><abbr title="Lead">前傾</abbr>與<abbr title="Drag">拖行</abbr> <a href="#abbr-titlelead%e5%89%8d%e5%82%beabbr%e8%88%87abbr-titledrag%e6%8b%96%e8%a1%8cabbr" class="anchor">🔗</a></h1><p>這部分可以有兩種實作方向：位移與旋轉。</p>
+<p>位移的部分，可以讓角色的角度相對於移動方向地前傾或後仰，呈現出主動前進跟被腳拖著走的感受。</p>
+<p>旋轉的部分則可以考慮區分角色上下部份。例如說一般生物都會先轉頭再往目標方向前進，所以可以讓頭轉到目標位置的速度快、而下半身轉到的速度比較慢；反之則可能可以營造出愚笨的行動感，例如說史萊姆式的生物。</p>
+<p>第二點我沒有實作所以這裡借 Jakob Wahlberg 兩個都有實作的示範：</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/game-design/0005/7.gif" alt="jakob&amp;rsquo;s gif"  / class="medium-zoom-image">
+</p></p>
+
+    <style type="text/css">
+      .twitter-tweet {
+        font: 14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+        border-left: 4px solid #2b7bb9;
+        padding-left: 1.5em;
+        color: #555;
+      }
+      .twitter-tweet a {
+        color: #2b7bb9;
+        text-decoration: none;
+      }
+      blockquote.twitter-tweet a:hover,
+      blockquote.twitter-tweet a:focus {
+        text-decoration: underline;
+      }
+    </style>
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Procedural Animation School #1: You gotta rotate before you can walk.<br><br>Procedural animation. Most people think of spiders and a lot of legs. This is one part, but I would say transforming physical forces into rotations is even more important &amp; a good start &gt; Thread &gt; <a href="https://t.co/NPjdrZAI1g">pic.twitter.com/NPjdrZAI1g</a></p>&mdash; Jakob Wahlberg (@Jakob_Wahlberg) <a href="https://twitter.com/Jakob_Wahlberg/status/1399100594288218112?ref_src=twsrc%5Etfw">May 30, 2021</a></blockquote>
+
+<h1 id="雜項討論點">雜項討論點 <a href="#%e9%9b%9c%e9%a0%85%e8%a8%8e%e8%ab%96%e9%bb%9e" class="anchor">🔗</a></h1><p>首先最值得一提的就是程序性動畫，畢竟各個分項都是對一種物理性質、情境的模擬，也因此彼此之間都可以再做排列組合。</p>
+<p>最簡單的就是前面的前傾拖行可以配合前面任何一個行動動畫，又可以組合出完全不同的花樣。</p>
+<p>整體來說這類型的動畫如果實作起來，除了單純可以提供一定水準的高品質動畫以外，還可以提供很多自訂版本擴充多樣性。</p>
+<p>而至少對於人力極少甚至是一人團隊來說，這樣做既可以提供足夠的水準的動畫又可以不用花太多勞力。</p>
+<p>流水帳大概寫到這邊，提供參考。</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/game-design/0005/8.gif" alt="extra gif 1"  / class="medium-zoom-image">
+</p>
+<p class="markdown-image">
+  
+  <img src="/images/posts/game-design/0005/9.gif" alt="extra gif 2"  / class="medium-zoom-image">
+</p></p>
+
+    </div>
+
+    
+    
+  <div id="comment">
+    
+    
+    <script src="https://utteranc.es/client.js"
+        repo="dklassic/comment-utterances"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+        <div id="social">
+
+
+    <a class="symbol" href="https://www.twitter.com/randomdevdk" rel="me" target="_blank">
+        
+        <svg fill="#bbbbbb" width="28" height="28" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="438.536px" height="438.536px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 438.536;"
+	 xml:space="preserve">
+<g>
+	<path d="M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123
+		C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126
+		h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225
+		C438.532,59.576,430.49,40.204,414.41,24.123z M335.471,168.735c0.191,1.713,0.288,4.278,0.288,7.71
+		c0,15.989-2.334,32.025-6.995,48.104c-4.661,16.087-11.8,31.504-21.416,46.254c-9.606,14.749-21.074,27.791-34.396,39.115
+		c-13.325,11.32-29.311,20.365-47.968,27.117c-18.648,6.762-38.637,10.143-59.953,10.143c-33.116,0-63.76-8.952-91.931-26.836
+		c4.568,0.568,9.329,0.855,14.275,0.855c27.6,0,52.439-8.565,74.519-25.7c-12.941-0.185-24.506-4.179-34.688-11.991
+		c-10.185-7.803-17.273-17.699-21.271-29.691c4.947,0.76,8.658,1.137,11.132,1.137c4.187,0,9.042-0.76,14.56-2.279
+		c-13.894-2.669-25.598-9.562-35.115-20.697c-9.519-11.136-14.277-23.84-14.277-38.114v-0.571
+		c10.085,4.755,19.602,7.229,28.549,7.422c-17.321-11.613-25.981-28.265-25.981-49.963c0-10.66,2.758-20.747,8.278-30.264
+		c15.035,18.464,33.311,33.213,54.816,44.252c21.507,11.038,44.54,17.227,69.092,18.558c-0.95-3.616-1.427-8.186-1.427-13.704
+		c0-16.562,5.853-30.692,17.56-42.399c11.703-11.706,25.837-17.561,42.394-17.561c17.515,0,32.079,6.283,43.688,18.846
+		c13.134-2.474,25.892-7.33,38.26-14.56c-4.757,14.652-13.613,25.788-26.55,33.402c12.368-1.716,23.88-4.95,34.537-9.708
+		C357.458,149.793,347.462,160.166,335.471,168.735z"/>
+</g>
+</svg>
+
+    </a>
+
+
+</div>
+
+    
+
+    <div class="copyright">
+    
+       © Copyright 
+       2023 
+       <span class="split">
+        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
+  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
+</svg>
+       </span>
+       DK Liao
+    
+    </div>
+
+    
+      <div class="powerby">
+        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+      </div>
+    
+</footer>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S+Yti0U7QtuZvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+const images = Array.from(document.querySelectorAll("img.medium-zoom-image"));
+images.forEach(img => {
+  mediumZoom(img, {
+    margin: 0,  
+    scrollOffset: 40,  
+    container: null,  
+    template: null  
+  });
+});
+</script>
+
+  </body>
+</html>

@@ -1,12 +1,14 @@
 ---
 title: "Autopanic Zero Presskit"
+date: 2022-05-10T19:07:26+08:00
 draft: false
 enableComments: false
 showToc: true
 showTip: false
 ---
 
-<!-- dummy.account@gmail.com -->
+<!-- dummy.account@outmail.com -->
+<!-- another.account@glook.com -->
 # Factsheet
 
 ## Developer
@@ -52,7 +54,7 @@ Autopanic Zero is a reimagining of the prototype version of Autopanic, which tur
 
 # Logo & Icon
 
-![autopanic-zero-logo](/images/games/autopanic-zero/LibraryLogo_en.png)
+![autopanic-zero-logo](/images/games/autopanic-zero/LibraryLogoBlack_en.png)
 
 <!-- # Selected Articles -->
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presskits on Chosen Concept - DK Liao Games</title>
+    <link>http://blog.chosenconcept.dev/tw/presskit/</link>
+    <description>Recent content in Presskits on Chosen Concept - DK Liao Games</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Apr 2023 19:07:26 +0800</lastBuildDate><atom:link href="http://blog.chosenconcept.dev/tw/presskit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autopanic</title>
+      <link>http://blog.chosenconcept.dev/tw/presskit/autopanic/</link>
+      <pubDate>Sun, 02 Apr 2023 19:07:26 +0800</pubDate>
+      
+      <guid>http://blog.chosenconcept.dev/tw/presskit/autopanic/</guid>
+      <description>Factsheet 🔗Developer 🔗DK Liao
+Solo developer based in Taipei, Taiwan Release Date 🔗2023 TBA
+Platform 🔗Steam
+Website 🔗blog.chosenconcept.dev</description>
+    </item>
+    
+    <item>
+      <title>Autopanic Zero</title>
+      <link>http://blog.chosenconcept.dev/tw/presskit/autopanic-zero/</link>
+      <pubDate>Sun, 02 Apr 2023 19:07:26 +0800</pubDate>
+      
+      <guid>http://blog.chosenconcept.dev/tw/presskit/autopanic-zero/</guid>
+      <description>markdown test 🔗h2 🔗h3 🔗link </description>
+    </item>
+    
+  </channel>
+</rss>

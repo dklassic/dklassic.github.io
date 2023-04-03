@@ -1,12 +1,14 @@
 ---
-title: "Autopanic Presskit"
+title: "《自動混亂》媒體素材"
+date: 2022-05-10T19:07:26+08:00
 draft: false
 enableComments: false
 showToc: true
 showTip: false
 ---
 
-<!-- dummy.account@gmail.com -->
+<!-- dummy.account@outmail.com -->
+<!-- another.account@glook.com -->
 # Factsheet
 
 ## Developer

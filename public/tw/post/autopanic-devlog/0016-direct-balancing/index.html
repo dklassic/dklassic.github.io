@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>直接設計體驗的數值平衡 | Chosen Concept - DK Liao Games</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="嘿，這是一篇我想寫想了六年的文章！等等，什麼鬼，六年？ 其實是關於一個我覺得理解之後就是個很理所當然的概念，但畢竟我也曾經沒意識到這個概念，就">
+<meta name="generator" content="Hugo 0.111.3">
+
+
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+
+
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	
+		<a href="/tw/"> <span class="arrow">←</span>首頁</a>
+	
+	<a href="/tw/tags">標籤</a>
+	<a href="/tw/game-list">遊戲</a>
+	<a href="/tw/about">關於</a>
+
+	
+
+	
+</nav>
+
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">直接設計體驗的數值平衡</h1>
+
+    
+          <div class="tip">
+        <time datetime="2022-12-24 21:00:05 &#43;0800 CST">2022 年 12 月 24 日</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          2138 字
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          5 分鐘
+        </span>
+    </div>
+    
+        <div class="tags">
+            
+                <a href="http://blog.chosenconcept.dev/tw/tags/%E8%87%AA%E5%8B%95%E6%B7%B7%E4%BA%82">自動混亂</a>
+            
+                <a href="http://blog.chosenconcept.dev/tw/tags/%E9%81%8A%E6%88%B2%E8%A8%AD%E8%A8%88">遊戲設計</a>
+            
+        </div>
+    
+    
+
+    
+        
+  
+    <aside class="toc">
+      <details>
+          <summary>目錄
+          </summary>
+          <div>
+              <nav id="TableOfContents">
+  <ul>
+    <li><a href="#全境封鎖的遊戲平衡問題">《全境封鎖》的遊戲平衡問題</a></li>
+    <li><a href="#範例擊殺時間">範例－擊殺時間</a></li>
+    <li><a href="#自動混亂中的應用">《自動混亂》中的應用</a></li>
+    <li><a href="#插曲自動混亂零式中的應用">插曲－《自動混亂：零式》中的應用</a></li>
+  </ul>
+</nav>
+          </div>
+      </details>
+    </aside>
+  
+
+
+    
+
+
+    <div class="content">
+      <p>嘿，這是一篇我想寫想了六年的文章！等等，什麼鬼，六年？</p>
+<p>其實是關於一個我覺得理解之後就是個很理所當然的概念，但畢竟我也曾經沒意識到這個概念，就想著總有一天要來寫一篇關於這件事情的文章。因此心心念念惦記著六年，到了自己都真的開始做了遊戲實際應用後，更覺得應該有把握可以用自己的實作講清楚這個設計方針。</p>
+<p>但首先我們來講個故事吧。</p>
+<h1 id="全境封鎖的遊戲平衡問題">《全境封鎖》的遊戲平衡問題 <a href="#%e5%85%a8%e5%a2%83%e5%b0%81%e9%8e%96%e7%9a%84%e9%81%8a%e6%88%b2%e5%b9%b3%e8%a1%a1%e5%95%8f%e9%a1%8c" class="anchor">🔗</a></h1><p>2016 三月，Ubisoft 的《全境封鎖》（The Division）上市。在台灣相當熱門，上市初期在巴哈姆特的討論板排名也直衝前幾名。</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0016/1.png" alt="tctd"  / class="medium-zoom-image">
+</p></p>
+<blockquote>
+<p>就算到了今天也穩定坐擁「TV 掌機」分類前 20 名的位置，相當可怕的成績</p>
+</blockquote>
+<p>然而玩過初版的人都知道這部作品實際上有超多問題：</p>
+<ul>
+<li>遊戲畫面表現、內容量完全不如一開始宣傳的程度</li>
+<li>亞洲伺服器完全不夠承載對應的玩家數，導致了排隊特工的出現</li>
+<li>基本上毫無反作弊機制，導致飛天條碼人到處跑</li>
+</ul>
+<p>但當然，這些問題都勉強可以靠玩家心態的調整來應對：</p>
+<ul>
+<li>畫面表現其實還是很好，加上更新後的內容量其實也在合理程度，又有重複刷關的價值</li>
+<li>隨著玩家熱度下降，伺服器穩定度達到可接受範圍</li>
+<li>不想要面對作弊玩家，就不要進多人對戰區域就好</li>
+</ul>
+<p>但這一切都救不了奇差無比的高難度關卡遊戲平衡。</p>
+<p>遊戲從 1 至 30 等的遊戲本體內容都還算合理，但是一旦選擇挑戰高一階段的「困難」與「英雄」難度，馬上就會意識到「<strong>對著一個雜兵的頭部打光一條彈匣的子彈都殺不死對方</strong>」的奇差體驗。</p>
+<p>實際上我個人破完了本體就沒有繼續挑戰終局，所以沒什麼被殘害到 XD</p>
+<p>但後來時隔七個月，官方進行了一次超級大規模遊戲更新，光是<a href="https://ubisoft-sea.zendesk.com/hc/zh-tw/articles/230613947-The-Division-%E5%85%A8%E5%A2%83%E5%B0%81%E9%8E%96-1-4-%E7%89%88%E6%9B%B4%E6%96%B0%E5%85%A7%E5%AE%B9" target="_blank" rel="noopener">更新紀錄</a>就長達一萬字。但其中更有趣的是官方寫了一篇長文解釋清楚這次大量平衡修正背後的依據，可惜現在要回頭找的時候找不到了。</p>
+<p>但總之當初的新聞稿的中文版是我翻譯的，所以就留下了很深的印象，以至於時隔六年也成為了我設計遊戲數值時的基本靈感來源。</p>
+<h1 id="範例擊殺時間">範例－擊殺時間 <a href="#%e7%af%84%e4%be%8b%e6%93%8a%e6%ae%ba%e6%99%82%e9%96%93" class="anchor">🔗</a></h1><p>要設計一個跟戰鬥有關的遊戲，大概可能會這樣設計這些角色數值：</p>
+<ul>
+<li>血量 <em>H</em>（HP）</li>
+<li>攻擊力 <em>A</em>（HP／次）</li>
+<li>攻擊間隔 <em>T</em>（秒／次）</li>
+</ul>
+<p>角色每隔 <em>T</em> 秒可以對敵人的血量 <em>H</em> 造成 <em>A</em> 點傷害。嗯，很合理，這樣一個基本的跟戰鬥有關的遊戲就完成了。</p>
+<p>但問題是：要怎樣控制這三個參數才能讓玩家玩起來好玩？假設有玩家跟敵人的兩個角色，代表總共有六個參數要控制，感覺好像控起來很困難。</p>
+<p>其實並沒有。實際上會影響玩家的體驗只有一件事：<abbr title="Time to Kill"><strong>擊殺時間</strong></abbr> <em>K</em>。</p>
+<p>無論這六個數字怎麼定義，最後玩家會體驗到的要素其實只有：</p>
+<ul>
+<li>敵人攻擊我幾秒後我會死亡</li>
+<li>我攻擊敵人幾秒後敵人會死亡</li>
+</ul>
+<p>也因此這個直接平衡這個數值本身就可以影響玩家體驗，而同時我們知道：</p>
+<p>$$擊殺時間（秒）= 血量（HP） ÷ 攻擊力（HP／次）× 攻擊間隔（秒／次）$$</p>
+<p>即：</p>
+<p>$$K= H \div A \times T$$</p>
+<p>只要再多決定一個「攻擊間隔 <em>T</em>」，其實剩下的「血量 <em>H</em>」跟「攻擊力 <em>A</em>」就是個固定的比例了：</p>
+<p>$$\frac {擊殺時間} {攻擊間隔} = \frac {血量} {攻擊力}$$</p>
+<p>即：</p>
+<p>$$\frac {K} {T} = \frac {H} {A}$$</p>
+<p>因此兩者的數字本身就不具備意義，而是兩者之間的比值才具備意義。當然寫程式的時候還是需要完整的六個數值，不過需要經過人腦設計的數字其實比想像的少（主要是擊殺時間），也比想像的好設計很多（先設計擊殺時間、再設計攻擊間隔，剩下的就固定了）。</p>
+<h1 id="自動混亂中的應用">《自動混亂》中的應用 <a href="#%e8%87%aa%e5%8b%95%e6%b7%b7%e4%ba%82%e4%b8%ad%e7%9a%84%e6%87%89%e7%94%a8" class="anchor">🔗</a></h1><p><a href="https://gnn.gamer.com.tw/detail.php?sn=239270" target="_blank" rel="noopener">以前接受的訪談</a>中其實就有簡單提過這件事情 XD</p>
+<p>《自動混亂》中的敵人血量就是用「擊殺時間」來定義的，每個房間進去的當下都已經被決定好「希望玩家在這邊待幾秒」，接著就只需要加總起來符合那個時間的敵人生出來就好：</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0016/2.png" alt="enemy ttk"  / class="medium-zoom-image">
+</p></p>
+<p>而玩家在每個關卡有一個被預期的「每秒傷害輸出」值：</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0016/3.png" alt="player dps"  / class="medium-zoom-image">
+</p></p>
+<p>也因此我遊戲中的所有武器強度、隨機能力升級幅度就是配合這個預期玩家傷害輸出的成長而調整的。</p>
+<p>這樣設計數字的方式可以在設計當下就已經可以預期玩家體驗大致如何。</p>
+<p>一般團隊可能可以靠測試團隊來覆蓋，但我畢竟只有一個人開發，能夠在數值設計本身就控制住玩家體驗比較安全。就算我很喜歡玩自己的遊戲（自己講），改動一個設計之後想要透過實際遊玩來驗證成效如何還是太慢，更不用說熟知遊戲設計的我本身不容易測試出代表玩家體驗的結果，就只能靠消磨朋友的友情點數來換取驗證了。</p>
+<p>除非&hellip;&hellip;有什麼無視勞基法限制的存在可以幫我測試？這是下一篇的主題 XD</p>
+<h1 id="插曲自動混亂零式中的應用">插曲－《自動混亂：零式》中的應用 <a href="#%e6%8f%92%e6%9b%b2%e8%87%aa%e5%8b%95%e6%b7%b7%e4%ba%82%e9%9b%b6%e5%bc%8f%e4%b8%ad%e7%9a%84%e6%87%89%e7%94%a8" class="anchor">🔗</a></h1><p>《零式》的平衡在初始的七天工期中，基本上只有一天被拿來調整平衡。老實說平衡勉強調整到了勘玩的程度，不過在 G8 展第一天有玩過的玩家應該都會覺得是一個非常瘋狂又混亂的平衡，我也很老實又不好意思地跟試玩的玩家說遊戲的平衡其實是用腳做的 QQ</p>
+<p>G8 展的第二天早上，我將整個敵人的數值設計做了重新修改，首先檢視數值設計平衡起來過於複雜的要素：</p>
+<ul>
+<li>在類《吸血鬼倖存者》的節奏下，敵人的死亡速度快到用秒數來估算太難用</li>
+<li>移動速度原本使用的是絕對速度，但《自動混亂》的基本速度對這種遊戲類型來說過快</li>
+</ul>
+<p>因此對應調整成：</p>
+<ul>
+<li>血量改以「擊殺發數」定義</li>
+<li>移動相關的則改以「相對倍率」定義</li>
+</ul>
+<p>於是就很順利地在展出前調整整體平衡到我真正希望玩家體驗到的樣貌，這天蒐集到的意見才是真正對遊戲開發有幫助的意見。應該比第一天好玩很多對吧，對吧？</p>
+<p>無論如何，如果沒有先正確調整好平衡的重點數值，也沒辦法在這麼短的時間內就改出一個有效的版本。</p>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0016/4.png" alt="edited enemy setting"  / class="medium-zoom-image">
+</p></p>
+<blockquote>
+<p>修改過的敵人數值設定</p>
+</blockquote>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0016/5.png" alt="two commits"  / class="medium-zoom-image">
+</p></p>
+<blockquote>
+<p>G8 遊戲展第二天早上用一個小時、兩個 Commit 修改完平衡</p>
+</blockquote>
+<p><p class="markdown-image">
+  
+  <img src="/images/posts/autopanic-devlog/0016/6.png" alt="it&amp;rsquo;s great, right?"  / class="medium-zoom-image">
+</p></p>
+
+    </div>
+
+    
+    
+  <div id="comment">
+    
+    
+    <script src="https://utteranc.es/client.js"
+        repo="dklassic/comment-utterances"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+        <div id="social">
+
+
+    <a class="symbol" href="https://www.twitter.com/randomdevdk" rel="me" target="_blank">
+        
+        <svg fill="#bbbbbb" width="28" height="28" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="438.536px" height="438.536px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 438.536;"
+	 xml:space="preserve">
+<g>
+	<path d="M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123
+		C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126
+		h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225
+		C438.532,59.576,430.49,40.204,414.41,24.123z M335.471,168.735c0.191,1.713,0.288,4.278,0.288,7.71
+		c0,15.989-2.334,32.025-6.995,48.104c-4.661,16.087-11.8,31.504-21.416,46.254c-9.606,14.749-21.074,27.791-34.396,39.115
+		c-13.325,11.32-29.311,20.365-47.968,27.117c-18.648,6.762-38.637,10.143-59.953,10.143c-33.116,0-63.76-8.952-91.931-26.836
+		c4.568,0.568,9.329,0.855,14.275,0.855c27.6,0,52.439-8.565,74.519-25.7c-12.941-0.185-24.506-4.179-34.688-11.991
+		c-10.185-7.803-17.273-17.699-21.271-29.691c4.947,0.76,8.658,1.137,11.132,1.137c4.187,0,9.042-0.76,14.56-2.279
+		c-13.894-2.669-25.598-9.562-35.115-20.697c-9.519-11.136-14.277-23.84-14.277-38.114v-0.571
+		c10.085,4.755,19.602,7.229,28.549,7.422c-17.321-11.613-25.981-28.265-25.981-49.963c0-10.66,2.758-20.747,8.278-30.264
+		c15.035,18.464,33.311,33.213,54.816,44.252c21.507,11.038,44.54,17.227,69.092,18.558c-0.95-3.616-1.427-8.186-1.427-13.704
+		c0-16.562,5.853-30.692,17.56-42.399c11.703-11.706,25.837-17.561,42.394-17.561c17.515,0,32.079,6.283,43.688,18.846
+		c13.134-2.474,25.892-7.33,38.26-14.56c-4.757,14.652-13.613,25.788-26.55,33.402c12.368-1.716,23.88-4.95,34.537-9.708
+		C357.458,149.793,347.462,160.166,335.471,168.735z"/>
+</g>
+</svg>
+
+    </a>
+
+
+</div>
+
+    
+
+    <div class="copyright">
+    
+       © Copyright 
+       2023 
+       <span class="split">
+        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
+  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
+</svg>
+       </span>
+       DK Liao
+    
+    </div>
+
+    
+      <div class="powerby">
+        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+      </div>
+    
+</footer>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S+Yti0U7QtuZvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+const images = Array.from(document.querySelectorAll("img.medium-zoom-image"));
+images.forEach(img => {
+  mediumZoom(img, {
+    margin: 0,  
+    scrollOffset: 40,  
+    container: null,  
+    template: null  
+  });
+});
+</script>
+
+  </body>
+</html>
