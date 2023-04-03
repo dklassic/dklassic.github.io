@@ -5,8 +5,6 @@ draft: false
 tags: ["Autopanic"]
 ---
 
-# Prototype
-
 April 2020, inspired by A Short Hike, I decided to start learning how to making my own game. I started with [Sebastian Lague's Twinstick Shooter Tutorial](https://www.youtube.com/playlist?list=PLFt_AvWsXl0ctd4dgE1F8g3uec4zKNRV0) and quickly build up something almost enjoyable:
 
 ![prototype](/images/posts/autopanic-devlog/0001/1.gif)

@@ -1,7 +1,7 @@
 ---
 title: "07. Custom UI Framework"
 date: 2022-10-19T10:10:01+08:00
-draft: true
+draft: false
 tags: ["Autopanic"]
 ---
 
@@ -16,11 +16,14 @@ Building a robust UI framework is imminent anyways because before that I was deb
 
 I started by building an enemy spawner:
 
+![enemy spawner](/images/posts/autopanic-devlog/0007/1.png)
+
 An elegant weapon for a more civilized age.
 
 This makes the enemy testing process much easier. No more drag & drop and clicking through scene hierarchy.
 
 The UI framework gradually grows into a behemoth supporting all sorts of stuffs easily. For example, my system menu UI can be initiated with a class that inherits the GeneralUISystemWithNavigation class. Then I can simply do:
+
 ```
 protected override void InitializeUI()
 {
@@ -38,5 +41,8 @@ protected override void InitializeUI()
 
 And then vuala:
 
+![system menu](/images/posts/autopanic-devlog/0007/2.png)
 
 Though all the game's UI are done with this framework, my debug menus made the most out of this framework:
+
+![all debug menus](/images/posts/autopanic-devlog/0007/3.gif)

@@ -129,10 +129,10 @@ tags: ["自動混亂","遊戲設計"]
     拜託不要卡死在角色背後固定距離，要像綁著彈簧一樣拉著走。
 
     完全貼死：
-![step 14-1](/images/posts/autopanic-devlog/0012/16.gif)
+    ![step 14-1](/images/posts/autopanic-devlog/0012/16.gif)
 
     平滑跟隨：
-![step 14-2](/images/posts/autopanic-devlog/0012/17.gif)
+    ![step 14-2](/images/posts/autopanic-devlog/0012/17.gif)
 
 15. 鏡頭晃動
 

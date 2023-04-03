@@ -11,7 +11,7 @@ tags: ["遊戲設計"]
 
 這部分目前最實用的手段就叫做 Wave Function Collapse。
 
-可能很多人的印象最深刻的例子是來自這個 [Github 專案 mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse)，我個人則是從 Oskar Stalberg 2018 年的演講入坑的：
+可能很多人的印象最深刻的例子是來自這個 [Github 專案 mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse)，我個人則是從 Oskar Stålberg 2018 年的演講入坑的：
 {{< youtube 0bcZb-SsnrA >}}
 從這邊聽個大概，似懂非懂很難理解，剩下很多片段都是在實作過程中才理解。
 

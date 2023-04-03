@@ -1,7 +1,7 @@
 ---
-title: "絕對有保證的遊戲爽感"
+title: "The art of screenshake"
 date: 2022-11-14T01:08:39+08:00
-draft: true
+draft: false
 tags: ["Autopanic","Game Design"]
 ---
 
@@ -10,75 +10,102 @@ I'm really getting this post clogged up with GIFs huh.
 Welp, time for more. Sorry not sorry.
 
 Anyways, I'm very inspired by the famous "The Art of Screenshake" talk and my gameplay is basically derived from that talk.
-So this post will be a break down of all the juice added to the game.
-Before
 
-After
+So this post will be a break down of all the juice added to the game.
+
+Before:
+
+![before](/images/posts/autopanic-devlog/0012/2.gif)
+
+After:
+
+![after](/images/posts/autopanic-devlog/0012/3.gif)
 
 
 Before that, you may download this special build of the game featuring an array of tools to toggle on/off juice:
-https://dkliao.itch.io/the-art-of-screenshake-recreation
+
+[Download on itch.io](https://dkliao.itch.io/the-art-of-screenshake-recreation)
 
 And here's a rapid fire of comparison GIFs.
-Baseline
 
+1. Baseline
 
-With Animation
+![step 1](/images/posts/autopanic-devlog/0012/4.gif)
 
+2. With Animation
 
-Lower Time to Kill
+![step 2](/images/posts/autopanic-devlog/0012/5.gif)
 
+3. Lower Time to Kill
 
-Increase Rate of Fire
+![step 3](/images/posts/autopanic-devlog/0012/6.gif)
 
+4. Increase Rate of Fire
 
-Increase Bullet Size
+![step 4](/images/posts/autopanic-devlog/0012/7.gif)
 
+5. Increase Bullet Size
 
-Muzzle Flash
+![step 5](/images/posts/autopanic-devlog/0012/8.gif)
 
+6. Muzzle Flash
 
-Faster Bullet
+![step 6](/images/posts/autopanic-devlog/0012/9.gif)
 
+7. Faster Bullet
 
-Lower Accuracy for More Dynamics
+![step 7](/images/posts/autopanic-devlog/0012/10.gif)
 
+8. Lower Accuracy for More Dynamics
 
-Impact Effect
+![step 8](/images/posts/autopanic-devlog/0012/11.gif)
 
+9. Impact Effect
 
-Hit Reaction
+![step 9](/images/posts/autopanic-devlog/0012/12.gif)
 
+10. Hit Reaction
 
-Enemy Knockback
+![step 10](/images/posts/autopanic-devlog/0012/13.gif)
 
+11. Enemy Knockback
 
-Permanence
+![step 11](/images/posts/autopanic-devlog/0012/14.gif)
 
+12. Permanence
 
-Camera Lerp
+![step 12](/images/posts/autopanic-devlog/0012/15.gif)
 
-↑Lerp Off
+13. Camera Lerp
 
-↑Lerp On
+    Lerp Off:
+    ![step 13-1](/images/posts/autopanic-devlog/0012/16.gif)
 
-Screenshake
+    Lerp On:
+    ![step 13-2](/images/posts/autopanic-devlog/0012/17.gif)
 
+14. Screenshake
 
-Player Knockback
+![step 14](/images/posts/autopanic-devlog/0012/18.gif)
 
+15. Player Knockback
 
-Hit Pause
+![step 15](/images/posts/autopanic-devlog/0012/19.gif)
 
-↑Hit Pause Off
+16. Hit Pause
+    
+    Hit Pause Off:
+    ![step 16-1](/images/posts/autopanic-devlog/0012/20.gif)
 
-↑Hit Pause On
+    Hit Pause On:
+    ![step 16-2](/images/posts/autopanic-devlog/0012/21.gif)
 
-Weapon Recoil
+17. Weapon Recoil
 
+![step 17](/images/posts/autopanic-devlog/0012/22.gif)
 
-Random Enemy Explosion
+18. Random Enemy Explosion
 
-
+![step 18](/images/posts/autopanic-devlog/0012/23.gif)
 
 Anyways, that about wrap up my gameplay.

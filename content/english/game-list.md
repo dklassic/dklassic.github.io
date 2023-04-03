@@ -1,14 +1,24 @@
 ---
 title: "Games"
-date: 2023-04-02T19:07:26+08:00
+date: 2019-04-01T19:07:26+08:00
 draft: false
 enableComments: false
 showToc: false
+showTip: false
 ---
 
-# markdown test
-## h2
-### h3
-[link](https://)
-![photo](https://imgur.com/jCgcQTi.jpg)
-![gif](https://imgur.com/uAa6iKr.gif)
+# Autopanic
+
+[![Autopanic Thumbnail](/images/games/autopanic/Autopanic_en.png)]({{< ref "games/autopanic" >}})
+
+> Autopanic is a minimalist twinstick shooter attempting to deliver a fully diegetic gameplay that acknowledges every player action. Some Rogue-like elements are added to the mix as well.
+
+<iframe src="https://store.steampowered.com/widget/1274830/" frameborder="0" width="646" height="190"></iframe>
+
+# Autopanic Zero
+
+[![Autopanic Zero Thumbnail](/images/games/autopanic-zero/AutopanicZero_en.png)]({{< ref "games/autopanic-zero" >}})
+
+> Autopanic Zero is a minimalist twinstick shooter survival game. Designed with quick sessions in mind.
+
+<iframe src="https://store.steampowered.com/widget/1423670/" frameborder="0" width="646" height="190"></iframe>

@@ -39,4 +39,5 @@ paginate = 10
   description = 'A small site about random stuffs'
   math = true
   showToc = true
+  showTip = true
   enableComments = true

@@ -54,7 +54,7 @@ tags: ["遊戲設計"]
 
 Wave Function Collapse 雖然允許用極低的努力做出極大化的成果，然而這個成果仍然是正比於一開始製作的板塊（規則）總量。
 
-Oskar Stalberg 的 Bad North 雖然使用了 Wave Function Collapse 進行關卡產生，但是他也製作了超過 300 個基本板塊才能夠呈現出看似每個都完全獨特的島嶼。
+Oskar Stålberg 的 Bad North 雖然使用了 Wave Function Collapse 進行關卡產生，但是他也製作了超過 300 個基本板塊才能夠呈現出看似每個都完全獨特的島嶼。
 
 ## 有設計目的的意義大於純粹的關卡總量
 
@@ -66,6 +66,6 @@ Oskar Stalberg 的 Bad North 雖然使用了 Wave Function Collapse 進行關卡
 
 Hades 的開發團隊也提到說雖然他們不是沒有打算做隨機產生關卡，但是為了要讓一個關卡有多樣的變化，所花的時間已經夠他們設計一面全新的關卡了。而甚至我玩了很久才意識到 Hades 的關卡並不是隨機產生的，代表說就算不仰賴關卡量也能是個好的類 Rogue 遊戲。
 
-但是對於機制極為簡單的遊戲循環來說， Wave Function Collapse 還是能明顯帶來各種好處。例如 Oskar Stalberg 不算是遊戲的 Townscape，以及 Bad North 這樣比較好限制條件產生出好關卡的遊戲。
+但是對於機制極為簡單的遊戲循環來說， Wave Function Collapse 還是能明顯帶來各種好處。例如 Oskar Stålberg 不算是遊戲的 Townscape，以及 Bad North 這樣比較好限制條件產生出好關卡的遊戲。
 
 總之大概就是這樣提供參考（？
