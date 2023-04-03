@@ -1,13 +1,12 @@
 ---
 title: "Autopanic Presskit"
-date: 2023-04-02T19:07:26+08:00
 draft: false
 enableComments: false
 showToc: true
 showTip: false
 ---
 
-<!-- dklassic.p@gmail.com -->
+<!-- dummy.account@gmail.com -->
 # Factsheet
 
 ## Developer

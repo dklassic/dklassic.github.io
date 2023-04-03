@@ -1,11 +1,12 @@
 ---
-title: "Autopanic Zero"
-date: 2023-04-02T19:07:26+08:00
+title: "Autopanic Zero Presskit"
 draft: false
 enableComments: false
+showToc: true
+showTip: false
 ---
 
-<!-- dklassic.p@gmail.com -->
+<!-- dummy.account@gmail.com -->
 # Factsheet
 
 ## Developer
@@ -20,11 +21,11 @@ DK Liao
 
 ## Platform
 
-[Steam](https://store.steampowered.com/app/1274830/)
+[Steam](https://store.steampowered.com/app/1423670/)
 
 ## Website
 
-[blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic)
+[blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic-zero)
 
 ## Regular Price
 
@@ -32,9 +33,18 @@ Free
 
 # Description
 
+Autopanic Zero is a minimalist twinstick shooter survival game. Designed with quick sessions in mind.
+
 # History
 
+Autopanic Zero is a reimagining of the prototype version of Autopanic, which turned out to be too much fun so it's a full game now.
+
 # Features
+
+- A variety of abilities and weapons for you to combine and dominate the fast-paced combat.
+- Carefully balanced gameplay where your shooting skills are as important as your overall strategy.
+- Minimalist visual style.
+- Tons of unlockable parts to customize your mech.
 
 # Videos
 
@@ -42,13 +52,13 @@ Free
 
 # Logo & Icon
 
-# Awards & Recognition
+![autopanic-zero-logo](/images/games/autopanic-zero/LibraryLogo_en.png)
 
-# Selected Articles
+<!-- # Selected Articles -->
 
 # Monetization Permission
 
-DK Liao allows for the contents of DK Liao to be published through video broadcasting services for any commercial or non-commercial purposes. Monetization of videos created containing assets from DK Liao is legally & explicitly allowed by DK Liao. This permission can be found in writing at [http://blog.chosenconcept.dev/presskit/autopanic#monetization-permission](http://blog.chosenconcept.dev/presskit/autopanic#monetization-permission).
+DK Liao allows for the contents of DK Liao to be published through video broadcasting services for any commercial or non-commercial purposes. Monetization of videos created containing assets from DK Liao is legally & explicitly allowed by DK Liao. This permission can be found in writing at [http://blog.chosenconcept.dev/presskit/autopanic-zero#monetization-permission](http://blog.chosenconcept.dev/presskit/autopanic-zero#monetization-permission).
 
 # Additional Links
 
@@ -59,10 +69,13 @@ for more screenshots, game logo, fact sheet [drive.google.com]().
 See the most recent screenshots and updates at [twitter.com](https://www.twitter.com/randomdevdk).
 
 ## Autopanic Website
-The official website for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic).
+The official website for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic-zero).
+
+## Autopanic Website Dev Blog
+See the more  at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tags/autopanic-zero/).
 
 ## Autopanic Steam Page
-Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/app/1274830/).
+Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/app/1423670/).
 
 <!-- ## Autopanic Soundtrack -->
 
