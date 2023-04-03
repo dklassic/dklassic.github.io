@@ -1,5 +1,5 @@
 ---
-title: "《自動混亂：零式》媒體素材"
+title: "《自動混亂：零式》媒體素材包"
 date: 2022-05-10T19:07:26+08:00
 draft: false
 enableComments: false
@@ -9,37 +9,40 @@ showTip: false
 
 <!-- dummy.account@outmail.com -->
 <!-- another.account@glook.com -->
-# Factsheet
 
-## Developer
+![autopanic-zero](/images/games/autopanic-zero/AutopanicZero_tw.png)
 
-DK Liao
+# 資料表
 
-- Solo developer based in Taipei, Taiwan
+**開發者**
 
-## Release Date
+廖得凱 DK Liao
 
-2023 TBA
+- 在台灣台北活動的單人開發者
 
-## Platform
+**上市日期**
+
+2023 年內
+
+**平台**
 
 [Steam](https://store.steampowered.com/app/1423670/)
 
-## Website
+**網站**
 
 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/games/autopanic-zero)
 
-## Regular Price
+**售價**
 
-Free
+免費
 
-# Description
+# 遊戲描述
 
 《自動混亂：零式》是一款極簡風格雙搖桿射擊生存遊戲，著重在極短遊玩時間中的刺激體驗。
 
-# History
+# 開發歷史
 
-Autopanic Zero is a reimagining of the prototype version of Autopanic, which turned out to be too much fun so it's a full game now.
+《自動混亂：零式》是對《自動混亂》原型版的重新想像，因為做得太好玩了所以決定做成完整遊戲。
 
 # 特色
 
@@ -48,36 +51,36 @@ Autopanic Zero is a reimagining of the prototype version of Autopanic, which tur
 - 極簡的風格化美術體驗
 - 大量可解鎖裝備配合你的遊戲風格調整
 
-# Videos
+# 影片
 
-# Images
+# 遊戲截圖
 
-# Logo & Icon
+# 遊戲標誌
 
-![autopanic-zero-logo](/images/games/autopanic-zero/LibraryLogo_en.png)
+![autopanic-zero-logo](/images/games/autopanic-zero/LibraryLogoBlack_tw.png)
 
-<!-- # Selected Articles -->
+<!-- # 文章選輯 -->
 
-# Monetization Permission
+# 營利許可
 
-DK Liao allows for the contents of DK Liao to be published through video broadcasting services for any commercial or non-commercial purposes. Monetization of videos created containing assets from DK Liao is legally & explicitly allowed by DK Liao. This permission can be found in writing at [http://blog.chosenconcept.dev/tw/presskit/autopanic-zero#monetization-permission](http://blog.chosenconcept.dev/tw/presskit/autopanic-zero#monetization-permission).
+廖得凱 DK Liao 允許所有廖得凱 DK Liao 製作的內容，不計營利與非營利目的均可以使用影像播送服務放送。使用具有廖得凱 DK Liao 製作的素材進行影片營利的行為屬於合法行為並且由廖得凱 DK Liao 明文允許。此許可訊息可以於此找到 [http://blog.chosenconcept.dev/tw/presskit/autopanic-zero#monetization-permission](http://blog.chosenconcept.dev/tw/presskit/autopanic-zero#monetization-permission)。
 
-# Additional Links
+# 額外連結
 
-## Google Drive download link
-for more screenshots, game logo, fact sheet [drive.google.com]().
+**Dropbox 下載連結**
+更多螢幕截圖、遊戲標誌素材與資料表 [dropbox.com]()。
 
-## Twitter Dev Blog
-See the most recent screenshots and updates at [twitter.com](https://www.twitter.com/randomdevdk).
+**Twitter 開發資訊**
+最新的遊戲截圖與內容更新 [twitter.com](https://www.twitter.com/randomdevdk)。
 
-## Autopanic Website
-The official website for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/games/autopanic-zero).
+**《自動混亂：零式》官方網站**
+《自動混亂：零式》的官方網站在 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/games/autopanic-zero)。
 
-## Autopanic Website Dev Blog
-See the more  at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/tags/autopanic-zero/).
+**《自動混亂：零式》官方網站開發資訊**
+更多資訊請見 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/tags/autopanic-zero/)。
 
-## Autopanic Steam Page
-Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/app/1423670/).
+**《自動混亂：零式》Steam 頁面**
+在這裡加入願望清單！[store.steampowered.com](https://store.steampowered.com/app/1423670/)。
 
 <!-- ## Autopanic Soundtrack -->
 
@@ -85,20 +88,22 @@ Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/
 <!-- ## Autopanic Credits
 The full credits for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic). -->
 
-# About DK Liao
+# 關於廖得凱 DK Liao
 
-DK Liao started as a translator in the industry since 2016 and decided to make a game of his own.
+廖得凱自 2016 年於遊戲業從事翻譯工作，直到有一天他決定要自己做一款遊戲。
 
-# Contact
+# 聯絡資訊
 
-## Inquiries
+**詢問**
 
+<!-- place.holder@yamsn.com -->
 dklassic@gmail.com
+<!-- quick.check@mail0002.com -->
 
-## Twitter
+**Twitter**
 
 [twitter.com/randomdevdk](https://www.twitter.com/randomdevdk)
 
-## Web
+**網站**
 
 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/games/)

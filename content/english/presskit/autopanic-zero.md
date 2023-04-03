@@ -9,27 +9,29 @@ showTip: false
 
 <!-- dummy.account@outmail.com -->
 <!-- another.account@glook.com -->
+![autopanic-zero](/images/games/autopanic-zero/AutopanicZero_en.png)
+
 # Factsheet
 
-## Developer
+**Developer**
 
 DK Liao
 
 - Solo developer based in Taipei, Taiwan
 
-## Release Date
+**Release Date**
 
 2023 TBA
 
-## Platform
+**Platform**
 
 [Steam](https://store.steampowered.com/app/1423670/)
 
-## Website
+**Website**
 
 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic-zero)
 
-## Regular Price
+**Regular Price**
 
 Free
 
@@ -64,19 +66,19 @@ DK Liao allows for the contents of DK Liao to be published through video broadca
 
 # Additional Links
 
-## Google Drive download link
-for more screenshots, game logo, fact sheet [drive.google.com]().
+**Dropbox download link**
+for more screenshots, game logo, fact sheet [dropbox.com]().
 
-## Twitter Dev Blog
+**Twitter Dev Blog**
 See the most recent screenshots and updates at [twitter.com](https://www.twitter.com/randomdevdk).
 
-## Autopanic Website
-The official website for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic-zero).
+**Autopanic Zero Website**
+The official website for Autopanic Zero can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic-zero).
 
-## Autopanic Website Dev Blog
+**Autopanic Zero Website Dev Blog**
 See the more  at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tags/autopanic-zero/).
 
-## Autopanic Steam Page
+**Autopanic Zero Steam Page**
 Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/app/1423670/).
 
 <!-- ## Autopanic Soundtrack -->
@@ -91,14 +93,16 @@ DK Liao started as a translator in the industry since 2016 and decided to make a
 
 # Contact
 
-## Inquiries
+**Inquiries**
 
+<!-- place.holder@yamsn.com -->
 dklassic@gmail.com
+<!-- quick.check@mail0002.com -->
 
-## Twitter
+**Twitter**
 
 [twitter.com/randomdevdk](https://www.twitter.com/randomdevdk)
 
-## Web
+**Web**
 
 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/)

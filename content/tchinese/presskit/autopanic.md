@@ -1,5 +1,5 @@
 ---
-title: "《自動混亂》媒體素材"
+title: "《自動混亂》媒體素材包"
 date: 2022-05-10T19:07:26+08:00
 draft: false
 enableComments: false
@@ -9,79 +9,81 @@ showTip: false
 
 <!-- dummy.account@outmail.com -->
 <!-- another.account@glook.com -->
-# Factsheet
+![autopanic-zero](/images/games/autopanic/Autopanic_tw.png)
 
-## Developer
+# 資料表
 
-DK Liao
+**開發者**
 
-- Solo developer based in Taipei, Taiwan
+廖得凱 DK Liao
 
-## Release Date
+- 在台灣台北活動的單人開發者
 
-2023 TBA
+**上市日期**
 
-## Platform
+2023 年內
+
+**平台**
 
 [Steam](https://store.steampowered.com/app/1274830/)
 
-## Website
+**網站**
 
 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/games/autopanic)
 
-## Regular Price
+**售價**
 
-Free
+免費
 
-# Description
+# 遊戲描述
 
-Autopanic is a minimalist twinstick shooter attempting to deliver a fully diegetic gameplay that acknowledges every player action. Some Rogue-like elements are added to the mix as well.
+《自動混亂》是一款嘗試使用完全敘事表現的極簡風格雙搖桿射擊遊戲，帶有部分類 Rogue 元素。
 
-# History
+# 開發歷史
 
-Autopanic started out as a small shoot 'em up in 2020, later evolved into more of a Rogue-like because scope creep must happen for every developer.
+《自動混亂》的第一款原型於 2020 年開發，當時原本要做成清版射擊遊戲，但總之後來變成了類 Rogue 要素，因為過度擴張規格顯然是所有開發者的必經之路。
 
-# Features
+# 特色
 
-- A variety of abilities and weapons for you to combine and dominate the fast-paced combat.
-- Randomized layout that will challenge your skills and knowledge.
-- Minimalist visual style.
-- A design choice that acknowledges every player action.
+- 搭配多種晶片組掌握快節奏的戰鬥
+- 持續變化的關卡將會挑戰你的技術與對敵人的熟悉度
+- 極簡的風格化美術體驗
+- 認可玩家所有行動的遊戲設計
 
-# Videos
+# 影片
 
-# Images
+# 遊戲截圖
 
-# Logo & Icon
+# 遊戲標誌
 
-![autopanic-logo](/images/games/autopanic/LibraryLogo_en.png)
+![autopanic-logo](/images/games/autopanic/LibraryLogoBlack_tw.png)
 
-# Awards & Recognition
+# 獲獎紀錄
 
-- Bahamut ACG Award 2022 - Bronze Medal
+- 2022 年巴哈姆特 ACG 創作大賽－銅賞
 
-<!-- # Selected Articles -->
+<!-- # 文章選輯 -->
 
-# Monetization Permission
+# 營利許可
 
-DK Liao allows for the contents of DK Liao to be published through video broadcasting services for any commercial or non-commercial purposes. Monetization of videos created containing assets from DK Liao is legally & explicitly allowed by DK Liao. This permission can be found in writing at [http://blog.chosenconcept.dev/tw/presskit/autopanic#monetization-permission](http://blog.chosenconcept.dev/tw/presskit/autopanic#monetization-permission).
+廖得凱 DK Liao 允許所有廖得凱 DK Liao 製作的內容，不計營利與非營利目的均可以使用影像播送服務放送。使用具有廖得凱 DK Liao 製作的素材進行影片營利的行為屬於合法行為並且由廖得凱 DK Liao 明文允許。此許可訊息可以於此找到 [http://blog.chosenconcept.dev/tw/presskit/autopanic#monetization-permission](http://blog.chosenconcept.dev/tw/presskit/autopanic#monetization-permission)。
 
-# Additional Links
+# 額外連結
 
-## Google Drive download link
-for more screenshots, game logo, fact sheet [drive.google.com]().
+**Dropbox 下載連結**
+更多螢幕截圖、遊戲標誌素材與資料表 [dropbox.com]()。
 
-## Twitter Dev Blog
-See the most recent screenshots and updates at [twitter.com](https://www.twitter.com/randomdevdk).
+**Twitter 開發資訊**
+最新的遊戲截圖與內容更新 [twitter.com](https://www.twitter.com/randomdevdk)。
 
-## Autopanic Website
-The official website for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/games/autopanic).
+**《自動混亂》官方網站**
+《自動混亂》的官方網站在 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/games/autopanic)。
 
-## Autopanic Website Dev Blog
-See the more  at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/tags/autopanic/).
+**《自動混亂》官方網站開發資訊**
+更多資訊請見 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/tags/autopanic/)。
 
-## Autopanic Steam Page
-Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/app/1274830/).
+**《自動混亂》Steam 頁面**
+在這裡加入願望清單！[store.steampowered.com](https://store.steampowered.com/app/1274830/).
 
 <!-- ## Autopanic Soundtrack -->
 
@@ -89,20 +91,22 @@ Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/
 <!-- ## Autopanic Credits
 The full credits for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic). -->
 
-# About DK Liao
+# 關於廖得凱 DK Liao
 
-DK Liao started as a translator in the industry since 2016 and decided to make a game of his own.
+廖得凱自 2016 年於遊戲業從事翻譯工作，直到有一天他決定要自己做一款遊戲。
 
-# Contact
+# 聯絡資訊
 
-## Inquiries
+**詢問**
 
+<!-- place.holder@yamsn.com -->
 dklassic@gmail.com
+<!-- quick.check@mail0002.com -->
 
-## Twitter
+**Twitter**
 
 [twitter.com/randomdevdk](https://www.twitter.com/randomdevdk)
 
-## Web
+**網站**
 
 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/games/)

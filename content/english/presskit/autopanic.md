@@ -9,27 +9,29 @@ showTip: false
 
 <!-- dummy.account@outmail.com -->
 <!-- another.account@glook.com -->
-# Factsheet
+![autopanic-zero](/images/games/autopanic/Autopanic_en.png)
 
-## Developer
+# # Factsheet
+
+**Developer**
 
 DK Liao
 
 - Solo developer based in Taipei, Taiwan
 
-## Release Date
+**Release Date**
 
 2023 TBA
 
-## Platform
+**Platform**
 
 [Steam](https://store.steampowered.com/app/1274830/)
 
-## Website
+**Website**
 
 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic)
 
-## Regular Price
+**Regular Price**
 
 Free
 
@@ -68,19 +70,19 @@ DK Liao allows for the contents of DK Liao to be published through video broadca
 
 # Additional Links
 
-## Google Drive download link
-for more screenshots, game logo, fact sheet [drive.google.com]().
+**Dropbox download link**
+for more screenshots, game logo, fact sheet [dropbox.com]().
 
-## Twitter Dev Blog
+**Twitter Dev Blog**
 See the most recent screenshots and updates at [twitter.com](https://www.twitter.com/randomdevdk).
 
-## Autopanic Website
+**Autopanic Website**
 The official website for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic).
 
-## Autopanic Website Dev Blog
+**Autopanic Website Dev Blog**
 See the more  at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tags/autopanic/).
 
-## Autopanic Steam Page
+**Autopanic Steam Page**
 Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/app/1274830/).
 
 <!-- ## Autopanic Soundtrack -->
@@ -95,14 +97,16 @@ DK Liao started as a translator in the industry since 2016 and decided to make a
 
 # Contact
 
-## Inquiries
+**Inquiries**
 
+<!-- place.holder@yamsn.com -->
 dklassic@gmail.com
+<!-- quick.check@mail0002.com -->
 
-## Twitter
+**Twitter**
 
 [twitter.com/randomdevdk](https://www.twitter.com/randomdevdk)
 
-## Web
+**Web**
 
 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/)
