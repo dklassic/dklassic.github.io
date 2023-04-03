@@ -9,7 +9,7 @@ Created: May 10, 2022
 
 *Last Updated Apri 3, 2023:* Here are answers to frequently asked questions about my second game, ***Autopanic Zero***!
 
-# Where does **Autopanic Zero** come from?
+# Where does *Autopanic Zero* come from?
 
 ***Autopanic*** is originally designed to be a shoot ‘em up when it started, most designs back then are accidentally the same (e.g. survive 30 minutes and stuffs). Here’s an [old Reddit post](https://www.reddit.com/r/Unity3D/comments/fwgt8o/day_7_in_my_twin_stick_shooter_attempt/) of its early days.
 
@@ -21,7 +21,7 @@ Hence ***Autopanic Zero*** was born.
 
 I later decided that the world don't really need yet another plain survivor style game, so I decided to borrow some hints from ***Armored Core***.
 
-# So is ***Autopanic Zero*** connected to ***Autopanic*** in any way?
+# So is *Autopanic Zero* connected to *Autopanic* in any way?
 
 Yes, indeed.
 
