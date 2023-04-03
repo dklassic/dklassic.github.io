@@ -38,9 +38,17 @@ Autopanic is a minimalist twinstick shooter attempting to deliver a fully dieget
 
 # History
 
-
+Autopanic started out as a small shoot 'em up in 2020, later evolved into more of a Rogue-like because scope creep must happen for every developer.
 
 # Features
+
+- A variety of abilities and weapons for you to combine and dominate the fast-paced combat.
+- Randomized layout that will challenge your skills and knowledge.
+- Minimalist visual style.
+- You will die.
+- Or maybe you won't?
+- Created mostly by one person.
+- Perhaps a fully 2nd person camera game.
 
 # Videos
 
@@ -48,11 +56,13 @@ Autopanic is a minimalist twinstick shooter attempting to deliver a fully dieget
 
 # Logo & Icon
 
+![autopanic-logo](/images/games/autopanic/LibraryLogo_en.png)
+
 # Awards & Recognition
 
 - Bahamut ACG Award 2022 - Bronze Medal
 
-# Selected Articles
+<!-- # Selected Articles -->
 
 # Monetization Permission
 
@@ -70,7 +80,7 @@ See the most recent screenshots and updates at [twitter.com](https://www.twitter
 The official website for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic).
 
 ## Autopanic Website Dev Blog
-See the more  at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/post/autopanic-devlog).
+See the more  at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tags/autopanic/).
 
 ## Autopanic Steam Page
 Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/app/1274830/).
