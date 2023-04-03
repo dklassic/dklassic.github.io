@@ -6,9 +6,6 @@ showToc: false
 showTip: false
 ---
 
-# markdown test
-## h2
-### h3
-[link](https://)
-![photo](https://imgur.com/jCgcQTi.jpg)
-![gif](https://imgur.com/uAa6iKr.gif)
+Hi! My name is DK Liao (廖得凱). I'm a random game developer from Taiwan.
+
+This is a small site for all of my game development rambling.
