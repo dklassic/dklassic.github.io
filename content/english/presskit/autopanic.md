@@ -45,10 +45,7 @@ Autopanic started out as a small shoot 'em up in 2020, later evolved into more o
 - A variety of abilities and weapons for you to combine and dominate the fast-paced combat.
 - Randomized layout that will challenge your skills and knowledge.
 - Minimalist visual style.
-- You will die.
-- Or maybe you won't?
-- Created mostly by one person.
-- Perhaps a fully 2nd person camera game.
+- A design choice that acknowledges every player action.
 
 # Videos
 
