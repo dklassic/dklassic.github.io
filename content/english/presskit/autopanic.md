@@ -11,7 +11,7 @@ showTip: false
 <!-- another.account@glook.com -->
 ![autopanic-zero](/images/games/autopanic/Autopanic_en.png)
 
-# # Factsheet
+# Factsheet
 
 **Developer**
 
