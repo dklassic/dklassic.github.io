@@ -48,7 +48,7 @@ Autopanic Zero is a reimagining of the prototype version of Autopanic, which tur
 - A variety of abilities and weapons for you to combine and dominate the fast-paced combat.
 - Carefully balanced gameplay where your shooting skills are as important as your overall strategy.
 - Minimalist visual style.
-- Tons of unlockable parts to customize your mech.
+- Tons of unlockable parts to customize your playstyle.
 
 # Videos
 
