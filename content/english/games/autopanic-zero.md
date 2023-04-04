@@ -15,7 +15,7 @@ showTip: false
 
 [Presskit]({{< ref "/presskit/autopanic-zero" >}})
 
-<iframe src="https://store.steampowered.com/widget/1423670/" frameborder="0" width="646" height="190"></iframe>
+<iframe src="https://store.steampowered.com/widget/1423670/" frameborder="0" width="500" height="190"></iframe>
 
 ---
 

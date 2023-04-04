@@ -63,7 +63,7 @@ showTip: false
 
 # 營利許可
 
-廖得凱 DK Liao 允許所有廖得凱 DK Liao 製作的內容，不計營利與非營利目的均可以使用影像播送服務放送。使用具有廖得凱 DK Liao 製作的素材進行影片營利的行為屬於合法行為並且由廖得凱 DK Liao 明文允許。此許可訊息可以於此找到 [http://blog.chosenconcept.dev/tw/presskit/autopanic-zero#monetization-permission](http://blog.chosenconcept.dev/tw/presskit/autopanic-zero#monetization-permission)。
+廖得凱 DK Liao 允許所有廖得凱 DK Liao 製作的內容，不計營利與非營利目的均可以使用影像播送服務放送。使用具有廖得凱 DK Liao 製作的素材進行影片營利的行為屬於合法行為並且由廖得凱 DK Liao 明文允許。此許可訊息可以於此找到 [https://blog.chosenconcept.dev/tw/presskit/autopanic-zero/#%e7%87%9f%e5%88%a9%e8%a8%b1%e5%8f%af](https://blog.chosenconcept.dev/tw/presskit/autopanic-zero/#%e7%87%9f%e5%88%a9%e8%a8%b1%e5%8f%af)。
 
 # 額外連結
 
