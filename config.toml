@@ -43,3 +43,4 @@ paginate = 10
   showToc = true
   showTip = true
   enableComments = true
+  hiddenPostSummaryInHomePage = true
