@@ -54,22 +54,28 @@ showTip: false
 # 影片
 
 # 遊戲截圖
+|![Screenshot 1](/images/games/autopanic-zero/autopaniczero_screenshot_tw_1.png)|![Screenshot 2](/images/games/autopanic-zero/autopaniczero_screenshot_tw_2.png)|
+|---|---|
+|![Screenshot 3](/images/games/autopanic-zero/autopaniczero_screenshot_tw_3.png)|![Screenshot 4](/images/games/autopanic-zero/autopaniczero_screenshot_tw_4.png)|
+|![Screenshot 5](/images/games/autopanic-zero/autopaniczero_screenshot_tw_5.png)||
 
 # 遊戲標誌
 
 ![autopanic-zero-logo](/images/games/autopanic-zero/LibraryLogoBlack_tw.png)
 
+<!-- # 獲獎紀錄 -->
+
 <!-- # 文章選輯 -->
 
 # 營利許可
 
-廖得凱 DK Liao 允許所有廖得凱 DK Liao 製作的內容，不計營利與非營利目的均可以使用影像播送服務放送。使用具有廖得凱 DK Liao 製作的素材進行影片營利的行為屬於合法行為並且由廖得凱 DK Liao 明文允許。此許可訊息可以於此找到 [https://blog.chosenconcept.dev/tw/presskit/autopanic-zero/#%e7%87%9f%e5%88%a9%e8%a8%b1%e5%8f%af](https://blog.chosenconcept.dev/tw/presskit/autopanic-zero/#%e7%87%9f%e5%88%a9%e8%a8%b1%e5%8f%af)。
+廖得凱 DK Liao 允許所有廖得凱 DK Liao 製作的內容，不計營利與非營利目的均可以使用影像播送服務放送。使用具有廖得凱 DK Liao 製作的素材進行影片營利的行為屬於合法行為並且由廖得凱 DK Liao 明文允許。此許可訊息可以於此找到 [https://blog.chosenconcept.dev/tw/presskit/autopanic-zero/#營利許可](https://blog.chosenconcept.dev/tw/presskit/autopanic-zero/#%e7%87%9f%e5%88%a9%e8%a8%b1%e5%8f%af)。
 
 # 額外連結
 
-**Dropbox 下載連結**
+<!-- **Dropbox 下載連結**
 
-更多螢幕截圖、遊戲標誌素材與資料表 [dropbox.com]()。
+更多螢幕截圖、遊戲標誌素材與資料表 [dropbox.com]()。 -->
 
 **Twitter 開發資訊**
 

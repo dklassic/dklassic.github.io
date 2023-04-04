@@ -50,13 +50,20 @@ Autopanic Zero is a reimagining of the prototype version of Autopanic, which tur
 - Minimalist visual style.
 - Tons of unlockable parts to customize your playstyle.
 
-# Videos
+<!-- # Videos -->
 
 # Images
+
+|![Screenshot 1](/images/games/autopanic-zero/autopaniczero_screenshot_en_1.png)|![Screenshot 2](/images/games/autopanic-zero/autopaniczero_screenshot_en_2.png)|
+|---|---|
+|![Screenshot 3](/images/games/autopanic-zero/autopaniczero_screenshot_en_3.png)|![Screenshot 4](/images/games/autopanic-zero/autopaniczero_screenshot_en_4.png)|
+|![Screenshot 5](/images/games/autopanic-zero/autopaniczero_screenshot_en_5.png)||
 
 # Logo & Icon
 
 ![autopanic-zero-logo](/images/games/autopanic-zero/LibraryLogoBlack_en.png)
+
+<!-- # Awards & Recognition -->
 
 <!-- # Selected Articles -->
 
@@ -66,9 +73,9 @@ DK Liao allows for the contents of DK Liao to be published through video broadca
 
 # Additional Links
 
-**Dropbox download link**
+<!-- **Dropbox download link**
 
-for more screenshots, game logo, fact sheet [dropbox.com]().
+for more screenshots, game logo, fact sheet [dropbox.com](). -->
 
 **Twitter Dev Blog**
 

@@ -2,7 +2,6 @@
 title: "Autopanic FAQ"
 draft: false
 enableComments: false
-showToc: true
 showTip: false
 ---
 

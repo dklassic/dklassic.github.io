@@ -54,6 +54,11 @@ Autopanic started out as a small shoot 'em up in 2020, later evolved into more o
 
 # Images
 
+|![Screenshot 1](/images/games/autopanic/autopanic_screenshot_1.png)|![Screenshot 2](/images/games/autopanic/autopanic_screenshot_2.png)|
+|---|---|
+|![Screenshot 3](/images/games/autopanic/autopanic_screenshot_3.png)|![Screenshot 4](/images/games/autopanic/autopanic_screenshot_4.png)|
+|![Screenshot 5](/images/games/autopanic/autopanic_screenshot_5.png)|![Screenshot 6](/images/games/autopanic/autopanic_screenshot_6.png)|
+
 # Logo & Icon
 
 ![autopanic-logo](/images/games/autopanic/LibraryLogoBlack_en.png)
@@ -70,9 +75,9 @@ DK Liao allows for the contents of DK Liao to be published through video broadca
 
 # Additional Links
 
-**Dropbox download link**
+<!-- **Dropbox download link**
 
-for more screenshots, game logo, fact sheet [dropbox.com]().
+for more screenshots, game logo, fact sheet [dropbox.com](). -->
 
 **Twitter Dev Blog**
 
