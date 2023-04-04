@@ -71,18 +71,23 @@ showTip: false
 # 額外連結
 
 **Dropbox 下載連結**
+
 更多螢幕截圖、遊戲標誌素材與資料表 [dropbox.com]()。
 
 **Twitter 開發資訊**
+
 最新的遊戲截圖與內容更新 [twitter.com](https://www.twitter.com/randomdevdk)。
 
 **《自動混亂》官方網站**
+
 《自動混亂》的官方網站在 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/games/autopanic)。
 
 **《自動混亂》官方網站開發資訊**
+
 更多資訊請見 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/tags/autopanic/)。
 
 **《自動混亂》Steam 頁面**
+
 在這裡加入願望清單！[store.steampowered.com](https://store.steampowered.com/app/1274830/).
 
 <!-- ## Autopanic Soundtrack -->

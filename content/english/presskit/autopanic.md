@@ -71,18 +71,23 @@ DK Liao allows for the contents of DK Liao to be published through video broadca
 # Additional Links
 
 **Dropbox download link**
+
 for more screenshots, game logo, fact sheet [dropbox.com]().
 
 **Twitter Dev Blog**
+
 See the most recent screenshots and updates at [twitter.com](https://www.twitter.com/randomdevdk).
 
 **Autopanic Website**
+
 The official website for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic).
 
 **Autopanic Website Dev Blog**
+
 See the more  at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tags/autopanic/).
 
 **Autopanic Steam Page**
+
 Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/app/1274830/).
 
 <!-- ## Autopanic Soundtrack -->
