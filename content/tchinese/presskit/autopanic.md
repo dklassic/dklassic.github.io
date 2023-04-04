@@ -93,7 +93,7 @@ showTip: false
 
 **《自動混亂》Steam 頁面**
 
-在這裡加入願望清單！[store.steampowered.com](https://store.steampowered.com/app/1274830/).
+在這裡加入願望清單！[store.steampowered.com](https://store.steampowered.com/app/1274830/)。
 
 <!-- ## Autopanic Soundtrack -->
 
