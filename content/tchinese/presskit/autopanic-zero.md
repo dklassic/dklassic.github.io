@@ -105,7 +105,7 @@ The full credits for Autopanic can be found at [blog.chosenconcept.dev](https://
 
 # 聯絡資訊
 
-**詢問**
+**洽詢**
 
 <!-- place.holder@yamsn.com -->
 dklassic@gmail.com
