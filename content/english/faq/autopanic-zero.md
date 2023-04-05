@@ -11,9 +11,9 @@ Created: May 10, 2022
 
 # Where does *Autopanic Zero* come from?
 
-***Autopanic*** is originally designed to be a shoot ‘em up when it started, most designs back then are accidentally the same (e.g. survive 30 minutes and stuffs). Here’s an [old Reddit post](https://www.reddit.com/r/Unity3D/comments/fwgt8o/day_7_in_my_twin_stick_shooter_attempt/) of its early days.
+***Autopanic*** is originally designed to be a shoot ‘em up when it started. Here’s an [old Reddit post](https://www.reddit.com/r/Unity3D/comments/fwgt8o/day_7_in_my_twin_stick_shooter_attempt/) of its early days.
 
-Anyways after wrapping up some core pillars of ***Autopanic*** in May 2022, I decided to take a look at this phenomenal game called ***Vampire Survivor*** that stormed the internet. And oh boy, isn’t it fun!
+Anyways after wrapping up most core pillars of ***Autopanic*** in May 2022, I decided to take a look at this phenomenal game called ***Vampire Survivor*** that stormed the internet. And oh boy, isn’t it fun!
 
 So now that my game is a much overkill version of that original vision, I thought to myself that it’ll be interesting to revisit the original idea with the tools I have. Following the popularity of games like ***20 Minutes Till Dawn***, I figure some people might appreciate something like this as it is.
 
