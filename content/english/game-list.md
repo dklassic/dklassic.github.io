@@ -4,6 +4,7 @@ draft: false
 enableComments: false
 showToc: false
 showTip: false
+zoomImage: false
 ---
 
 # Autopanic

@@ -44,3 +44,4 @@ paginate = 10
   showTip = true
   enableComments = true
   hiddenPostSummaryInHomePage = true
+  zoomImage = true

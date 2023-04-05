@@ -87,7 +87,7 @@ The official website for Autopanic Zero can be found at [blog.chosenconcept.dev]
 
 **Autopanic Zero Website Dev Blog**
 
-See the more  at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tags/autopanic-zero/).
+See the more detailed article at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tags/autopanic-zero/).
 
 **Autopanic Zero Steam Page**
 

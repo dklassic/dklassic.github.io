@@ -89,7 +89,7 @@ The official website for Autopanic can be found at [blog.chosenconcept.dev](http
 
 **Autopanic Website Dev Blog**
 
-See the more  at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tags/autopanic/).
+See the more detailed article at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tags/autopanic/).
 
 **Autopanic Steam Page**
 
