@@ -5,15 +5,17 @@ draft: false
 enableComments: false
 showToc: false
 showTip: false
+fullSizeImage: "/images/games/autopanic/UltraWideStage3.png"
 ---
 
-![Tall](/images/games/autopanic/Autopanic_Tall_en.png)
 
 [Read the full FAQ]({{< ref "/faq/autopanic" >}})
 
 <!-- [If you have technical issue, please check out Tech Fixes]({{< ref "/tech-fixes/autopanic" >}}) -->
 
 [Presskit]({{< ref "/presskit/autopanic" >}})
+
+![Tall](/images/games/autopanic/Autopanic_Tall_en.png)
 
 <iframe src="https://store.steampowered.com/widget/1274830/" frameborder="0" width="500" height="190"></iframe>
 

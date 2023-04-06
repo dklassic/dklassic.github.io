@@ -5,15 +5,16 @@ draft: false
 enableComments: false
 showToc: false
 showTip: false
+fullSizeImage: "/images/games/autopanic/UltraWideStage3.png"
 ---
-
-![Tall](/images/games/autopanic/Autopanic_Tall_tw.png)
 
 [閱讀完整常見問題列表]({{< ref "/faq/autopanic" >}})
 
 <!-- [如果有技術問題請參考技術支援]({{< ref "/tech-fixes/autopanic" >}}) -->
 
 [媒體素材包]({{< ref "/presskit/autopanic" >}})
+
+![Tall](/images/games/autopanic/Autopanic_Tall_tw.png)
 
 <iframe src="https://store.steampowered.com/widget/1274830/" frameborder="0" width="500" height="190"></iframe>
 

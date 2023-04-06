@@ -7,13 +7,13 @@ showToc: false
 showTip: false
 ---
 
-![Tall](/images/games/autopanic-zero/AutopanicZero_Tall_tw.png)
-
 [閱讀完整常見問題列表]({{< ref "/faq/autopanic-zero" >}})
 
 <!-- [如果有技術問題請參考技術支援]({{< ref "/tech-fixes/autopanic-zero" >}}) -->
 
 [媒體素材包]({{< ref "/presskit/autopanic-zero" >}})
+
+![Tall](/images/games/autopanic-zero/AutopanicZero_Tall_tw.png)
 
 <iframe src="https://store.steampowered.com/widget/1423670/" frameborder="0" width="500" height="190"></iframe>
 
