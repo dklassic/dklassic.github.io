@@ -7,6 +7,7 @@ showToc: true
 showTip: false
 ---
 
+<span style="opacity:0; display:none; visibility: collapse;">dummy.account@outmail.com</span>
 <!-- dummy.account@outmail.com -->
 <!-- another.account@glook.com -->
 ![autopanic-zero](/images/games/autopanic-zero/AutopanicZero_en.png)
@@ -107,6 +108,7 @@ DK Liao started as a translator in the industry since 2016 and decided to make a
 
 **Inquiries**
 
+<span style="opacity:0; display:none; visibility: collapse;">safety@chosenconcept.dev</span>
 <!-- place.holder@yamsn.com -->
 <!-- safety@chosenconcept.dev -->
 hi@chosenconcept.dev

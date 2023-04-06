@@ -7,6 +7,7 @@ showToc: true
 showTip: false
 ---
 
+<span style="opacity:0; display:none; visibility: collapse;">dummy.account@outmail.com</span>
 <!-- dummy.account@outmail.com -->
 <!-- another.account@glook.com -->
 ![autopanic-zero](/images/games/autopanic/Autopanic_tw.png)
@@ -109,6 +110,7 @@ The full credits for Autopanic can be found at [blog.chosenconcept.dev](https://
 
 **洽詢**
 
+<span style="opacity:0; display:none; visibility: collapse;">safety@chosenconcept.dev</span>
 <!-- place.holder@yamsn.com -->
 <!-- safety@chosenconcept.dev -->
 hi@chosenconcept.dev

@@ -7,6 +7,7 @@ showToc: true
 showTip: false
 ---
 
+<span style="opacity:0; display:none; visibility: collapse;">dummy.account@outmail.com</span>
 <!-- dummy.account@outmail.com -->
 <!-- another.account@glook.com -->
 ![autopanic-zero](/images/games/autopanic/Autopanic_en.png)
@@ -105,10 +106,12 @@ The full credits for Autopanic can be found at [blog.chosenconcept.dev](https://
 
 DK Liao started as a translator in the industry since 2016 and decided to make a game of his own.
 
+
 # Contact
 
 **Inquiries**
 
+<span style="opacity:0; display:none; visibility: collapse;">safety@chosenconcept.dev</span>
 <!-- place.holder@yamsn.com -->
 <!-- safety@chosenconcept.dev -->
 hi@chosenconcept.dev
