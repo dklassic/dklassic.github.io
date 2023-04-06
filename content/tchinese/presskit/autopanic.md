@@ -110,7 +110,8 @@ The full credits for Autopanic can be found at [blog.chosenconcept.dev](https://
 **洽詢**
 
 <!-- place.holder@yamsn.com -->
-dklassic@gmail.com
+<!-- safety@chosenconcept.dev -->
+hi@chosenconcept.dev
 <!-- quick.check@mail0002.com -->
 
 **Twitter**

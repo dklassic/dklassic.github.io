@@ -110,7 +110,8 @@ DK Liao started as a translator in the industry since 2016 and decided to make a
 **Inquiries**
 
 <!-- place.holder@yamsn.com -->
-dklassic@gmail.com
+<!-- safety@chosenconcept.dev -->
+hi@chosenconcept.dev
 <!-- quick.check@mail0002.com -->
 
 **Twitter**
