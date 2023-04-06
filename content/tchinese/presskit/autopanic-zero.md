@@ -51,7 +51,7 @@ showTip: false
 - 極簡的風格化美術體驗
 - 大量可解鎖裝備配合你的遊戲風格調整
 
-# 影片
+<!-- # 影片 -->
 
 # 遊戲截圖
 |![Screenshot 1](/images/games/autopanic-zero/autopaniczero_screenshot_tw_1.png)|![Screenshot 2](/images/games/autopanic-zero/autopaniczero_screenshot_tw_2.png)|

@@ -51,7 +51,7 @@ Autopanic started out as a small shoot 'em up in 2020, later evolved into more o
 - Minimalist visual style.
 - A design choice that acknowledges every player action.
 
-# Videos
+<!-- # Videos -->
 
 # Images
 
