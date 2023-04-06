@@ -70,7 +70,7 @@ Then maybe one day I’ll make another game. -->
 
 I’m DK Liao, a developer from Taiwan!
 
-I studied Chemical Engineering and Information Management. I’m extremely interested in Operation Research and Theory of Computation. And I’ve worked as video editor and translator in Ubisoft’s local branch for around six years.
+I studied Chemical Engineering and Information Management. I’m extremely interested in Operation Research and Theory of Computation. And I’ve worked as video editor and translator at Ubisoft’s local branch for around six years.
 
 I figure with all the things I’ve learnt, game development is the only choice to make them all shine! So here I am!
 
