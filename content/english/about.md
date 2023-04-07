@@ -17,7 +17,7 @@ Currently developing two games at once:
     - 2023 TBA
 - [Autopanic Zero](https://store.steampowered.com/app/1423670/_/), a minimalist twinstick shooter survival game 
     - Inspired by Vampire Survivor and Armored Core
-    - Demo available soon at June Steam Next Fest
+    - Demo available soon at Steam Next Fest June 2023
     - 2023 TBA
 
 You can also follow me on 
