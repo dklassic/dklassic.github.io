@@ -165,7 +165,6 @@ graph TD;
     追蹤社群帳號-->Discord伺服器?;
     Steam頁面-->Discord伺服器?;
     Steam頁面-->官方網站;
-    Steam頁面-->Steam討論區;
     官方網站-->Discord伺服器?;
     官方網站-->Steam頁面;
     官方網站-->官網常見問題;
