@@ -152,9 +152,9 @@ showTip: false
 
 如果有什麼事情導致你的存檔進度遺失，或者是存檔本身消失，還是有機會拿回你的紀錄。
 
-如果你的存檔消失或者可能損毀而沒有辦法正確載入遊戲，請示著重新安裝遊戲。如果依然無效的化，請參照以下步驟：
+如果你的存檔消失或者可能損毀而沒有辦法正確載入遊戲，請示著重新安裝遊戲。如果依然無效的話，請參照以下步驟：
 
-- 在 **Windows** 上，前往「\Documents\Saved Games\Autopanic Zero」
+- 在 **Windows** 上，前往「\文件\Saved Games\Autopanic Zero」
     1. 將「save.dat」重新命名為「save.dat.old」備用
     2. 根據**修改日期**排序，並且找到最新的備份存檔
         - 例如會叫做：「save.dat.bak1」、「save.dat.bak2」
@@ -174,6 +174,6 @@ showTip: false
 2. 你的 Player.log，位置參考以下
 
 Windows：
-`Users\[Username]\AppData\LocalLow\ChosenConcept\Autopanic Zero\Player.log`
+`使用者\[Username]\AppData\LocalLow\ChosenConcept\Autopanic Zero\Player.log`
 
 感謝你的閱讀。希望這篇文章能幫助你快點找到解決辦法。
