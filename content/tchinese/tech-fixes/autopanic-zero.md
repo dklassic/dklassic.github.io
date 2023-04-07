@@ -1,5 +1,5 @@
 ---
-title: "《自動混亂：零式》技術支援"
+title: "《自動混亂：零式》技術問題指引"
 date: 2022-05-10T19:07:26+08:00
 draft: false
 enableComments: false
@@ -166,7 +166,7 @@ showTip: false
 
 # 如果全都沒幫助
 
-如果在這裡沒有找到任何解決辦法，請在 Steam 的**技術支援**討論區或者 Discord 的 **#autopaniczero-tech-support** 頻道請求協助。
+如果在這裡沒有找到任何解決辦法，請在 Steam 的**技術支援**討論區或者 Discord 的 **#自動混亂-技術支援** 頻道請求協助。
 同時也請提供以下檔案：
 
 1. Windows 使用者，請提供你的 [DxDiag](https://support.microsoft.com/zh-tw/windows/%E9%96%8B%E5%95%9F%E4%B8%A6%E5%9F%B7%E8%A1%8C-dxdiag-exe-dad7792c-2ad5-f6cd-5a37-bf92228dfd85)
