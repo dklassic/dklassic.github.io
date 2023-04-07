@@ -6,7 +6,7 @@ defaultContentLanguage = 'en'
 hasCJKLanguage = true
 paginate = 10
 [permalinks]
-  posts = '/posts/:title/'
+  posts = '/posts/:year/:month/:filename/'
 [markup]
   [markup.highlight]
     guessSyntax = true
