@@ -32,7 +32,7 @@ tags: ["雜記"]
 - https://youtu.be/JFaOYYSxSEA - Classic Game Postmortem - Another World - 一個關於經典遊戲 Another World 的設計完整分析。
 - https://youtu.be/0xVYVP0hxME - Weaving 13 Prototypes into 1 Game: Lessons from Edith Finch - What Remains of Edith Finch - 詳盡講述遊戲原型轉為實際遊戲的過程，開發期間基本上就是分開做了 13 個小遊戲原型然後最後塞成一個遊戲作品。
 - https://youtu.be/QyMsF31NdNc - Breaking Conventions with The Legend of Zelda: Breath of the Wild - The Legend of Zelda Breath of the Wild - 詳盡說明曠野之息全方面設計的演講，真的很詳盡。
-- https://youtu.be/aXTOUnzNo64 - Lessons Learned Making Gunpoint Quickly Without Going Mad - Heat Signature, Gunpoint - 講述一系列確保專案開發不會過度擴張的演講
+- https://youtu.be/aXTOUnzNo64 - Lessons Learned Making Gunpoint Quickly Without Going Mad - Heat Signature, Gunpoint - 講述一系列確保專案開發不會過度擴張的演講。
 - https://youtu.be/r4-O_7wSyAQ - Dealing with Scope Change in Heat Signature and Gunpoint - Heat Signature, Gunpoint - 承上，講述為什麼 Heat Signature 的設計最後過度擴張。
 - https://youtu.be/tmuy9fyNUjY - Designing Path of Exile to Be Played Forever - Path of Exile - 完整講述這款遊戲 2019 年以前的所有發展過程，包含各個大型更新的內容設計、玩家回流狀況，以極怎樣低成本製作多元場景。
 - https://youtu.be/LxWq65CZBU8 - Marvel's Spider-Man AI Postmortem - Marvel's Spider-Man - 很扎實的 AI 戰鬥行為演講，扎實到已經多太多跟 AI 無關的內容，可以說是完全講明這部作品中戰鬥的所有要素是怎麼設計的了 XD 所以歸類在全面性而不是遊戲 AI。
