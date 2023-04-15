@@ -315,7 +315,6 @@ tags: ["雜記"]
 
 # 雜項
 
-- https://youtu.be/f786ak3GKQo - The Portal Locomotion of Budget Cuts - Budget Cuts - 詳盡講述怎樣應對玩家做出意料之外的行為來設計一個傳送門的機制。
 - https://youtu.be/C7307qRmlMI - 50 Game Camera Mistakes - Journey - 一個非常詳盡的鏡頭問題與解方演講，最大的體悟是太多遊戲都自然而然使用第三人稱跟隨鏡頭設計，但實質上並沒有意義反而增加很多困難。
 - https://youtu.be/4BuvKotqpWo - Efficient Texture Streaming in Titanfall 2 - Titanfall 2 - 貼圖串流技術說明，非常技術導向的演講，無法摘要 XD 但現在的硬體速度來說可能有點過時了。
 - https://youtu.be/-VZTudg6ifg - Design vs. Story: How Uncharted: The Lost Legacy Addressed the Elephant in the Room - Uncharted: The Lost Legacy - 主要討論是他們為什麼決定要建構大象場面，以及他們如何持續修改場景設計合理化這個設計的具體過程。
