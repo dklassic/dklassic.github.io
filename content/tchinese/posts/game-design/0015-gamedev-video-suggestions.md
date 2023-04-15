@@ -276,6 +276,7 @@ tags: ["雜記"]
 - https://youtu.be/m5KJSAj4afg - Breathing Life into Greek Myth: The Dialogue of 'Hades' - Hades - 詳盡說明整個專案是怎樣管理配音製程，也就是角色印象定型、配音員選拔、編劇結構、具體錄音技巧等，超級無敵扎實的演講。
 - https://youtu.be/x6Tz8AFd9po - Vehicle Recordings for Modern Games - NA - 一個詳盡說明載具音效製程能怎麼進行、要注意什麼的演講。
 - https://youtu.be/mA4nZQA2wrs - 'Unpacking': The Fun Behind the Foley - Unpacking - 詳盡講述這款作品中超大量音效的錄製流程，並且提供一些有趣的觀察，像是物品碰撞產生的聲音會以材質比較柔軟的一方為主。
+- https://gdcvault.com/play/1029369/The-TUNIC-Audio - The 'TUNIC' Audio Talk - TUNIC - 非常詳盡講述這款遊戲中的混音機制設計，使用的 Middleware 是 FMOD。除了講述如何具體混音配置、隨機音效配置、音效製作手段以外，也講述了配合遊戲設計所做的許多特殊設計。
 
 # 工具開發
 
