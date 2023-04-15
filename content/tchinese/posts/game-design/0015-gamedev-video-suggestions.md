@@ -15,7 +15,7 @@ tags: ["雜記"]
 
 如果有人考慮要將這個清單另外存取下來的話，可以找這篇文章的 [md 原始檔](https://raw.githubusercontent.com/dklassic/dklassic.github.io/master/content/tchinese/posts/game-design/0015-gamedev-video-suggestions.md)應該會比較方便！
 
-也記得正常狀況下這不是要人一口氣吞完的內容，看清楚目次，找自己有興趣的分類再往下著手才對 XD
+也記得正常狀況下這不是要人一口氣吞完的內容，看清楚目次，找自己有興趣的分類再往下著手才對 XD 也要注意，這些影片的內容都要記得只是**參考用**，每個工作室跟遊戲作品的開發環境差太多，直接硬套用可能會反而帶來壞處。
 
 **那就開始囉！**
 
@@ -33,7 +33,7 @@ tags: ["雜記"]
 - https://youtu.be/0xVYVP0hxME - Weaving 13 Prototypes into 1 Game: Lessons from Edith Finch - What Remains of Edith Finch - 詳盡講述遊戲原型轉為實際遊戲的過程，開發期間基本上就是分開做了 13 個小遊戲原型然後最後塞成一個遊戲作品。
 - https://youtu.be/QyMsF31NdNc - Breaking Conventions with The Legend of Zelda: Breath of the Wild - The Legend of Zelda Breath of the Wild - 詳盡說明曠野之息全方面設計的演講，真的很詳盡。
 - https://youtu.be/aXTOUnzNo64 - Lessons Learned Making Gunpoint Quickly Without Going Mad - Heat Signature, Gunpoint - 講述一系列確保專案開發不會過度擴張的演講。
-- https://youtu.be/r4-O_7wSyAQ - Dealing with Scope Change in Heat Signature and Gunpoint - Heat Signature, Gunpoint - 承上，講述為什麼 Heat Signature 的設計最後過度擴張。
+- https://youtu.be/r4-O_7wSyAQ - Dealing with Scope Change in Heat Signature and Gunpoint - Heat Signature, Gunpoint - 承上，講述為什麼 Heat Signature 的設計最後過度擴張，雖然好像很好笑但兩個演講的背景不太一樣，依然可能個別適用。
 - https://youtu.be/tmuy9fyNUjY - Designing Path of Exile to Be Played Forever - Path of Exile - 完整講述這款遊戲 2019 年以前的所有發展過程，包含各個大型更新的內容設計、玩家回流狀況，以極怎樣低成本製作多元場景。
 - https://youtu.be/LxWq65CZBU8 - Marvel's Spider-Man AI Postmortem - Marvel's Spider-Man - 很扎實的 AI 戰鬥行為演講，扎實到已經多太多跟 AI 無關的內容，可以說是完全講明這部作品中戰鬥的所有要素是怎麼設計的了 XD 所以歸類在全面性而不是遊戲 AI。
 - https://youtu.be/PwBDtp7R6aM - Reliving the Horror: Taking Resident Evil 7 Forward by Looking Back - Resident Evil 7 - 講述這款遊戲整個翻新系列的專案過程，如何找回系列初衷，如何從 Unity 原型製作到最後使用 RE Engine 進行，還有很多其他有趣的內容 XD
@@ -128,7 +128,7 @@ tags: ["雜記"]
 - https://youtu.be/LNidsMesxSE - Animation Bootcamp: An Indie Approach to Procedural Animation - Overgrowth - 一個以少到只有兩個 Keyframe 等級也可以靠各種形式的 Damping 就做出非常具備物理性的高品質動畫手段。導致我成為程序性動畫信徒的神片。
 - https://youtu.be/sVntwsrjNe4 - The Rain World Animation Process - Rain World - 完整說明 Rain World 中程序性動畫實作的演講，最大的體悟是這樣的設計可以確保 AI 行為與實際動畫的完全一致，不用受限於傳統動畫。
 - https://youtu.be/Ox2H3kUQByo - Unsynced: The Last of Us Melee System - The Last of Us - 原作的近戰動畫相關演講，基本上在講述就算動畫銜接性低，或者物理上空間不對，只要讓玩起來好就行的設計。
-- https://youtu.be/BghECmeLda0 - Analysing the AI of The Last of Us Part II - The Last of Us Part 2 - 續作的近戰動畫相關演講，可惜 CJCAT 的演講原檔沒公開，但這篇 AI and Games 的介紹滿詳盡的，也與上一篇有點承襲關係。
+- https://youtu.be/BghECmeLda0 - Analysing the AI of The Last of Us Part II - The Last of Us Part 2 - 續作的近戰動畫相關演講，可惜 CJCAT 的演講原檔沒公開，但這篇 AI and Games 的介紹滿詳盡的，也與上一篇有點承襲關係。比較有趣的點可能是前部演講提到他們會刻意降低銜接的順暢度來加強動作的威力感，但是第二部作品就改走完全銜接的 Motion Matching 表現了，這個特徵似乎沒被往下沿用。
 - https://youtu.be/BYyv4KTegJI - Inertialization: High-Performance Animation Transitions in Gears of War - Gears of War 4 - 一個基於動作慣性讓角色持續動作的方式，目的是為了不要同時載入兩段動畫，對記憶體耗費太大，但也因此產生更加自然的切換動畫。
 - https://youtu.be/zEYITZUHpo4 - 2019 Animation Tricks of the Trade - NA - 大大雜燴超實用動畫設計知識。
 - https://youtu.be/o1tti636Kag - Animation Bootcamp: 2018 Tricks of the Trade - NA - 大雜燴超實用動畫設計知識。
