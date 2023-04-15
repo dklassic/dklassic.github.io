@@ -19,6 +19,23 @@ tags: ["雜記"]
 
 **那就開始囉！**
 
+# 全面性
+
+通常是 Post Mortem 類的分析，會一口氣囊括遊戲的各方要素，但每個演講的覆蓋範圍都不太一樣。
+
+- https://youtu.be/c2YRVWZupwo - Integrating Narrative into Game Design: A Portal Post-Mortem - Portal - 講述在團隊極小的情況下 Portal 是怎樣結合遊戲性跟敘事產生出這款作品，幾乎可以說是所有遊戲設計都是為了限制而產生的。
+- https://youtu.be/P4Um97AUqp4 - 'FTL: Faster Than Light' Postmortem: Designing Without a Pitch - FTL Faster Than Light - 詳盡說明了整個 FTL 開發過程的演講，有設計，有募資，有社群互動的討論。
+- https://youtu.be/s_I07Iq_2XM - Into the Breach Design Postmortem - Into the Breach - 大致上整體分析了開發過程的決策，裡面有很多簡化遊戲系統的參考。
+- https://youtu.be/7rqfbvnO_H0 - Slay the Spire: Metrics Driven Design and Balance - Slay the Spire - 詳細地說明從搶先體驗到實際上市期間的開發過程與遊戲平衡拿捏方式。
+- https://youtu.be/7R-x9NSBS2Y - The Design of Subnautica - Subnautica - 完整講述整個 Subnautica 的遊戲結構以及為什麼會發展出這樣的設計（甚至包含了意料之外的設計）。
+- https://youtu.be/JFaOYYSxSEA - Classic Game Postmortem - Another World - 一個關於經典遊戲 Another World 的設計完整分析。
+- https://youtu.be/0xVYVP0hxME - Weaving 13 Prototypes into 1 Game: Lessons from Edith Finch - What Remains of Edith Finch - 詳盡講述遊戲原型轉為實際遊戲的過程，開發期間基本上就是分開做了 13 個小遊戲原型然後最後塞成一個遊戲作品。
+- https://youtu.be/QyMsF31NdNc - Breaking Conventions with The Legend of Zelda: Breath of the Wild - The Legend of Zelda Breath of the Wild - 詳盡說明曠野之息全方面設計的演講，真的很詳盡。
+- https://youtu.be/r4-O_7wSyAQ - Dealing with Scope Change in Heat Signature and Gunpoint - Heat Signature, Gunpoint - 詳細說明 Heat Signature 的設計（過度擴張）理念。
+- https://youtu.be/tmuy9fyNUjY - Designing Path of Exile to Be Played Forever - Path of Exile - 完整講述這款遊戲 2019 年以前的所有發展過程，包含各個大型更新的內容設計、玩家回流狀況，以極怎樣低成本製作多元場景。
+- https://youtu.be/LxWq65CZBU8 - Marvel's Spider-Man AI Postmortem - Marvel's Spider-Man - 很扎實的 AI 戰鬥行為演講，扎實到已經多太多跟 AI 無關的內容，可以說是完全講明這部作品中戰鬥的所有要素是怎麼設計的了 XD 所以歸類在全面性而不是遊戲 AI。
+- https://youtu.be/PwBDtp7R6aM - Reliving the Horror: Taking Resident Evil 7 Forward by Looking Back - Resident Evil 7 - 講述這款遊戲整個翻新系列的專案過程，如何找回系列初衷，如何從 Unity 原型製作到最後使用 RE Engine 進行，還有很多其他有趣的內容 XD
+
 # 美術製程
 
 - https://youtu.be/DBqa7Um28m8 - Building a Living World from Ancient Ruins in Assassin's Creed Odyssey - Assassin's Creed Odyssey - 完整講述整個有點暴力的世界製作流程 XD
@@ -27,6 +44,9 @@ tags: ["雜記"]
 - https://youtu.be/z-5djm1pRpU - The GDC 2015 Live 2D Animation Demo - Skullgirls - 一個現場展示 Skullgirls 動畫繪製過程的影片。
 - https://youtu.be/bEIX-EQNZuQ - Cinematic Environment Production for Uncharted 4 - Uncharted 4 - 一個詳細展示多個遊戲中過場動畫的設計過程的演講。
 - https://youtu.be/DFM5zbekZ7c - Procedural Generation of Cinematic Dialogues in Assassin's Creed Odyssey - Assassin's Creed Odyssey - 一個關於遊戲內容爆量的 AC Odyssey 使用怎樣的流程程序性生成對話場面的演講。
+- https://youtu.be/-NEznB-Lrlg - Low Cost Facial Scanning Using Photogrammetry in State of Decay 2 - State of Decay 2 - 詳盡的關於該工作室怎樣使用照片掃描建模來製作模型的過程。
+- https://youtu.be/ARBNHvxiwiU - God of War: Breathing New Life into a Hardened Spartan - God of War (2018) - 講述過場動畫的製作流程，能以動作捕捉、真人拍片演出的形式跟總監取得初步的許可，再接著往下實際製作。由於鏡頭一刀未剪式的設計，比較像是在設計舞台劇而不是電影。
+_ https://youtu.be/Dzx1r1z6NqY - The Art of Afterparty: The Devil's in the Details - Afterparty - 完整講述這款遊戲的場景美術製程，沒有什麼特別之處但很有參考的實用性。
 
 # 視覺設計
 
@@ -49,6 +69,9 @@ tags: ["雜記"]
 - https://youtu.be/CkHGuHd9BgU - Designing Unforgettable Titanfall Single Player Levels with Action Blocks - Titanfall 2 - 完成遊戲機制之後，先設計一堆讓人感到有趣的「遊戲片段」，再將這些遊戲片段轉化成具體遊戲內容的開發過程。
 - https://youtu.be/hc8_W2PERZE - Level Design in Hitman: Guiding Players in a Non-Linear Sandbox - Hitman (2016) - 一個以 Hitman 第一季內容（教學跟巴黎關）為例，說明怎樣教導玩家遊玩這款沙盒遊戲。
 - https://youtu.be/Bix1nLgneR4 - Building New York in Marvel's Spider-Man: It's Still Just Level Design - Marvel's Spider-Man - 詳細解釋這款遊戲中如何進行關卡設計流程，也舉了前作 Sunset Overdrive 的流程進行對比。
+- https://youtu.be/4RlpMhBKNr0 - Level Design Workshop: Designing Celeste - Celeste - 講述這款遊戲的關卡設計邏輯，維持玩家大部分情況下有多種選擇可以通過關卡，並且除了控制安全區域以外，也可以有多種不同形式的安全區域搭配使用來改變關卡的動態。
+- https://youtu.be/GlvGeiw3TDQ - Rewarding Exploration with Collectibles and Gatherables - NA - 分析講述配置可蒐集物品的方針。
+![weight](/images/posts/game-design/0015/5.png)
 
 # 動畫
 
@@ -65,9 +88,9 @@ tags: ["雜記"]
 - https://youtu.be/uikbLyi-cug - Parkour: How to Improve Freedom of Movement in First-Person Games in 20 Simple Steps - Dying Light - 二十個小手段來處理玩家跑酷問題，裡面有解釋了特定設計問題上為什麼採用特定解決辦法的思考流程。非常實用導向，所以解決辦法有很多單純視角差的暴力手段。例如說裡面提到了動態暈眩問題，而最後的處理方式就是盡量讓鏡頭移動的狀況滑順。
 - https://youtu.be/o-QLSjSSyVk - Character Control with Neural Networks and Machine Learning - NA - 一個使用神經網路驅使狀態機，不再需要設定一堆聖誕樹的做法，反之要在標記資料上下功夫。
 - https://youtu.be/7S-_vuoKgR4 - Physics Animation in Uncharted 4: A Thief's End - Uncharted 4 - 整體重要要素是關於將部分的肢體做「Ragdoll」的設計，讓肢體可以適時地受到物理拉扯、環境影響而產生晃動、變形，看起來更有真實性。
-- https://youtu.be/er4SgnjDYMI - Motion Capture Performance: An Actor's Approach - NA - 一個關於動作捕捉的雜談，非常詳盡描述動作捕捉演出者能怎樣幫助動畫師做出高品質的動畫。
 - https://youtu.be/KSTn3ePDt50 - Motion Matching, The Future of Games Animation... Today - For Honor - 明確講述怎樣實作 Motion Matching 的演講。
 - https://youtu.be/XjMKbElVNmg - Freeform Animation Rigging: Evolving the Animation Pipeline - NA - 一個 Unity 講述一個不需要有骨架專家的情況下就可以在不破壞骨架系統的情況下更方便調整動畫的工具。
+- https://youtu.be/er4SgnjDYMI - Motion Capture Performance: An Actor's Approach - NA - 一個關於動作捕捉的雜談，非常詳盡描述動作捕捉演出者能怎樣幫助動畫師做出高品質的動畫。
 - https://youtu.be/6TB62YKHwRQ - Animating Dauntless: Slaying AAA Animation on the Indie Scale - Dauntless - 提到一個小團隊怎樣用人類動作捕捉跟程序性動畫來實現高品質動畫的方式，其中一個特點是用人類來做動物的 Mocap 時，不要想說要類比骨骼，而是要想說類比體重分布的轉換。
 ![weight](/images/posts/game-design/0015/2.png)
 
@@ -93,7 +116,7 @@ tags: ["雜記"]
 - https://youtu.be/vid5yZRKzs0 - Why Dark Souls Is The 'Ikea' Of Games - NA - 一個很有趣的譬喻 XD
 - https://youtu.be/kBSB2X4Sbak - The Freedom Fallacy: Understanding Player Autonomy in Game Design - NA - 主要提到避免讓玩家感到困擾（有想做的事情卻做不到）的遊戲設計，並且對於許多遊戲應對玩家自由度的方式進行分析。
 - https://youtu.be/CWi5gjxdh4o - Devil May Cry 5: Creating a Standout Action Game - Devil May Cry 5 - 提到了幾個比較廣泛的劇情場面，對照到遊戲內的特定劇情解釋影響力的來源，然後有非常多小項目說明如何讓玩家感覺到「有趣」。
-- https://youtu.be/aIb-Lt7WX_s - Reinventing God of War - God of War - 提到了怎樣將遊戲機制以及遊戲故事融合為一的設計流程。
+- https://youtu.be/aIb-Lt7WX_s - Reinventing God of War - God of War (2018) - 提到了怎樣將遊戲機制以及遊戲故事融合為一的設計流程。
 - https://youtu.be/nJParAVA1TM - Why Make Games? Lessons from Frostpunk and This War Of Mine - Frostpunk, This War of Mine - 這兩款遊戲都共同呈現了嚴肅的主題、精省的呈現手段等面貌，在這部影片裡面個別從遊戲原型討論到最後的樣貌，以及他們為什麼選擇這樣的主題。還有 This War of Mine 的所有人物圖像是工作室成員與大樓警衛的照片。
 - https://youtu.be/D2ChyzAIzS0 - Theme Oriented Design: The Case of Phantom Doctrine - Phantom Doctrine - 主要概念是雖然遊戲機制並不是嶄新的設計，但是在遊戲主題上發揮功夫吸引玩家。
 - https://youtu.be/0ymAdeWrsYM - Unravel: Using Empathy as a Game Mechanic - Unravel - 以人際互動、人與人的連結與遊戲機制本身融合為主軸進行的遊戲設計，讓玩家的同理畫為遊戲機制。
@@ -102,18 +125,8 @@ tags: ["雜記"]
 - https://youtu.be/0pBvMIUk1nQ - Cultist Simulator: Designing an Experimental Game for Commercial Success - Cultist Simulator - 主要重點在於跟玩家建立起互信關係協助調整遊戲方向。
 - https://youtu.be/IB28lsqUT3Q - The Living World of The Witcher 3: The Wild Hunt - The Witcher 3 - 一個關於遊戲內數值經濟的平衡與一些經濟學上機制設計干擾玩家決策的設計。
 - https://youtu.be/6UTcj-BQ7Qs - Breaking the Rules of Game Design - NA - 主要是遊戲構成要素會帶來玩家期待，破壞這個期待本身也是一項遊戲設計工具。
-- https://youtu.be/kX8Jn3XPoWQ - Taking an Axe to God of War Gameplay - God of War - 完整分析戰鬥設計的各方面。
-- https://youtu.be/uKwi_5nePZg - The Making of Divinity: Original Sin 2 - Divinity: Original Sin 2 - 內容比較廣泛，大致上從工作室構成、QA 流程設計、翻譯等多種面向都有提到。
-- https://youtu.be/c2YRVWZupwo - Integrating Narrative into Game Design: A Portal Post-Mortem - Portal - 講述在團隊極小的情況下 Portal 是怎樣結合遊戲性跟敘事產生出這款作品，幾乎可以說是所有遊戲設計都是為了限制而產生的。
-- https://youtu.be/P4Um97AUqp4 - 'FTL: Faster Than Light' Postmortem: Designing Without a Pitch - FTL Faster Than Light - 詳盡說明了整個 FTL 開發過程的演講，有設計，有募資，有社群互動的討論。
-- https://youtu.be/s_I07Iq_2XM - Into the Breach Design Postmortem - Into the Breach - 大致上整體分析了開發過程的決策，裡面有很多簡化遊戲系統的參考。
-- https://youtu.be/7rqfbvnO_H0 - Slay the Spire: Metrics Driven Design and Balance - Slay the Spire - 詳細地說明從搶先體驗到實際上市期間的開發過程與遊戲平衡拿捏方式。
+- https://youtu.be/kX8Jn3XPoWQ - Taking an Axe to God of War Gameplay - God of War (2018) - 完整分析戰鬥設計的各方面。
 - https://youtu.be/U4uH1ynH3Rs - Open-Ended Puzzle Design at Zachtronics - NA - Zachtronics 擅長製作近似現實環境的工具謎題，例如說製作晶片、破解網站，在這裡完整地用訪談的方式討論為什麼會設計出這樣的遊戲，以及製作過程如何進行。
-- https://youtu.be/7R-x9NSBS2Y - The Design of Subnautica - Subnautica - 完整講述整個 Subnautica 的遊戲結構以及為什麼會發展出這樣的設計（甚至包含了意料之外的設計）。
-- https://youtu.be/JFaOYYSxSEA - Classic Game Postmortem - Another World - 一個關於經典遊戲 Another World 的設計完整分析。
-- https://youtu.be/0xVYVP0hxME - Weaving 13 Prototypes into 1 Game: Lessons from Edith Finch - What Remains of Edith Finch - 詳盡講述遊戲原型轉為實際遊戲的過程，開發期間基本上就是分開做了 13 個小遊戲原型然後最後塞成一個遊戲作品。
-- https://youtu.be/QyMsF31NdNc - Breaking Conventions with The Legend of Zelda: Breath of the Wild - The Legend of Zelda Breath of the Wild - 詳盡說明曠野之息全方面設計的演講，真的很詳盡。
-- https://youtu.be/r4-O_7wSyAQ - Dealing with Scope Change in Heat Signature and Gunpoint - Heat Signature, Gunpoint - 詳細說明 Heat Signature 的設計（過度擴張）理念。
 - https://youtu.be/A7ejh3YUbac - How We Created Mark of the Ninja Without (Totally) Losing Our Minds - Mark of the Ninja - 主要在討論遊戲機制（遊戲片段）為主的開發方式，並且維持工作室的正常經營。著重在要建立能被測試考驗的假說。
 ![mark of the ninja](/images/posts/game-design/0015/3.png)
 
@@ -128,7 +141,7 @@ tags: ["雜記"]
 
 - https://youtu.be/ygNRNru1B_s - Eos is Alive: The AI Systems of Final Fantasy XV - Final Fantasy XV - 雖然背景音樂有夠大聲，但大致提到了如何應對單一 AI 的動畫系統，同時又設計一個比較廣泛的 AI 分配系統來驅動個別 AI 行動。
 - https://youtu.be/VoXSJBVqdek - Taking Back What's Ours: The AI of Dishonored 2 - Dishonored 2 - 非常鉅細靡遺，甚至到描述資料結構設計的程度的演講。主要在討論怎樣讓多名 NPC 可以定位環境，避免 NPC 行為過於無意義。整個設計延伸到潛行與搜索、相對應對話系統以及動畫系統等面向。
-- https://youtu.be/lbyGzzcKg9U - Raising Atreus for Battle in God of War - God of War - 基本上逐一地提出兒子的各種設計面向，以及各種投機設計讓兒子更有戰鬥的參與感。有很多關於怎樣讓兒子傳送到位，讓玩家不會覺得兒子是個累贅的設計。
+- https://youtu.be/lbyGzzcKg9U - Raising Atreus for Battle in God of War - God of War (2018) - 基本上逐一地提出兒子的各種設計面向，以及各種投機設計讓兒子更有戰鬥的參與感。有很多關於怎樣讓兒子傳送到位，讓玩家不會覺得兒子是個累贅的設計。
 - https://youtu.be/Qq_xX1JCreI - AI Arborist: Proper Cultivation and Care for Your Behavior Trees - NA - 大致上提到 Behavior Tree 的好處與壞處，並且分析一些可行的改變。
 - https://youtu.be/tAbBID3N64A - AI-driven Dynamic Dialog through Fuzzy Pattern Matching - Left 4 Dead - 追蹤遊戲內要素的動態對話系統，讓遊戲中的人物可以理解遊戲中的情境來進行對應的對話。
 - https://youtu.be/wj-2vbiyHnI - Do You Copy? Dialog System and Tools in Firewatch - Firewatch - 基本上是延伸自上面的演講的實作。
@@ -148,17 +161,24 @@ tags: ["雜記"]
 - https://youtu.be/SKXqWcaoTGE - The Science of Off-Roading: Uncharted 4's 4x4 - Uncharted 4 - 算是非常完整地呈現如何設計一台四輪驅動車的整體過程，同時又不是完全執著於物理模擬級的表現讓玩家玩得開心。
 - https://youtu.be/mHWFzo2no94 - Vault, Slide, Mantle: Building Brink's SMART System - Brink - 關於 Brink 自動跑酷系統詳盡說明實作的演講。
 - https://youtu.be/SHinxAhv1ZE - Physics for Game Programmers: Understanding Constraints - NA - 一個詳盡的遊戲物理系統的實作，另外 CJCAT 也有兩個演講在講同樣的內容「遊戲物理約束 [part 1](https://www.ptt.cc/bbs/GameDesign/M.1586764005.A.DDE.html)、[part 2](https://www.ptt.cc/bbs/GameDesign/M.1601107542.A.38B.html)」。
+- https://youtu.be/dDgyBKkSf7A - Wind Simulation in God of War - God of War (2018) - 
+- https://youtu.be/4wNmtcTn51E - Starship Physics and Controls that Feel Real: Bringing the Toys of Starlink to Digital Life - Starlink - 詳盡解說這款遊戲中怎樣造假爽快的飛船物理，同時又不會讓玩家感到困擾。是一個想要嘗試作飛船作品的時候非常可以參考到位的影片。
+- https://youtu.be/0jsENVOmkxc - Vehicle Physics and Tire Dynamics in Just Cause 4 - Just Cause 4 - 高中輪胎物理總複習（？）另一方面也提到像遊戲這種可能會低到只有 30Hz 更新率的狀況下，完全擬真的輪胎物理本身就不合理而可能會導致不穩定。
+![Just Cause 4 Tire](/images/posts/game-design/0015/5.png)
 
 # 遊戲程式
 
 - https://youtu.be/RDCCyrC1sto - Beyond Framerate: Taming Your Timeslice Through Asynchrony - NA - 一個以分散執行時機降低 CPU 瞬間超載的演講，著重在非同步運算的管理。
 - https://youtu.be/KDhKyIZd3O8 - Marvel's Spider-Man: A Technical Postmortem - Marvel's Spider-Man - 一個非常詳盡的開發期間遭遇的技術問題的說明演講。
+- https://youtu.be/9rOtJCUDjtQ - Content Fueled Gameplay Programming in Frostpunk - Frostpunk - 其實就是 11bit Studio 怎麼實作 Entity Component System，還有一些衍生的出來遊戲設計的調整。
 
 # 敘事設計
 
 - https://youtu.be/WBF2RyeEOlA - What Wikipedia Doesn't Know Can Hurt You: Writer Research Skills - NA - 大致上在說明作為腳本家撰寫故事時該注意甚麼、能從怎樣的來源獲得資訊，以及該怎樣注意使用這些資訊。
 - https://youtu.be/HZft_U4Fc-U - Narrative Sorcery: Coherent Storytelling in an Open World - Sorcery - 一個有趣的敘事設計結構，來確保開放世界框架下不會導致故事難以設計，確保永遠都會講出邏輯上合理的故事。
 - https://youtu.be/3eYHtDGOM8U - Creating Interactive Film Scripts for 3D Adventures with Ink - Heaven's Vault - 一個介紹開源敘事設計語言 Ink 的具體實用效果。
+- https://youtu.be/taxcb_5lEI8 - Building a Paper Prototype For Your Narrative Design - NA - 雖然有點反常態寫作邏輯，但是是一個在紙上原型程度就可以重現故事設計的方式，及早驗證互動故事的有效性。
+![Paper prototype narrative](/images/posts/game-design/0015/4.png)
 
 # 音樂音效配音
 
@@ -173,17 +193,20 @@ tags: ["雜記"]
 - https://youtu.be/KRJkBxKv1VM - Creating a Tools Pipeline for Horizon: Zero Dawn - Horizon Zero Dawn - 非常細節導向的工具開發方針跟部分內容實作。
 - https://youtu.be/Iqmg4gblreo - Geometry in Milliseconds: Real-Time Constructive Solid Geometry - NA - 一個關於 CSG Tool 性質介紹的演講。
 - https://youtu.be/VRm3d0TqMq4 - Level Design Workshop: Improving Tool Design Through Editor Triage - NA - 一個關於多種工具使用者體驗設計概念的形式舉例的演講。
+- https://youtu.be/oRHl2PLKwfY - Technical Tools for Authoring Branching Dialogue - NA - Obsidian Entertainment 講述內部用來設計分歧對話的工具與其中的功能組，最重要的是非常詳盡到設計師也可以拿來使用的除錯工具的功能組。
 
 # 行銷、社群、市場分析
 
 - https://youtu.be/uy0Dfr-mnUY - Know Your Market: Making Indie Games That Sell - Life Goes On - 一個詳盡分析說明為什麼這款遊戲沒有獲得成功的演講，裡面講述了非常多分析手段。
 - https://youtu.be/mrZlSDngwH8 - The Diary of a Modern PR Campaign: How to Plan Your Game's Promotion - NA - 一個詳盡展示遊戲宣傳可以如何分階段，並每階段能做什麼事情的扎實演講。
 - https://youtu.be/zctUBJ-kBe8 - The Power of an Embedded Community Platform to Inform, Engage, Educate and Retain - NA - 一個詳細說明能怎樣構成一個讓玩家願意遊玩遊戲的社群環境的演講。
+- https://youtu.be/IGC-Cdwsf30 - PR Success.gif: How to Get Your Game Across in 5 Seconds - NA - 說明遊戲可以有哪些能拿來宣傳使用的 GIF 型態，以及要怎麼使用。
 
 # 專案管理
 
 - https://youtu.be/4DWdnoLosZ8 - Embracing Ambiguity: How to Do Good Work When You Don't Know What to Do - NA - 一個討論遊戲開發過程中，模糊性的存在，以及要能判斷這些模糊性是否會成為開發上的困難的手段。
 - https://youtu.be/amlwcI8dh_g - Three Steps to Becoming a Better Artist Immediately - NA - 雖然看起來是關於美術的演講，但真正的演講內容集中在怎樣與人正確溝通出需要的目標，對於怎樣具體溝通美術有很好的範例。
+- https://youtu.be/uKwi_5nePZg - The Making of Divinity: Original Sin 2 - Divinity: Original Sin 2 - 主要是製程系的分析，大致上從工作室構成、QA 流程設計、翻譯等多種面向都有提到。
 
 # 雜項
 
