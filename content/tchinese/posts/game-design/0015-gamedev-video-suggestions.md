@@ -305,6 +305,8 @@ tags: ["雜記"]
 - https://youtu.be/Dm24XyRPMwg - Critiquing Game Visuals: Common Problems and How to Solve Them - NA - 一個提供許多詞彙庫來幫助準確與美術溝通遊戲視覺問題的演講，避免溝通的不明確。
 - https://youtu.be/uKwi_5nePZg - The Making of Divinity: Original Sin 2 - Divinity: Original Sin 2 - 主要是製程系的分析，大致上從工作室構成、QA 流程設計、翻譯等多種面向都有提到。
 - https://youtu.be/6t_RPLbRlHY - Marvel's Spider-Man Miles Morales: The Creative Journey - Marvel's Spider-Man Miles Morales - 完整的製程演講，沒什麼特殊之處但很扎實。
+- https://youtu.be/gyDOrNbvFN8 - Slime Rancher: A Preemptive Postmortem - Slime Rancher - 如果要挑裡面最重要的內容說明，就是「搶先體驗不是搶先體驗」，而是必須要當線上遊戲能穩定提供內容更新的前提下去進行。
+- https://youtu.be/lL9X1Z0OAbs - Hellblade: An Independent AAA Experiment - Hellblade - 這部作品此時的總開發人數只有 15 人，最後也只擴充到 20 人，藉由降低溝通成本、高效率製程來完成極高品質的成品。非常推薦挑戰的開發模型，潛在可以用極少的人數挑戰 AAA 級作品的製作。
 
 # Unity 相關
 
