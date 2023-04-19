@@ -5,21 +5,21 @@ draft: false
 tags: ["misc"]
 ---
 
-I decided to make this tool [GDC-transcript](https://blog.chosenconcept.dev/GDC-transcript/) dragging my friend [PeDev](https://twitter.com/PeDev_) along with me. This tool is here to display a subtitle overlay on top of videos from [GDC YouTube channel](https://www.youtube.com/@Gdconf), all transcribed using a tool called Whisper.
+I decided to make this tool [GDC-transcript](https://blog.chosenconcept.dev/GDC-transcript/) dragging my friend [PeDev](https://twitter.com/PeDev_) along with me. This tool is here to display a subtitle overlay on top of videos from the [GDC YouTube channel](https://www.youtube.com/@Gdconf), all transcribed using a tool called Whisper.
 
 ![GDC-transcript](/images/posts/game-design/0014/1.png)
 
-Before hand, a quick brief about why.
+Beforehand, a quick brief about why.
 
 # Game Developers Conference
 
-Game Developers Conference is arguably the biggest game development knowledge base in the world. Without the need to attend the physical event, [GDC Vault](https://www.gdcvault.com/) also offers all the talks and slides for just an annual fee of $599. Although the fee is certainly affordable for an established studio or developer, people who need it the most is probably those who just started and don't have such luxury.
+The Game Developers Conference is arguably the biggest game development knowledge base in the world. Without the need to attend the physical event, [GDC Vault](https://www.gdcvault.com/) also offers all the talks and slides for just an annual fee of $599. Although the fee is certainly affordable for an established studio or developer, people who need it the most is probably those who just started and don't have such luxury.
 
-Thankfully not only the Vault features some great talks free to access, there's also the [GDC YouTube channel](https://www.youtube.com/@Gdconf) featuring more than 1,700 videos.
+Thankfully, not only the Vault features some great talks free to access, there's also the [GDC YouTube channel](https://www.youtube.com/@Gdconf) featuring more than 1,700 videos.
 
 Unfortunately, as I watched almost every video in the channel, I found some issues manifest:
 
-- Some video suffers from bad audio quality or mixing, such as [this Portal talk](https://www.youtube.com/watch?v=c2YRVWZupwo)(please lower volume before clicking).
+- Some video suffers from bad audio quality or mixing, such as [this Portal talk](https://www.youtube.com/watch?v=c2YRVWZupwo) (please lower volume before clicking).
 - Some speakers are heavily accented, probably only native level English speaker and understand them easily, such as [this Assassin's Creed Origins talk](https://youtu.be/a09vnDjmY_E).
 - Or both, such as this [FFXV talk](https://www.youtube.com/watch?v=ygNRNru1B_s).
 
@@ -29,11 +29,11 @@ This is where the transcription comes in.
 
 # OpenAI's Whisper
 
-[Frank Chao](https://twitter.com/aaefiikmnnnr), friend of the discord server [IGDShare](https://discord.gg/eUfnCqVkRz), posted a video in our resource dumping channel, in which introduced an offline transcription tool called [Whisper](https://github.com/openai/whisper).
+[Frank Chao](https://twitter.com/aaefiikmnnnr), friend of the discord server [IGDShare](https://discord.gg/eUfnCqVkRz), posted a video on our resource dumping channel, in which introduced an offline transcription tool called [Whisper](https://github.com/openai/whisper).
 
 This open source project built by OpenAI is lightyears above that of Google's. Not only does it can recognize game/game development related keywords easily, it is also relatively unaffected by the bad audio and heavy accent, so I quickly figure it would be a great tool to transcribe GDC's video. Though it also has some traits of generative AI which means it might make things up in some special cases.
 
-All in all the pros outweigh the cons significantly so I decided to transcribe all publicly available videos on the GDC YouTube channel. Though instead of using Whisper directly, I instead opted for a variant called WhipserX.
+All in all, the pros outweigh the cons significantly, so I decided to transcribe all publicly available videos on the GDC YouTube channel. Though instead of using Whisper directly, I instead opted for a variant called WhipserX.
 
 # WhisperX
 
@@ -44,10 +44,10 @@ Whisper is great, but not without some substantial issues:
 
 After some searching, I found this version called [Whisper X](https://github.com/m-bain/whisperX) that had relatively better results and the cost of slightly longer transcription duration. The improved performance is mostly because of two additions:
 
-- Voice Activity Detection, a process to identify parts that has active voice.
-- Forced Alignment, a process that matches the text back to it most probably position.
+- Voice Activity Detection, a process to identify parts that have active voice.
+- Forced Alignment, a process that matches the text back to its most probable position.
 
-Both combined resulting in extremely desirable results. Though not without its own issues but this is by far the best choice.
+Both combined resulting in extremely desirable results. Though not without its own issues, but this is by far the best choice.
 
 # Run Transcription with Google Colab
 
@@ -63,7 +63,7 @@ The last one especially took me and PeDev about a full day to find the ideal set
 
 # The Tool Site
 
-For the site I just want to make it simple and clean. Find an UI framework, have a place to input the video ID, and then show the video and subtitle. Simple as that!
+For the site, I just want to make it simple and clean. Find an UI framework, have a place to input the video ID, and then show the video and subtitle. Simple as that!
 
 I asked [Jason](https://twitter.com/pewsheen) for UI framework recommendation, landed on [Material Tailwind](https://www.material-tailwind.com/). And boy I don't miss the days I struggled with CSS in my youth.
 
@@ -88,7 +88,7 @@ So that's it, the site is done!
 
 # The Open Source Project
 
-Although I consider myself pretty fast in translation, the sheer amount of videos just isn't possible to be handled by my own. I with the deployment of Github Repository [GDC-transcript](https://github.com/dklassic/gdc-transcript) I hope to solve the rest of the problems with developers around the globe. Plus Github Page for the tool page is really easy to use.
+Although I consider myself pretty fast in translation, the sheer amount of videos just isn't possible to be handled on my own. With the deployment of Github Repository [GDC-transcript](https://github.com/dklassic/gdc-transcript) I hope to solve the rest of the problems with developers around the globe. Plus Github Page for the tool page is really easy to use.
 
 I'm definitely getting ahead of myself here but in order to have a smooth workflow, we went through some extra steps:
 
