@@ -100,8 +100,8 @@ In order to let the frontend of the site access information more easily, PeDev w
 
 # Conclusion
 
-I would love to go the extra mile and try to have GPT4 perform summary and potentially translate to other languages, but especially the translation parts still doesn't serve as a great starting point especially coming from a not yet proof read subtitle. This is as far as we can get for now.
+I would love to go the extra mile and try to have GPT4 perform summary and potentially translate to other languages, but especially the translation parts still doesn't serve as a great starting point especially coming from a not yet proof read subtitle. This is as far as we can get for now. I hope this small project can help some developers in need regardless of the audience size.
 
-I hope this small project can help some developers in need regardless of the audience size. And please, GDC, I think this is in the realm of fair use, please don't sue me.
+Also although I think this is perfectly within the realm of fair use, but GDC is also rightfully so to have the repository removed since they technically own the content. If that's what happens, at least we had a good run.
 
 If you have any questions or suggestions, feel free to submit an Issue on Github or contact me on [Twitter](https://twitter.com/RandomDevDK). Thanks for reading!
