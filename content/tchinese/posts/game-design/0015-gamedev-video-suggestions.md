@@ -255,6 +255,7 @@ tags: ["雜記"]
 - https://youtu.be/O5UANrtiIJI - A Historian's Guide to Researching Your Historical Game - NA - 一個嘗試說明要怎樣研究歷史的工作流程演講。
 - https://youtu.be/QaGu9tGCNbI - Sparking Curiosity-Driven Exploration Through Narrative in 'Outer Wilds' - Outer Wilds - **絕對絕對絕對**要玩過遊戲再看這部演講，我拜託你！然後玩完你就會有來看這部影片的理由了！
 - https://youtu.be/_sslFBVy5Lc - 'Sunless Skies': A Narrative Postmortem - Sunless Skies - 比起敘事設計，更接近是敘事製程，比較多篇幅在著墨怎樣規劃結構讓多名編劇可以協作，同時敘事總監又能如何引導整個編劇團隊。
+- https://youtu.be/SQxhyHMUJ74 - Making Weird Games for Weird People - Nier Gestalt - 橫尾太郎自述自己創作的期待是要探索遊戲的邊界，認為玩家的新奇感是從框架的打破而來，而不是純粹遊戲的規模大小。同時講述了一個自己的編劇方式是使用倒因為果的方式進行，來確保最終效果一定會達成。其實這部影片不是原版，因為本人在影片中有露臉所以原始影片現在是移除的，但想要看廬山真面目的話可以去找 GDC Vault 版本，這邊就刻意不貼出了 XD
 - https://youtu.be/NO1lvc3ikXE - GDC talk: Holistic Level Design in Dishonored 2 and Immersive Sims - Dishonored 2 - 一個關於怎樣構築一個 Immersive Sim 級具備全面性的關卡的影片。
 ![Dishonored 2 goal](/images/posts/game-design/0015/11.png)
 - https://youtu.be/taxcb_5lEI8 - Building a Paper Prototype For Your Narrative Design - NA - 雖然有點反常態寫作邏輯，但是是一個在紙上原型程度就可以重現故事設計的方式，及早驗證互動故事的有效性。
