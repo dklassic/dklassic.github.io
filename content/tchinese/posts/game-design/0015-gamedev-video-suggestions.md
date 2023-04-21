@@ -135,7 +135,7 @@ tags: ["雜記"]
 - https://youtu.be/VIgHW4ddHLc - 2017 Animation Bootcamp: Tricks of the Trade - NA - 再一個雜燴超實用動畫設計知識。
 - https://youtu.be/_1j5Tf6ulII - The Best Animation Tricks of the Trade (For 2016) - NA - 又一個大雜燴超實用動畫設計知識。
 - https://youtu.be/50mIKB-NACU - Animation Bootcamp: Bringing Life to the Machines of Horizon Zero Dawn - Horizon Zero Dawn - 基本上描述了整個機器人的設計靈感，以及一些細項問題的處理方式。由於 Horizon Zero Dawn 幾乎都是啟發自動物的設計，所以大部分最後的解決方式也是從動物中取得。
-- https://youtu.be/50mIKB-NACU - Player Traversal Mechanics in the Vast World of Horizon Zero Dawn - Horizon Zero Dawn - 著重在處理一些動畫上的滑步問題。
+- https://youtu.be/LrLHsbTK5bM - Player Traversal Mechanics in the Vast World of Horizon Zero Dawn - Horizon Zero Dawn - 著重在處理一些動畫上的滑步問題。
 - https://youtu.be/H7pbEKZmYj0 - The Animated World of 'Ratchet and Clank: Rift Apart' - Ratchet and Clank: Rift Apart - 一個逐一解釋這款作品中各類型動畫與其中設計的重點在哪的概要影片，比較缺乏實用級內容，但簡單參考別人的心路還行。
 - https://youtu.be/uikbLyi-cug - Parkour: How to Improve Freedom of Movement in First-Person Games in 20 Simple Steps - Dying Light - 二十個小手段來處理玩家跑酷問題，裡面有解釋了特定設計問題上為什麼採用特定解決辦法的思考流程。非常實用導向，所以解決辦法有很多單純視角差的暴力手段。例如說裡面提到了動態暈眩問題，而最後的處理方式就是盡量讓鏡頭移動的狀況滑順。
 - https://youtu.be/o-QLSjSSyVk - Character Control with Neural Networks and Machine Learning - NA - 一個使用神經網路驅使狀態機，不再需要設定一堆聖誕樹的做法，反之要在標記資料上下功夫。
