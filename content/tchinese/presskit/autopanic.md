@@ -53,6 +53,10 @@ showTip: false
 
 <!-- # 影片 -->
 
+# 動圖
+
+![Combat Gif](/images/games/autopanic/combat.gif)
+
 # 遊戲截圖
 
 |![Screenshot 1](/images/games/autopanic/autopanic_screenshot_1.png)|![Screenshot 2](/images/games/autopanic/autopanic_screenshot_2.png)|
