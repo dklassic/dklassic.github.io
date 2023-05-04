@@ -53,6 +53,10 @@ Autopanic started out as a small shoot 'em up in 2020, later evolved into more o
 
 <!-- # Videos -->
 
+# GIFs
+
+![Combat Gif](/images/games/autopanic/combat.gif)
+
 # Images
 
 |![Screenshot 1](/images/games/autopanic/autopanic_screenshot_1.png)|![Screenshot 2](/images/games/autopanic/autopanic_screenshot_2.png)|
