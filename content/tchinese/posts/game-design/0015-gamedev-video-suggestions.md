@@ -49,6 +49,9 @@ tags: ["雜記"]
 - https://youtu.be/0IUaGQhlPwo - Darkest Dungeon: A Design Postmortem - Darkest Dungeon - 精細解釋了遊戲的所有設計，也反思了一個充滿爭議的屍體設計。
 - https://youtu.be/UrdZhnA-PaI - Great Level Design is a Studio-Wide Effort - Dishonored 2 - 明確講述了複數職位對關卡設計會產生的影響，說明關卡設計本身就是對專案整體極限最大的測試。
 ![arkane](/images/posts/game-design/0015/10.png)
+- https://youtu.be/HjhsY2Zuo-c - Designing 'MARVEL SNAP' - Marvel Snap - 雖然是關於卡牌遊戲的演講，但其實演講內容完全適用於任何遊戲類型，我認為是遊戲設計的必看之作！舉例其中一段講述遊戲的複雜度跟深度是獨立要素，以及遊戲的深度是有上限值的，超過上限的設計不一定有意義，而這還只是這部影片中的智慧的一小部分而已！
+![complexity and depth](/images/posts/game-design/0015/13.png)
+- https://youtu.be/PfOqBTV32_0 - 初代『星のカービィ』開発秘話 - Kirby's Dream Land - 初代卡比的設計、製作過程包山包海的影片，無論是小團隊製程如何成就這款作品，還是當年掌機限制反過來造成的特色設計，裡面有趣的內容非常多！
 
 # 美術製程
 
@@ -194,6 +197,7 @@ tags: ["雜記"]
 ![Dreamscaper](/images/posts/game-design/0015/12.png)
 - https://youtu.be/A7ejh3YUbac - How We Created Mark of the Ninja Without (Totally) Losing Our Minds - Mark of the Ninja - 主要在討論遊戲機制（遊戲片段）為主的開發方式，並且維持工作室的正常經營。著重在要建立能被測試考驗的假說。
 ![mark of the ninja](/images/posts/game-design/0015/3.png)
+**- https://youtu.be/cWdt07ncRxU - The Many Dimensions of Kirby - Kirby and the Forgotten Land, Kirby Return to Dream Land - 有不少平台跳躍設計老調重彈但有幾個有趣的要素，主要著重在讓玩家玩起來更順暢的設計上**
 
 # 遊戲數學
 
@@ -225,6 +229,7 @@ tags: ["雜記"]
 - https://youtu.be/yqZE5O8VPAU - 'Death Stranding': An AI Postmortem - Death Stranding - 非常詳盡的怎樣讓 AI 在複雜地形、廣大地域範圍進行路徑配定的實用級演講。
 - https://youtu.be/hE5tWF-Ou2k - Evolving Combat in 'God of War' for a New Perspective - God of War (2018) - 被歸類在 AI 裡可能有點廣義過頭了，但是是一連串複雜的判定來在狹小很多的視野下維持戰鬥系統能被玩家享受。
 - https://youtu.be/L2bJ4E_4zN8 - 'Final Fantasy VII' Remake: Automating Quality Assurance and the Tools for the Future - Final Fantasy VII Remake - 關於用自動化 AI 來測試一些結構性問題，像是地圖空間是否都能被完整探索，並且有複數 AI 合作完成測試的設計。
+- https://youtu.be/4bOsJSRk0i8 - Why Halo Infinite's Bots Play More Like Humans - Halo Infinite - 詳細解釋 Halo Infinite 對戰模式中的 AI 運作方式，做出動起來像真人玩家行為一樣的敵人 AI。奠基於 GDC 上的演講，但因為那兩部演講都沒有免費公開，所以看這部影片剛剛好！
 
 # 遊戲物理
 
@@ -298,6 +303,7 @@ tags: ["雜記"]
 - https://youtu.be/g5f7yixtQPc - No Time, No Budget, No Problem: Finishing The First Tree - The First Tree - 整體來說很掙扎要不要放這個演講，因為呃，演講內容本身很棒，但我自己認為遊戲完全不行，讓我玩完有點生氣。但無論如何演講本身的概念依然都是正確且實用的。
 - https://youtu.be/o93BMHdde6Y - Charm Your Communities - Among Us - Innersloth 的社群正向營造指南，雖然列點說明的時候感覺很理所當然，但是需要指引時仍無疑是一系列踏實的方針。
 ![GOW level](/images/posts/game-design/0015/7.png)
+- https://youtu.be/-341jEXj-iI - The Golden Rule of Game Promotion: No One Cares About Your Game - NA - 奠基在演講者舊的演講上的一個新的演講，更著重在以「沒人在乎你的遊戲」為核心思想進行所有行銷的詮釋上，以 2023 年來說算是目前既有行銷知識集大成，如果沒時間了解的話建議至少看這部影片！
 
 # 專案製程
 
@@ -338,3 +344,5 @@ tags: ["雜記"]
 - https://youtu.be/RJN83kSzh2k - Let's make a PICO-8 Game in 30 Minutes! - PICO-8 - PICO-8 是一個虛構的主機，在這個有限的環境下可以簡單地建構出遊戲機制。有許多遊戲原型都是從 PICO-8 發展出來的，像是 Celeste。這是一個快速的指引，30 分鐘上手！
 - https://youtu.be/stxVBJem3Rs - Failing to Fail: The Spiderweb Software Way - NA - 很難說是個大家都該參考的影片，但是個踏實中的踏實的穩定存活長達 30 年的小工作室的自我分析。
 - https://youtu.be/N4UFC0y1tY0 - Put Your Name on Your Game, a Talk by Bennett Foddy and Zach Gage - NA - 這部是很私心想推薦，但是不能說是適用於所有人的影片，是我決定以本名活動的理由。大概只要看影片標題再看一分鐘就知道講者想要講什麼了，私心希望有更多開發者能往這方向前進 XD
+**- https://youtu.be/784soS08Q6M - エフェクトをスローで見てみよう - Super Smash Bros. Ultimate - 櫻井直接提供的大亂鬥特效慢動作影像，由於大亂鬥雖然風格化但涉及作品風格也挺多元的，這幾乎可以算是一種遊戲特效設計大補帖使用！**
+**- https://youtu.be/97S45-HQLwM - ステージをじっくり見てみよう - Super Smash Bros. Ultimate - 同上，但是是遊戲場景！**
