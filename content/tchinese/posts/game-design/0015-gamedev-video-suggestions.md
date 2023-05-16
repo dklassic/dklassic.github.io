@@ -148,6 +148,7 @@ tags: ["雜記"]
 - https://youtu.be/er4SgnjDYMI - Motion Capture Performance: An Actor's Approach - NA - 一個關於動作捕捉的雜談，非常詳盡描述動作捕捉演出者能怎樣幫助動畫師做出高品質的動畫。
 - https://youtu.be/6TB62YKHwRQ - Animating Dauntless: Slaying AAA Animation on the Indie Scale - Dauntless - 提到一個小團隊怎樣用人類動作捕捉跟程序性動畫來實現高品質動畫的方式，其中一個特點是用人類來做動物的 Mocap 時，不要想說要類比骨骼，而是要想說類比體重分布的轉換。
 ![weight](/images/posts/game-design/0015/2.png)
+- https://youtu.be/aO2YaOip1y0 - 'Potionomics' Animation Show and Tell - Potionomics - 在一般情況下都將動畫法則奉為圭臬的情況下，這部演講講述他們如何無視既有法則，重新發明自己的準則，並且以此遊戲為例舉例了他們如何最大化展現角色的魅力。
 
 
 # <abbr title="Procedural Generation; PCG">程序性生成</abbr>
