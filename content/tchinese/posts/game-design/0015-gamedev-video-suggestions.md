@@ -102,6 +102,7 @@ tags: ["雜記"]
 - https://youtu.be/pqdVG_qcKok - Shader Sauce: How to Use Shaders to Create Stylized VFX - NA - 一個非常實用的 Shader 視覺設計工具組教學，示範是以 Unreal Engine 示範。
 - https://youtu.be/bpFdfrg8SvY - Restoring the Forest: Capturing the Themes of 'Kena' Through VFX - Kena - 著重在解釋這款作品中汙染的環境與淨化的環境共處的視覺設計是如何達成的，以及這個設計方式讓許多額外系統可以順便用上。
 - https://youtu.be/8Pk-yAp7J_8 - How Parameters Drive the Particle Effects of 'Forza Horizon 5' - Forza Horizon 5 - 一個關於資料驅動的例子特效系統的解說，可以根據物理狀態、環境性質來改變特效顯示的性質，就不需要為了每種情境都獨立設計特效。
+- https://youtu.be/d6tp43wZqps - Achieving Artifact-Free Pixel Art Rendering - NA - Pixel Art 素材在 3D 環境或者縮放使用時傳統採樣方式會造成不良顯示結果，這部影片中則詳盡解釋一種使用 `fwidth` 來解決此問題的著色器設計。
 
 # 關卡設計
 
@@ -167,6 +168,8 @@ tags: ["雜記"]
 - https://youtu.be/LCJlBs1B46M - Lucen: Indie gamedev with Houdini and UE4 - Lucen - 雖然是未上市遊戲，但是是關於一個單人開發者試著使用 Houdini 工具的各種不同程序性生成手段來製作一款開放世界遊戲的手段詳細介紹影片。
 - https://youtu.be/jV-DZqdKlnE - End-to-End Procedural Generation in Caves of Qud - Caves of Qud - 超詳盡的完整世界產生演講，不只是關卡連文化都產生出來，詳盡到一小時感覺還只覆蓋到了杯水車薪的程度（汗
 - https://youtu.be/AdCgi9E90jw - Tile-Based Map Generation using Wave Function Collapse in 'Caves of Qud' - Caves of Qud - 同上但是著重在生成地圖。
+- https://youtu.be/LRp9vLk7amg - The Secret Behind Unexplored: Cyclic Dungeon Generation - Unexplored - Unexplored 是個著重在生成有意義的關卡結構的遊戲，這部影片中詳細解釋其中的節點是結構生成反推出的關卡生成系統。
+- https://youtu.be/lL6A_MC1E2Y - How Unexplored 2 Generates Entire Fantasy Worlds from Scratch - Unexplored 2 - 講述 Unexplored 2 的完整生成機制。Unexplored 2 延續前作試著讓更多遊戲要素不需要跟戰鬥有關，加入了更複雜的開放世界勢力互動做高層級與低層級內容生成的相互配合。並且嘗試製作一個不是每次都重新生成整個世界的系統，嘗試達成延續的世界表現。
 
 # 遊戲設計
 
@@ -266,6 +269,7 @@ tags: ["雜記"]
 ![Dishonored 2 goal](/images/posts/game-design/0015/11.png)
 - https://youtu.be/taxcb_5lEI8 - Building a Paper Prototype For Your Narrative Design - NA - 雖然有點反常態寫作邏輯，但是是一個在紙上原型程度就可以重現故事設計的方式，及早驗證互動故事的有效性。
 ![Paper prototype narrative](/images/posts/game-design/0015/4.png)
+- https://youtu.be/nAkH86__g0o - 10 Key Quest Design Lessons from 'The Witcher 3' and 'Cyberpunk 2077' - The Witcher 3, Cyberpunk 2077 - 在這部演講中 CDPR 的任務總監 Pawel Sasko 詳盡解釋公司內的任務設計製程。並且以 Witcher 3 跟 Cyberpunk 2077 中的許多任務舉例，提出許多可以被參考的設計方針，並且也鼓勵在敘事設計上抱持勇氣挑戰遊戲的媒介。
 
 # 音樂音效配音
 
