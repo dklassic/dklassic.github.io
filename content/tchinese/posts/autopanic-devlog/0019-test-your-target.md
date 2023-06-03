@@ -144,6 +144,8 @@ Reddit 上有一個很有意思的板：[r/destroymygame](https://www.reddit.com
 ![Statistics 4](/images/posts/autopanic-devlog/0019/12.png)
 ![Statistics 5](/images/posts/autopanic-devlog/0019/13.png)
 
+> 陳靜枝教授與盧信銘教授，真的很謝謝兩位的教誨
+
 就嗯，雖然也**是我偷懶**，但......上面這些加起來才能構成完整的資料驗證手段，實在沒有太多拆開來舉例說明的方法。強烈推薦想要設計測試的人去學一下完整的統計學，能夠明確知道每一筆取得的資料的具體意義，這種感覺會非常踏實。
 
 ## 及早測試的重要性
