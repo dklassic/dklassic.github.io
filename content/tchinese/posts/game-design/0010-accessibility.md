@@ -173,6 +173,19 @@ Unity 的實作方式上有兩種：
 
 ![high contrast](/images/posts/game-design/0010/7.webp)
 
+## 光敏輔助
+
+為了防止觸發光敏性癲癇，應該要有相關選項可以降低高速閃爍的亮光。
+
+這邊《自動混亂》實作了兩種輔助，一種是光會有強光表現的特效降低亮度：
+
+![light sensitive 1](/images/posts/game-design/0010/8.png)
+![light sensitive 2](/images/posts/game-design/0010/9.png)
+
+另一種則是同高對比度用色，製作一個低對比度用色濾鏡：
+
+![Low contrast](/images/posts/game-design/0010/10.png)
+
 ## 自訂按鍵
 
 > 參考 [LoadBindingOverridesFromJson](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.1/api/UnityEngine.InputSystem.InputActionRebindingExtensions.html)、[SaveBindingOverridesAsJson](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.1/manual/ActionBindings.html)、[PerformInteractiveRebinding](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.1/manual/ActionBindings.html)，都要在頁面另外搜尋關鍵字，還有文件寫超爛 XD
