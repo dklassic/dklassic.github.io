@@ -1,11 +1,9 @@
 ---
-title: "Auto builder and auto versioning"
+title: "Back to drawing board"
 date: 2023-06-09T10:00:11+08:00
 draft: false
 tags: ["Autopanic", "misc"]
 ---
-
-# Back to drawing board
 
 Playtest is both great and not so great.
 
