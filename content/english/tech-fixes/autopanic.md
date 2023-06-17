@@ -25,7 +25,7 @@ Sometimes, issues can occur when downloading game updates. This can manifest as 
 
 *On Steam:*
 1. Right-click on *Autopanic* in your Steam Library
-2. Select 'Properties...', then select the 'Local Files' tab
+2. Select 'Properties...', then select the 'Installed Files' tab
 3. Select 'Verify Integrity of Game Files...'
 
 You may also try uninstalling and re-installing the game completely. You may need to restart your computer for changes to take effect.
