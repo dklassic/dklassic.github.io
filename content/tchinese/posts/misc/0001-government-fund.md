@@ -37,7 +37,7 @@ tags: ["雜記"]
 
 ![developer information](/static/images/posts/misc/0001/1.png)
 
-由於商店頁面使用的是慣用的 ID「DK Liao」，此時反而造成了行員沒辦法直接驗證我確實在開發這款遊戲。一番搜尋之下，最後想起有在巴哈姆特 ACG 創作大賽中[得獎報導](https://gnn.gamer.com.tw/detail.php?sn=239270)中使用本名，得以協助行員完成驗證。
+由於商店頁面使用的是慣用的 ID「DK Liao」，此時反而造成了行員沒辦法直接驗證我確實在開發這款遊戲。一番搜尋之下，最後想起有在巴哈姆特 ACG 創作大賽[得獎報導](https://gnn.gamer.com.tw/detail.php?sn=239270)中使用本名，得以協助行員完成驗證。
 
 順帶一提，玉山銀行的內網封鎖巴哈的網站導致行員要用自己的手機開啟，很有趣 XD
 
