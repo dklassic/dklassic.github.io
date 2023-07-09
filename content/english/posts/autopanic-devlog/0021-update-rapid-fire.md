@@ -2,7 +2,7 @@
 title: "Update Rapid Fire"
 date: 2023-07-09T20:44:11+08:00
 draft: false
-tags: ["Autopanic"]
+tags: ["Autopanic","misc"]
 ---
 
 Time for yet another quick update on the project.
