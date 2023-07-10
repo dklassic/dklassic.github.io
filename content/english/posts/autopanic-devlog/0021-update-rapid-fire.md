@@ -13,7 +13,7 @@ I’m still trying to figure out how to properly redesign the combat, this part 
 
 ![rim indication](/images/posts/autopanic-devlog/0021/1.gif)
 
-I’ve alway been wanting to do something like this, a gentle indication to show justify not being able to fall off the platform. Similar stuffs have been attempted before but the visual never feels proper enough, but this time is different, because I've finally obtain the power of shader.
+I’ve alway been wanting to do something like this, a gentle indication to show justification for not being able to fall off the platform. Similar stuffs have been attempted before but the visual never feels proper enough, but this time is different, because I've finally obtain the power of shader.
 
 ![rim quad](/images/posts/autopanic-devlog/0021/5.png)
 
