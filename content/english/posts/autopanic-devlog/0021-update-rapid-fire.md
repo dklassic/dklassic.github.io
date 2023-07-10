@@ -19,7 +19,7 @@ I’ve alway been wanting to do something like this, a gentle indication to show
 
 This time around I simply added a quad to all the rim. I have a LevelManager that updates player location and feeds into global shader keyword each frame, then to read it out in the shader and update the alpha of quads accordingly. Other than that, I use the combination of world space XZ and UV's V to read from a 3D Voronoi Noise to ensure the continuity between quads without the need to actually build a full continuous rim quad.
 
-Why the combination of world space XZ and UV's V instead of just world space XYZ though? It's because I wanted to do the usual fake reflection. With world space XYZ, there will be a problem that I cannot automatically know how to calculated the opposite of y difference, so simply use UV's V then to flip the underlying quads would be much easier.
+Why the combination of world space XZ and UV's V instead of just world space XYZ though? It's because I wanted to do the usual fake reflection. With world space XYZ, there will be a problem that I cannot automatically know how to calculate the opposite of y difference, so simply use UV's V then to flip the underlying quads would be much easier.
 
 ![rim reflection](/images/posts/autopanic-devlog/0021/6.png)
 
