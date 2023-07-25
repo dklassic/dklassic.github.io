@@ -1,4 +1,5 @@
 baseURL = 'http://blog.chosenconcept.dev/'
+canonifyURLs=true
 languageCode = 'en-us'
 title = 'Chosen Concept - DK Liao Games'
 theme = 'mini'
