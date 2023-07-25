@@ -201,7 +201,7 @@ tags: ["雜記"]
 ![Dreamscaper](/images/posts/game-design/0015/12.png)
 - https://youtu.be/A7ejh3YUbac - How We Created Mark of the Ninja Without (Totally) Losing Our Minds - Mark of the Ninja - 主要在討論遊戲機制（遊戲片段）為主的開發方式，並且維持工作室的正常經營。著重在要建立能被測試考驗的假說。
 ![mark of the ninja](/images/posts/game-design/0015/3.png)
-**- https://youtu.be/cWdt07ncRxU - The Many Dimensions of Kirby - Kirby and the Forgotten Land, Kirby Return to Dream Land - 有不少平台跳躍設計老調重彈但有幾個有趣的要素，主要著重在讓玩家玩起來更順暢的設計上**
+- https://youtu.be/cWdt07ncRxU - The Many Dimensions of Kirby - Kirby and the Forgotten Land, Kirby Return to Dream Land - 有不少平台跳躍設計老調重彈但有幾個有趣的要素，主要著重在讓玩家玩起來更順暢的設計上
 
 # 遊戲數學
 
@@ -349,5 +349,5 @@ tags: ["雜記"]
 - https://youtu.be/RJN83kSzh2k - Let's make a PICO-8 Game in 30 Minutes! - PICO-8 - PICO-8 是一個虛構的主機，在這個有限的環境下可以簡單地建構出遊戲機制。有許多遊戲原型都是從 PICO-8 發展出來的，像是 Celeste。這是一個快速的指引，30 分鐘上手！
 - https://youtu.be/stxVBJem3Rs - Failing to Fail: The Spiderweb Software Way - NA - 很難說是個大家都該參考的影片，但是個踏實中的踏實的穩定存活長達 30 年的小工作室的自我分析。
 - https://youtu.be/N4UFC0y1tY0 - Put Your Name on Your Game, a Talk by Bennett Foddy and Zach Gage - NA - 這部是很私心想推薦，但是不能說是適用於所有人的影片，是我決定以本名活動的理由。大概只要看影片標題再看一分鐘就知道講者想要講什麼了，私心希望有更多開發者能往這方向前進 XD
-**- https://youtu.be/784soS08Q6M - エフェクトをスローで見てみよう - Super Smash Bros. Ultimate - 櫻井直接提供的大亂鬥特效慢動作影像，由於大亂鬥雖然風格化但涉及作品風格也挺多元的，這幾乎可以算是一種遊戲特效設計大補帖使用！**
-**- https://youtu.be/97S45-HQLwM - ステージをじっくり見てみよう - Super Smash Bros. Ultimate - 同上，但是是遊戲場景！**
+- https://youtu.be/784soS08Q6M - エフェクトをスローで見てみよう - Super Smash Bros. Ultimate - 櫻井直接提供的大亂鬥特效慢動作影像，由於大亂鬥雖然風格化但涉及作品風格也挺多元的，這幾乎可以算是一種遊戲特效設計大補帖使用！
+- https://youtu.be/97S45-HQLwM - ステージをじっくり見てみよう - Super Smash Bros. Ultimate - 同上，但是是遊戲場景！
