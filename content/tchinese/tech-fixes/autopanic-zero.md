@@ -14,9 +14,9 @@ showTip: false
 
 如果你在遊戲中遭遇到任何問題，請先確認你已經安裝最新的顯示卡驅動程式。許多問題都可以靠取得對應廠商最新的驅動程式解決，而你可以在這裡取得最新的驅動程式：
 
-- **AMD 顯示卡**: [https://www.amd.com/zh-hant/support](https://www.amd.com/zh-hant/support)
-- **NVIDIA 顯示卡**: [https://www.nvidia.com/Download/index.aspx?lang=tw](https://www.nvidia.com/Download/index.aspx?lang=tw)
-- **Intel 顯示卡**: [https://www.intel.com.tw/content/www/tw/zh/download-center/home.html](https://www.intel.com.tw/content/www/tw/zh/download-center/home.html)
+- **AMD 顯示卡**：[https://www.amd.com/zh-hant/support](https://www.amd.com/zh-hant/support)
+- **NVIDIA 顯示卡**：[https://www.nvidia.com/Download/index.aspx?lang=tw](https://www.nvidia.com/Download/index.aspx?lang=tw)
+- **Intel 顯示卡**：[https://www.intel.com.tw/content/www/tw/zh/download-center/home.html](https://www.intel.com.tw/content/www/tw/zh/download-center/home.html)
 
 # 驗證遊戲檔案
 
@@ -82,7 +82,7 @@ showTip: false
 
 # 如果遭遇到了卡頓、停頓、延遲、幀率低落或效能問題
 
-《**自動混亂：零式**》**因為敵人 AI 的運作方式是個對<abbr title="CPU">中央處理器</abbr>需求很高的遊戲。常態的低電壓裝置（例如說舊世代的 Intel、AMD U 系列核心）可能會跑得不太好，但整體來說遊戲很能善用多核心的性質。
+《**自動混亂：零式**》因為敵人 AI 的運作方式是個對<abbr title="CPU">中央處理器</abbr>需求很高的遊戲。常態的低電壓裝置（例如說舊世代的 Intel、AMD U 系列核心）可能會跑得不太好，但整體來說遊戲很能善用多核心的性質。
 
 也有其他你可以改進遊戲體驗的方式：
 

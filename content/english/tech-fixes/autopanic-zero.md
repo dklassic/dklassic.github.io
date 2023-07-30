@@ -172,4 +172,4 @@ Please also provide the following files:
 Windows:
 `Users\[Username]\AppData\LocalLow\ChosenConcept\Autopanic Zero\Player.log`
 
-Thank you for reading. We hope this post helps you find a solution quickly.
+Thank you for reading. Hopefully this post helps you find a solution quickly.
