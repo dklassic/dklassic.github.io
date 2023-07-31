@@ -1,6 +1,6 @@
 ---
 title: "獨立遊戲開發獎勵計畫申請失敗過程參考"
-date: 2023-06-21T21:52:01+08:00
+date: 2023-07-31T11:27:01+08:00
 draft: false
 tags: ["雜記"]
 ---
@@ -35,7 +35,7 @@ tags: ["雜記"]
 
 在國稅局的時候，稅務員向我確認營業內容時，我這邊出示了 [Steam 頁面](https://store.steampowered.com/app/1274830/Autopanic)提供了解後就順利完成了購票證的辦理。而我選擇開設公司銀行帳戶的玉山銀行則做了更嚴謹的查證，指出 Steam 頁面上的開發人員與發行商資訊，與我的名字不一致的問題。
 
-![developer information](/static/images/posts/misc/0001/1.png)
+![developer information](/images/posts/misc/0001/1.png)
 
 由於商店頁面使用的是慣用的 ID「DK Liao」，此時反而造成了行員沒辦法直接驗證我確實在開發這款遊戲。一番搜尋之下，最後想起有在巴哈姆特 ACG 創作大賽[得獎報導](https://gnn.gamer.com.tw/detail.php?sn=239270)中使用本名，得以協助行員完成驗證。
 
@@ -45,7 +45,7 @@ tags: ["雜記"]
 
 這部分沒什麼好多說的 XD 就是根據官方辦法裡面撰寫的審查標準，以及官方的簡報範本去寫一份完整的計畫簡報。
 
-![official guidance](/static/images/posts/misc/0001/2.png)
+![official guidance](/images/posts/misc/0001/2.png)
 
 [我根據《自動混亂》的開發狀況撰寫了這樣的簡報](/static/documents/posts/misc/0001/%E7%8D%A8%E7%AB%8B%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%8D%8E%E5%8B%B5%E8%A8%88%E7%95%AB%E6%8F%90%E6%A1%88%E7%B0%A1%E5%A0%B1_%E8%87%AA%E5%8B%95%E6%B7%B7%E4%BA%82.pptx)，提供做參考。讓人感到困擾的是，簡報最終要求上傳的格式是 .pdf 格式，並且明確限制大小在 20MB 以內，所以實務上並不能做太多花樣。
 
@@ -59,7 +59,7 @@ tags: ["雜記"]
 
 期間也收到了計畫辦公室的補充說明信件：
 
-![additional information](/static/images/posts/misc/0001/3.png)
+![additional information](/images/posts/misc/0001/3.png)
 
 其中提到了可以自行攜帶設備，但是強調了以不更換簡報內容為原則，所以我最後選擇自行攜帶筆電，然後使用挾帶著有動圖版本的 .pptx 簡報原檔進行報告。
 
@@ -80,7 +80,7 @@ tags: ["雜記"]
 
 # 歷程檢討
 
-總之就結果而論沒能取得補助，除了應該可以假設獲得補助的團隊有著比《自動混亂》更優秀的作品以外（<abbr title="My job here is done">看來我可以先退休了</abbr>），大概還能做一些自我檢討。
+總之就結果而論沒能取得補助，除了應該可以假設獲得補助的團隊有著比《自動混亂》更優秀的作品以外（<abbr title="My job here is done">看來我可以先退休了</abbr>），大概還能做一些自我檢討：
 
 ## 不要相信官方辦法
 
