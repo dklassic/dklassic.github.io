@@ -171,5 +171,6 @@ Please also provide the following files:
 
 Windows:
 `Users\[Username]\AppData\LocalLow\ChosenConcept\Autopanic Zero\Player.log`
+Or just input the address `%userprofile%\AppData\LocalLow\ChosenConcept\Autopanic Zero\` in File Explorer and you should reach this folder, then provide Player.log within it.
 
 Thank you for reading. Hopefully this post helps you find a solution quickly.

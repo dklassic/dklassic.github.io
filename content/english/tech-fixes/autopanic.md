@@ -169,8 +169,8 @@ Please also provide the following files:
 
 2. Your Player.log located here:
 
-    Windows:
-    
-    `Users\[Username]\AppData\LocalLow\ChosenConcept\Autopanic\Player.log`
+Windows:
+`Users\[Username]\AppData\LocalLow\ChosenConcept\Autopanic\Player.log`
+Or just input the address `%userprofile%\AppData\LocalLow\ChosenConcept\Autopanic\` in File Explorer and you should reach this folder, then provide Player.log within it.
 
 Thank you for reading. Hopefully this post helps you find a solution quickly.

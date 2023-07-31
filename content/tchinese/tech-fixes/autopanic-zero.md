@@ -175,5 +175,6 @@ showTip: false
 
 Windows：
 `使用者\[Username]\AppData\LocalLow\ChosenConcept\Autopanic Zero\Player.log`
+或直接在檔案總管位址欄輸入：`%userprofile%\AppData\LocalLow\ChosenConcept\Autopanic Zero\`就可以到這個資料夾，再提供裡面的 Player.log
 
 感謝你的閱讀。希望這篇文章能幫助你快點找到解決辦法。
