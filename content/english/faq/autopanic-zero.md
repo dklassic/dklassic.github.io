@@ -51,7 +51,7 @@ This one is tricky.
 
 I can only say that CPU is the key to run this game smoothly and the game will gladly use up all the cores you have. I’ve done multitude of optimization to allow the overkill AI inherited from ***Autopanic*** to run at a much larger scale.
 
-I’m personally satisfied about the result. Further optimization would require a completely different AI structure, which I’m convinced to do some time in the future, just not now.
+I’m personally satisfied about the result. Further optimization would require a complete overhaul of AI structure, which I’m convinced to do some time in the future, just not now.
 
 For now please make sure you have a powerful multicore CPU. If you’re running into trouble, turn off the destruction simulation entirely, enable dynamic resolution, and limiting framerate might help for a smoother gameplay.
 
