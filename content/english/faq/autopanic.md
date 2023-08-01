@@ -24,7 +24,7 @@ Rogue-like elements will provide some variance during gameplay and you need to f
 
 # What are the PC versions' minimum system requirements?
 
-***Autopanic*** for PC the lowest spec machine tested sports an Intel i5-8400 + RX470 combination and can run 1080p/60fps consistently.
+For PC, the lowest spec machine tested sports an Intel i5-8400 + RX470 combination and can run 1080p/60fps consistently.
 
 It can go a lot lower if you’re willing to run it at even lower resolution or engage lower FPS cap.
 
@@ -34,7 +34,7 @@ Yes! The game automatically work with any controller thrown at it. If not? That�
 
 # What languages does the game support?
 
-***Autopanic*** features English and Traditional Chinese interface/subtitle, more language support is planned but will definitely take some time because I hope all languages to be a natively written version instead of a plain translation.
+***Autopanic*** features English and Traditional Chinese interface/subtitle, more language support is planned but will definitely take some time because I hope all languages to be written natively instead of being a plain translation.
 
 <!-- If you’re interested in making unofficial language mod, you can refer to here for more information. -->
 
