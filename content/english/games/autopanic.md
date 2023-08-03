@@ -11,7 +11,7 @@ fullSizeImage: "/images/games/autopanic/UltraWideStage3.png"
 
 [Read the full FAQ]({{< ref "/faq/autopanic" >}})
 
-<!-- [If you have technical issue, please check out Tech Fixes]({{< ref "/tech-fixes/autopanic" >}}) -->
+[If you have technical issue, please check out Tech Fixes]({{< ref "/tech-fixes/autopanic" >}})
 
 [Presskit]({{< ref "/presskit/autopanic" >}})
 
