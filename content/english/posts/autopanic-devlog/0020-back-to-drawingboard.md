@@ -11,7 +11,7 @@ It's great that all the fully diegetic bull I'm pulling seems to work, against a
 
 At first I felt like my designs are failing, but upon close inspection I figured out what exactly went wrong: not the design, but the lack of design.
 
-I quickly recalled my game is just a twinstick shooter strapped with the fully diegetic premise, then to accommodate the ability to acknowledge player death, a roguelike structure is then. But the gameplay itself was never designed with roguelike in mind.
+I quickly recalled my game is just a twinstick shooter strapped with the fully diegetic premise, then to accommodate the ability to acknowledge player death, a roguelike structure is then slapped on top of it. But the gameplay itself was never designed with roguelike in mind.
 
 Sure, I've got random rooms, enemy compositions, abilities, and a respectable amount of weapons. But the core gameplay loop, using the guns, poses no synergy whatsoever. There's no risk/reward at play here, so of course the gameplay doesn't feel interesting enough as a roguelike, it never was designed for a roguelike.
 
