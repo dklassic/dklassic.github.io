@@ -27,4 +27,4 @@ And here we are.
 
 So anyways, since I haven't got time to revisit the marketing materials yet, I figure the least I can do is to put out a demo of sorts. And I've been busy fixing some of the major bugs and mechanic changes for the past few weeks, and well, here's the demo.
 
-Also, this demo is sorta **The Whole Game**, by which I mean it is technically to reach the end of the game. Will anyone been able to reach the end? Or will no one play the demo at all? We'll see, we'll see.
+Also, this demo is sorta **The Whole Game**, by which I mean it is technically possible to reach the end of the game. Will anyone been able to reach the end? Or will no one play the demo at all? We'll see, we'll see.
