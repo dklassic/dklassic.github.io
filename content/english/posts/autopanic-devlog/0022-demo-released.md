@@ -9,7 +9,7 @@ tags: ["Autopanic"]
 
 My game Autopanic's demo is now available as part of Tiny Teams 2023 (8/3~8/10 BST)!
 
-<iframe src="https://store.steampowered.com/app/1311580/" frameborder="0" width="500" height="190"></iframe>
+<iframe src="https://store.steampowered.com/widget/1311580/" frameborder="0" width="500" height="190"></iframe>
 
 There are certainly still mechanics missing, but the public demo will feature around 50% of content and 80% of the mechanics. So if possible, please check it out and share your thoughts with me!
 
