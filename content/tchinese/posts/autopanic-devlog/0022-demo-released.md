@@ -9,7 +9,7 @@ tags: ["自動混亂"]
 
 我的遊戲《自動混亂》現在已經配合 Steam 上 8/4～8/10 期間的活動開放試玩版：
 
-<iframe src="https://ststore.steampowered.com/widget/1311580/" frameborder="0" width="500" height="190"></iframe>
+<iframe src="https://store.steampowered.com/widget/1311580/" frameborder="0" width="500" height="190"></iframe>
 
 雖然還滿確定會再加上一些額外機制，但這次公開的試玩版大概包含遊戲 50% 左右的遊戲內容跟八成的機制。如果願意的話，還請遊玩並且透過遊戲中的意見回饋告訴我是否有可以改善的地方。
 
