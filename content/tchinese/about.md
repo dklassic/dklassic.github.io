@@ -23,3 +23,4 @@ showTip: false
 
 - Twitter－[RandomDevDK](https://twitter.com/RandomDevDK)
 - Plurk－[dklassic](https://www.plurk.com/dklassic)
+- Discord - [自動混亂](https://discord.gg/fNfSfhKhkT)
