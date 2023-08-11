@@ -76,7 +76,7 @@ I figure with all the things I’ve learnt, game development is the only choice 
 
 # How long was *Autopanic* in development?
 
-The first prototype of Autopanic is finished in April 2020. The actual development started at May 1st 2020. The project was put on hold several times but three years of development should be accurate enough.
+The first prototype of Autopanic is finished in April 2020. The actual development started at May 1st 2020. The project was put on hold several times but three years of development should be accurate enough. If you're interested, I've keep tabs on my development for the most part [here](https://blog.chosenconcept.dev/tags/autopanic/) on this little site of mine.
 
 # Is *Autopanic* a multiplayer game, or are there any plans for multiplayer?
 
