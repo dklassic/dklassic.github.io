@@ -79,7 +79,7 @@ So here are the results.
 
 ![720p FSR](/images/posts/game-design/0016/720FSR2.png)
 
-Pretty effective huh. The result seems both anti-aliased and super sampled, just as FSR2 is intended for. Of course it is far from looking like a native 4K image, but way better than actual 720 native image.
+Pretty effective huh. The result seems both anti-aliased and super sampled, just as FSR2 is intended for. Of course it is far from looking like a native 4K image, but way better than actual native 720p image.
 
 ## Quality (1.5x per axis)
 
