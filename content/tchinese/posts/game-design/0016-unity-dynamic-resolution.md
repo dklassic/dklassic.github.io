@@ -9,7 +9,7 @@ tags: ["Unity"]
 
 # 問題
 
-《自動混亂》因為有很多奇怪的設計，我希望最大限度降低玩家對作品周邊要素的困擾，來增加玩家能享受遊戲本體的可能性。周邊的困擾太多的話可能會被轉嫁成對遊戲本身的厭惡，進而放大對特定設計的難以接受。
+《[自動混亂](https://store.steampowered.com/app/1274830)》因為有很多奇怪的設計，我希望最大限度降低玩家對作品周邊要素的困擾，來增加玩家能享受遊戲本體的可能性。周邊的困擾太多的話可能會被轉嫁成對遊戲本身的厭惡，進而放大對特定設計的難以接受。
 
 總之因此對三件事情特別在意處理：
 
@@ -49,9 +49,17 @@ tags: ["Unity"]
 
 謝了，Unity，謝了。
 
+## 調整解析度的判定
+
+當然有了調整解析度的手段，再來就是要怎麼判斷該增加或者減少解析度了。
+
+我的實作方式是直接參考[官方的範例](https://github.com/Unity-Technologies/DynamicResolutionSample)，在降低解析度上算激進，但畢竟我把動態解析度當成最後防線同時又允許玩家自由開關，所以就以範例的演算法為主。簡單來說 GPU 負載如果逐漸增加，而且上一幀的費時快要比目標時間長的時候，就逐步降低解析度；反之則增加。
+
+其中官方的範例中提供了可以使用 [`UnityEngine.Rendering.FrameTimingManager`](https://docs.unity3d.com/ScriptReference/FrameTimingManager.html) 來取得 GPU 費時的資訊，但是只有在 DX12、Vulkan 跟 Metal 上能取得所需要的資訊。為了能增加可用性，我為了 DX11 實作了 根據 `Time.unscaledDeltaTime` 判斷的版本（也就是 GPU time 與 CPU time 較長的那一個），但當然就不一定能正確應對 GPU 負載調整渲染壓力，可能會在 CPU 負載高的時候誤判。
+
 # FSR2 實裝
 
-總之因為昨晚意外解決了前述的問題，讓我的遊戲可以順便把 FSR2 也實裝進來，驗證一下成效。使用的實作來源是這個 https://github.com/ndepoel/FSR2Unity。
+總之因為昨晚意外解決了前述的問題，讓我的遊戲可以順便把 FSR2 也實裝進來，驗證一下成效。使用的實作來源是這個[開源專案 FSR2Unity](https://github.com/ndepoel/FSR2Unity)。
 
 以下直接以成果來解說一下觀察到的性質。
 
