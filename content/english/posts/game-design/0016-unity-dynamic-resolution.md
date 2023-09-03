@@ -16,14 +16,14 @@ Here we go!
 I focus on three parts:
 
 - Performance: to be able to run at older computers as much as possible.
-- User Experience: if I didn't have intent for something, also go for a version that favor's player.
+- User Experience: if I didn't have intent for something, always go for a version that favor's player.
 - Accessibility: Besides disability assistance, I'd like to ensure players can play in whatever way they want.
 
-Anyways, Autopanic is already pretty light, as a final stretch I'd like to add in Dynamic Resolution for good measure. The one that I've implemented last November is a bit meh due to limitations posed by Unity, but I finally figure it out just yesterday.
+Anyways, Autopanic is already pretty light on the performance side of things, as a final stretch I'd like to add in Dynamic Resolution for good measure. The one that I've implemented last November is a bit meh due to limitations posed by Unity, but I finally figure it out just yesterday.
 
 # Dynamic Resolution Scaling
 
-Dynamic Resolution Scaling, as in the resolution can change dynamically depending on the load of GPU. Which is like the final effort to somewhat fix GPU performance if all else fails.
+Dynamic Resolution Scaling, as in the resolution can change dynamically depending on the load of GPU. Which is like the last ditch effort to somewhat fix GPU performance if all else fails.
 
 Anyways, Unity has implemented its own DRS solution for quite a while. Besides requiring DX12 or Vulkan, how it functions is quite a mystery on its own. In my game, I have my UIs rendered using Screen Space - Camera setup. You'd think by keeping Allow Dynamic Resolution unchecked on the camera will keep the UI rendered at crisp native resolution, that's not the case.
 
