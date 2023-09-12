@@ -74,8 +74,10 @@ Coroutine()
 }
 ```
 
-And so now the EnemyManager can update 100 enemies easily within 0.1ms without getting stalled by the Job.
+And so now the EnemyManager can update 100 enemies easily without getting stalled by the Job.
 
 ![no delayed result gathering profile](/images/posts/autopanic-devlog/0023/1.png "Before, the EnemyManager stalls to wait for the Job done.")
 
-![delayed result gathering profile](/images/posts/autopanic-devlog/0023/2.png "After, the EnemyManager simply continue whatever it needs to do and wait for the result asynchronously.")
+![delayed result gathering profile 1](/images/posts/autopanic-devlog/0023/2.png "After, the EnemyManager simply continue whatever it needs to do and wait for the result asynchronously.")
+
+![delayed result gathering profile 2](/images/posts/autopanic-devlog/0023/3.png "After, when the result is ready to be gathered, proceed with the processing.")
