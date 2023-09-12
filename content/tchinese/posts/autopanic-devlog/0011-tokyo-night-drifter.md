@@ -146,21 +146,15 @@ Tokyo Night Drifter 是一個特別的專案，相較於其他幾天幾週內隨
 
 即便能夠成功產生出乍看之下還行的虛擬世界，實際上有著滿滿的問題：
 
-![cluster lamp](/images/posts/autopanic-devlog/0011/12.jpg)
+![cluster lamp](/images/posts/autopanic-devlog/0011/12.jpg "爆炸多的路燈")
 
-> 爆炸多的路燈
-
-![bad intersection](/images/posts/autopanic-devlog/0011/13.jpg)
-
-> 完全亂七八糟的街口標線
+![bad intersection](/images/posts/autopanic-devlog/0011/13.jpg "完全亂七八糟的街口標線")
 
 但當然《微軟飛行模擬器》大部分時間不應該有人盯著這些地方看，所以做為以假亂真的目的來說，也算是相當有用了。
 
 對於我這個初出茅廬的新手來說，除了暫時不該繼續鑽研下去這種無底洞以外，也至少可以嘉許自己算是也做出了同等「高空中可以以假亂真」的產物了，也許該出一款《窮人的飛行模擬器》。
 
-![maybe maybe](/images/posts/autopanic-devlog/0011/14.png)
-
-> 如果沒有右上角的旋轉角度標示的話，是不是看起來很像夜晚空拍的照片了呢？
+![maybe maybe](/images/posts/autopanic-devlog/0011/14.png "如果沒有右上角的旋轉角度標示的話，是不是看起來很像夜晚空拍的照片了呢？")
 
 ## 現實車輛的物理模擬極其複雜
 
@@ -188,17 +182,11 @@ Tokyo Night Drifter 是一個特別的專案，相較於其他幾天幾週內隨
 
 我發現了能輕易純粹使用 Shader 製作出各種視覺表現不錯的成果，僅僅是一些雜訊，都能被拿來展現多種不同的視覺要素：
 
-![noise water](/images/posts/autopanic-devlog/0011/15.png)
+![noise water](/images/posts/autopanic-devlog/0011/15.png "純粹用雜訊驅動的積水表現")
 
-> 純粹用雜訊驅動的積水表現
+![underwater](/images/posts/autopanic-devlog/0011/16.png "完全覆寫出來的水底世界")
 
-![underwater](/images/posts/autopanic-devlog/0011/16.png)
-
-> 完全覆寫出來的水底世界
-
-![nuclear explosion](/images/posts/autopanic-devlog/0011/17.png)
-
-> 一不小心就會把雲霧變成核塵暴
+![nuclear explosion](/images/posts/autopanic-devlog/0011/17.png "一不小心就會把雲霧變成核塵暴")
 
 這個一個月未完成的專案，讓我知道了 Shader 充滿了無限的可能，後續就會被用上。
 

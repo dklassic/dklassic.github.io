@@ -17,17 +17,11 @@ tags: ["自動混亂"]
 - 試著用 Unity 的 HDRP 示範場景內建的素材快速拼湊出乍看之下好像還行的視覺
 - 測試一些穩定性比較低的物理互動看有沒有辦法帶來樂趣
 
-![enemy within selection](/images/posts/autopanic-devlog/0010/1.gif)
+![enemy within selection](/images/posts/autopanic-devlog/0010/1.gif "選擇要出任務的人，看結果")
 
-> 選擇要出任務的人，看結果
+![enemy within vote](/images/posts/autopanic-devlog/0010/2.gif "《阿瓦隆》每次出任務的投票系統當然也要做")
 
-![enemy within vote](/images/posts/autopanic-devlog/0010/2.gif)
-
-> 《阿瓦隆》每次出任務的投票系統當然也要做
-
-![enemy within throw](/images/posts/autopanic-devlog/0010/3.gif)
-
-> 不是直接把卡片瞬移過去，而是用物理系統丟到桌上
+![enemy within throw](/images/posts/autopanic-devlog/0010/3.gif "不是直接把卡片瞬移過去，而是用物理系統丟到桌上")
 
 總之這個實驗讓我得出了兩個結論：
 
@@ -56,9 +50,7 @@ tags: ["自動混亂"]
 
 所謂實作起來很簡單的賽車操控機制就是，與其模擬真實車輛的運作方式，把車子當作一顆球去推動這個球的移動簡單又有效。可以參考這個影片：[Mario Kart's Drifting | Mix and Jam](https://youtu.be/Ki-tWT50cEQ)。
 
-![sphere collision](/images/posts/autopanic-devlog/0010/4.png)
-
-> 移動運算使用的 Collider 是普通的球體的情況下，物理計算基本上很穩定，不用考慮各種真實車輛的物理問題
+![sphere collision](/images/posts/autopanic-devlog/0010/4.png "移動運算使用的 Collider 是普通的球體的情況下，物理計算基本上很穩定，不用考慮各種真實車輛的物理問題")
 
 順帶一提也是為什麼我[對速度感的表現稍微有些研究心得]({{< ref "/0008-speed" >}}) XD
 

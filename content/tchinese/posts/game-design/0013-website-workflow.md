@@ -9,9 +9,7 @@ tags: ["行銷"]
 
 不過總之這波是因為[海龜](https://twitter.com/aaefiikmnnnr)在 [IGDS Discord 伺服器](https://discord.gg/eUfnCqVkRz)上簡單的一句，促使我就這樣一整套做到底了 XD
 
-![hugo](/images/posts/game-design/0013/1.png)
-
-> 感謝海龜！
+![hugo](/images/posts/game-design/0013/1.png "感謝海龜！")
 
 總之先隨手寫一下我對「官方網站」的必須性的一些想法。
 

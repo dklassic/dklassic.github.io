@@ -18,9 +18,7 @@ tags: ["自動混亂","遊戲設計"]
 一個人不可能製作出大量精緻素材，而就算仰賴素材也還是要設法統一起美術風格。畢竟出發時還是個普通的新手，所以設法全力地造假出讓人看起來好像很厲害的視覺性質比較實際，或應該說能做到這程度就不錯了 XD
 而要提到視覺的設計，就不得不舉一些我自己拍的照片為例：
 
-![stars](/images/posts/autopanic-devlog/0013/1.jpg)
-
-> 合歡山銀河與流星，Sony A1，24mm，f/1.4，15 秒，ISO 640
+![stars](/images/posts/autopanic-devlog/0013/1.jpg "合歡山銀河與流星，Sony A1，24mm，f/1.4，15 秒，ISO 640")
 
 應該算是張會讓人「不明覺厲」的照片吧？
 
@@ -30,17 +28,13 @@ tags: ["自動混亂","遊戲設計"]
 
 相對地，保留給人想像空間時，其實也會產生體感的品質提升。例如說：
 
-![blurry](/images/posts/autopanic-devlog/0013/2.jpg)
-
-> 下雨天客運上亂拍，Sony A9，55mm，f/1.8，1/60 秒，ISO 320
+![blurry](/images/posts/autopanic-devlog/0013/2.jpg "下雨天客運上亂拍，Sony A9，55mm，f/1.8，1/60 秒，ISO 320")
 
 把光圈開很大去拍攝是新手攝影時很常濫用的做法，並不是拍出好照片的正確手段。但也不得不提經過散景後的世界總是帶給人更多的想像空間。
 
 而有時候就算是缺乏細節畫面，純粹整體視覺的色彩渲染，還是可以足以帶來別樣的視覺體驗，像是這樣：
 
-![rendering](/images/posts/autopanic-devlog/0013/3.jpg)
-
-> C/2020 F3 NEOWISE 與龜山島，Sony A9，135mm，f/1.8，2.5 秒，ISO 800
+![rendering](/images/posts/autopanic-devlog/0013/3.jpg "C/2020 F3 NEOWISE 與龜山島，Sony A9，135mm，f/1.8，2.5 秒，ISO 800")
 
 技術上來說沒有什麼細節，不過就是一堆朦朧的雲霧，一座只剩輪廓的島嶼，星星也就兩三點。但是拂曉與深空相對的顏色漸層還是足以烘托情緒。
 
@@ -66,17 +60,11 @@ tags: ["自動混亂","遊戲設計"]
 
 基本上渲染出的東西分別是這樣：
 
-![main camera](/images/posts/autopanic-devlog/0013/6.png)
+![main camera](/images/posts/autopanic-devlog/0013/6.png "主鏡頭")
 
-> 主鏡頭
+![layered camera](/images/posts/autopanic-devlog/0013/7.png "疊加鏡頭")
 
-![layered camera](/images/posts/autopanic-devlog/0013/7.png)
-
-> 疊加鏡頭
-
-![UI camera](/images/posts/autopanic-devlog/0013/8.png)
-
-> 介面鏡頭
+![UI camera](/images/posts/autopanic-devlog/0013/8.png "介面鏡頭")
 
 那麼，接下來我們再逐鏡頭去拆解各層渲染的方式。
 

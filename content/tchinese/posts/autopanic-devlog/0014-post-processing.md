@@ -18,23 +18,17 @@ tags: ["自動混亂","遊戲設計"]
 
 例如說之前有人用 UE5 做了一個日本車站，看起來很符合「<abbr title="Photorealism">照相寫實</abbr>」：
 
-![ue5 station](/images/posts/autopanic-devlog/0014/1.png)
-
-> Lorenzo Drago 使用 UE5 製作的日本車站
+![ue5 station](/images/posts/autopanic-devlog/0014/1.png "Lorenzo Drago 使用 UE5 製作的日本車站")
 
 寫實畫家的作品看起來很符合「<abbr title="Realism">寫實</abbr>」：
 
-![painting](/images/posts/autopanic-devlog/0014/2.png)
-
-> William Bouguereau 繪製的 The Story Book
+![painting](/images/posts/autopanic-devlog/0014/2.png "William Bouguereau 繪製的 The Story Book")
 
 應該沒有人會覺得能用 UE5 渲染出第一張圖，就會導致能畫出第二張圖的價值變低吧 XD
 
 這就是為什麼照相的發明沒有破壞掉寫實作畫的價值，因為人追求的寫實其實是「腦海中看到的寫實」，而不是純粹被客觀記錄下來的「照相寫實」。同樣的，攝影師拍出了「客觀寫實」，也依然得想辦法調整為自己腦海中看到的樣貌才算作品的完成：
 
-![painterly photo](/images/posts/autopanic-devlog/0014/3.png)
-
-> Joanna Kustra 所拍攝的如畫般的照片
+![painterly photo](/images/posts/autopanic-devlog/0014/3.png "Joanna Kustra 所拍攝的如畫般的照片")
 
 有空推薦看一下這篇文「[Creating Painterly 3D Scenes: preparing assets for NPR](https://shahriyarshahrabi.medium.com/creating-painterly-3d-scenes-preparing-assets-for-npr-8d6c726cc34f)」整理得更好 XD
 
@@ -74,9 +68,7 @@ tags: ["自動混亂","遊戲設計"]
 
 影視業最常用的做法就是以所謂的 SLog2、SLog3 拍攝，拍出來的畫面會長這樣：
 
-![slog](/images/posts/autopanic-devlog/0014/7.jpg)
-
-> Gerald Undone Sony A1 評測影片
+![slog](/images/posts/autopanic-devlog/0014/7.jpg "Gerald Undone Sony A1 評測影片")
 
 這樣做可以確保不會產生過曝、曝光不足的畫面，保留整體畫面細節。
 
@@ -101,27 +93,17 @@ tags: ["自動混亂","遊戲設計"]
 
 總之我想要當個假文青，所以我選擇幫亮部跟陰影都上藍青色的顏色：
 
-![Lift](/images/posts/autopanic-devlog/0014/11.png)
+![Lift](/images/posts/autopanic-devlog/0014/11.png "暗部顏色調整結果")
 
-> 暗部顏色調整結果
+![Gain](/images/posts/autopanic-devlog/0014/12.png "亮部顏色調整結果")
 
-![Gain](/images/posts/autopanic-devlog/0014/12.png)
-
-> 亮部顏色調整結果
-
-![Combined](/images/posts/autopanic-devlog/0014/13.png)
-
-> 合成
+![Combined](/images/posts/autopanic-devlog/0014/13.png "合成")
 
 但這樣藍藍青青的，畫面實在有點不太平衡，所以我在中間調使用了紅紫色，去平衡回去整個畫面：
 
-![Gamma](/images/posts/autopanic-devlog/0014/14.png)
+![Gamma](/images/posts/autopanic-devlog/0014/14.png "中間調顏色調整結果")
 
-> 中間調顏色調整結果
-
-![Combined Gama](/images/posts/autopanic-devlog/0014/15.png)
-
-> 合成
+![Combined Gama](/images/posts/autopanic-devlog/0014/15.png "合成")
 
 這樣總算畫面變得比較舒服了！帶點冷冽的氣息但又不會變得超陰陰鬱鬱的。
 

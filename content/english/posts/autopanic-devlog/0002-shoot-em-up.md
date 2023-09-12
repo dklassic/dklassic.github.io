@@ -15,8 +15,6 @@ This is also when the "Fully Diegetic" idea started to kick off. I want players 
 
 And since after death players have to restart the whole run, naturally they need to recollect their gear from their corpse.
 
-![corpse looting](/images/posts/autopanic-devlog/0002/2.png)
-
-> A bit souls-like vibe maybe?
+![corpse looting](/images/posts/autopanic-devlog/0002/2.png "A bit souls-like vibe maybe?")
 
 There's also an idea about strategically placing your corpse as a back up for more shield/health to recover during fight.

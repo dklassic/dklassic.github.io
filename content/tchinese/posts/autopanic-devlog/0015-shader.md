@@ -30,13 +30,9 @@ tags: ["自動混亂","遊戲設計"]
 
 總之雖然很好笑，但看起來體感品質就莫名其妙提升了。
 
-![actual](/images/posts/autopanic-devlog/0015/5.png)
+![actual](/images/posts/autopanic-devlog/0015/5.png "真正的樣貌，障礙物看不出來在空間中的深度、相對位置")
 
-> 真正的樣貌，障礙物看不出來在空間中的深度、相對位置
-
-![faked](/images/posts/autopanic-devlog/0015/6.png)
-
-> 加入了假造的倒影後，就突然變得很厲害，也解決了空間感的問題
+![faked](/images/posts/autopanic-devlog/0015/6.png "加入了假造的倒影後，就突然變得很厲害，也解決了空間感的問題")
 
 # <abbr title="Shader">著色器</abbr>們
 
@@ -75,9 +71,7 @@ tags: ["自動混亂","遊戲設計"]
 實務上為了搭配景深使用，刻意做成了一個從側面看起來會很醜的版本，但加上景深之後細節就恰到好處。
 
 ![volumetric cloud](/images/posts/autopanic-devlog/0015/10.png)
-![volumetric cloud actual](/images/posts/autopanic-devlog/0015/11.png)
-
-> 這個設定值側拍長起來超醜，但一過景深就會看起來很漂亮
+![volumetric cloud actual](/images/posts/autopanic-devlog/0015/11.png "這個設定值側拍長起來超醜，但一過景深就會看起來很漂亮")
 
 ## 地板
 

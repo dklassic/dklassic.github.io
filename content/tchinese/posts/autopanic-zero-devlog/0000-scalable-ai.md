@@ -13,13 +13,9 @@ tags: ["自動混亂零式","遊戲設計"]
 
 《自動混亂：零式》則要面對原作十倍以上的敵人數量級。
 
-![autopanic](/images/posts/autopanic-zero-devlog/0000/1.jpg)
+![autopanic](/images/posts/autopanic-zero-devlog/0000/1.jpg "《自動混亂》中，關卡板塊最多規劃到 8x8 的程度，同時登場敵人最多八個")
 
-> 《自動混亂》中，關卡板塊最多規劃到 8x8 的程度，同時登場敵人最多八個
-
-![autopanic zero](/images/posts/autopanic-zero-devlog/0000/2.jpg)
-
-> 《自動混亂：零式》的敵人總量顯著多很多
+![autopanic zero](/images/posts/autopanic-zero-devlog/0000/2.jpg "《自動混亂：零式》的敵人總量顯著多很多")
 
 製作《自動混亂：零式》時，目的已經先被決定了：極大量敵人的戰鬥。也因此不存在什麼繞路手段，就只能直球對決面對。
 

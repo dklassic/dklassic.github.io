@@ -76,10 +76,6 @@ Coroutine()
 
 在這樣的修改後，我的敵人管理流程可以在不需要被 Job 卡住的情況下輕鬆在 0.1ms 內更新 100 個敵人。
 
-![no delayed result gathering profile](/images/posts/autopanic-devlog/0023/1.png)
+![no delayed result gathering profile](/images/posts/autopanic-devlog/0023/1.png "修改前，EnemyManager 要等待 Job 完成才能繼續。")
 
-> 修改前，EnemyManager 要等待 Job 完成才能繼續。
-
-![delayed result gathering profile](/images/posts/autopanic-devlog/0023/2.png)
-
-> 修改後，EnemyManager 可以繼續往下跑，並且用非同步的方式等待結果。
+![delayed result gathering profile](/images/posts/autopanic-devlog/0023/2.png "修改後，EnemyManager 可以繼續往下跑，並且用非同步的方式等待結果。")

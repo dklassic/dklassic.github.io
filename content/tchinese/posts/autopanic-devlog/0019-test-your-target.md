@@ -116,9 +116,7 @@ Reddit 上有一個很有意思的板：[r/destroymygame](https://www.reddit.com
 
 **不要假設填答者知道所有資訊，解釋清楚**
 
-> 玩家就算玩過類 Rogue 作品，也可能不知道那叫做類 Rogue
-
-![explanation](/images/posts/autopanic-devlog/0019/3.png)
+![explanation](/images/posts/autopanic-devlog/0019/3.png "玩家就算玩過類 Rogue 作品，也可能不知道那叫做類 Rogue")
 
 **做好專有名詞定義，協助填寫**
 
@@ -187,9 +185,7 @@ Reddit 上有一個很有意思的板：[r/destroymygame](https://www.reddit.com
 
 雖然目標是想要證明完全耦合的敘事與機制可以帶來顯著有趣的遊戲體驗，但反過來說，無論是敘事還是機制都無法單獨測試。這個開發模型最近被 IGDShare 的大統領形容為「**樂透開獎式開發**」，近期開獎證明了我的設計方向是正確的，但萬一這一刻發現測試回饋都炸得一蹋糊塗的話，我還真的不知道該怎麼繼續前進 XDDDDDDD 通常一般遊戲可以試著努力推動一個「<abbr title="Vertical Slice">垂直切片</abbr>」的開發，然而《自動混亂》是一款「整個遊戲就是個垂直切片」的作品（望
 
-![vertical slice](/images/posts/autopanic-devlog/0019/7.png)
-
-> 可能比你想像的還要更字面上的
+![vertical slice](/images/posts/autopanic-devlog/0019/7.png "可能比你想像的還要更字面上的")
 
 當然即便如此，其實還是有一些可以被明確提早測試的部分，或者說用不同的方式驗證成功的可能性，例如說視覺的有效性其實還是可以及早測試，不過一人開發就是所有開發環節會互相搶資源。
 
