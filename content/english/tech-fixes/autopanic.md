@@ -83,7 +83,7 @@ Please try the following solutions, whichever ones are relevant to your system, 
 
 There are also some ways to improve general gameplay:
 
-- Enable "Dynamic Resolution" setting in "Visual" → "Advanced"
+- Enable "Dynamic Resolution" or "FSR2"/"DLSS" setting in "Visual" → "Advanced"
 - Lower resolution to give CPU some head room
 - Enable framerate limit for a consistent gameplay
 
