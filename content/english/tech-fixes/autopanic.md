@@ -83,11 +83,11 @@ Please try the following solutions, whichever ones are relevant to your system, 
 
 There are also some ways to improve general gameplay:
 
-- Enable "Dynamic Resolution" or "FSR2"/"DLSS" setting in "Visual" → "Advanced"
-- Lower resolution to give CPU some head room
 - Enable framerate limit for a consistent gameplay
+- Disable "Dynamic Lighting" Setting in "Visual" → "Advanced"
+- Enable "Dynamic Resolution" or "FSR2"/"DLSS" setting in "Visual" → "Advanced"
 
-If you'd like to further reduce CPU load at a cost of changing visual presentation, you can:
+Usually lowering resolution isn't associated with easing CPU overhead, but due to the way this game is rendered, lowering resolution can drastically improve the CPU performance. If you'd like to further reduce CPU load at a cost of changing visual presentation, you can:
 
 - Enable "CPU Lightweight Mode" setting in "Visual" → "Advanced"
 
