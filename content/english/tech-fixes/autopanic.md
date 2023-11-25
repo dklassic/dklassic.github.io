@@ -87,6 +87,10 @@ There are also some ways to improve general gameplay:
 - Lower resolution to give CPU some head room
 - Enable framerate limit for a consistent gameplay
 
+If you'd like to further reduce CPU load at a cost of changing visual presentation, you can:
+
+- Enable "CPU Lightweight Mode" setting in "Visual" → "Advanced"
+
 If all of above doesn’t help and you believe your device is better than minimum tested device, try each of the following steps:
 
 1. Ensure you have the latest graphics drivers.
