@@ -11,9 +11,7 @@ Created: May 10, 2022
 
 # What is *Autopanic*?
 
-***Autopanic*** is fully diegetic twinstick shooter with rogue-like elements in which you need to follow the guidance of an AI to reach the top floor of a mysteries facility. ***Autopanic*** aims to deliver some interesting narrative design along with satisfying fast-paced combat.
-
-Rogue-like elements will provide some variance during gameplay and you need to fully learn the mechanics to make it to the end. 
+***Autopanic*** is fully diegetic twinstick shooter with rogue-like elements in which you need to follow the guidance of an AI to reach the top floor of a mysteries facility. ***Autopanic*** is intentionally designed to be a freeing experience where the player can learn the world at their own pace. I aim to deliver a game with some interesting narrative design along with satisfying fast-paced combat.
 
 # Where can I get *Autopanic*?
 
