@@ -10,6 +10,22 @@ showTip: false
 
 Thank you for playing my game! It’ll be a bummer if you can’t enjoy it at its best. Below, I prepared some potential fixes for problems you may encounter: 
 
+# Steam Deck Experience
+
+*Autopanic Zero* runs through Proton on Steam Deck instead of a native port, the reason is because Unity's native Linux port runs way worse than emulation through Proton.
+
+*Autopanic Zero* can confidently run at 60FPS with dynamic resolution but 90FPS is much iffy due to the massive enemy count. Hence it's best to lock FPS at 60 for Steam Deck OLED players.
+
+Currently Unity Engine has some problem locking FPS on Steam Deck OLED: in-game framerate lock results into a weird 68FPS. If there's a need to run past 60FPS, please unlock framerate in-game and rely on only system framerate lock.
+
+Upon first launch on Steam Deck, the following settings will be applied:
+
+- Change Destruction Simulation to "Off"
+- Change Dynamic Lighting to "Off"
+- Enable Dynamic Resolution：with target as 90FPS and lower bound at 0.5x
+
+As to why 90FPS, it's because while Steamworks allow the detection of played through Steam Deck, it lacks the ability to detect OLED model. The setting is much more aggressive by default to ensure good experience.
+
 # Please Be Sure You Have the Latest Graphics Drivers!
 
 If you're experiencing any problems with the game, please verify that you have the latest drivers for your graphics card. Many issues can be solved by downloading the latest drivers from your card's manufacturer. You can get the latest drivers here:
@@ -85,7 +101,7 @@ There are also some ways to improve general gameplay:
 - Enable framerate limit for a consistent gameplay
 - Disable "Destruction Simulation" Setting in "Visual" → "Advanced"
 - Disable "Dynamic Lighting" Setting in "Visual" → "Advanced"
-- Enable "Dynamic Resolution" or "FSR2"/"DLSS" setting in "Visual" → "Advanced"
+- Enable "Dynamic Resolution" and/or "FSR2"/"DLSS" setting in "Visual" → "Advanced"
 
 Usually lowering resolution isn't associated with easing CPU overhead, but due to the way this game is rendered, lowering resolution can drastically improve the CPU performance. If you'd like to further reduce CPU load at a cost of changing visual presentation, you can:
 

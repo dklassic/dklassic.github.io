@@ -11,6 +11,21 @@ showTip: false
 
 Thank you for playing my game! It’ll be a bummer if you can’t enjoy it at its best. Below, I prepared some potential fixes for problems you may encounter: 
 
+# Steam Deck Experience
+
+*Autopanic* runs through Proton on Steam Deck instead of a native port, the reason is because Unity's native Linux port runs way worse than emulation through Proton.
+
+*Autopanic* can confidently run at both 60FPS and 90FPS, but for 90FPS you might need to further enable "Visual"→"Advance"→"CPU Lightweight Mode" to ensure a near locked experience.
+
+Currently Unity Engine has some problem locking FPS on Steam Deck OLED: in-game framerate lock results into a weird 68FPS. If there's a need to run past 60FPS, please unlock framerate in-game and rely on only system framerate lock.
+
+Upon first launch on Steam Deck, the following settings will be applied:
+
+- Change Dynamic Lighting to "Self"
+- Enable Dynamic Resolution：with target as 90FPS
+
+As to why 90FPS, it's because while Steamworks allow the detection of played through Steam Deck, it lacks the ability to detect OLED model. The setting is much more aggressive by default to ensure good experience.
+
 # Please Be Sure You Have the Latest Graphics Drivers!
 
 If you're experiencing any problems with the game, please verify that you have the latest drivers for your graphics card. Many issues can be solved by downloading the latest drivers from your card's manufacturer. You can get the latest drivers here:
@@ -85,7 +100,7 @@ There are also some ways to improve general gameplay:
 
 - Enable framerate limit for a consistent gameplay
 - Disable "Dynamic Lighting" Setting in "Visual" → "Advanced"
-- Enable "Dynamic Resolution" or "FSR2"/"DLSS" setting in "Visual" → "Advanced"
+- Enable "Dynamic Resolution" and/or "FSR2"/"DLSS" setting in "Visual" → "Advanced"
 
 Usually lowering resolution isn't associated with easing CPU overhead, but due to the way this game is rendered, lowering resolution can drastically improve the CPU performance. If you'd like to further reduce CPU load at a cost of changing visual presentation, you can:
 
