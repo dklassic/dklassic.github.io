@@ -17,7 +17,7 @@ tags: ["遊戲設計"]
 
 ![Yoko Taro](/images/posts/game-design/0017/2.jpg "對，就是橫尾太郎")
 
-橫尾太郎以《復仇龍騎士》與《尼爾》兩系列聞名，而「Making Weird Games for Weird People」是橫尾太郎在 2014 年的 GDC 做的演講。這部演講的內容直指《自動混亂》設計的核心，當時聽完這個演講重新揉合出的想法就成了驅動現在整個《自動混亂》遊戲設計的主要元素。
+橫尾太郎以《復仇龍騎士》與《尼爾》兩系列聞名，而「為了怪怪的人做怪怪的遊戲」是橫尾太郎在 2014 年的 GDC 做的演講。這部演講的內容直指《自動混亂》設計的核心，當時聽完這個演講重新揉合出的想法就成了驅動現在整個《自動混亂》遊戲設計的主要元素。
 
 但總之以下會直接無情暴雷《尼爾：人工生命》跟最後面有點《尼爾：自動人形》的雷，介意的話慎入。
 
@@ -100,7 +100,7 @@ tags: ["遊戲設計"]
 
 補一些出自演講中覺得有趣但又沒辦法系統性整理起來的內容，額外拿了一些另一部演講的內容過來補充《尼爾：人工生命》與《尼爾：自動人形》的設計。
 
-另一部演講叫做「[A Fun Time in Which Some No-Good Game Developers May or May Not Discuss How We Made NieR:Automata](https://youtu.be/jKbH9i5axxU)」整個超鬧的標題 XD 是 2018 年的《尼爾：自動人形》演講。
+另一部演講叫做「[一些爛開發者也許會討論《尼爾：自動人形》開發歷程的歡樂時光（A Fun Time in Which Some No-Good Game Developers May or May Not Discuss How We Made NieR:Automata）](https://youtu.be/jKbH9i5axxU)」整個超鬧的標題 XD 是 2018 年的《尼爾：自動人形》演講。
 
 摘自 2014 演講：
 
