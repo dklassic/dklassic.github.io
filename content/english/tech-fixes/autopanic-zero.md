@@ -16,7 +16,7 @@ Thank you for playing my game! It’ll be a bummer if you can’t enjoy it at it
 
 *Autopanic Zero* can confidently run at 60FPS with dynamic resolution but 90FPS is much iffy due to the massive enemy count. Hence it's best to lock FPS at 60 for Steam Deck OLED players using system setting. But if for some reason you feel like 90FPS is worth pushing for at the cost of some visual fidelity, you can enable "Visual"→"Advance"→"CPU Lightweight Mode" to push for an extremely high framerate.
 
-Currently Unity Engine has some problem locking FPS on Steam Deck OLED: in-game framerate lock results into a weird 68FPS. If there's a need to run past 60FPS, please unlock framerate in-game and rely on only system framerate lock.
+Currently Unity Engine has some problem locking FPS on Steam Deck OLED: in-game framerate lock might results into a weird 68FPS. If such problem occurs and there's a need to run past 60FPS, please unlock framerate in-game and rely on only system framerate lock.
 
 Upon first launch on Steam Deck, the following settings will be applied:
 
