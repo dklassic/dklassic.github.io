@@ -23,9 +23,7 @@ I later decided that the world don't really need yet another plain survivor styl
 
 # So is *Autopanic Zero* connected to *Autopanic* in any way?
 
-Yes, indeed.
-
-***Autopanic Zero*** canonically takes place after the events of ***Autopanic***… Wait a second, ***Zero*** is actually a sequel. Did I mess it up? Crap.
+Yes, indeed. ***Autopanic Zero*** canonically takes place before the events of ***Autopanic***.
 
 # Where can I get *Autopanic*?
 
@@ -49,7 +47,7 @@ I’ll also make the project open source whenever I can no longer update it. -->
 
 This one is tricky.
 
-I can only say that CPU is the key to run this game smoothly and the game will gladly use up all the cores you have. I’ve done multitude of optimization to allow the overkill AI inherited from ***Autopanic*** to run at a much larger scale.
+I can only say that CPU is the key to run this game smoothly and the game will gladly use up all the cores you have. I’ve done multitude of optimization to allow the overkill AI inherited from ***Autopanic*** to run at a much larger scale. Steam Deck is basically the minimum spec I'm targeting so I've made sure Steam Deck can run at a consistent 800p/60fps.
 
 I’m personally satisfied about the result. Further optimization would require a complete overhaul of AI structure, which I’m convinced to do some time in the future, just not now.
 

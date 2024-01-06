@@ -22,7 +22,7 @@ Created: May 10, 2022
 
 # What are the PC versions' minimum system requirements?
 
-For PC, the lowest spec machine tested sports an Intel i5-8400 + RX470 combination and can run 1080p/60fps consistently.
+For PC, the lowest spec machine tested sports an Intel i5-8400 + RX470 combination and can run 1080p/60fps consistently. In addition, I've made sure Steam Deck can run the game at a consistent 800p/60fps, and can have a decent enough 90fps gameplay experience if you want.
 
 It can go a lot lower if you’re willing to run it at even lower resolution or engage lower FPS cap.
 
