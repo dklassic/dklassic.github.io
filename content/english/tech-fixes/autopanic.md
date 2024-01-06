@@ -24,7 +24,7 @@ Upon first launch on Steam Deck, the following settings will be applied:
 - Change Dynamic Lighting to "Self"
 - Enable Dynamic Resolution：with target as 90FPS
 
-As to why 90FPS, it's because while Steamworks allow the detection of played through Steam Deck, it lacks the ability to detect OLED model. The setting is much more aggressive by default to ensure good experience.
+As to why 90FPS, it's because while Steamworks allow the detection of played through Steam Deck, it lacks the ability to detect OLED model. The setting is much more aggressive by default to ensure out-of-the-box good experience.
 
 # Please Be Sure You Have the Latest Graphics Drivers!
 

@@ -14,7 +14,7 @@ Thank you for playing my game! It’ll be a bummer if you can’t enjoy it at it
 
 *Autopanic Zero* runs through Proton on Steam Deck instead of a native port, the reason is because Unity's native Linux port runs way worse than emulation through Proton.
 
-*Autopanic Zero* can confidently run at 60FPS with dynamic resolution but 90FPS is much iffy due to the massive enemy count. Hence it's best to lock FPS at 60 for Steam Deck OLED players.
+*Autopanic Zero* can confidently run at 60FPS with dynamic resolution but 90FPS is much iffy due to the massive enemy count. Hence it's best to lock FPS at 60 for Steam Deck OLED players using system setting. But if for some reason you feel like 90FPS is worth pushing for at the cost of some visual fidelity, you can enable "Visual"→"Advance"→"CPU Lightweight Mode" to push for an extremely high framerate.
 
 Currently Unity Engine has some problem locking FPS on Steam Deck OLED: in-game framerate lock results into a weird 68FPS. If there's a need to run past 60FPS, please unlock framerate in-game and rely on only system framerate lock.
 
@@ -24,7 +24,7 @@ Upon first launch on Steam Deck, the following settings will be applied:
 - Change Dynamic Lighting to "Off"
 - Enable Dynamic Resolution：with target as 90FPS and lower bound at 0.5x
 
-As to why 90FPS, it's because while Steamworks allow the detection of played through Steam Deck, it lacks the ability to detect OLED model. The setting is much more aggressive by default to ensure good experience.
+As to why 90FPS, it's because while Steamworks allow the detection of played through Steam Deck, it lacks the ability to detect OLED model. The setting is much more aggressive by default to ensure out-of-the-box good experience.
 
 # Please Be Sure You Have the Latest Graphics Drivers!
 
