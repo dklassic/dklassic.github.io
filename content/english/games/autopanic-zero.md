@@ -9,7 +9,7 @@ showTip: false
 
 [Read the full FAQ]({{< ref "/faq/autopanic-zero" >}})
 
-<!-- [If you have technical issue, please check out Tech Fixes]({{< ref "/tech-fixes/autopanic-zero" >}}) -->
+[If you have technical issue, please check out Tech Fixes]({{< ref "/tech-fixes/autopanic-zero" >}})
 
 [Presskit]({{< ref "/presskit/autopanic-zero" >}})
 

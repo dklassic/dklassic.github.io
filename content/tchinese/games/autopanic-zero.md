@@ -9,7 +9,7 @@ showTip: false
 
 [閱讀完整常見問題列表]({{< ref "/faq/autopanic-zero" >}})
 
-<!-- [如果有技術問題請參考技術支援]({{< ref "/tech-fixes/autopanic-zero" >}}) -->
+[如果有技術問題請參考技術支援]({{< ref "/tech-fixes/autopanic-zero" >}})
 
 [媒體素材包]({{< ref "/presskit/autopanic-zero" >}})
 
