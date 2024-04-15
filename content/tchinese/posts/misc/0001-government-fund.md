@@ -53,6 +53,8 @@ tags: ["雜記"]
 
 四大報表的部分我使用了[政府提供的範本](https://gcis.nat.gov.tw/mainNew/publicContentAction.do?method=showPublic&pkGcisPublicContent=3858)進行編寫。
 
+> **更新：2024 年已經取消了財務資料的要求**
+
 ## 簡報狀況
 
 計畫雖然表定在 6/1 就要執行，但實際上收到出席通知的時間點是 6/6，並且定於 6/20 進行簡報。進行方式是簡報說明 15 分鐘、統問統答 15 分鐘。
