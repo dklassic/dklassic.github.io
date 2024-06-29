@@ -57,7 +57,8 @@ showTip: false
 |![Screenshot 1](/images/games/autopanic-zero/autopaniczero_screenshot_tw_1.png)|![Screenshot 2](/images/games/autopanic-zero/autopaniczero_screenshot_tw_2.png)|
 |---|---|
 |![Screenshot 3](/images/games/autopanic-zero/autopaniczero_screenshot_tw_3.png)|![Screenshot 4](/images/games/autopanic-zero/autopaniczero_screenshot_tw_4.png)|
-|![Screenshot 5](/images/games/autopanic-zero/autopaniczero_screenshot_tw_5.png)||
+|![Screenshot 5](/images/games/autopanic-zero/autopaniczero_screenshot_tw_5.png)|![Screenshot 6](/images/games/autopanic-zero/autopaniczero_screenshot_tw_6.png)|
+|![Screenshot 7](/images/games/autopanic-zero/autopaniczero_screenshot_tw_7.png)|![Screenshot 8](/images/games/autopanic-zero/autopaniczero_screenshot_tw_8.png)|
 
 # 遊戲標誌
 

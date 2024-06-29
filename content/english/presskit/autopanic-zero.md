@@ -58,7 +58,8 @@ Autopanic Zero is a reimagining of the prototype version of Autopanic, which tur
 |![Screenshot 1](/images/games/autopanic-zero/autopaniczero_screenshot_en_1.png)|![Screenshot 2](/images/games/autopanic-zero/autopaniczero_screenshot_en_2.png)|
 |---|---|
 |![Screenshot 3](/images/games/autopanic-zero/autopaniczero_screenshot_en_3.png)|![Screenshot 4](/images/games/autopanic-zero/autopaniczero_screenshot_en_4.png)|
-|![Screenshot 5](/images/games/autopanic-zero/autopaniczero_screenshot_en_5.png)||
+|![Screenshot 5](/images/games/autopanic-zero/autopaniczero_screenshot_en_5.png)|![Screenshot 6](/images/games/autopanic-zero/autopaniczero_screenshot_en_6.png)|
+|![Screenshot 7](/images/games/autopanic-zero/autopaniczero_screenshot_en_7.png)|![Screenshot 8](/images/games/autopanic-zero/autopaniczero_screenshot_en_8.png)|
 
 # Logo & Icon
 

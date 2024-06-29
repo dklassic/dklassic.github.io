@@ -15,13 +15,15 @@ Created: May 10, 2022
 
 Anyways after wrapping up most core pillars of ***Autopanic*** in May 2022, I decided to take a look at this phenomenal game called ***Vampire Survivor*** that stormed the internet. And oh boy, isn’t it fun!
 
-So now that my game is a much overkill version of that original vision, I thought to myself that it’ll be interesting to revisit the original idea with the tools I have. Following the popularity of games like ***20 Minutes Till Dawn***, I figure some people might appreciate something like this as it is.
+So now that my game is a much overkill version of that original vision, I thought to myself that it’ll be interesting to revisit the original idea with the tools I have. Following the popularity of games like ***20 Minutes Till Dawn***, I figure some people might appreciate something like this as it is. After a while I kind of feel like the world doesn't really need another generic VS-like, so I started incorporated ideas stemmed from the likes of Armored Core/Ace Combat, and created a game with more focus on build making pre-combat.
 
 Hence ***Autopanic Zero*** was born.
 
 # So is *Autopanic Zero* connected to *Autopanic* in any way?
 
-Yes, indeed. ***Autopanic Zero*** canonically takes place before the events of ***Autopanic***.
+Yes, indeed. ***Autopanic Zero*** canonically takes place before the events of ***Autopanic***. Also after.
+
+Wait, what?
 
 # Where can I get *Autopanic*?
 
