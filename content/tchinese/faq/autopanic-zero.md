@@ -57,6 +57,7 @@ showTip: false
 - 完全關閉「破壞模擬」
 - 完全關閉「動態光源」
 - 開啟「動態解析度」
+- 開啟「CPU 輕量模式」
 - 限制<abbr title="frame rate/frame per second/FPS">幀率</abbr>
 
 都應該可以幫助順暢執行。

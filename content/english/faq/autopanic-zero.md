@@ -51,7 +51,7 @@ I can only say that CPU is the key to run this game smoothly and the game will g
 
 I’m personally satisfied about the result. Further optimization would require a complete overhaul of AI structure, which I’m convinced to do some time in the future, just not now.
 
-For now please make sure you have a powerful multicore CPU. If you’re running into trouble, turn off the destruction simulation entirely, turn off dynamic lighting entirely, enable dynamic resolution, and limiting framerate might help for a smoother gameplay.
+For now please make sure you have a powerful multicore CPU. If you’re running into trouble, turn off the destruction simulation entirely, turn off dynamic lighting entirely, enable dynamic resolution, enable CPU lightweight mode, and limiting framerate might help for a smoother gameplay.
 
 # Does *Autopanic Zero* have PC controller support?
 
