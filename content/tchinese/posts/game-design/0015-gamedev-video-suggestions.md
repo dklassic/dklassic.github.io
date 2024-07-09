@@ -103,6 +103,7 @@ tags: ["雜記"]
 - https://youtu.be/bpFdfrg8SvY - Restoring the Forest: Capturing the Themes of 'Kena' Through VFX - Kena - 著重在解釋這款作品中汙染的環境與淨化的環境共處的視覺設計是如何達成的，以及這個設計方式讓許多額外系統可以順便用上。
 - https://youtu.be/8Pk-yAp7J_8 - How Parameters Drive the Particle Effects of 'Forza Horizon 5' - Forza Horizon 5 - 一個關於資料驅動的例子特效系統的解說，可以根據物理狀態、環境性質來改變特效顯示的性質，就不需要為了每種情境都獨立設計特效。
 - https://youtu.be/d6tp43wZqps - Achieving Artifact-Free Pixel Art Rendering - NA - Pixel Art 素材在 3D 環境或者縮放使用時傳統採樣方式會造成不良顯示結果，這部影片中則詳盡解釋一種使用 `fwidth` 來解決此問題的著色器設計。
+- https://youtu.be/gdBACyIOCtc - 3D Toon Rendering in 'Hi-Fi RUSH' - Hi-Fi Rush - 教戰級的 Toon Shading 演講，精細到實作都有具體解釋。
 
 # 關卡設計
 
