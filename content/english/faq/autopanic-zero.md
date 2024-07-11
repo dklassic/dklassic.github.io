@@ -7,7 +7,7 @@ showTip: false
 
 Created: May 10, 2022
 
-*Last Updated April 3, 2023:* Here are answers to frequently asked questions about my second game, ***Autopanic Zero***!
+*Last Updated July 11, 2024:* Here are answers to frequently asked questions about my second game, ***Autopanic Zero***!
 
 # Where does *Autopanic Zero* come from?
 
