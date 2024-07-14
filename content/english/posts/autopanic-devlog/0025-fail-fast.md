@@ -23,7 +23,7 @@ Over the months, I still got random messages out of nowhere from players who pla
 
 It'll fail, no doubt it'll fail miserably. A game from an unknown developer, even if it is the best game in the world (which it definitely is not), no one will see it. But some will, and they'll help me know if I'm on the right path.
 
-![Image of a person praising *Autopanic Zero*](/images/posts/Autopanic-devlog/0025/0001.png "How in the world did they find my game and I'm really grateful")
+![Image of a person praising *Autopanic Zero*](/images/posts/autopanic-devlog/0025/0001.png "How in the world did they find my game and I'm really grateful")
 
 I'll put out some hotfixes to address the immediate problems, but I'll quickly move on. If those smaller games I made is actually really good, people will rediscover them sooner or later. I'll make another game, and another, and yet another, as much as it takes to clear all my doubts. Each one of the releases will bring me closer to realizing *Autopanic* in its fullest.
 
