@@ -43,7 +43,7 @@ I think Unique Selling Point is overrated but I do believe I'm not here to make 
 
 I quickly fixated on two gripes I had with *Vampire Survivor* (which btw isn't their *fault*, it's not part of their design), first is the nearly meaningless character choice as it doesn't change the overall gameplay, second is bosses are just meatier punching bag. *Vampire Survivor* is pretty okay with those design due to the movement only player interaction, but since I'm making a game with a lot more player interactions, I need to improve on both of them to make it work.
 
-So with bosses *Autopanic* already got some mini bosses ready, I just imported them here and make their attack pattern more suitable with large crowd of mobs around. As for meaningful starting choice, I feel like the weapon choice alone from *Autopanic* isn't good enough, so I firstly added an options to change the characteristics of player movement, then I added an ultimate gauge because I don't know what else to add.
+So with bosses *Autopanic* already got some mini bosses ready, I just imported them here and make their attack pattern more suitable with large crowd of mobs around. As for meaningful starting choice, I feel like the weapon choice alone from *Autopanic* isn't good enough, so I firstly added options to change the characteristics of player movement, then I added an ultimate gauge because I don't know what else to add.
 
 And here it is, a 10 minute-ish loop horde survival game with three bosses to defeat.
 
