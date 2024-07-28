@@ -308,7 +308,6 @@ tags: ["雜記"]
 - https://youtu.be/fATEHq4Zv_Y - 30 Minute Steam Page Makeovers - NA - howtomarketagame Chris Zukowski 關於 Steam 頁面設計的經典演講，老實說 Steam 上大概每一百款遊戲只有一款遊戲有正確照著這建議做到位（汗
 - https://youtu.be/g5f7yixtQPc - No Time, No Budget, No Problem: Finishing The First Tree - The First Tree - 整體來說很掙扎要不要放這個演講，因為呃，演講內容本身很棒，但我自己認為遊戲完全不行，讓我玩完有點生氣。但無論如何演講本身的概念依然都是正確且實用的。
 - https://youtu.be/o93BMHdde6Y - Charm Your Communities - Among Us - Innersloth 的社群正向營造指南，雖然列點說明的時候感覺很理所當然，但是需要指引時仍無疑是一系列踏實的方針。
-![GOW level](/images/posts/game-design/0015/7.png)
 - https://youtu.be/-341jEXj-iI - The Golden Rule of Game Promotion: No One Cares About Your Game - NA - 奠基在演講者舊的演講上的一個新的演講，更著重在以「沒人在乎你的遊戲」為核心思想進行所有行銷的詮釋上，以 2023 年來說算是目前既有行銷知識集大成，如果沒時間了解的話建議至少看這部影片！
 
 # 專案製程
