@@ -16,6 +16,6 @@ https://github.com/dklassic/APFrameworkUI
 
 # GDC Transcript
 
-https://bloc.chosenconcept.dev/gdc-transcript
+https://blog.chosenconcept.dev/GDC-transcript/
 
 > A tool to display GDC YouTube channel videos along with transcribed subtitles. Can also show the whole transcription for easy search.

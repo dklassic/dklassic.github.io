@@ -16,6 +16,6 @@ https://github.com/dklassic/APFrameworkUI
 
 # GDC 逐字稿工具
 
-https://bloc.chosenconcept.dev/gdc-transcript
+https://blog.chosenconcept.dev/GDC-transcript/
 
 > 可以瀏覽 GDC YouTube 頻道影片逐字稿字幕，並且顯示完整文字內容的工具
