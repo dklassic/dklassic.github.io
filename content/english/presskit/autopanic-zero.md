@@ -81,7 +81,7 @@ for more screenshots, game logo, fact sheet [drive.google.com](). -->
 
 **Twitter Dev Blog**
 
-See the most recent screenshots and updates at [twitter.com](https://www.twitter.com/randomdevdk).
+See the most recent screenshots and updates at [twitter.com](https://www.twitter.com/justdkliao).
 
 **Autopanic Zero Website**
 
@@ -117,7 +117,7 @@ hi@chosenconcept.dev
 
 **Twitter**
 
-[twitter.com/randomdevdk](https://www.twitter.com/randomdevdk)
+[twitter.com/justdkliao](https://www.twitter.com/justdkliao)
 
 **Web**
 

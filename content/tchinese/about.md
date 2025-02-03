@@ -19,6 +19,6 @@ showTip: false
 
 這個網站會放置所有最新的消息，但想要更即時的更新的話，可以考慮在這些地方追蹤：
 
-- Twitter－[RandomDevDK](https://twitter.com/RandomDevDK)
+- Twitter－[justdkliao](https://twitter.com/justdkliao)
 - Plurk－[dklassic](https://www.plurk.com/dklassic)
 - Discord - [自動混亂](https://discord.gg/fNfSfhKhkT)

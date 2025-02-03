@@ -19,5 +19,5 @@ Currently developing two games at once:
 
 You can also follow me on 
 
-- Twitter－[RandomDevDK](https://twitter.com/RandomDevDK)
+- Twitter－[justdkliao](https://twitter.com/justdkliao)
 - Discord－[Autopanic](https://discord.gg/w57PEN42KV)

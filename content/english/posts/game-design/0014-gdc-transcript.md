@@ -104,4 +104,4 @@ I would love to go the extra mile and try to have GPT4 perform summary and poten
 
 Also although I think this is perfectly within the realm of fair use, but GDC is also rightfully so to have the repository removed since they technically own the content. If that's what happens, at least we had a good run.
 
-If you have any questions or suggestions, feel free to submit an Issue on Github or contact me on [Twitter](https://twitter.com/RandomDevDK). Thanks for reading!
+If you have any questions or suggestions, feel free to submit an Issue on Github or contact me on [Twitter](https://twitter.com/justdkliao). Thanks for reading!

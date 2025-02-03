@@ -80,7 +80,7 @@ showTip: false
 
 **Twitter 開發資訊**
 
-最新的遊戲截圖與內容更新 [twitter.com](https://www.twitter.com/randomdevdk)。
+最新的遊戲截圖與內容更新 [twitter.com](https://www.twitter.com/justdkliao)。
 
 **《自動混亂：零式》官方網站**
 
@@ -116,7 +116,7 @@ hi@chosenconcept.dev
 
 **Twitter**
 
-[twitter.com/randomdevdk](https://www.twitter.com/randomdevdk)
+[twitter.com/justdkliao](https://www.twitter.com/justdkliao)
 
 **網站**
 

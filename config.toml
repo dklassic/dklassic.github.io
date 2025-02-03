@@ -36,7 +36,7 @@ paginate = 10
     [languages.tw.params]
       [languages.tw.params.navigation]
 [social]
-  twitter = 'https://www.twitter.com/randomdevdk'
+  twitter = 'https://www.twitter.com/justdkliao'
 [params]
   author = 'DK Liao'
   description = 'A small site about random stuffs'
