@@ -8,11 +8,11 @@ showTip: false
 fullSizeImage: "/images/games/autopanic/UltraWideStage3.png"
 ---
 
-[閱讀完整常見問題列表]({{< ref "/faq/autopanic" >}})
+[閱讀完整常見問題列表]({{< ref "/autopanic/faq" >}})
 
-[如果有技術問題請參考技術支援]({{< ref "/tech-fixes/autopanic" >}})
+[如果有技術問題請參考技術支援]({{< ref "/autopanic/tech-fixes" >}})
 
-[媒體素材包]({{< ref "/presskit/autopanic" >}})
+[媒體素材包]({{< ref "/autopanic/presskit" >}})
 
 ![Tall](/images/games/autopanic/Autopanic_Tall_tw.png)
 

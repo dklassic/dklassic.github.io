@@ -7,11 +7,11 @@ showToc: false
 showTip: false
 ---
 
-[Read the full FAQ]({{< ref "/faq/autopanic-zero" >}})
+[Read the full FAQ]({{< ref "/autopanic-zero/faq" >}})
 
-[If you have technical issue, please check out Tech Fixes]({{< ref "/tech-fixes/autopanic-zero" >}})
+[If you have technical issue, please check out Tech Fixes]({{< ref "/autopanic-zero/tech-fixes" >}})
 
-[Presskit]({{< ref "/presskit/autopanic-zero" >}})
+[Presskit]({{< ref "/autopanic-zero/presskit" >}})
 
 ![Tall](/images/games/autopanic-zero/AutopanicZero_Tall_en.png)
 

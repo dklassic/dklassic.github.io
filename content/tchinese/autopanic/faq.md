@@ -42,7 +42,7 @@ showTip: false
 
 <!-- # 如果有遭遇到技術問題的話，我該怎麼做？
 
-需要技術支援時，請見[《自動混亂》技術支援]({{< ref "/tech-fixes/autopanic" >}})，如果還是沒能排除的話可以前往 [《自動混亂》Steam 技術支援討論區](https://steamcommunity.com/app/1274830/discussions/3/)，又或者是前往官方 Discord `#自動混亂－技術支援` 頻道尋求協助。 -->
+需要技術支援時，請見[《自動混亂》技術支援]({{< ref "/autopanic/tech-fixes" >}})，如果還是沒能排除的話可以前往 [《自動混亂》Steam 技術支援討論區](https://steamcommunity.com/app/1274830/discussions/3/)，又或者是前往官方 Discord `#自動混亂－技術支援` 頻道尋求協助。 -->
 
 # 話說這「完全敘事表現」到底是個什麼概念？
 

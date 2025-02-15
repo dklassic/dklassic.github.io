@@ -76,7 +76,7 @@ Autopanic started out as a small shoot 'em up in 2020, later evolved into more o
 
 # Monetization Permission
 
-DK Liao allows for the contents of DK Liao to be published through video broadcasting services for any commercial or non-commercial purposes. Monetization of videos created containing assets from DK Liao is legally & explicitly allowed by DK Liao. This permission can be found in writing at [http://blog.chosenconcept.dev/presskit/autopanic#monetization-permission](http://blog.chosenconcept.dev/presskit/autopanic#monetization-permission).
+DK Liao allows for the contents of DK Liao to be published through video broadcasting services for any commercial or non-commercial purposes. Monetization of videos created containing assets from DK Liao is legally & explicitly allowed by DK Liao. This permission can be found in writing at [http://blog.chosenconcept.dev/autopanic/presskit#monetization-permission](http://blog.chosenconcept.dev/autopanic/presskit#monetization-permission).
 
 # Additional Links
 

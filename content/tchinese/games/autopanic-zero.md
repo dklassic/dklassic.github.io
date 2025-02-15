@@ -7,11 +7,11 @@ showToc: false
 showTip: false
 ---
 
-[閱讀完整常見問題列表]({{< ref "/faq/autopanic-zero" >}})
+[閱讀完整常見問題列表]({{< ref "/autopanic-zero/faq" >}})
 
-[如果有技術問題請參考技術支援]({{< ref "/tech-fixes/autopanic-zero" >}})
+[如果有技術問題請參考技術支援]({{< ref "/autopanic-zero/tech-fixes" >}})
 
-[媒體素材包]({{< ref "/presskit/autopanic-zero" >}})
+[媒體素材包]({{< ref "/autopanic-zero/presskit" >}})
 
 ![Tall](/images/games/autopanic-zero/AutopanicZero_Tall_tw.png)
 

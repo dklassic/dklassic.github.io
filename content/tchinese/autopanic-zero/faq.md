@@ -78,7 +78,7 @@ showTip: false
 
 <!-- # 如果有遭遇到技術問題的話，我該怎麼做？
 
-需要技術支援時，請見[《自動混亂：零式》技術支援]({{< ref "/tech-fixes/autopanic-zero" >}})，如果還是沒能排除的話可以前往 [《自動混亂：零式》Steam 技術支援討論區](https://steamcommunity.com/app/1423670/discussions/1/)，又或者是前往官方 Discord `#自動混亂零式－技術支援` 頻道尋求協助。 -->
+需要技術支援時，請見[《自動混亂：零式》技術支援]({{< ref "/autopanic-zero/tech-fixes" >}})，如果還是沒能排除的話可以前往 [《自動混亂：零式》Steam 技術支援討論區](https://steamcommunity.com/app/1423670/discussions/1/)，又或者是前往官方 Discord `#自動混亂零式－技術支援` 頻道尋求協助。 -->
 
 # 使用鍵盤滑鼠時，要怎樣觸發自動瞄準？
 

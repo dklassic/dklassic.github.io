@@ -69,7 +69,7 @@ Yes! You may also find local copies of your saves under `Documents/Saved Games/A
 
 <!-- # I ran into a technical issue with the game. What should I do?
 
-If you need technical support, please have a look in [Autopanic Zero Tech Fixes]({{< ref "/tech-fixes/autopanic-zero" >}}). If the problem still hasn't been resolved, you can find help in [Autopanic Steam Technical Support forum](https://steamcommunity.com/app/1423670/discussions/1/) or in the official Discord server `#autopanic-tech-support` channel, which should help get you sorted. -->
+If you need technical support, please have a look in [Autopanic Zero Tech Fixes]({{< ref "/autopanic-zero/tech-fixes" >}}). If the problem still hasn't been resolved, you can find help in [Autopanic Steam Technical Support forum](https://steamcommunity.com/app/1423670/discussions/1/) or in the official Discord server `#autopanic-tech-support` channel, which should help get you sorted. -->
 
 
 # How do I use auto aim in *Autopanic Zero* with Mouse and Keyboard?

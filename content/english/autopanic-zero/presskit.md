@@ -71,7 +71,7 @@ Autopanic Zero is a reimagining of the prototype version of Autopanic, which tur
 
 # Monetization Permission
 
-DK Liao allows for the contents of DK Liao to be published through video broadcasting services for any commercial or non-commercial purposes. Monetization of videos created containing assets from DK Liao is legally & explicitly allowed by DK Liao. This permission can be found in writing at [http://blog.chosenconcept.dev/presskit/autopanic-zero#monetization-permission](http://blog.chosenconcept.dev/presskit/autopanic-zero#monetization-permission).
+DK Liao allows for the contents of DK Liao to be published through video broadcasting services for any commercial or non-commercial purposes. Monetization of videos created containing assets from DK Liao is legally & explicitly allowed by DK Liao. This permission can be found in writing at [http://blog.chosenconcept.dev/autopanic-zero/presskit#monetization-permission](http://blog.chosenconcept.dev/autopanic-zero/presskit#monetization-permission).
 
 # Additional Links
 
