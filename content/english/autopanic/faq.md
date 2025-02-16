@@ -46,7 +46,7 @@ Yes! ***Autopanic*** supports cloud saves on Steam. You may also find local copi
 
 <!-- # I ran into a technical issue with the game. What should I do?
 
-If you need technical support, please have a look in [Autopanic Tech Fixes]({{< ref "/autopanic/tech-fixes" >}}). If the problem still hasn't been resolved, you can find help in [Autopanic Steam Technical Support forum](https://steamcommunity.com/app/1274830/discussions/3/) or in the official Discord server `#autopaniczero-tech-support` channel, which should help get you sorted. -->
+If you need technical support, please have a look in [Autopanic Tech Fixes]({{< ref "/autopanic/tech-fixes" >}}). If the problem still hasn't been resolved, you can seek help in [Autopanic Steam Technical Support forum](https://steamcommunity.com/app/1274830/discussions/3/) or in the official Discord server `#autopaniczero-tech-support` channel, which should help get you sorted. -->
 
 # What does fully diegetic mean, anyway...?
 

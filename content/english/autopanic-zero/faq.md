@@ -7,7 +7,7 @@ showTip: false
 
 Created: May 10, 2022
 
-*Last Updated July 11, 2024:* Here are answers to frequently asked questions about my second game, ***Autopanic Zero***!
+*Last Updated February 16, 2025:* Here are answers to frequently asked questions about my second game, ***Autopanic Zero***!
 
 # Where does *Autopanic Zero* come from?
 
@@ -31,17 +31,13 @@ Wait, what?
 
 - [Steam](https://store.steampowered.com/app/1423670/)
 
-<!-- # Now that *Autopanic Zero* is out, what's next?
+# Now that *Autopanic Zero* is out, what's next?
 
-Still polishing up ***Autopanic***, should be releasing very soon. -->
+Still polishing up ***Autopanic***, should be releasing very soon.
 
-<!-- # Will *Autopanic Zero* be receiving extra content updates?
+# Will *Autopanic Zero* be receiving extra content updates or plan to release a more content rich version?
 
-I’d like to do so as long as I’m financially available! I find making Autopanic Zero to be a fun side project to test out designs and even contributes retroactively towards ***Autopanic***'s development. But I’m super broke now so I need to polish up and release ***Autopanic*** as soon as possible first.
-
-If you’d like to support development of extra content, please consider buying the DLC. But please only purchase it if you find yourself comfortable supporting the content as it is now.
-
-I’ll also make the project open source whenever I can no longer update it. -->
+Planned, but nothing has been set in stone yet. We'll just have to wait and see.
 
 # What are the minimum system requirements?
 
@@ -67,9 +63,9 @@ Will probably investigate but don’t keep your hopes up.
 
 Yes! You may also find local copies of your saves under `Documents/Saved autopanic/game Zero`.
 
-<!-- # I ran into a technical issue with the game. What should I do?
+# I ran into a technical issue with the game. What should I do?
 
-If you need technical support, please have a look in [Autopanic Zero Tech Fixes]({{< ref "/autopanic-zero/tech-fixes" >}}). If the problem still hasn't been resolved, you can find help in [Autopanic Steam Technical Support forum](https://steamcommunity.com/app/1423670/discussions/1/) or in the official Discord server `#autopanic-tech-support` channel, which should help get you sorted. -->
+If you need technical support, please have a look in [Autopanic Zero Tech Fixes]({{< ref "/autopanic-zero/tech-fixes" >}}). If the problem still hasn't been resolved, you can seek help in [Autopanic Steam Technical Support forum](https://steamcommunity.com/app/1423670/discussions/1/) or in the official Discord server `#autopanic-tech-support` channel, which should help get you sorted.
 
 
 # How do I use auto aim in *Autopanic Zero* with Mouse and Keyboard?
