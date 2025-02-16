@@ -84,6 +84,6 @@ The first prototype of Autopanic is finished in April 2020. The actual developme
 
 Nope, you can copy the folder anywhere and it should still work!
 
-<!-- # I have more questions!
+# I have more questions!
 
-Please feel free to reach out with questions or feedback via Contact page or Discord. -->
+Please feel free to reach out with questions or feedback via contact in presskit or Discord.
