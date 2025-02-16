@@ -74,7 +74,7 @@ showTip: false
 
 # 《**自動混亂：零式**》支援 PC 雲端存檔嗎？
 
-有支援！有需要的話你可以在 `文件/Saved Games/Autopanic Zero` 找到。
+有支援！有需要的話你可以在 `文件/Saved autopanic/game Zero` 找到。
 
 <!-- # 如果有遭遇到技術問題的話，我該怎麼做？
 

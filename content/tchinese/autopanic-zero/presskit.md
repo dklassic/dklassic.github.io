@@ -10,7 +10,7 @@ showTip: false
 <span style="opacity:0; visibility: collapse;">dummy.account@outmail.com</span>
 <!-- dummy.account@outmail.com -->
 <!-- another.account@glook.com -->
-![autopanic-zero](/images/games/autopanic-zero/AutopanicZero_tw.png)
+![autopanic-zero](/images/autopanic-zero/AutopanicZero_tw.png)
 
 # 資料表
 
@@ -30,7 +30,7 @@ showTip: false
 
 **網站**
 
-[blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/games/autopanic-zero)
+[blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/autopanic-zero/game)
 
 **售價**
 
@@ -54,15 +54,15 @@ showTip: false
 <!-- # 影片 -->
 
 # 遊戲截圖
-|![Screenshot 1](/images/games/autopanic-zero/autopaniczero_screenshot_tw_1.png)|![Screenshot 2](/images/games/autopanic-zero/autopaniczero_screenshot_tw_2.png)|
+|![Screenshot 1](/images/autopanic-zero/autopaniczero_screenshot_tw_1.png)|![Screenshot 2](/images/autopanic-zero/autopaniczero_screenshot_tw_2.png)|
 |---|---|
-|![Screenshot 3](/images/games/autopanic-zero/autopaniczero_screenshot_tw_3.png)|![Screenshot 4](/images/games/autopanic-zero/autopaniczero_screenshot_tw_4.png)|
-|![Screenshot 5](/images/games/autopanic-zero/autopaniczero_screenshot_tw_5.png)|![Screenshot 6](/images/games/autopanic-zero/autopaniczero_screenshot_tw_6.png)|
-|![Screenshot 7](/images/games/autopanic-zero/autopaniczero_screenshot_tw_7.png)|![Screenshot 8](/images/games/autopanic-zero/autopaniczero_screenshot_tw_8.png)|
+|![Screenshot 3](/images/autopanic-zero/autopaniczero_screenshot_tw_3.png)|![Screenshot 4](/images/autopanic-zero/autopaniczero_screenshot_tw_4.png)|
+|![Screenshot 5](/images/autopanic-zero/autopaniczero_screenshot_tw_5.png)|![Screenshot 6](/images/autopanic-zero/autopaniczero_screenshot_tw_6.png)|
+|![Screenshot 7](/images/autopanic-zero/autopaniczero_screenshot_tw_7.png)|![Screenshot 8](/images/autopanic-zero/autopaniczero_screenshot_tw_8.png)|
 
 # 遊戲標誌
 
-![autopanic-zero-logo](/images/games/autopanic-zero/LibraryLogoBlack_tw.png)
+![autopanic-zero-logo](/images/autopanic-zero/LibraryLogoBlack_tw.png)
 
 <!-- # 獲獎紀錄 -->
 
@@ -84,7 +84,7 @@ showTip: false
 
 **《自動混亂：零式》官方網站**
 
-《自動混亂：零式》的官方網站在 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/games/autopanic-zero)。
+《自動混亂：零式》的官方網站在 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tw/autopanic-zero/game)。
 
 **《自動混亂：零式》官方網站開發資訊**
 
@@ -98,7 +98,7 @@ showTip: false
 
 
 <!-- ## Autopanic Credits
-The full credits for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic). -->
+The full credits for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/autopanic/game). -->
 
 # 關於廖得凱 DK Liao
 

@@ -10,7 +10,7 @@ showTip: false
 <span style="opacity:0; display:none; visibility: collapse;">dummy.account@outmail.com</span>
 <!-- dummy.account@outmail.com -->
 <!-- another.account@glook.com -->
-![autopanic-zero](/images/games/autopanic/Autopanic_en.png)
+![autopanic-zero](/images/autopanic/Autopanic_en.png)
 
 # Factsheet
 
@@ -30,7 +30,7 @@ DK Liao
 
 **Website**
 
-[blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic)
+[blog.chosenconcept.dev](https://blog.chosenconcept.dev/autopanic/game)
 
 **Regular Price**
 
@@ -55,18 +55,18 @@ Autopanic started out as a small shoot 'em up in 2020, later evolved into more o
 
 # GIFs
 
-![Combat Gif](/images/games/autopanic/combat.gif)
+![Combat Gif](/images/autopanic/combat.gif)
 
 # Images
 
-|![Screenshot 1](/images/games/autopanic/autopanic_screenshot_1.png)|![Screenshot 2](/images/games/autopanic/autopanic_screenshot_2.png)|
+|![Screenshot 1](/images/autopanic/autopanic_screenshot_1.png)|![Screenshot 2](/images/autopanic/autopanic_screenshot_2.png)|
 |---|---|
-|![Screenshot 3](/images/games/autopanic/autopanic_screenshot_3.png)|![Screenshot 4](/images/games/autopanic/autopanic_screenshot_4.png)|
-|![Screenshot 5](/images/games/autopanic/autopanic_screenshot_5.png)|![Screenshot 6](/images/games/autopanic/autopanic_screenshot_6.png)|
+|![Screenshot 3](/images/autopanic/autopanic_screenshot_3.png)|![Screenshot 4](/images/autopanic/autopanic_screenshot_4.png)|
+|![Screenshot 5](/images/autopanic/autopanic_screenshot_5.png)|![Screenshot 6](/images/autopanic/autopanic_screenshot_6.png)|
 
 # Logo & Icon
 
-![autopanic-logo](/images/games/autopanic/LibraryLogoBlack_en.png)
+![autopanic-logo](/images/autopanic/LibraryLogoBlack_en.png)
 
 # Awards & Recognition
 
@@ -90,7 +90,7 @@ See the most recent screenshots and updates at [twitter.com](https://www.twitter
 
 **Autopanic Website**
 
-The official website for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic).
+The official website for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/autopanic/game).
 
 **Autopanic Website Dev Blog**
 
@@ -104,7 +104,7 @@ Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/
 
 
 <!-- ## Autopanic Credits
-The full credits for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic). -->
+The full credits for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/autopanic/game). -->
 
 # About DK Liao
 

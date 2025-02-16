@@ -13,14 +13,14 @@ showTip: false
 
 [媒體素材包]({{< ref "/autopanic-zero/presskit" >}})
 
-![Tall](/images/games/autopanic-zero/AutopanicZero_Tall_tw.png)
+![Tall](/images/autopanic-zero/AutopanicZero_Tall_tw.png)
 
 <iframe src="https://store.steampowered.com/widget/1423670/" frameborder="0" width="500" height="190"></iframe>
 
 ---
 
-![Screenshot 1](/images/games/autopanic-zero/autopaniczero_screenshot_tw_1.png)
-![Screenshot 2](/images/games/autopanic-zero/autopaniczero_screenshot_tw_2.png)
-![Screenshot 3](/images/games/autopanic-zero/autopaniczero_screenshot_tw_3.png)
-![Screenshot 4](/images/games/autopanic-zero/autopaniczero_screenshot_tw_4.png)
-![Screenshot 5](/images/games/autopanic-zero/autopaniczero_screenshot_tw_5.png)
+![Screenshot 1](/images/autopanic-zero/autopaniczero_screenshot_tw_1.png)
+![Screenshot 2](/images/autopanic-zero/autopaniczero_screenshot_tw_2.png)
+![Screenshot 3](/images/autopanic-zero/autopaniczero_screenshot_tw_3.png)
+![Screenshot 4](/images/autopanic-zero/autopaniczero_screenshot_tw_4.png)
+![Screenshot 5](/images/autopanic-zero/autopaniczero_screenshot_tw_5.png)

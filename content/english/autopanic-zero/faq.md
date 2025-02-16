@@ -65,7 +65,7 @@ Will probably investigate but don’t keep your hopes up.
 
 # Does *Autopanic Zero* support PC cloud saves?
 
-Yes! You may also find local copies of your saves under `Documents/Saved Games/Autopanic Zero`.
+Yes! You may also find local copies of your saves under `Documents/Saved autopanic/game Zero`.
 
 <!-- # I ran into a technical issue with the game. What should I do?
 

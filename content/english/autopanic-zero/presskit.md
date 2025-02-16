@@ -10,7 +10,7 @@ showTip: false
 <span style="opacity:0; display:none; visibility: collapse;">dummy.account@outmail.com</span>
 <!-- dummy.account@outmail.com -->
 <!-- another.account@glook.com -->
-![autopanic-zero](/images/games/autopanic-zero/AutopanicZero_en.png)
+![autopanic-zero](/images/autopanic-zero/AutopanicZero_en.png)
 
 # Factsheet
 
@@ -30,7 +30,7 @@ DK Liao
 
 **Website**
 
-[blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic-zero)
+[blog.chosenconcept.dev](https://blog.chosenconcept.dev/autopanic-zero/game)
 
 **Regular Price**
 
@@ -55,15 +55,15 @@ Autopanic Zero is a reimagining of the prototype version of Autopanic, which tur
 
 # Images
 
-|![Screenshot 1](/images/games/autopanic-zero/autopaniczero_screenshot_en_1.png)|![Screenshot 2](/images/games/autopanic-zero/autopaniczero_screenshot_en_2.png)|
+|![Screenshot 1](/images/autopanic-zero/autopaniczero_screenshot_en_1.png)|![Screenshot 2](/images/autopanic-zero/autopaniczero_screenshot_en_2.png)|
 |---|---|
-|![Screenshot 3](/images/games/autopanic-zero/autopaniczero_screenshot_en_3.png)|![Screenshot 4](/images/games/autopanic-zero/autopaniczero_screenshot_en_4.png)|
-|![Screenshot 5](/images/games/autopanic-zero/autopaniczero_screenshot_en_5.png)|![Screenshot 6](/images/games/autopanic-zero/autopaniczero_screenshot_en_6.png)|
-|![Screenshot 7](/images/games/autopanic-zero/autopaniczero_screenshot_en_7.png)|![Screenshot 8](/images/games/autopanic-zero/autopaniczero_screenshot_en_8.png)|
+|![Screenshot 3](/images/autopanic-zero/autopaniczero_screenshot_en_3.png)|![Screenshot 4](/images/autopanic-zero/autopaniczero_screenshot_en_4.png)|
+|![Screenshot 5](/images/autopanic-zero/autopaniczero_screenshot_en_5.png)|![Screenshot 6](/images/autopanic-zero/autopaniczero_screenshot_en_6.png)|
+|![Screenshot 7](/images/autopanic-zero/autopaniczero_screenshot_en_7.png)|![Screenshot 8](/images/autopanic-zero/autopaniczero_screenshot_en_8.png)|
 
 # Logo & Icon
 
-![autopanic-zero-logo](/images/games/autopanic-zero/LibraryLogoBlack_en.png)
+![autopanic-zero-logo](/images/autopanic-zero/LibraryLogoBlack_en.png)
 
 <!-- # Awards & Recognition -->
 
@@ -85,7 +85,7 @@ See the most recent screenshots and updates at [twitter.com](https://www.twitter
 
 **Autopanic Zero Website**
 
-The official website for Autopanic Zero can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic-zero).
+The official website for Autopanic Zero can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/autopanic-zero/game).
 
 **Autopanic Zero Website Dev Blog**
 
@@ -99,7 +99,7 @@ Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/
 
 
 <!-- ## Autopanic Credits
-The full credits for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/games/autopanic). -->
+The full credits for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/autopanic/game). -->
 
 # About DK Liao
 

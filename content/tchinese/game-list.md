@@ -9,7 +9,7 @@ zoomImage: false
 
 # 自動混亂
 
-[![Autopanic Thumbnail](/images/games/autopanic/Autopanic_tw.png)]({{< ref "games/autopanic" >}})
+[![Autopanic Thumbnail](/images/autopanic/Autopanic_tw.png)]({{< ref "autopanic/game" >}})
 
 > 《自動混亂》是一款嘗試採用完全敘事表現的極簡風格雙搖桿射擊遊戲，搭配部分的類 Rogue 遊戲機制。
 
@@ -17,7 +17,7 @@ zoomImage: false
 
 # 自動混亂：零式
 
-[![Autopanic Zero Thumbnail](/images/games/autopanic-zero/AutopanicZero_tw.png)]({{< ref "games/autopanic-zero" >}})
+[![Autopanic Zero Thumbnail](/images/autopanic-zero/AutopanicZero_tw.png)]({{< ref "autopanic-zero/game" >}})
 
 > 《自動混亂：零式》是一款極簡風格雙搖桿射擊生存遊戲，著重在極短遊玩時間中的刺激體驗。
 

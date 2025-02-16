@@ -9,7 +9,7 @@ zoomImage: false
 
 # Autopanic
 
-[![Autopanic Thumbnail](/images/games/autopanic/Autopanic_en.png)]({{< ref "games/autopanic" >}})
+[![Autopanic Thumbnail](/images/autopanic/Autopanic_en.png)]({{< ref "autopanic/game" >}})
 
 > Autopanic is a minimalist twinstick shooter attempting to deliver a fully diegetic gameplay that acknowledges every player action. Some Rogue-like elements are added to the mix as well.
 
@@ -17,7 +17,7 @@ zoomImage: false
 
 # Autopanic Zero
 
-[![Autopanic Zero Thumbnail](/images/games/autopanic-zero/AutopanicZero_en.png)]({{< ref "games/autopanic-zero" >}})
+[![Autopanic Zero Thumbnail](/images/autopanic-zero/AutopanicZero_en.png)]({{< ref "autopanic-zero/game" >}})
 
 > Autopanic Zero is a minimalist twinstick shooter survival game. Designed with quick sessions in mind.
 
