@@ -63,7 +63,8 @@ Autopanic Zero is a reimagining of the prototype version of Autopanic, which tur
 
 # Logo & Icon
 
-![autopanic-zero-logo](/images/autopanic-zero/LibraryLogoBlack_en.png)
+![autopanic-zero-logo-black](/images/autopanic-zero/LibraryLogoBlack_en.png)
+![autopanic-zero-logo-white](/images/autopanic-zero/LibraryLogoWhite_en.png)
 
 <!-- # Awards & Recognition -->
 

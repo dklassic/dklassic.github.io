@@ -62,7 +62,8 @@ showTip: false
 
 # 遊戲標誌
 
-![autopanic-zero-logo](/images/autopanic-zero/LibraryLogoBlack_tw.png)
+![autopanic-zero-logo-black](/images/autopanic-zero/LibraryLogoBlack_tw.png)
+![autopanic-zero-logo-white](/images/autopanic-zero/LibraryLogoWhite_tw.png)
 
 <!-- # 獲獎紀錄 -->
 
