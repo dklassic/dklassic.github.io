@@ -45,13 +45,15 @@ tags: ["專案管理"]
 
 ![patch note discord](/images/posts/game-design/0018/0002.png "Discord 有自己獨立的更新紀錄發佈管道")
 
-管道數根據團隊不同還可以繼續增加，X（Twitter）、噗浪、FB、IG，純社群參與性的 Reddit、巴哈姆特與 PTT，而製作影片內容的話還有 YouTube、抖音等等。好一點的情況下平台可能有 API 可以串接程式直接統一發佈訊息，或我想應該有第三方在做整合，但差一點的情況下可能都得仰賴人力進行。以我的情境來說，Discord 可以用 WebHook 去打訊息到指定頻道，但 Steam 後台最低限度也得打開消息發佈介面，才能匯入 CSV 或 XML。
+管道數根據團隊不同還可以繼續增加，X（Twitter）、噗浪、FB、IG，純社群參與性的 Reddit、巴哈姆特與 PTT，而製作影片內容的話還有 YouTube、抖音等等。好一點的情況下平台可能有 API 可以串接程式直接統一發佈訊息，或我想應該有第三方在做整合，但差一點的情況下可能都得仰賴人力進行。以我的情境來說，Discord 可以用 WebHook 去打訊息到指定頻道（順便推薦一下《換影循跡 Bionic Bay》開發者小峰做的[輔助工具](https://github.com/qwe321qwe321qwe321/Unity-DiscordWebhook)），但 Steam 後台最低限度也得打開消息發佈介面，才能匯入 CSV 或 XML。
 
 而其中 Discord 支援的是 Markdown 語法，Steam 支援的是 BBcode，這又進一步增加了麻煩。因此我後續決定以 Markdown 為主體寫更新紀錄，然後做自動轉換成 BBcode。
 
 ![markdown](/images/posts/game-design/0018/0003.png)
 
 ![bbcode](/images/posts/game-design/0018/0004.png)
+
+另一方面同理也可以提到說追蹤玩家的消息的手段過於零碎：沒辦法把 Steam 討論板、Steam 評論跟 Discord 訊息輕易地整併成一個訊息串讓我掃過去，也會希望可以追蹤潛在的玩家心得文（例如 PTT 至少也是有一篇），變成有大量的時間被浪費在海巡通常沒有人討論的各處，但又怕玩家有急事要找我（還確實真的遇上幾次所以又更加深<abbr title="FOMO">錯失恐懼症</abbr>）。
 
 而當然這又不得不提到說：
 
