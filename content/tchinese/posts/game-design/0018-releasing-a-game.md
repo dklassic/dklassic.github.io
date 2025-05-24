@@ -45,7 +45,7 @@ tags: ["專案管理"]
 
 ![patch note discord](/images/posts/game-design/0018/0002.png "Discord 有自己獨立的更新紀錄發佈管道")
 
-管道數根據團隊不同還可以繼續增加，X（Twitter）、噗浪、FB、IG，純社群參與性的巴哈姆特與 PTT，而製作影片內容的話還有 YouTube、抖音等等。好一點的情況下平台可能有 API 可以串接程式直接統一發佈訊息，或我想應該有第三方在做整合，但差一點的情況下可能都得仰賴人力進行。以我的情境來說，Discord 可以用 WebHook 去打訊息到指定頻道，但 Steam 後台最低限度也得打開消息發佈介面，才能匯入 CSV 或 XML。
+管道數根據團隊不同還可以繼續增加，X（Twitter）、噗浪、FB、IG，純社群參與性的 Reddit、巴哈姆特與 PTT，而製作影片內容的話還有 YouTube、抖音等等。好一點的情況下平台可能有 API 可以串接程式直接統一發佈訊息，或我想應該有第三方在做整合，但差一點的情況下可能都得仰賴人力進行。以我的情境來說，Discord 可以用 WebHook 去打訊息到指定頻道，但 Steam 後台最低限度也得打開消息發佈介面，才能匯入 CSV 或 XML。
 
 而其中 Discord 支援的是 Markdown 語法，Steam 支援的是 BBcode，這又進一步增加了麻煩。因此我後續決定以 Markdown 為主體寫更新紀錄，然後做自動轉換成 BBcode。
 
