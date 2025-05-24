@@ -114,4 +114,6 @@ https://steamcommunity.com/profiles/76561198030784015/recommended/1423670/
 
 ![Steam Deck verified](/images/posts/game-design/0018/0011.png "如果是不知道哪位 Valve 員工突然發現這款遊戲決定幫它做認證的話，希望你玩得開心！")
 
+而如果看著這篇文章的你恰巧玩過《自動混亂：零式》，希望你玩得開心！
+
 總之話不多說，該繼續開發了！
