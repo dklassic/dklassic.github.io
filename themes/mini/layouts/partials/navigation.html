@@ -1,0 +1,29 @@
+<nav class="navigation">
+	{{ if not .IsHome }}
+		<a href="{{ "/" | relLangURL }}"> <span class="arrow">←</span>{{ with .Site.Params.home }}{{ . }}{{ else }}{{ i18n "home" }}{{ end }}</a>
+	{{ end }}
+	<a href="{{ "/tags" | relLangURL }}">{{ with .Site.Params.tags }}{{ . }}{{ else }}{{ i18n "tags" }}{{ end }}</a>
+	<a href="{{ "/game-list" | relLangURL }}">{{ with .Site.Params.games }}{{ . }}{{ else }}{{ i18n "games" }}{{ end }}</a>
+	<a href="{{ "/project-list" | relLangURL }}">{{ with .Site.Params.projects }}{{ . }}{{ else }}{{ i18n "projects" }}{{ end }}</a>
+	<a href="{{ "/about" | relLangURL }}">{{ with .Site.Params.about }}{{ . }}{{ else }}{{ i18n "about" }}{{ end }}</a>
+
+	{{ range $element := .Site.Params.Links }}
+		<a href="{{ $element.path }}">{{ $element.name }}</a>
+	{{ end }}
+
+	{{ $siteLanguages := site.Languages}}
+	{{ $pageLang := .Page.Lang}}
+	{{- range .Page.AllTranslations }}
+		{{ $translation := . }}
+		{{- range sort $siteLanguages "Weight" "asc" }}
+			{{- if eq $translation.Lang .Lang }}
+				<a class="langavailable" href="{{ $translation.Permalink | relURL }}">{{ .Params.languageNameShort }}</a>
+			{{- end }}
+		{{- end }}
+	{{- end }}
+
+
+	{{ if .Site.Params.enableRSS }}
+	  <a class="button" href="{{ .Site.RSSLink }}">{{ with .Site.Params.subscribe }}{{ . }}{{ else }}{{ i18n "subscribe" }}{{ end }}</a>
+	{{ end }}
+</nav>

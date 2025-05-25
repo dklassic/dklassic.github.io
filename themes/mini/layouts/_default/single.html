@@ -1,0 +1,31 @@
+{{ define "main" }}
+<section id="single">
+  <h1 class="title">{{ .Title }}</h1>
+</section>
+{{ if .Params.fullSizeImage }}
+  {{ partial "fullSizeImage.html" .Params.fullSizeImage }}
+{{ end }}
+
+<section id="single">
+
+
+    {{ if or (and .Site.Params.showTip (ne .Params.showTip false)) (eq .Params.showTip true) }}
+      {{ partial "tip.html" . }}
+    {{ end }}
+
+    {{ if or (and .Site.Params.showToc (ne .Params.showToc false)) (eq .Params.showToc true) }}
+        {{ partial "toc.html" . }}
+    {{ end }}
+
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+    
+    {{ partial "comment.html" . }}
+
+</section>
+
+{{ end }}
+

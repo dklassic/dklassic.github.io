@@ -1,0 +1,13 @@
+{{ $caption := "" }}
+{{ with .Title }}
+  {{ $caption = . | safeHTML }}
+{{ end }}
+<figure>
+<p class="markdown-image">
+  <!-- class medium-zoom-image is used to enable zooming on images -->
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} / class="medium-zoom-image">
+</p>
+  {{ with $caption }}
+    <figcaption class="markdown-image">{{ . | markdownify }}</figcaption>
+  {{ end }}
+</figure>

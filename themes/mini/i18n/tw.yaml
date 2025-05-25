@@ -1,0 +1,65 @@
+home:
+  other: 首頁
+
+toc:
+  other: 目錄
+
+archive:
+  other: 列表
+
+tags:
+  other: 標籤
+
+subscribe:
+  other: 訂閱
+
+about:
+  other: 關於
+
+games:
+  other: 遊戲
+
+projects:
+  other: 專案
+
+autopanic:
+  other: 自動混亂
+
+autopanic-zero:
+  other: 自動混亂：零式
+
+404title:
+  other: "404 錯誤"
+
+404subtitle:
+  other: 頁面不存在
+
+readMore:
+  other: 更多内容
+
+minuteRead:
+  other: "{{ .ReadingTime }} 分鐘"
+
+publishDate:
+  other: '{{ .PublishDate.Format "2006/01/02" }}'
+
+publishDateFull:
+  other: '{{ .PublishDate.Format "2006 年 01 月 02 日" }}'
+
+wordCount:
+  one: "{{ .WordCount }} 字"
+  other: "{{ .WordCount }} 字"
+
+postsNewer:
+  other: 下一頁
+
+postsOlder:
+  other: 上一頁
+
+poweredBy:
+  other: >-
+    Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a
+    href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+
+publishDateShort:
+  other: '{{ .PublishDate.Format "01/02" }}'
