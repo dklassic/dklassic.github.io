@@ -1,3 +1,3 @@
-[submodule "hugo-theme-mini"]
-	path = hugo-theme-mini
+[submodule "themes/mini"]
+	path = themes/mini
 	url = https://github.com/dklassic/hugo-theme-mini
