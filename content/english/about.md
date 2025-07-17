@@ -12,12 +12,13 @@ I've been in game industry for quite a while but haven't involved in the Develop
 
 Currently developing two games at once:
 
-- [Autopanic](https://store.steampowered.com/app/1274830/_/), a minimalist twinstick shooter with Rogue like elements
+- [Autopanic](https://store.steampowered.com/app/1274830/), a minimalist twinstick shooter with Rogue like elements
     - An experimental project that attempts to make a fully diegetic game
-- [Autopanic Zero](https://store.steampowered.com/app/1423670/_/), a minimalist twinstick shooter survival game 
-    - Inspired by Vampire Survivor and Armored Core
+- [Autopanic Zero](https://store.steampowered.com/app/1423670/), a minimalist twinstick shooter survival game 
+    - Inspired by 20 Minutes Till Dawn and Armored Core
 
 You can also follow me on 
 
-- Twitter－[justdkliao](https://twitter.com/justdkliao)
+- X/Twitter－[@justdkliao](https://x.com/justdkliao)
+- Bluesky-[dklassic.bsky.social](https://bsky.app/profile/dklassic.bsky.social)
 - Discord－[Autopanic](https://discord.gg/w57PEN42KV)
