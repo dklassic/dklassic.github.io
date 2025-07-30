@@ -112,10 +112,6 @@ If all of above doesn’t help and you believe your device is better than minimu
 
 If you are experiencing issues with the game registering input at times, please disconnect any controllers that may be plugged in.
 
-***Netdive*** may have issues with some wireless or bluetooth game controllers; turning off Vibration in the Settings menu may alleviate any issues.
-
-If you experience any other issues with mouse input, such aiming not as smooth as you expect, try the following: In the System Menu, go to `Accessibility`, then change `Use Mouse Aim` to `Mouse Only`. In most cases, this should alleviate the issue.
-
 If your controller isn’t detected by the game, try disconnecting all controllers and ensuring all controller devices are removed from the Device Manager. Then, reconnect your primary controller and try again. Keep in mind the game will always recognize all controller at all times.
 
 You can also toggle on/off Steam Input, both of which might lead to a proper detection of controller input.
@@ -123,6 +119,7 @@ You can also toggle on/off Steam Input, both of which might lead to a proper det
 There are also some known issues around:
 
 - DualShock 4 and DualSense controller’s Touch Button will be shown as (and actually mapped to) Share Button instead if you’re using Steam Input. It’ll be properly shown as Touch Button if you disable Steam Input though.
+- Using DualSense with bluetooth without Steam 
 
 # Audio Issues
 
@@ -135,22 +132,6 @@ If you are experiencing issues with the game audio, please first make sure your 
 If sound effects are weirdly cut-off, check the in-game settings menu and try adjusting any lowered volume sliders back to maximum, and control game volume with your system’s volume settings instead.
 
 If you're using a controller, make sure it’s disabled as a sound device. I know this might be an issue if you’re using DualShock 4 or DualSense.
-
-# If You Unexpectedly Lose Saved Progress
-
-If something happens and you lose progress or find your save data missing, chances are it can still be recovered. 
-
-If your save files have disappeared or seemly corrupted for cannot load in the game properly, please try uninstalling and reinstalling the game. Otherwise, please follow these steps:
-
-- On **Windows**, navigate to '\Documents\Saved Games\Netdive'
-    1. Rename 'save.dat' to 'save.dat.old' just in case
-    2. Sort by **Date modified** to locate your most recent backup save
-        - For example: 'save.dat.bak1', 'save.dat.bak2'
-    3. Rename that file to 'save.dat'
-    4. Open the game and see if it loads properly
-    5. If that doesn't work, repeat from **Step 1** with the next most recent '.sav' file
-
-If you've checked all of your '.sav' files without success, please go to Steam and send a message in **Technical Support** forum, and I’ll do my best to help you get your progress back.
 
 # If All Else Fails
 
