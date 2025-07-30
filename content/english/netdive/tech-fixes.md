@@ -135,7 +135,7 @@ If you're using a controller, make sure it’s disabled as a sound device. I kno
 
 # If All Else Fails
 
-If you don't find a solution to your issue, please send a message in Steam **Technical Support** forum or Discord **#autopaniczero-tech-support** channel to request assistance.
+If you don't find a solution to your issue, please send a message in Steam **Technical Support** forum to request assistance.
 Please also provide the following files:
 
 1. For Windows users, your DxDiag: [https://support.microsoft.com/en-us/help/4028644/windows-open-and-run-dxdiagexe](https://support.microsoft.com/en-us/help/4028644/windows-open-and-run-dxdiagexe)
