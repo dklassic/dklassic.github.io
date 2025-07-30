@@ -92,10 +92,6 @@ If you're experiencing any issue, several measures might help:
 - Disable "Show Impact Flash" Setting in "Visual" option menu
 - Disable "Show Impact Effect" Setting in "Visual" option menu
 
-Usually lowering resolution isn't associated with easing CPU overhead, but due to the way this game is rendered, lowering resolution can drastically improve the CPU performance. If you'd like to further reduce CPU load at a cost of changing visual presentation, you can:
-
-- Enable "CPU Lightweight Mode" setting in "Visual" → "Advanced"
-
 If all of above doesn’t help and you believe your device is better than minimum tested device, try each of the following steps:
 
 1. Ensure you have the latest graphics drivers.
@@ -111,18 +107,6 @@ If all of above doesn’t help and you believe your device is better than minimu
 11. After that, make sure that your Windows power settings are set for High Performance while running ***Netdive***. Ensure that the monitor running the game is connected to your Nvidia graphics video card on the back of your computer.
 
 *Note*: If you cannot find an option to select your GPU, you may have to manage it in your system BIOS. Disable Intel HD and make sure you set PCIe as the default for graphics in the BIOS, don't leave it at Auto.
-
-# If the footage too blurry even when using high resolution setting
-
-That’s probably due to dynamic resolution. You can manually disable it in `Visual` → `Advanced`.
-
-Dynamic resolution will be enabled automatically if the platform supports it and your first few minutes is too janky, which is maybe a bit too aggressive but I want to ensure those who can’t hit 60FPS consistently have a smooth gameplay experience.
-
-# If you cannot change monitor despite having multiple screen available
-
-It’s a conscious choice to prevent monitor change while using exclusive fullscreen.
-
-There are too many weird behavior occurring when triggering monitor change for exclusive fullscreen, so you’ll have to use borderless or windowed before switching.
 
 # Mouse and Controller Input Issues
 
