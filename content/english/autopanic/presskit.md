@@ -71,6 +71,10 @@ Autopanic started out as a small shoot 'em up in 2020, later evolved into more o
 # Awards & Recognition
 
 - Bahamut ACG Award 2022 - Bronze Medal
+- Tiny Teams 2023 - Official Selection
+- Game Devs of Color Expo 2023 - Official Selection
+- BitSummit 2024 - Official Selection
+
 
 <!-- # Selected Articles -->
 

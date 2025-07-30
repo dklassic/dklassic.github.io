@@ -27,7 +27,7 @@ Wait, what?
 
 # Where can I get *Autopanic*?
 
-***Autopanic Zero*** will soon be available on:
+***Autopanic Zero*** is available on:
 
 - [Steam](https://store.steampowered.com/app/1423670/)
 
@@ -61,7 +61,7 @@ Will probably investigate but don’t keep your hopes up.
 
 # Does *Autopanic Zero* support PC cloud saves?
 
-Yes! You may also find local copies of your saves under `Documents/Saved autopanic/game Zero`.
+Yes! You may also find local copies of your saves under `Documents/Saved Games/Autopanic Zero`.
 
 # I ran into a technical issue with the game. What should I do?
 
