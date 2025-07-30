@@ -56,7 +56,7 @@ Can you learn what makes a human human?
 
 # Logo & Icon
 
-![autopanic-zero-logo-white](/images/netdive/LibraryLogoWhite.png)
+![netdive-logo-white](/images/netdive/LibraryLogoWhite.png)
 
 <!-- # Awards & Recognition -->
 

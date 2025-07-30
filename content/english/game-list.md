@@ -21,7 +21,7 @@ zoomImage: false
 
 ## NetDive
 
-[![NetDive Thumbnail](/images/netdive/NetDive_en.png)]({{< ref "netdive/game" >}})
+[![NetDive Thumbnail](/images/netdive/NetDive.png)]({{< ref "netdive/game" >}})
 
 > NetDive is a short, experimental incremental game about an AI learning what makes a human human.
 
