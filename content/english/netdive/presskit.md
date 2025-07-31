@@ -9,7 +9,7 @@ showTip: false
 <span style="opacity:0; display:none; visibility: collapse;">dummy.account@outmail.com</span>
 <!-- dummy.account@outmail.com -->
 <!-- another.account@glook.com -->
-![autopanic-zero](/images/netdive/NetDive.png)
+![netdive](/images/netdive/NetDive.png)
 
 # Factsheet
 
@@ -90,11 +90,11 @@ See the more detailed article at [blog.chosenconcept.dev](https://blog.chosencon
 
 Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/app/3718870/).
 
-<!-- ## Autopanic Soundtrack -->
+<!-- ## NetDive Soundtrack -->
 
 
-<!-- ## Autopanic Credits
-The full credits for Autopanic can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/autopanic/game). -->
+<!-- ## NetDive Credits
+The full credits for NetDive can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/autopanic/game). -->
 
 # About DK Liao
 

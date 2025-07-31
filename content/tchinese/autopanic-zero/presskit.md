@@ -54,6 +54,7 @@ showTip: false
 <!-- # 影片 -->
 
 # 遊戲截圖
+
 |![Screenshot 1](/images/autopanic-zero/autopaniczero_screenshot_tw_1.png)|![Screenshot 2](/images/autopanic-zero/autopaniczero_screenshot_tw_2.png)|
 |---|---|
 |![Screenshot 3](/images/autopanic-zero/autopaniczero_screenshot_tw_3.png)|![Screenshot 4](/images/autopanic-zero/autopaniczero_screenshot_tw_4.png)|

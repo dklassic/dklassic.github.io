@@ -2,12 +2,23 @@
 title: "遊戲"
 draft: false
 enableComments: false
-showToc: false
+showToc: true
 showTip: false
 zoomImage: false
 ---
 
-# 自動混亂
+# 開發中
+
+## NetDive
+
+[![NetDive Thumbnail](/images/netdive/NetDive.png)]({{< ref "netdive/game" >}})
+
+> 《NetDive》是一款短篇的實驗性增量遊戲，一款關於一個人工智慧學會如何成為人類的作品。
+
+<iframe src="https://store.steampowered.com/widget/3718870/" frameborder="0" width="500" height="190"></iframe>
+
+
+## 自動混亂
 
 [![Autopanic Thumbnail](/images/autopanic/Autopanic_tw.png)]({{< ref "autopanic/game" >}})
 
@@ -15,7 +26,9 @@ zoomImage: false
 
 <iframe src="https://store.steampowered.com/widget/1274830/" frameborder="0" width="500" height="190"></iframe>
 
-# 自動混亂：零式
+# 已推出
+
+## 自動混亂：零式
 
 [![Autopanic Zero Thumbnail](/images/autopanic-zero/AutopanicZero_tw.png)]({{< ref "autopanic-zero/game" >}})
 

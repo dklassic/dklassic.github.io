@@ -5,12 +5,13 @@ enableComments: false
 showTip: false
 ---
 
-Created: July 10, 2025
+Created: July 31, 2025
 
-*Last Updated July 10, 2025:* Here are answers to frequently asked questions about my game, ***NetDive***!
+*Last Updated July 31, 2025:* Here are answers to frequently asked questions about my game, ***NetDive***!
 
 # What is *NetDive* about?
 
+***NetDive*** is a very short experimental incremental game. Featuring a simple loop of intercepting packets, gaining stimulations, become stronger, and dive deeper.
 
 # Where can I get *NetDive*?
 
@@ -37,7 +38,6 @@ Yes it does! You may also find local copies of your saves under `Documents/Saved
 # I ran into a technical issue with the game. What should I do?
 
 If you need technical support, please have a look in [NetDive Tech Fixes]({{< ref "/netdive/tech-fixes" >}}). If the problem still hasn't been resolved, you can seek help in [NetDive Technical Support forum](https://steamcommunity.com/app/3718870/discussions/1/), which should help get you sorted.
-
 
 # Can I play it as an Idler?
 
