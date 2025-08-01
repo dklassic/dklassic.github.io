@@ -33,7 +33,7 @@ DK Liao
 
 **Regular Price**
 
-1 USD
+3 USD
 
 # Description
 

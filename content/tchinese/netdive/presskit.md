@@ -33,7 +33,7 @@ showTip: false
 
 **售價**
 
-1 USD
+3 USD
 
 # 遊戲描述
 
