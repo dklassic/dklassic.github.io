@@ -45,7 +45,13 @@ You are an AI prompted to learn to be a human. Take in stimulations, learn and r
 
 Can you learn what makes a human human?
 
-<!-- # Videos -->
+# Videos
+
+[Trailer](https://youtu.be/3vr2xaXUxNY)
+
+|![Gif 1](/images/netdive/Abilities.gif)|![Gif 2](/images/netdive/Dive.gif)|
+|---|---|
+|![Gif 3](/images/netdive/Gameplay.gif)| |
 
 # Images
 

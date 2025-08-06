@@ -47,7 +47,13 @@ showTip: false
 
 你能夠理解究竟是什麼造就人類嗎？
 
-<!-- # Videos -->
+# 遊戲動圖
+
+[預告片](https://youtu.be/3vr2xaXUxNY)
+
+|![Gif 1](/images/netdive/Abilities.gif)|![Gif 2](/images/netdive/Dive.gif)|
+|---|---|
+|![Gif 3](/images/netdive/Gameplay.gif)| |
 
 # 遊戲截圖
 
