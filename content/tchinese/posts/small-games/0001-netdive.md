@@ -11,6 +11,8 @@ tags: ["遊戲設計","NetDive"]
 
 總之做都做完了，該寫一篇文回顧一下開發吧。
 
+{{< youtube 3vr2xaXUxNY >}}
+
 <iframe src="https://store.steampowered.com/widget/3718870/" frameborder="0" width="500" height="190"></iframe>
 
 # 所以是怎麼突然

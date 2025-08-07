@@ -9,6 +9,8 @@ NetDive is such a random project, I got the idea out of nowhere but it felt comp
 
 Anyways, here’s a small post about how it was made.
 
+{{< youtube 3vr2xaXUxNY >}}
+
 <iframe src="https://store.steampowered.com/widget/3718870/" frameborder="0" width="500" height="190"></iframe>
 
 # Where It Started
