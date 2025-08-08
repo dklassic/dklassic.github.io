@@ -84,7 +84,7 @@ showTip: false
 
 **Google Drive 下載連結**
 
-更多螢幕截圖、遊戲標誌素材與資料表 [drive.google.com](https://drive.google.com/drive/folders/1SuJwMEx6vbE3rJGh_cBUtSvpRxqAMm1g?usp=drive_link)。
+更多螢幕截圖、動圖、影片、遊戲標誌素材 [drive.google.com](https://drive.google.com/drive/folders/1SuJwMEx6vbE3rJGh_cBUtSvpRxqAMm1g?usp=drive_link)。
 
 **Twitter 開發資訊**
 

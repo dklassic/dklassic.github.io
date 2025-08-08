@@ -82,7 +82,7 @@ DK Liao allows for the contents of DK Liao to be published through video broadca
 
 **Google Drive download link**
 
-for more screenshots, game logo, fact sheet [drive.google.com](https://drive.google.com/drive/folders/1SuJwMEx6vbE3rJGh_cBUtSvpRxqAMm1g?usp=drive_link).
+for more screenshots, GIFs, videos, game logo [drive.google.com](https://drive.google.com/drive/folders/1SuJwMEx6vbE3rJGh_cBUtSvpRxqAMm1g?usp=drive_link).
 
 **Twitter Dev Blog**
 
