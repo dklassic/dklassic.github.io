@@ -33,7 +33,7 @@ showTip: false
 
 **售價**
 
-3 USD
+新台幣 66 元
 
 # 遊戲描述
 
@@ -47,9 +47,9 @@ showTip: false
 
 你能夠理解究竟是什麼造就人類嗎？
 
-# 遊戲動圖
+# 遊戲影片
 
-[預告片](https://youtu.be/3vr2xaXUxNY)
+{{< youtube 3vr2xaXUxNY >}}
 
 |![Gif 1](/images/netdive/Abilities.gif)|![Gif 2](/images/netdive/Dive.gif)|
 |---|---|
@@ -78,9 +78,9 @@ showTip: false
 
 # 額外連結
 
-<!-- **Google Drive 下載連結**
+**Google Drive 下載連結**
 
-更多螢幕截圖、遊戲標誌素材與資料表 [drive.google.com]()。 -->
+更多螢幕截圖、遊戲標誌素材與資料表 [drive.google.com](https://drive.google.com/drive/folders/1SuJwMEx6vbE3rJGh_cBUtSvpRxqAMm1g?usp=drive_link)。
 
 **Twitter 開發資訊**
 

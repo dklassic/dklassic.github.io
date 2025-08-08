@@ -47,7 +47,7 @@ Can you learn what makes a human human?
 
 # Videos
 
-[Trailer](https://youtu.be/3vr2xaXUxNY)
+{{< youtube 3vr2xaXUxNY >}}
 
 |![Gif 1](/images/netdive/Abilities.gif)|![Gif 2](/images/netdive/Dive.gif)|
 |---|---|
@@ -76,9 +76,9 @@ DK Liao allows for the contents of DK Liao to be published through video broadca
 
 # Additional Links
 
-<!-- **Google Drive download link**
+**Google Drive download link**
 
-for more screenshots, game logo, fact sheet [drive.google.com](). -->
+for more screenshots, game logo, fact sheet [drive.google.com](https://drive.google.com/drive/folders/1SuJwMEx6vbE3rJGh_cBUtSvpRxqAMm1g?usp=drive_link).
 
 **Twitter Dev Blog**
 
