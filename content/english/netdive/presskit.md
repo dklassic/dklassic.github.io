@@ -37,13 +37,17 @@ DK Liao
 
 # Description
 
-NetDive is a short, experimental incremental game about an AI learning what makes a human human.
-
-# Features
-
 You are an AI prompted to learn to be a human. Take in stimulations, learn and reinforce to increase your capability, train with more initial conditions when needed.
 
 Can you learn what makes a human human?
+
+# Features
+
+- A short (~2.5hr ish) incremental game
+- A SHMUP flavored gameplay intercepting packets on the internet
+- A story, very specific to be told in this way
+- Skill tree of upgrades to explore
+- Chill soundtrack accompanying your journey
 
 # Videos
 
