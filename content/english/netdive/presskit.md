@@ -108,7 +108,7 @@ The full credits for NetDive can be found at [blog.chosenconcept.dev](https://bl
 
 # About DK Liao
 
-DK Liao started as a translator in the industry since 2016 and decided to make a game of his own.
+DK Liao is a solo developer focusing on delivering interesting narratives in interesting ways.
 
 # Contact
 

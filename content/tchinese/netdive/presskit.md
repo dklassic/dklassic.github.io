@@ -110,7 +110,7 @@ The full credits for NetDive can be found at [blog.chosenconcept.dev](https://bl
 
 # 關於廖得凱 DK Liao
 
-廖得凱自 2016 年於遊戲業從事翻譯工作，直到有一天他決定要自己做一款遊戲。
+廖得凱 DK Liao 是一名專注在用有趣的方式講有趣的故事的開發者。
 
 # 聯絡資訊
 
