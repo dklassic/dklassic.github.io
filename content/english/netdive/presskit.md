@@ -51,7 +51,7 @@ Can you learn what makes a human human?
 
 # Videos
 
-<!-- {{< youtube 3vr2xaXUxNY >}} -->
+{{< youtube R-WedWzdoM0 >}}
 
 |![Gif 1](/images/netdive/Abilities.gif)|![Gif 2](/images/netdive/Dive.gif)|
 |---|---|

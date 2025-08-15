@@ -53,7 +53,7 @@ showTip: false
 
 # 遊戲影片
 
-<!-- {{< youtube 3vr2xaXUxNY >}} -->
+{{< youtube R-WedWzdoM0 >}}
 
 |![Gif 1](/images/netdive/Abilities.gif)|![Gif 2](/images/netdive/Dive.gif)|
 |---|---|
