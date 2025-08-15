@@ -7,6 +7,8 @@ tags: ["Game Design","NetDive"]
 
 NetDive is such a random project, I got the idea out of nowhere but it felt compelling enough that I feel like I can make it in an instant. Not quite, ended up taking three months. But most of it is just because my day job is taxing, otherwise the total clocked hours would be closer to 3 weeks of fulltime work.
 
+PS: the 3 weeks of fulltime work here might seem very little (which still is very fast), but it only refers to actual in-engine work, which totally ignores all the background design/music/sound work, and ignored the fact that I had a multiyear UI framework project and a newly built game framework just before making this game. So it's not really that easy.
+
 Anyways, here’s a small post about how it was made.
 
 {{< youtube R-WedWzdoM0 >}}
@@ -35,7 +37,7 @@ Usually I'd advocate for putting player into action as fast as possible, but the
 
 # The Gameplay
 
-Incremental games aren’t really about the gameplay, but apparently so called experimental incremental games seeks to *fix* that. Though I kind of just naturally settled on a SHMUP flavored gameplay, because of several reasons:
+Incremental games are mostly about good numerical designs and less so about say... tight timed input gameplay, but apparently so called experimental incremental games seeks to *fix* that. Though I kind of just naturally settled on a SHMUP flavored gameplay, because of several reasons:
 
 - I don't want to just copy NodeBuster or make anything that just feel like a cheap knockoff. Being just simple shapes and NodeBuster also is somewhat loosely cyber themed, so I had to mix up the gameplay enough to separate both.
 - I had some gripes with the performance of NodeBuster, SHMUP kind of provides a quick way out solving this, more on this later.
