@@ -5,6 +5,8 @@ draft: false
 tags: ["Game Design","NetDive"]
 ---
 
+> This project has seen some drastic changes after this initial writing, I'll have to write a new post to address it later. For now, please enjoy my initial thoughts.
+
 NetDive is such a random project, I got the idea out of nowhere but it felt compelling enough that I feel like I can make it in an instant. Not quite, ended up taking three months. But most of it is just because my day job is taxing, otherwise the total clocked hours would be closer to 3 weeks of fulltime work.
 
 PS: the 3 weeks of fulltime work here might seem very little (which still is very fast), but it only refers to actual in-engine work, which totally ignores all the background design/music/sound work, and ignored the fact that I had a [multiyear UI framework project](https://github.com/dklassic/APFrameworkUI) and a newly built game framework just before making this game. So it's not really that easy.
