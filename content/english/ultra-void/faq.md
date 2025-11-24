@@ -35,7 +35,7 @@ Yes it does! You may also find local copies of your saves under `Documents/Saved
 
 # I ran into a technical issue with the game. What should I do?
 
-If you need technical support, please have a look in [Ultra Void Tech Fixes]({{< ref "/Ultra Void/tech-fixes" >}}). If the problem still hasn't been resolved, you can seek help in [Ultra Void Technical Support forum](https://steamcommunity.com/app/2589050/discussions/1/), which should help get you sorted.
+If you need technical support, please have a look in [Ultra Void Tech Fixes]({{< ref "/ultra-void/tech-fixes" >}}). If the problem still hasn't been resolved, you can seek help in [Ultra Void Technical Support forum](https://steamcommunity.com/app/2589050/discussions/1/), which should help get you sorted.
 
 # So that’s it for the *Ultra Void* FAQ?
 
