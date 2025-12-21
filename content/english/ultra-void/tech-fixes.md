@@ -49,7 +49,7 @@ Please try the following solutions, whichever ones are relevant to your system, 
 
 3. If you ran the game and it worked for you before, try backing up and then deleting your settings file in register:
 
-    `Computer\HKEY_CURRENT_USER\Software\ChosenConcept\Ultra Void`
+    `Computer\HKEY_CURRENT_USER\Software\ChosenConcept\UltraVoid`
 
     *Note*: This is not your save progress. This will simply make the game restore its default settings.
 
@@ -89,9 +89,8 @@ Please try the following solutions, whichever ones are relevant to your system, 
 If you're experiencing any issue, several measures might help:
 
 - Enable framerate limit for a consistent gameplay
-- Disable "Show Packet Renment" Setting in "Visual" option menu
-- Disable "Show Impact Flash" Setting in "Visual" option menu
-- Disable "Show Impact Effect" Setting in "Visual" option menu
+- Fiddle with the Global Illumination quality or outright turn it off
+- Enable Dynamic Resolution to alleviate GPU load 
 
 If all of above doesn’t help and you believe your device is better than minimum tested device, try each of the following steps:
 
@@ -120,7 +119,7 @@ You can also toggle on/off Steam Input, both of which might lead to a proper det
 There are also some known issues around:
 
 - DualShock 4 and DualSense controller’s Touch Button will be shown as (and actually mapped to) Share Button instead if you’re using Steam Input. It’ll be properly shown as Touch Button if you disable Steam Input though.
-- Using DualSense with bluetooth without Steam 
+- Using DualSense with bluetooth without Steam Input might not work
 
 # Audio Issues
 
@@ -144,7 +143,7 @@ Please also provide the following files:
 2. Your Player.log located here:
 
 Windows:
-`Users\[Username]\AppData\LocalLow\ChosenConcept\Ultra Void\Player.log`
-Or just input the address `%userprofile%\AppData\LocalLow\ChosenConcept\Ultra Void\` in File Explorer and you should reach this folder, then provide Player.log within it.
+`Users\[Username]\AppData\LocalLow\ChosenConcept\UltraVoid\Player.log`
+Or just input the address `%userprofile%\AppData\LocalLow\ChosenConcept\UltraVoid\` in File Explorer and you should reach this folder, then provide Player.log within it.
 
 Thank you for reading. Hopefully this post helps you find a solution quickly.

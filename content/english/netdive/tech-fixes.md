@@ -119,7 +119,7 @@ You can also toggle on/off Steam Input, both of which might lead to a proper det
 There are also some known issues around:
 
 - DualShock 4 and DualSense controller’s Touch Button will be shown as (and actually mapped to) Share Button instead if you’re using Steam Input. It’ll be properly shown as Touch Button if you disable Steam Input though.
-- Using DualSense with bluetooth without Steam 
+- Using DualSense with bluetooth without Steam Input might not work
 
 # Audio Issues
 
