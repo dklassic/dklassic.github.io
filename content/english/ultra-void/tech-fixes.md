@@ -75,7 +75,8 @@ Please try the following solutions, whichever ones are relevant to your system, 
 
 2. Ensure that you have the following folder: 
 
-    `Documents\Saved Games\Ultra Void`
+    - Windows: `Documents\Saved Games\UltraVoid`
+    - macOS: `~/Library/Application Support/ChosenConcept/UltraVoid/Save`
 
     And allow access to it in Windows Defender and Windows Controlled Folder Access: [https://support.microsoft.com/en-us/help/4046851/windows-10-allow-blocked-app-windows-security](https://support.microsoft.com/en-us/help/4046851/windows-10-allow-blocked-app-windows-security)
 
