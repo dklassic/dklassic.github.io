@@ -27,7 +27,7 @@ For Steam Deck the game targets 800p/90FPS.
 
 # Does *Ultra Void* have PC controller support?
 
-Controller, Mouse Only, you pick! No keyboard only this time though.
+Controller, Mouse Only, your pick! No keyboard only this time though.
 
 # Does *Ultra Void* support PC cloud saves?
 
