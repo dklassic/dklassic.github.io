@@ -31,7 +31,7 @@ Controller, Mouse Only, you pick! No keyboard only this time though.
 
 # Does *Ultra Void* support PC cloud saves?
 
-Yes it does! You may also find local copies of your saves under `Documents/Saved Games/Ultra Void`.
+Yes it does! You may also find local copies of your saves under `Documents/Saved Games/UltraVoid`.
 
 # I ran into a technical issue with the game. What should I do?
 

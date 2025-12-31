@@ -1,0 +1,149 @@
+---
+title: "All You Need Is Rush Tech Fixes"
+draft: false
+enableComments: false
+showTip: false
+---
+
+**IF YOU'RE HAVING ANY TECHNICAL ISSUES WITH *All You Need Is Rush*, READ THIS FIRST**
+
+Thank you for playing my game! It’ll be a bummer if you can’t enjoy it at its best. Below, I prepared some potential fixes for problems you may encounter: 
+
+# Steam Deck Experience
+
+*All You Need Is Rush* runs through Proton on Steam Deck instead of a native port, the reason is because Unity's native Linux port runs way worse than emulation through Proton so I just don't bother.
+
+It should run at 800p/90FPS no problem.
+
+# Please Be Sure You Have the Latest Graphics Drivers!
+
+If you're experiencing any problems with the game, please verify that you have the latest drivers for your graphics card. Many issues can be solved by downloading the latest drivers from your card's manufacturer. You can get the latest drivers here:
+
+- **AMD Cards**: [http://support.amd.com/en/download](http://support.amd.com/en/download)
+- **NVIDIA Cards**: [http://www.nvidia.com/Download/index.aspx](http://www.nvidia.com/Download/index.aspx)
+- **Intel Cards**: [https://www.intel.com/content/www/us/en/download-center/home.html](https://www.intel.com/content/www/us/en/download-center/home.html)
+
+# Verifying the Game Files
+
+Sometimes, issues can occur when downloading game updates. This can manifest as not being able to start the game or as weird graphical glitches happen in game. If you're experiencing anything like this, try verifying your installation through the game’s launcher to replace missing or corrupted files:
+
+*On Steam:*
+1. Right-click on *All You Need Is Rush* in your Steam Library
+2. Select 'Properties...', then select the 'Installed Files' tab
+3. Select 'Verify Integrity of Game Files...'
+
+You may also try uninstalling and re-installing the game completely. You may need to restart your computer for changes to take effect.
+
+# If You're Having Issues Launching the Game, or See a Black Screen
+
+Please try the following solutions, whichever ones are relevant to your system, in this order:
+
+1. Windows and Proton Users: 
+
+    Vulkan and 32-bit executables are planned. If the options are available when you see this, you should try it first: the options should presented immediately when you launch the game.
+
+2. If you're using Steam, please try disabling your Steam Overlay:
+    1. Right-click on *All You Need Is Rush* in your Steam Library
+    2. Select 'Properties...'
+    3. Toggle 'Enable the Steam Overlay while in-game'
+
+3. If you ran the game and it worked for you before, try backing up and then deleting your settings file in register:
+
+    `Computer\HKEY_CURRENT_USER\Software\ChosenConcept\All You Need Is Rush`
+
+    *Note*: This is not your save progress. This will simply make the game restore its default settings.
+
+4. Try running Steam itself in Admin mode: Exit the program if it's already running, locate the respective EXE file, right-click on it, and select "Run as Administrator..."
+
+5. Try downloading and installing the [latest Visual C++ redistributable](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170), as there's a chance it hasn't been installed correctly.
+
+6. Disconnect any nonessential USB or bluetooth devices plugged into your PC.
+
+7. Windows 8 Users: If you get an error about D3DCompiler_47.dll being missing, you can download and install that from [here](https://wikidll.com/microsoft/d3dcompiler_47-dll).
+
+8. Proton Users: Check the following links to make sure your graphics card is configured correctly:
+    [https://github.com/ValveSoftware/Proton/wiki/Requirements#amdintel](https://github.com/ValveSoftware/Proton/wiki/Requirements#amdintel)
+
+    "Arch Linux - Intel Graphics Drivers - Modesetting VS Intel"
+    [https://www.youtube.com/watch?v=zEhAJMQYSws](https://www.youtube.com/watch?v=zEhAJMQYSws)
+
+# If the Game Won't Start or Read/Write Save Data
+
+Please try the following solutions, whichever ones are relevant to your system, in this order:
+
+1. Certain antivirus software may cause such issues. If you see the error message "Warning: Unable to Save" or "Warning: Unable to Read Data", this is the likely cause. To resolve the issue, whitelist the game in your antivirus software, or disable it completely.
+
+2. Ensure that you have the following folder: 
+
+    - Windows: `Documents\Saved Games\All You Need Is Rush`
+    - macOS: `~/Library/Application Support/ChosenConcept/All You Need Is Rush/Save`
+
+    And allow access to it in Windows Defender and Windows Controlled Folder Access: [https://support.microsoft.com/en-us/help/4046851/windows-10-allow-blocked-app-windows-security](https://support.microsoft.com/en-us/help/4046851/windows-10-allow-blocked-app-windows-security)
+
+3. OneDrive and Google Drive sync can also interfere with saving. Follow Step 5 here ([https://windowsreport.com/access-is-denied-windows-10/](https://windowsreport.com/access-is-denied-windows-10/)) to disable OneDrive sync for the game's save folder.
+
+# If You're Experiencing Hitching / Freezing / Lag / Frame Rate / Performance Issues
+
+***All You Need Is Rush*** is generally a CPU heavy game due to its entity count being absurdly high. However if your device is at least more powerful than Steam Deck you should be able to run it just fine.
+
+If you're experiencing any issue, several measures might help:
+
+- Enable framerate limit for a consistent gameplay
+- Fiddle with the Global Illumination quality or outright turn it off
+- Enable Dynamic Resolution to alleviate GPU load 
+
+If all of above doesn’t help and you believe your device is better than minimum tested device, try each of the following steps:
+
+1. Ensure you have the latest graphics drivers.
+2. Try toggling the Fullscreen and/or VSync settings in-game.
+3. If you have Nvidia G-Sync or AMD FreeSync, please disable them and turn on AMD Anti-Lag if available.
+4. Windows and Proton Users: If the feature is implemented in the future, try the Vulkan and 32-bit executables.
+5. Close all other running programs.
+6. If available, in your graphics device control panel, set "Maximum Performance Priority" and/or "Fast VSync".
+7. Ensure Windows 7 compatibility mode is NOT turned on for All You Need Is Rush.exe.
+8. Disable any overlays, e.g. Steam, GeForce, etc.
+9. Physically disconnect all secondary display devices.
+10. If you have an Nvidia graphics card, follow this guide ([https://www.techadvisor.co.uk/how-to/pc-components/how-set-default-graphics-card-3612668/](https://www.techadvisor.co.uk/how-to/pc-components/how-set-default-graphics-card-3612668/))  to ensure the game is using that card, and not your onboard Intel card.
+11. After that, make sure that your Windows power settings are set for High Performance while running ***All You Need Is Rush***. Ensure that the monitor running the game is connected to your Nvidia graphics video card on the back of your computer.
+
+*Note*: If you cannot find an option to select your GPU, you may have to manage it in your system BIOS. Disable Intel HD and make sure you set PCIe as the default for graphics in the BIOS, don't leave it at Auto.
+
+# Mouse and Controller Input Issues
+
+If you are experiencing issues with the game registering input at times, please disconnect any controllers that may be plugged in.
+
+If your controller isn’t detected by the game, try disconnecting all controllers and ensuring all controller devices are removed from the Device Manager. Then, reconnect your primary controller and try again. Keep in mind the game will always recognize all controller at all times.
+
+You can also toggle on/off Steam Input, both of which might lead to a proper detection of controller input.
+
+There are also some known issues around:
+
+- DualShock 4 and DualSense controller’s Touch Button will be shown as (and actually mapped to) Share Button instead if you’re using Steam Input. It’ll be properly shown as Touch Button if you disable Steam Input though.
+- Using DualSense with bluetooth without Steam Input might not work
+
+# Audio Issues
+
+If you are experiencing issues with the game audio, please first make sure your audio drivers are updated:
+
+1. Open Windows Device Manager
+2. Open the Audio Inputs and Outputs list of devices
+3. Right-click on your audio device and choose "Update Driver"
+
+If sound effects are weirdly cut-off, check the in-game settings menu and try adjusting any lowered volume sliders back to maximum, and control game volume with your system’s volume settings instead.
+
+If you're using a controller, make sure it’s disabled as a sound device. I know this might be an issue if you’re using DualShock 4 or DualSense.
+
+# If All Else Fails
+
+If you don't find a solution to your issue, please send a message in Steam **Technical Support** forum to request assistance.
+Please also provide the following files:
+
+1. For Windows users, your DxDiag: [https://support.microsoft.com/en-us/help/4028644/windows-open-and-run-dxdiagexe](https://support.microsoft.com/en-us/help/4028644/windows-open-and-run-dxdiagexe)
+
+2. Your Player.log located here:
+
+Windows:
+`Users\[Username]\AppData\LocalLow\ChosenConcept\All You Need Is Rush\Player.log`
+Or just input the address `%userprofile%\AppData\LocalLow\ChosenConcept\All You Need Is Rush\` in File Explorer and you should reach this folder, then provide Player.log within it.
+
+Thank you for reading. Hopefully this post helps you find a solution quickly.
