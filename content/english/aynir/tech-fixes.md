@@ -90,7 +90,7 @@ If you're experiencing any issue, several measures might help:
 
 - Enable framerate limit for a consistent gameplay
 - Fiddle with the Global Illumination quality or outright turn it off
-- Enable Dynamic Resolution to alleviate GPU load 
+- Enable Dynamic Resolution and/or FSR2 to alleviate GPU load
 
 If all of above doesn’t help and you believe your device is better than minimum tested device, try each of the following steps:
 

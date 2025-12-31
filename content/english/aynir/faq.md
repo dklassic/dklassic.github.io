@@ -27,7 +27,7 @@ For Steam Deck the game targets 800p/90FPS.
 
 # Does *All You Need Is Rush* have PC controller support?
 
-Controller, Mouse Only, you pick! No keyboard only this time though.
+Yep.
 
 # Does *All You Need Is Rush* support PC cloud saves?
 

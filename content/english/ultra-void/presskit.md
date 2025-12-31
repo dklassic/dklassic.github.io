@@ -37,17 +37,14 @@ DK Liao
 
 # Description
 
-You are an AI prompted to learn to be a human. Take in stimulations, learn and reinforce to increase your capability, train with more initial conditions when needed.
-
-Can you learn what makes a human human?
+Ultra Void is a short, narrative-driven incremental mining game about humanity facing the heat death of the universe.
 
 # Features
 
-- A short (~2.5hr ish) incremental game
-- A SHMUP flavored gameplay intercepting packets on the internet
-- A story, very specific to be told in this way
-- Skill tree of upgrades to explore
-- Chill soundtrack accompanying your journey
+- A short (1-2 hr) narrative-driven incremental game
+- Stamina-based mining gameplay inspired by Minesweeper
+- A story told through the game mechanics
+- Cool ray-traced lighting! Don't worry it can run on (almost) all computers, won’t melt your system, and maintains 90 FPS on Steam Deck!
 
 # Videos
 
