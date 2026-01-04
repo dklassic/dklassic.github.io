@@ -89,7 +89,7 @@ See the most recent screenshots and updates at [twitter.com](https://www.twitter
 
 **Ultra Void Website**
 
-The official website for NetDive can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/ultra-void/game).
+The official website for Ultra Void can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/ultra-void/game).
 
 **Ultra Void Website Dev Blog**
 
@@ -99,11 +99,11 @@ See the more detailed article at [blog.chosenconcept.dev](https://blog.chosencon
 
 Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/app/2589050/).
 
-<!-- ## NetDive Soundtrack -->
+<!-- ## Ultra Void Soundtrack -->
 
 
-<!-- ## NetDive Credits
-The full credits for NetDive can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/autopanic/game). -->
+<!-- ## Ultra Void Credits
+The full credits for Ultra Void can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/autopanic/game). -->
 
 # About DK Liao
 
