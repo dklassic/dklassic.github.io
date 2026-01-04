@@ -50,7 +50,11 @@ Ultra Void is a short, narrative-driven incremental mining game about humanity f
 
 <!-- {{< youtube avpwnJDjfvY >}} -->
 
-![Gif 3](/images/ultra-void/Gameplay.gif)
+![Gif 1](/images/ultra-void/ultravoid_gifs_gameplay1.gif)
+![Gif 2](/images/ultra-void/ultravoid_gifs_gameplay2.gif)
+![Gif 3](/images/ultra-void/ultravoid_gifs_homeplanet.gif)
+![Gif 4](/images/ultra-void/ultravoid_gifs_research.gif)
+![Gif 5](/images/ultra-void/ultravoid_gifs_ultravoid.gif)
 
 # Images
 
@@ -61,9 +65,9 @@ Ultra Void is a short, narrative-driven incremental mining game about humanity f
 
 # Logo & Icon
 
-![ultra-void-logo-black](/images/ultra-void/LibraryLogoBlack.png)
+![ultra-void-logo-black](/images/ultra-void/ultravoid_logo_dark.png)
 
-![netdultra-voidive-logo-white](/images/ultra-void/LibraryLogoWhite.png)
+![netdultra-voidive-logo-white](/images/ultra-void/ultravoid_logo_light.png)
 
 <!-- # Awards & Recognition -->
 
