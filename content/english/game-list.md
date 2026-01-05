@@ -10,14 +10,6 @@ zoomImage: false
 
 # Released
 
-## Ultra Void
-
-[![Ultra Void Thumbnail](/images/ultra-void/UltraVoid.png)]({{< ref "ultra-void/game" >}})
-
-> Ultra Void is a short, narrative-driven incremental mining game about humanity facing the heat death of the universe.
-
-<iframe src="https://store.steampowered.com/widget/2589050/" frameborder="0" width="500" height="190"></iframe>
-
 ## NetDive
 
 [![NetDive Thumbnail](/images/netdive/NetDive.png)]({{< ref "netdive/game" >}})
@@ -35,6 +27,14 @@ zoomImage: false
 <iframe src="https://store.steampowered.com/widget/1423670/" frameborder="0" width="500" height="190"></iframe>
 
 # In Development
+
+## Ultra Void
+
+[![Ultra Void Thumbnail](/images/ultra-void/UltraVoid.png)]({{< ref "ultra-void/game" >}})
+
+> Ultra Void is a short, narrative-driven incremental mining game about humanity facing the heat death of the universe.
+
+<iframe src="https://store.steampowered.com/widget/2589050/" frameborder="0" width="500" height="190"></iframe>
 
 ## Autopanic
 
