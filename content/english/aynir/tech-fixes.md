@@ -146,4 +146,7 @@ Windows:
 `Users\[Username]\AppData\LocalLow\ChosenConcept\All You Need Is Rush\Player.log`
 Or just input the address `%userprofile%\AppData\LocalLow\ChosenConcept\All You Need Is Rush\` in File Explorer and you should reach this folder, then provide Player.log within it.
 
+macOS:
+`~/Library/Logs/ChosenConcept/All You Need Is Rush/Player.log`
+
 Thank you for reading. Hopefully this post helps you find a solution quickly.

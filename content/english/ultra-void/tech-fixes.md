@@ -146,4 +146,7 @@ Windows:
 `Users\[Username]\AppData\LocalLow\ChosenConcept\UltraVoid\Player.log`
 Or just input the address `%userprofile%\AppData\LocalLow\ChosenConcept\UltraVoid\` in File Explorer and you should reach this folder, then provide Player.log within it.
 
+macOS:
+`~/Library/Logs/ChosenConcept/UtlraVoid/Player.log`
+
 Thank you for reading. Hopefully this post helps you find a solution quickly.

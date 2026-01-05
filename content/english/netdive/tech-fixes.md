@@ -146,4 +146,7 @@ Windows:
 `Users\[Username]\AppData\LocalLow\ChosenConcept\Netdive\Player.log`
 Or just input the address `%userprofile%\AppData\LocalLow\ChosenConcept\Netdive\` in File Explorer and you should reach this folder, then provide Player.log within it.
 
+macOS:
+`~/Library/Logs/ChosenConcept/Netdive/Player.log`
+
 Thank you for reading. Hopefully this post helps you find a solution quickly.
