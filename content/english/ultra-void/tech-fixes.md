@@ -84,7 +84,7 @@ Please try the following solutions, whichever ones are relevant to your system, 
 
 # If You're Experiencing Hitching / Freezing / Lag / Frame Rate / Performance Issues
 
-***Ultra Void*** is generally a CPU heavy game due to its entity count being absurdly high. However if your device is at least more powerful than Steam Deck you should be able to run it just fine.
+***Ultra Void*** is generally a very easy to run game. However if your device is at least more powerful than Steam Deck you should be able to run it just fine.
 
 If you're experiencing any issue, several measures might help:
 
