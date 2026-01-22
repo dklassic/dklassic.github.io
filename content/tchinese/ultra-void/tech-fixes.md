@@ -1,17 +1,17 @@
 ---
-title: "Ultra Void Tech Fixes"
+title: "《終噬虛空》技術問題指引"
 draft: false
 enableComments: false
 showTip: false
 ---
 
-**如果你遊玩《UltraVoid》時遭遇到技術問題，請先閱讀這篇文章**
+**如果你遊玩《**終噬虛空**》時遭遇到技術問題，請先閱讀這篇文章**
 
 感謝你遊玩我的遊戲！如果讓你沒辦法好好享受可就糟了，所以我準備了一些潛在可能可以解決你遭遇問題的手段：
 
 # Steam Deck 體驗
 
-*UltraVoid* 在 Steam Deck 上會是使用 Proton 執行 Windows 的版本，原因是因為 Unity 輸出的原生 Linux 版的效能比過 Proton 的版本還爛，所以就這樣了。
+《**終噬虛空**》 在 Steam Deck 上會是使用 Proton 執行 Windows 的版本，原因是因為 Unity 輸出的原生 Linux 版的效能比過 Proton 的版本還爛，所以就這樣了。
 
 總之應該可以無腦跑在 800p/90FPS。
 
