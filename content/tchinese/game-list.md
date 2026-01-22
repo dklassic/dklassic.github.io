@@ -9,6 +9,14 @@ zoomImage: false
 
 # 已推出
 
+## 終噬虛空
+
+[![Ultra Void Thumbnail](/images/ultra-void/UltraVoid.png)]({{< ref "ultra-void/game" >}})
+
+> 《終噬虛空》是一部短篇的敘事導向挖礦增量遊戲，講述著人類面臨宇宙熱寂的故事。
+
+<iframe src="https://store.steampowered.com/widget/2589050/" frameborder="0" width="500" height="190"></iframe>
+
 ## NetDive
 
 [![NetDive Thumbnail](/images/netdive/NetDive.png)]({{< ref "netdive/game" >}})

@@ -1,5 +1,5 @@
 ---
-title: "UltraVoid Presskit"
+title: "《終噬虛空》媒體素材包"
 draft: false
 enableComments: false
 showToc: true
@@ -11,42 +11,42 @@ showTip: false
 <!-- another.account@glook.com -->
 ![ultra-void](/images/ultra-void/UltraVoid.png)
 
-# Factsheet
+# 資料表
 
-**Developer**
+**開發者**
 
-DK Liao
+廖得凱 DK Liao
 
-- Solo developer based in Taipei, Taiwan
+- 在台灣台北活動的單人開發者
 
-**Release Date**
+**上市日期**
 
 2026
 
-**Platform**
+**平台**
 
 [Steam](https://store.steampowered.com/app/2589050/)
 
-**Website**
+**網站**
 
 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/ultra-void/game)
 
-**Regular Price**
+**售價**
 
-3 USD
+新台幣 66 元
 
-# Description
+# 遊戲描述
 
-Ultra Void is a short, narrative-driven incremental mining game about humanity facing the heat death of the universe.
+《終噬虛空》是一部短篇的敘事導向挖礦增量遊戲，講述著人類面臨宇宙熱寂的故事。
 
-# Features
+# 特色
 
-- A short (1-2 hr) narrative-driven incremental game
-- Stamina-based mining gameplay inspired by Minesweeper
-- A story told through the game mechanics
-- Cool ray-traced lighting! Don't worry it can run on (almost) all computers, won’t melt your system, and maintains 90 FPS on Steam Deck!
+- 一個約 1 至 2 小時時長的敘事導向增量遊戲
+- 受踩地雷啟發的體力制挖礦遊戲機制
+- 藉由遊戲機制闡述的故事
+- 很炫的光線追蹤視覺！不用擔心，大多數電腦應該都跑得動不會融化掉，而且在 Steam Deck 上可以維持 90FPS！
 
-# Videos
+# 遊戲影片
 
 {{< youtube lvwvB0Yhp7I >}}
 
@@ -56,48 +56,48 @@ Ultra Void is a short, narrative-driven incremental mining game about humanity f
 ![Gif 4](/images/ultra-void/ultravoid_gifs_research.gif)
 ![Gif 5](/images/ultra-void/ultravoid_gifs_ultravoid.gif)
 
-# Images
+# 遊戲截圖
 
 |![Screenshot 1](/images/ultra-void/ultravoid_screenshot_1.jpg)|![Screenshot 2](/images/ultra-void/ultravoid_screenshot_2.jpg)|
 |---|---|
 |![Screenshot 3](/images/ultra-void/ultravoid_screenshot_3.jpg)|![Screenshot 4](/images/ultra-void/ultravoid_screenshot_4.jpg)|
 |![Screenshot 5](/images/ultra-void/ultravoid_screenshot_5.jpg)|![Screenshot 6](/images/ultra-void/ultravoid_screenshot_6.jpg)|
 
-# Logo & Icon
+# 遊戲標誌
 
 ![ultra-void-logo-dark](/images/ultra-void/ultravoid_logo_dark.png)
 
 ![ultra-void-logo-white](/images/ultra-void/ultravoid_logo_light.png)
 
-<!-- # Awards & Recognition -->
+<!-- # 獲獎紀錄 -->
 
-<!-- # Selected Articles -->
+<!-- # 文章選輯 -->
 
-# Monetization Permission
+# 營利許可
 
-DK Liao allows for the contents of DK Liao to be published through video broadcasting services for any commercial or non-commercial purposes. Monetization of videos created containing assets from DK Liao is legally & explicitly allowed by DK Liao. This permission can be found in writing at [http://blog.chosenconcept.dev/ultra-void/presskit#monetization-permission](http://blog.chosenconcept.dev/ultra-void/presskit#monetization-permission).
+廖得凱 DK Liao 允許所有廖得凱 DK Liao 製作的內容，不計營利與非營利目的均可以使用影像播送服務放送。使用具有廖得凱 DK Liao 製作的素材進行影片營利的行為屬於合法行為並且由廖得凱 DK Liao 明文允許。此許可訊息可以於此找到 [https://blog.chosenconcept.dev/tw/ultra-void/presskit/#營利許可](https://blog.chosenconcept.dev/tw/ultra-void/presskit/#%e7%87%9f%e5%88%a9%e8%a8%b1%e5%8f%af)。
 
-# Additional Links
+# 額外連結
 
-**Google Drive download link**
+**Google Drive 下載連結**
 
-for more screenshots, GIFs, videos, game logo [drive.google.com](https://drive.google.com/drive/folders/1Lnhq-EH9EyUSd1qhUSS-Fhf8uPRG_fbl?usp=sharing).
+更多螢幕截圖、動圖、影片、遊戲標誌素材 [drive.google.com](https://drive.google.com/drive/folders/1Lnhq-EH9EyUSd1qhUSS-Fhf8uPRG_fbl?usp=sharing)。
 
-**Twitter Dev Blog**
+**Twitter 開發資訊**
 
-See the most recent screenshots and updates at [twitter.com](https://www.twitter.com/justdkliao).
+最新的遊戲截圖與內容更新 [twitter.com](https://www.twitter.com/justdkliao)。
 
-**Ultra Void Website**
+**《終噬虛空》官方網站**
 
-The official website for Ultra Void can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/ultra-void/game).
+《終噬虛空》的官方網站在 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/ultra-void/game)。
 
-**Ultra Void Website Dev Blog**
+**《終噬虛空》官方網站開發資訊**
 
-See the more detailed article at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tags/ultra-void/).
+更多資訊請見 [blog.chosenconcept.dev](https://blog.chosenconcept.dev/tags/ultra-void/)。
 
-**Ultra Void Steam Page**
+**《終噬虛空》Steam 頁面**
 
-Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/app/2589050/).
+在這裡加入願望清單！[store.steampowered.com](https://store.steampowered.com/app/2589050/)。
 
 <!-- ## Ultra Void Soundtrack -->
 
@@ -105,13 +105,13 @@ Wishlist the game here! [store.steampowered.com](https://store.steampowered.com/
 <!-- ## Ultra Void Credits
 The full credits for Ultra Void can be found at [blog.chosenconcept.dev](https://blog.chosenconcept.dev/autopanic/game). -->
 
-# About DK Liao
+# 關於廖得凱 DK Liao
 
-DK Liao is a solo developer focusing on delivering interesting narratives in interesting ways.
+廖得凱 DK Liao 是一名專注在用有趣的方式講有趣的故事的開發者。
 
-# Contact
+# 聯絡資訊
 
-**Inquiries**
+**洽詢**
 
 <span style="opacity:0; display:none; visibility: collapse;">safety@chosenconcept.dev</span>
 <!-- place.holder@yamsn.com -->
