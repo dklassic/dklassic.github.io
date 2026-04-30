@@ -1,0 +1,10 @@
+/home/runner/work/dklassic.github.io/dklassic.github.io/bbcode/english/autopanic/tech-fixes.bbcode
+/home/runner/work/dklassic.github.io/dklassic.github.io/bbcode/english/autopanic/faq.bbcode
+/home/runner/work/dklassic.github.io/dklassic.github.io/bbcode/english/autopanic-zero/tech-fixes.bbcode
+/home/runner/work/dklassic.github.io/dklassic.github.io/bbcode/english/autopanic-zero/faq.bbcode
+/home/runner/work/dklassic.github.io/dklassic.github.io/bbcode/english/aynir/tech-fixes.bbcode
+/home/runner/work/dklassic.github.io/dklassic.github.io/bbcode/english/aynir/faq.bbcode
+/home/runner/work/dklassic.github.io/dklassic.github.io/bbcode/english/netdive/tech-fixes.bbcode
+/home/runner/work/dklassic.github.io/dklassic.github.io/bbcode/english/netdive/faq.bbcode
+/home/runner/work/dklassic.github.io/dklassic.github.io/bbcode/english/ultra-void/tech-fixes.bbcode
+/home/runner/work/dklassic.github.io/dklassic.github.io/bbcode/english/ultra-void/faq.bbcode
