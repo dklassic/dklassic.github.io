@@ -277,10 +277,6 @@ def main():
 
     print(f"\nDone. {len(changed)} file(s) written/updated.")
 
-    # Write a machine-readable list of changed paths for the CI step
-    changed_list_path = output_dir / "changed_files.txt"
-    changed_list_path.write_text("\n".join(changed), encoding="utf-8")
-
 
 if __name__ == "__main__":
     main()
