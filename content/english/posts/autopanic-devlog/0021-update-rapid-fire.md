@@ -13,7 +13,7 @@ I’m still trying to figure out how to properly redesign the combat, this part 
 
 ![rim indication](/images/posts/autopanic-devlog/0021/1.gif)
 
-I’ve alway been wanting to do something like this, a gentle indication to show justification for not being able to fall off the platform. Similar stuffs have been attempted before but the visual never feels proper enough, but this time is different, because I've finally obtain the power of shader.
+I’ve always wanted to do something like this, a gentle indication to show justification for not being able to fall off the platform. Similar stuffs have been attempted before but the visual never feels proper enough, but this time is different, because I've finally obtained the power of shaders.
 
 ![rim quad](/images/posts/autopanic-devlog/0021/5.png)
 
@@ -47,7 +47,7 @@ My original justification for not implementing it is because I feel like the dam
 
 This one is perhaps a happy accident.
 
-I had this setup to help me debug my sfx trigger, but I just realized that, since the rise of accessibility, audio caption seems to be one of the most requested accessibility feature. So I figure that, albeit a bit messy, this is probably serviceable enough for a accessibility feature for those who need it.
+I had this setup to help me debug my sfx trigger, but I just realized that, with the rise of accessibility awareness, audio captions seem to be one of the most requested accessibility features. So I figure that, albeit a bit rough, this is probably serviceable enough as an accessibility feature for those who need it.
 
 I did some extra processing to make sure the effect don't just become a visual mess:
 

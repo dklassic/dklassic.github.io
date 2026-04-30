@@ -5,12 +5,12 @@ draft: false
 tags: ["Autopanic"]
 ---
 
-Back then I'm all sold on the new Unity Input System, which has some really promising features and I don't want to walk back to use the old input system. However the new Input System for whatever reason doesn't gel well with their UI Events.
+Back then I was all sold on the new Unity Input System, which has some really promising features and I don't want to walk back to use the old input system. However the new Input System for whatever reason doesn't gel well with their UI Events.
 
 So I need a custom UI framework.
 
-Inspired by Phi Dinh's Recompile, I figure a fully text-based UI would be great for my project.
-Although I'm incapable to do fancy ASCII animation and having to support Chinese characters by default ('cause, I speak Mandarin) removes quite a lot of  presentation choices, limiting myself can help me focus more on actual useful stuffs.
+Inspired by Phi Dinh's Recompile, I figured a fully text-based UI would be great for my project.
+Although I'm incapable to do fancy ASCII animation and having to support Chinese characters by default ('cause, I speak Mandarin) removes quite a lot of presentation choices, limiting myself can help me focus more on actual useful stuffs.
 
 Building a robust UI framework is imminent anyways because before that I was debugging by clicking on Unity's editor window. The back and forth between game screen and editor takes me out of the flow, traversing the scene hierarchy doesn't help either.
 
@@ -22,7 +22,7 @@ An elegant weapon for a more civilized age.
 
 This makes the enemy testing process much easier. No more drag & drop and clicking through scene hierarchy.
 
-The UI framework gradually grows into a behemoth supporting all sorts of stuffs easily. For example, my system menu UI can be initiated with a class that inherits the GeneralUISystemWithNavigation class. Then I can simply do:
+The UI framework gradually grows into a behemoth supporting all sorts of things easily. For example, my system menu UI can be initiated with a class that inherits the GeneralUISystemWithNavigation class. Then I can simply do:
 
 ```
 protected override void InitializeUI()
@@ -39,7 +39,7 @@ protected override void InitializeUI()
 ```
 
 
-And then vuala:
+And then voilà:
 
 ![system menu](/images/posts/autopanic-devlog/0007/2.png)
 

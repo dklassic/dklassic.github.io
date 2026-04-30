@@ -22,7 +22,7 @@ This is going to sound super weird, but I'm actually perfectly fine for not rele
 I set out to make Autopanic in May 2020 as sort of a way to cope with the most difficult period in my life. To me, it is more of a research project to see whether or not I can:
 
 - learn to make a game from scratch with zero knowledge
-- actually build my weird idea into a enjoyable product
+- actually build my weird idea into an enjoyable product
 
 It has since been proven by playtesters months ago that albeit flawed, what I set out to do with this project is achieved.
 
@@ -30,11 +30,11 @@ With that, comes a difficult problem to actually releasing it.
 
 # To release Autopanic
 
-To release Autopanic, multitude of extra works are still required:
+To release Autopanic, a multitude of extra work is still required:
 
 - Some design flaws had to be fixed
 - All potential bugs had to be fixed to prevent immersion breaking
-- More artworks had to be added, and the existing one has to be retouched to be commercially viable (as in I won't cringe when I make a trailer with it)
+- More artwork had to be added, and the existing one has to be retouched to be commercially viable (as in I won't cringe when I make a trailer with it)
 - The music had to be improved, somehow
 - The writing had to go through extra passes to be actually enjoyable
 
@@ -48,7 +48,7 @@ I showed symptom of physical urticaria since March 2023, which is a physical con
 
 My condition got worse as my attempt at securing government funding was deemed unworthy. To be fair, Autopanic can be finished regardless of funding, but the whole process costs me time and a small sum of money which is really frustrating.
 
-Then Tiny Teams happened. Which is normally a good thing, and I'm really felt privileged to be invited. But I never thought I'd be accepted and haven't had enough time to prepare for better promotion materials. And since Tiny Teams is such a big opportunity, I feel obligated to release a demo at the very least. Which in the end gathered me so many more followings, wishlists, and more importantly more feedbacks, and I'm really glad that I did release this demo.
+Then Tiny Teams happened. Which is normally a good thing, and I really felt privileged to be invited. But I never thought I'd be accepted and haven't had enough time to prepare for better promotion materials. And since Tiny Teams is such a big opportunity, I feel obligated to release a demo at the very least. Which in the end gathered me so many more followings, wishlists, and more importantly more feedbacks, and I'm really glad that I did release this demo.
 
 Though as glad as I am, my stress related symptom only increases as time goes on. Which forced me to reevaluate what I really want with this project, which I don't really have.
 

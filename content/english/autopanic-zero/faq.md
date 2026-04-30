@@ -51,11 +51,11 @@ For now please make sure you have a powerful multicore CPU. If you’re running 
 
 # Does *Autopanic Zero* have PC controller support?
 
-Yes! The game automatically work with any controller thrown at it. If not? That’s probably Unity’s fault. You can also toggle on/off Steam Input, both of which might lead to a proper detection of controller input.
+Yes! The game automatically works with any controller thrown at it. If not? That’s probably Unity’s fault. You can also toggle on/off Steam Input, both of which might lead to a proper detection of controller input.
 
 # Is *Autopanic Zero* a multiplayer game, or are there any plans for multiplayer?
 
-On one hand the idea does sound interesting, but on the other hand I’m not particularly sure how to make such design. Plus I haven’t written any netcode for games yet, would took some serious research to ensure it being bug-free.
+On one hand the idea does sound interesting, but on the other hand I’m not particularly sure how to make such design. Plus I haven’t written any netcode for games yet, would take some serious research to ensure it being bug-free.
 
 Will probably investigate but don’t keep your hopes up.
 

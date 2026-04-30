@@ -19,7 +19,7 @@ Though before that, I need to fit larger enemy count into my game.
 
 Since enemy count is drastically increased, I need to squeeze out every single performance.
 
-I've always use the Update() function in Unity to do everything, but according to Unity's own article, such method introduce overhead when used a lot.
+I've always used the Update() function in Unity to do everything, but according to Unity's own article, such method introduce overhead when used a lot.
 
 I've already have an EnemyManager to do all the spawning and despawning, so it's just a matter of using it to update all the enemies. Which is easy enough.
 
@@ -31,7 +31,7 @@ Since my AI relies on massive raycast count to decide its movement, large enemy 
 
 ![original](/images/posts/autopanic-zero-devlog/0000/4.png)
 
-Actually, not bad! But we're talking hundreds of enemies here, gonna optimize it as much as I can or else players will shower negative review all over the internet.
+Actually, not bad! But we're talking hundreds of enemies here, so I need to optimize as much as I can or else players will shower negative review all over the internet.
 So naturally I tried to use Jobs for multithreaded raycasting:
 
 ![threaded](/images/posts/autopanic-zero-devlog/0000/5.png)
@@ -45,6 +45,6 @@ So let me try again. This time with the manager pattern, I use the EnemyManager 
 Now that's an improvement!
 
 I also ported this design back to my original game, which don't actually need such efficiency but hopefully some players would be happy about it.
-Also watching large amount of my enemies swarming though the map is quite satisfying.
+Also watching large amounts of my enemies swarming through the map is quite satisfying.
 
 ![swarm](/images/posts/autopanic-zero-devlog/0000/9.gif)

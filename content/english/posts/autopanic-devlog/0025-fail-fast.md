@@ -5,17 +5,17 @@ draft: false
 tags: ["Autopanic"]
 ---
 
-Back in late 2023, I made the decision to indefinitely postpone the development of *Autopanic*. It is because I finally realized that my understanding of my own game hasn't caught up with the development schedule I had in mind yet.
+Back in late 2023, I made the decision to indefinitely postpone the development of *Autopanic*. It is because I finally realized that my understanding of my own game had not caught up with the development schedule I had in mind yet.
 
 You see, *Autopanic* is a practice project overgrown into a full game scope that rivals the industry's best. This means that every aspect of the game is undercooked due to both my lack of ability and lack of time ('cause I still need to feed myself somehow), so I need a new plan to fix this. I need to Fail Fast.
 
 # Fail Fast
 
-Fail Fast is a commonly given suggestion to new game developers, for me who can no longer call himself a newbie I totally stand by the sentiment behind said suggestion. So it goes about something like this:
+Fail Fast is a commonly given suggestion to new game developers, for me who can no longer call myself a newbie, I totally stand by the sentiment behind said suggestion. So it goes about something like this:
 
 > Instead of making your big dream game upfront, make a lot of small games first. They will fail but that's fine. You'll learn how to make that dream game along the way.
 
-Making game is hard, but Finishing a game is exponentially harder. If one intend to make that one big dream game first try they'll most certainly spend way too long on it, such is the case of *Autopanic*. Along the way most projects will be abandoned, and even when it delivered the developers mostly got burnt so hard that a lot of them just don't make another game.
+Making games is hard, but Finishing a game is exponentially harder. If one intend to make that one big dream game first try they'll most certainly spend way too long on it, such is the case of *Autopanic*. Along the way most projects will be abandoned, and even when it delivered the developers mostly got burnt so hard that a lot of them just don't make another game.
 
 Over the months, I still got random messages out of nowhere from players who played the demo of *Autopanic* and find it to be the coolest thing they've ever played. This solidifies my belief that *Autopanic* is indeed according to my own theory a one of a kind game the world has yet to see, so I really want to make it real. And in order for me to not kill myself during the process of delivering *Autopanic*, I need my version of Fail Fast.
 

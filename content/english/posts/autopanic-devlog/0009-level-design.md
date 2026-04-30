@@ -15,14 +15,14 @@ Can’t remember the exact quote and I forgot which tweet does it come from, but
 
 It was a tweet about how WFC can be easily utilized in a combat-focused game but not so much in a puzzle game.
 
-Anyhow, I decided to follow this philosophy so that I can quickly went over level design and focus on other pressing matters.
+Anyhow, I decided to follow this philosophy so that I could quickly move past level design and focus on other pressing matters.
 So I first started by making a level editor:
 
 ![editor](/images/posts/autopanic-devlog/0009/1.png)
 
 Tried and true 2D checkbox, easy. My idea is to make some generally serviceable shapes then use random decoration to fill up the space. I'm not going to impress players with fully unique level visuals so I just simply do none.
 
-By randomly spawning decorations in level, essentially an unique combat puzzle has spawned.
+By randomly spawning decorations in level, essentially a unique combat puzzle is generated.
 
 I prepared several types of decoration:
 
@@ -49,7 +49,7 @@ This approach also allows me to preview all layouts easily in my UI system:
 
 # Level Visuals
 
-I'm definitely not going it impress anyone, but I hope to provide some interesting floor patterns to be discovered during gameplay. These patterns will be revealed dynamically whenever a light source shows up. I find this approach easy to make yet still feels interesting to see them through the crack of light.
+I'm definitely not going to impress anyone, but I hope to provide some interesting floor patterns to be discovered during gameplay. These patterns will be revealed dynamically whenever a light source shows up. I find this approach easy to make yet still feels interesting to see them through the crack of light.
 
 ![visual 1](/images/posts/autopanic-devlog/0009/3.png)
 ![visual 2](/images/posts/autopanic-devlog/0009/4.png)

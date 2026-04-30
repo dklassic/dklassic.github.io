@@ -13,7 +13,7 @@ Probably the weirdest devlog in the world that started on game release, but here
 
 I'm currently making another game *Autopanic* which is a twin-stick shooter with Rogue-like elements.
 
-*Autopanic Zero* is a sister project that stemmed from *Autopanic*'s codebase, it is firstly made within 7 days just for fun, then took 3 days in a local convention back in 2022 to refine the basic pillars and it kind of just stuck there. The game was always meant to be randomly release out in the wilds at some point, but in December 2023 I decided to make it a full game worthy of a Steam release and use it to validate some theories of mine.
+*Autopanic Zero* is a sister project that stemmed from *Autopanic*'s codebase, it was first made within 7 days just for fun, then took 3 days at a local convention in 2022 to refine the basic pillars and it kind of just stuck there. The game was always meant to be randomly release out in the wilds at some point, but in December 2023 I decided to make it a full game worthy of a Steam release and use it to validate some theories of mine.
 
 *Autopanic Zero* is used to validate the following assumptions:
 
@@ -33,17 +33,17 @@ Anyways, since *Autopanic Zero* is intentionally used to improve the design of *
 
 # *Autopanic Zero*'s Design
 
-*Autopanic Zero* was made because I one day played *10 Minutes Till Dawn* and like it a lot, and since I'm already making a Rogue-like with random ability progression, it's rather easy to hack together a similar game by just setting a constant spawn of enemies in a large level.
+*Autopanic Zero* was made because I one day played *10 Minutes Till Dawn* and like it a lot, and since I'm already making a Rogue-like with random ability progression, it was rather easy to hack together a similar game by just setting a constant spawn of enemies in a large level.
 
-But of course this doesn't really pose as a game good enough to stand on it's own, so I had to figure out something unique to this game alone.
+But of course this doesn't really make for a game good enough to stand on its own, so I had to figure out something unique to this game alone.
 
 ## Figuring out what the game is
 
 I think Unique Selling Point is overrated but I do believe I'm not here to make "[Another game] but worse". *10 Minutes Till Dawn* is basically *Vampire Survivor* but short and twin-stick shooter, if I just release the game as is this game is for no one.
 
-I quickly fixated on two gripes I had with *Vampire Survivor* (which btw isn't their *fault*, it's not part of their design), first is the nearly meaningless character choice as it doesn't change the overall gameplay, second is bosses are just meatier punching bag. *Vampire Survivor* is pretty okay with those design due to the movement only player interaction, but since I'm making a game with a lot more player interactions, I need to improve on both of them to make it work.
+I quickly fixated on two gripes I had with *Vampire Survivor* (which btw isn't their *fault*, it's not part of their design), the first is the nearly meaningless character choice as it doesn't change the overall gameplay, and the second is that bosses are just meatier punching bags. *Vampire Survivor* is pretty okay with those design due to the movement only player interaction, but since I'm making a game with a lot more player interactions, I needed to improve on both of them to make it work.
 
-So with bosses *Autopanic* already got some mini bosses ready, I just imported them here and make their attack pattern more suitable with large crowd of mobs around. As for meaningful starting choice, I feel like the weapon choice alone from *Autopanic* isn't good enough, so I firstly added options to change the characteristics of player movement, then I added an ultimate gauge because I don't know what else to add.
+So with bosses *Autopanic* already got some mini bosses ready, I just imported them here and make their attack pattern more suitable with large crowd of mobs around. As for meaningful starting choice, I felt like the weapon choice alone from *Autopanic* wasn't good enough, so I first added options to change the characteristics of player movement, then I added an ultimate gauge because I don't know what else to add.
 
 And here it is, a 10 minute-ish loop horde survival game with three bosses to defeat.
 
@@ -81,9 +81,9 @@ In the end even if players manually cap it to 60FPS, they'll still gain prolonge
 
 ## Released to fail
 
-Because of course it'll fail! I talked to almost no one about the release, sent zero preview code out there. But even with this predestined failure, I've surely gained a lot from it, even if it's just the fact that Steamworks Release function is so busted that I had to try three times to properly release my game haha. I also learnt that Valve doesn't really want donation style DLC which forced me to do a last minute decision to use my own tracks instead of free musics online so I can at least justify it as an OST.
+Because of course it'll fail! I talked to almost no one about the release, sent zero preview code out there. But even with this predestined failure, I've surely gained a lot from it, even if it's just the fact that Steamworks Release function is so busted that I had to try three times to properly release my game haha. I also learned that Valve doesn't really want donation-style DLC, which forced me to make a last-minute decision to use my own tracks instead of free musics online so I can at least justify it as an OST.
 
-This is also the cold hard truth of game release that I need to remember: even with a game of this caliber, even when release for free, it's still not enough to sell itself.
+This is also the cold hard truth of game release that I need to remember: even with a game of this caliber, even when released for free, it's still not enough to sell itself.
 
 
 
@@ -91,9 +91,9 @@ This is also the cold hard truth of game release that I need to remember: even w
 
 So as far as *Autopanic Zero* goes, it literally pushes *Autopanic*'s codebase to the extreme. Forcing me to reexamine tons of inefficiencies I can get away with *Autopanic*'s smaller encounter, and therefore further drastically optimized *Autopanic*'s performance. The most significant part is for me to manage everything myself, basically no more Unity handled objects, my codebase is responsible for every single one of them.
 
-From gameplay perspective, *Autopanic Zero* treaded some design choices that I definitely won't take if I just kept on trying to finish *Autopanic*. While I don't think they'll all be for the better in *Autopanic*, the change on perspective really gives me more to think about.
+From gameplay perspective, *Autopanic Zero* treaded some design choices that I definitely won't take if I just kept on trying to finish *Autopanic*. While I don't think they'll all be for the better in *Autopanic*, the change in perspective really gave me more to think about.
 
 I also took the chance to implement basically every accessibility, Quality of Life options into the game, which of course then can be easily slotted into *Autopanic*'s codebase, so that even if *Autopanic* didn't end up being the best game in the world, all of my games will definitely be candidates of best accessibility.
 
 
-So, so far so good? I've been making games for four years now, but I never felt worthy of calling myself a gamedev (even when I'm already hired by a game studio), now that I've released a game no one plays I think I can confidently say I AM a gamedev. And even with no one playing it, *Autopanic Zero* is still a cool game that I'll definitely enjoy anytime on Steam Deck. I managed to release a game I liked, neat!
+So, so far so good? I've been making games for four years now, but I never felt worthy of calling myself a gamedev (even when I'm already hired by a game studio), now that I've released a game no one plays, I think I can confidently say I AM a gamedev. And even with no one playing it, *Autopanic Zero* is still a cool game that I'll definitely enjoy anytime on Steam Deck. I managed to release a game I liked, neat!

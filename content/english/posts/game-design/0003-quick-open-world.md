@@ -7,18 +7,18 @@ tags: ["Game Design"]
 
 # Introduction
 
-Open world games always fascinates me. But actually making one is pretty intimidating as a solo dev, while a procedural toolset might work, making a robust one might be tedious and thereby time consuming. After being burnt out from an older project, I decided to take a break and have some fun. So I decided to test how fast can I hack an open world with the least tools and costs.
+Open world games have always fascinated me. But actually making one is pretty intimidating as a solo dev, while a procedural toolset might work, making a robust one might be tedious and therefore time-consuming. After being burnt out from an older project, I decided to take a break and have some fun. So I decided to test how fast can I hack an open world with the least tools and costs.
 
 The final result here is shown using Unity, but I believe the tools prior and general workflow is perfectly doable in any engine.
 
 # The Goal
 
-The goal is to hack an open world with the least tools and costs. So let's make it clear what it means:
+The goal is to build an open world with the fewest tools and lowest costs. So let's make it clear what it means:
 
 - Almost zero barrier to replicate the attempt for anyone
 - Making a large scale city is the actual attempt, it can serve as actual level but most probably usable as a background
 
-Also I will be focusing on the workflow rather than the actual steps above, but all tools used here has a lot of YouTube tutorials out there, I'm just trying to hack them together.
+I will be focusing on the workflow rather than the actual steps, but all tools used here have plenty of YouTube tutorials, I'm just trying to hack them together.
 
 # The Workflow
 
@@ -107,7 +107,7 @@ While the actual data contains a much detailed model:
 
 # Conclusion
 
-I initially though I can effortlessly made a driving game based in Tokyo open world, but it turns out much more work is required. But I've learnt quite a lot from this attempt and still believes this is possible. Thank you for reading this piece and hopefully it is any bit useful to you.
+I initially thought I could effortlessly make a driving game set in Tokyo's open world, but it turns out much more work is required. But I've learnt quite a lot from this attempt and still believes this is possible. Thank you for reading this piece and hopefully it is any bit useful to you.
 
 # Extra Resources
 

@@ -9,8 +9,8 @@ tags: ["Autopanic"]
 
 My old solution relies on Unity's NavMesh and NavMeshAgent. This becomes a chore to me later on because:
 
-- As my levels becomes more dynamic, managing NavMesh becomes a tedious work
-NavMeshAgent can reliably move towards the destination, but also costs too much to request frequently
+- As my levels became more dynamic, managing NavMesh becomes a tedious work
+NavMeshAgent can reliably move towards the destination, but also costs too much to call frequently
 - My gameplay is very fast-paced, so I'd like my enemies to react to player action as fast as possible
 
 So I decided to move to a custom solution that is basically about picking a preferred direction and move forward.
@@ -44,9 +44,9 @@ So far so good:
 ![movement](/images/posts/game-design/0004/4.gif)
 ![enemy roaming](/images/posts/autopanic-devlog/0008/1.gif)
 
-This approach also helps me make some actions more dynamic, such as "Strategic Dash" and "Emergency Evade", for these action can now be used with understandings of the environment instead of a fixed direction and stuffs.
+This approach also helps me make some actions more dynamic, such as "Strategic Dash" and "Emergency Evade", as these actions can now be used with an understanding of the environment instead of a fixed direction.
 
-I've then spend some time optimizing raycast with multithread but nothing fancy.
+I then spent some time optimizing raycast with multithread but nothing fancy.
 
 
 ## Attack Pattern
@@ -69,7 +69,7 @@ Now with enemy behavior revamped, time to add in procedural animation.
 
 Procedural Animation in my game is a big topic, because basically every single changing element was procedural, i.e. code driven.
 
-I know early on that I'm not going to be doing keyframes at all. Not only because I'm just but one guy, also that I've watched the famous talk from David Rosen about procedural animation in Overgrowth and was convinced that procedural animation can be used to achieve suitably high quality animation with way less effort.
+I know early on that I'm not going to be doing keyframes at all. Not only because I'm just one person, but also because I've watched the famous talk from David Rosen about procedural animation in Overgrowth and was convinced that procedural animation can be used to achieve suitably high quality animation with way less effort.
 
 ## UI Animation
 
@@ -128,7 +128,7 @@ Simple, quick to make, and can include the consideration of physicality quite ea
 
 Now comes the fun part, though maybe not much to be explained.
 
-I find that making procedural movement animation is basically programming the process of how the real world counterpart would move:
+I find that making procedural movement animation is essentially programming how the real-world counterpart would move:
 
 - If leg is too far away, move
 - If moving, lean

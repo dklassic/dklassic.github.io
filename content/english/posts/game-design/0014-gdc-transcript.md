@@ -13,7 +13,7 @@ Beforehand, a quick brief about why.
 
 # Game Developers Conference
 
-The Game Developers Conference is arguably the biggest game development knowledge base in the world. Without the need to attend the physical event, [GDC Vault](https://www.gdcvault.com/) also offers all the talks and slides for just an annual fee of $599. Although the fee is certainly affordable for an established studio or developer, people who need it the most is probably those who just started and don't have such luxury.
+The Game Developers Conference is arguably the biggest game development knowledge base in the world. Without needing to attend the physical event, [GDC Vault](https://www.gdcvault.com/) also offers all the talks and slides for just an annual fee of $599. Although the fee is certainly affordable for an established studio or developer, the people who need it most are probably those who are just starting out and don't have such luxury.
 
 Thankfully, not only the Vault features some great talks free to access, there's also the [GDC YouTube channel](https://www.youtube.com/@Gdconf) featuring more than 1,700 videos.
 
@@ -31,7 +31,7 @@ This is where the transcription comes in.
 
 [Frank Chao](https://twitter.com/aaefiikmnnnr), friend of the discord server [IGDShare](https://discord.gg/eUfnCqVkRz), posted a video on our resource dumping channel, in which introduced an offline transcription tool called [Whisper](https://github.com/openai/whisper).
 
-This open source project built by OpenAI is lightyears above that of Google's. Not only does it can recognize game/game development related keywords easily, it is also relatively unaffected by the bad audio and heavy accent, so I quickly figure it would be a great tool to transcribe GDC's video. Though it also has some traits of generative AI which means it might make things up in some special cases.
+This open source project built by OpenAI is lightyears above that of Google's. Not only can it recognize game/game development related keywords easily, it is also relatively unaffected by bad audio and heavy accents, so I quickly figured it would be a great tool for transcribing GDC videos. Though it also has some traits of generative AI which means it might make things up in some special cases.
 
 All in all, the pros outweigh the cons significantly, so I decided to transcribe all publicly available videos on the GDC YouTube channel. Though instead of using Whisper directly, I instead opted for a variant called WhipserX.
 
@@ -47,7 +47,7 @@ After some searching, I found this version called [Whisper X](https://github.com
 - Voice Activity Detection, a process to identify parts that have active voice.
 - Forced Alignment, a process that matches the text back to its most probable position.
 
-Both combined resulting in extremely desirable results. Though not without its own issues, but this is by far the best choice.
+Both combined result in extremely desirable results. Though not without its own issues, but this is by far the best option.
 
 # Run Transcription with Google Colab
 
@@ -63,7 +63,7 @@ The last one especially took me and PeDev about a full day to find the ideal set
 
 # The Tool Site
 
-For the site, I just want to make it simple and clean. Find an UI framework, have a place to input the video ID, and then show the video and subtitle. Simple as that!
+For the site, I just wanted to make it simple and clean. Find an UI framework, have a place to input the video ID, and then show the video and subtitle. Simple as that!
 
 I asked [Jason](https://twitter.com/pewsheen) for UI framework recommendation, landed on [Material Tailwind](https://www.material-tailwind.com/). And boy I don't miss the days I struggled with CSS in my youth.
 
@@ -82,13 +82,13 @@ Clearly the ergonomics isn't good enough, so we then added:
 ![Request Transcription](/images/posts/game-design/0014/5.png)
 
 - Extra measures to scale the video.
-- Separate fullscreen video logic for youtube.external.subtitle can't just recognize YouTube embedded video's fullscreen action.
+- Separate fullscreen video logic, as youtube.external.subtitle can't recognize YouTube's embedded video fullscreen action on its own.
 
 So that's it, the site is done!
 
 # The Open Source Project
 
-Although I consider myself pretty fast in translation, the sheer amount of videos just isn't possible to be handled on my own. With the deployment of Github Repository [GDC-transcript](https://github.com/dklassic/gdc-transcript) I hope to solve the rest of the problems with developers around the globe. Plus Github Page for the tool page is really easy to use.
+Although I consider myself pretty fast in translation, the sheer number of videos just isn't possible to handle on my own. With the deployment of Github Repository [GDC-transcript](https://github.com/dklassic/gdc-transcript) I hope to solve the rest of the problems with developers around the globe. Plus Github Page for the tool page is really easy to use.
 
 I'm definitely getting ahead of myself here but in order to have a smooth workflow, we went through some extra steps:
 
@@ -96,12 +96,12 @@ I'm definitely getting ahead of myself here but in order to have a smooth workfl
 - Setting up a thorough Readme to explain the ins and outs of this project, and hopefully GDC won't be suing me.
 - Having a clear Contributing Guide and Pull Request template so that future contributors can help us easily without the need to ask lots of questions first.
 
-In order to let the frontend of the site access information more easily, PeDev wrote a metadata generator alongside the site publishing Github Action, me on the other hand wrote an Action to quickly generate transcripts from SRTs and perform pull request on its own.
+To let the frontend of the site access information more easily, PeDev wrote a metadata generator alongside the site publishing Github Action, me on the other hand wrote an Action to quickly generate transcripts from SRTs and perform pull request on its own.
 
 # Conclusion
 
 I would love to go the extra mile and try to have GPT4 perform summary and potentially translate to other languages, but especially the translation parts still doesn't serve as a great starting point especially coming from a not yet proof read subtitle. This is as far as we can get for now. I hope this small project can help some developers in need regardless of the audience size.
 
-Also although I think this is perfectly within the realm of fair use, but GDC is also rightfully so to have the repository removed since they technically own the content. If that's what happens, at least we had a good run.
+Also although I think this is perfectly within the realm of fair use, but GDC would also be within their rights to have the repository removed since they technically own the content. If that's what happens, at least we had a good run.
 
 If you have any questions or suggestions, feel free to submit an Issue on Github or contact me on [Twitter](https://twitter.com/justdkliao). Thanks for reading!

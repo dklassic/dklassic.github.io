@@ -52,15 +52,15 @@ Well, not quite.
 
 # Auto Versioning
 
-Autopanic is an extremely small game, both in terms of content and assets included. The game built is around 200MB which can be compressed into 70-80MB, the build process takes 20 seconds with Mono and 1 minute with IL2CPP, which is absurdly fast .
+Autopanic is an extremely small game, both in terms of content and assets included. The game built is around 200MB which can be compressed into 70-80MB, the build process takes 20 seconds with Mono and 1 minute with IL2CPP, which is absurdly fast.
 
 So I can quickly iterate on my design and playtesters can receive patches as soon as reported. But with fast iteration comes the problem of actually knowing which version playtesters are on. Steam doesn't notify each client instantly for patches unless the user verifies game file manually, so I need to mark versions properly to know if the problem has already been fixed or not.
 
-But well, let's just say I'm not going to bump that Application.version every time I build, so I need some automatic way of versioning. And here's where the version control comes in.
+But well, let's just say I'm not going to bump that Application.version every time I build, so I need an automatic way of versioning. And here's where the version control comes in.
 
 See, Git tracks each commit with a SHA value, which is almost guaranteed to be unique even with just the first few digits. So I just need to read the .git folder and get the SHA every time I build, and say, maybe also every time I enter play mode.
 
-Of course this comes at the cost of increasing the time required to enter play mode (RIP my super fast enter play mode time), but it should more then make up for actually knowing where I am, in terms of my code, all the time.
+Of course this comes at the cost of increasing the time required to enter play mode (RIP my super fast enter play mode time), but it should more than make up for actually knowing where I am, in terms of my code, all the time.
 
 ![Commit](/images/posts/autopanic-devlog/0018/5.png)
 

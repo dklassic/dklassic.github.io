@@ -8,7 +8,7 @@ showTip: false
 
 [Read the full FAQ]({{< ref "/netdive/faq" >}})
 
-[If you have technical issue, please check out Tech Fixes]({{< ref "/netdive/tech-fixes" >}})
+[If you have technical issues, please check out Tech Fixes]({{< ref "/netdive/tech-fixes" >}})
 
 [Presskit]({{< ref "/netdive/presskit" >}})
 

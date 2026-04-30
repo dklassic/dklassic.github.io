@@ -8,7 +8,7 @@ showTip: false
 
 [Read the full FAQ]({{< ref "/ultra-void/faq" >}})
 
-[If you have technical issue, please check out Tech Fixes]({{< ref "/ultra-void/tech-fixes" >}})
+[If you have technical issues, please check out Tech Fixes]({{< ref "/ultra-void/tech-fixes" >}})
 
 [Presskit]({{< ref "/ultra-void/presskit" >}})
 

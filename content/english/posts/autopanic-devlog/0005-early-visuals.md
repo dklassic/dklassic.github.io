@@ -22,7 +22,7 @@ Early combat visual also features tons of particles.
 ![particle](/images/posts/autopanic-devlog/0005/5.png)
 ![particle in motion](/images/posts/autopanic-devlog/0005/6.gif)
 
-However as I slowing move towards a much simple visual choice with most of the visual stuff done with primitives using Shapes, I began to tone down the visual density again.
+However as I slowly moved towards a much simpler visual choice with most of the visual stuff done with primitives using Shapes, I began to tone down the visual density again.
 
 ![floor piece 1](/images/posts/autopanic-devlog/0005/7.png)
 ![floor piece 2](/images/posts/autopanic-devlog/0005/8.jpg)
@@ -31,6 +31,6 @@ However as I slowing move towards a much simple visual choice with most of the v
 Since I'm not hitting any jackpot, I decided to work on something else before revisiting visual design.
 
 But this initial attempt solidifies several thoughts:
-- Dynamic elements is much effective than geometry density, such as dynamic light source
+- Dynamic elements are much more effective than geometry density, such as dynamic light source
 - Since I'm incapable of creating any effective model, I should resort to only primitives
 - Color palette can be effective enough in delivering a vibe

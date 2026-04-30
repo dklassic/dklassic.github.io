@@ -40,7 +40,7 @@ Please try the following solutions, whichever ones are relevant to your system, 
 
 1. Windows and Proton Users: 
 
-    Vulkan and 32-bit executables are planned. If the options are available when you see this, you should try it first: the options should presented immediately when you launch the game.
+    Vulkan and 32-bit executables are planned. If the options are available when you see this, you should try it first: the options should be presented immediately when you launch the game.
 
 2. If you're using Steam, please try disabling your Steam Overlay:
     1. Right-click on *NetDive* in your Steam Library
@@ -88,7 +88,7 @@ Please try the following solutions, whichever ones are relevant to your system, 
 If you're experiencing any issue, several measures might help:
 
 - Enable framerate limit for a consistent gameplay
-- Disable "Show Packet Renment" Setting in "Visual" option menu
+- Disable "Show Packet Remnant" Setting in "Visual" option menu
 - Disable "Show Impact Flash" Setting in "Visual" option menu
 - Disable "Show Impact Effect" Setting in "Visual" option menu
 
@@ -100,11 +100,11 @@ If all of above doesn’t help and you believe your device is better than minimu
 4. Windows and Proton Users: If the feature is implemented in the future, try the Vulkan and 32-bit executables.
 5. Close all other running programs.
 6. If available, in your graphics device control panel, set "Maximum Performance Priority" and/or "Fast VSync".
-7. Ensure Windows 7 compatibility mode is NOT turned on for Netdive.exe.
+7. Ensure Windows 7 compatibility mode is NOT turned on for NetDive.exe.
 8. Disable any overlays, e.g. Steam, GeForce, etc.
 9. Physically disconnect all secondary display devices.
 10. If you have an Nvidia graphics card, follow this guide ([https://www.techadvisor.co.uk/how-to/pc-components/how-set-default-graphics-card-3612668/](https://www.techadvisor.co.uk/how-to/pc-components/how-set-default-graphics-card-3612668/))  to ensure the game is using that card, and not your onboard Intel card.
-11. After that, make sure that your Windows power settings are set for High Performance while running ***Netdive***. Ensure that the monitor running the game is connected to your Nvidia graphics video card on the back of your computer.
+11. After that, make sure that your Windows power settings are set for High Performance while running ***NetDive***. Ensure that the monitor running the game is connected to your Nvidia graphics video card on the back of your computer.
 
 *Note*: If you cannot find an option to select your GPU, you may have to manage it in your system BIOS. Disable Intel HD and make sure you set PCIe as the default for graphics in the BIOS, don't leave it at Auto.
 
@@ -112,7 +112,7 @@ If all of above doesn’t help and you believe your device is better than minimu
 
 If you are experiencing issues with the game registering input at times, please disconnect any controllers that may be plugged in.
 
-If your controller isn’t detected by the game, try disconnecting all controllers and ensuring all controller devices are removed from the Device Manager. Then, reconnect your primary controller and try again. Keep in mind the game will always recognize all controller at all times.
+If your controller isn’t detected by the game, try disconnecting all controllers and ensuring all controller devices are removed from the Device Manager. Then, reconnect your primary controller and try again. Keep in mind the game will always recognize all controllers at all times.
 
 You can also toggle on/off Steam Input, both of which might lead to a proper detection of controller input.
 
@@ -143,10 +143,10 @@ Please also provide the following files:
 2. Your Player.log located here:
 
 Windows:
-`Users\[Username]\AppData\LocalLow\ChosenConcept\Netdive\Player.log`
-Or just input the address `%userprofile%\AppData\LocalLow\ChosenConcept\Netdive\` in File Explorer and you should reach this folder, then provide Player.log within it.
+`Users\[Username]\AppData\LocalLow\ChosenConcept\NetDive\Player.log`
+Or just input the address `%userprofile%\AppData\LocalLow\ChosenConcept\NetDive\` in File Explorer and you should reach this folder, then provide Player.log within it.
 
 macOS:
-`~/Library/Logs/ChosenConcept/Netdive/Player.log`
+`~/Library/Logs/ChosenConcept/NetDive/Player.log`
 
 Thank you for reading. Hopefully this post helps you find a solution quickly.

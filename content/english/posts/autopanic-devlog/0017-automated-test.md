@@ -15,9 +15,9 @@ Here's a snippet of it in action:
 
 # Auto Tester
 
-I first have the idea of automated testing since my revamp of player and enemy code base. Although still separated, a lot of the designs for player and enemy were structured to be similar. I quite fascinated by some automation test talks from GDC, and figure it should be extremely useful for my game to have one. Though I never went the extra mile to setup an automated test, my later systems are often written with automated tests in mind.
+I first have the idea of automated testing since my revamp of player and enemy code base. Although still separated, a lot of the designs for player and enemy were structured to be similar. I was quite fascinated by some automated testing talks from GDC, and figured it should be extremely useful for my game to have one. Though I never went the extra mile to setup an automated test, my later systems are often written with automated tests in mind.
 
-Fast forward to me making a spinoff project, I only want to hack together something somewhat enjoyable as fast a possible. But Survivor-like gameplay takes quite some effort both physically and mentally to play through, and it is also extremely time consuming to do playtest myself. I'm not quite ready to lose my friends to an unbalanced gameplay so I decided it's time to deploy an automated tester.
+Fast forward to me making a spinoff project, I only want to hack together something somewhat enjoyable as fast as possible. But Survivor-like gameplay takes quite some effort both physically and mentally to play through, and it is also extremely time consuming to do playtest myself. I'm not quite ready to lose my friends to an unbalanced gameplay so I decided it's time to deploy an automated tester.
 
 # Auto Tester for Autopanic Zero
 
@@ -64,4 +64,4 @@ Autopanic is an absurd project for a solo developer if I'm being honest. Some de
 - A quick validation of the overall game balance
 - A quick method to generate believable gameplay and screenshots without me having to play
 
-Automated testing is basically free quality assurance workforce. I think small developers will benefit a lot from deploying one.
+Automated testing is basically free quality assurance labor. I think small developers will benefit a lot from deploying one.

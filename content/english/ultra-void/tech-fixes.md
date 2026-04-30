@@ -40,7 +40,7 @@ Please try the following solutions, whichever ones are relevant to your system, 
 
 1. Windows and Proton Users: 
 
-    Vulkan and 32-bit executables are planned. If the options are available when you see this, you should try it first: the options should presented immediately when you launch the game.
+    Vulkan and 32-bit executables are planned. If the options are available when you see this, you should try it first: the options should be presented immediately when you launch the game.
 
 2. If you're using Steam, please try disabling your Steam Overlay:
     1. Right-click on *Ultra Void* in your Steam Library
@@ -112,7 +112,7 @@ If all of above doesn’t help and you believe your device is better than minimu
 
 If you are experiencing issues with the game registering input at times, please disconnect any controllers that may be plugged in.
 
-If your controller isn’t detected by the game, try disconnecting all controllers and ensuring all controller devices are removed from the Device Manager. Then, reconnect your primary controller and try again. Keep in mind the game will always recognize all controller at all times.
+If your controller isn’t detected by the game, try disconnecting all controllers and ensuring all controller devices are removed from the Device Manager. Then, reconnect your primary controller and try again. Keep in mind the game will always recognize all controllers at all times.
 
 You can also toggle on/off Steam Input, both of which might lead to a proper detection of controller input.
 
@@ -147,6 +147,6 @@ Windows:
 Or just input the address `%userprofile%\AppData\LocalLow\ChosenConcept\UltraVoid\` in File Explorer and you should reach this folder, then provide Player.log within it.
 
 macOS:
-`~/Library/Logs/ChosenConcept/UtlraVoid/Player.log`
+`~/Library/Logs/ChosenConcept/UltraVoid/Player.log`
 
 Thank you for reading. Hopefully this post helps you find a solution quickly.

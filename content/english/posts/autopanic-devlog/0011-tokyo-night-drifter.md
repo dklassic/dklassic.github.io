@@ -10,9 +10,9 @@ In short, huge mess. But I learned so much from it.
 ![land roam](/images/posts/autopanic-devlog/0011/1.gif)
 ![sky roam](/images/posts/autopanic-devlog/0011/2.gif)
 
-Though OSM marking of Tokyo is pretty robust, the data is pretty difficult to use outside of plain 2D map.
+Though OSM marking of Tokyo is pretty robust, the data is pretty difficult to use outside of a plain 2D map.
 
-The most difficult part is to solve intersections and generate road mesh, which is extremely hard so have universally good result with a single ruleset.
+The most difficult part is to solve intersections and generate road mesh, which is extremely hard to get universally good results from with a single ruleset.
 
 For example, here's a good one:
 
@@ -38,9 +38,9 @@ Anyways I still managed to produce some serviceable background level stuff, and 
 
 **What matters is the shaders we learned along the way**
 
-Before this, I was afraid to write shaders, but with this three month vacation, I tried my hands at Unity's Shader Graph to make shaders.
+Before this, I was afraid to write shaders, but with this three month vacation, I tried my hand at Unity's Shader Graph to make shaders.
 
-I have no knowledge of 3D modeling and I figure I should try to decorate everything with shader. I learned to make procedural building exterior shader. I learned to make road wet with simplex noise:
+I have no knowledge of 3D modeling and I figured I should try to decorate everything with shaders. I learned to make procedural building exterior shader. I learned to make road wet with simplex noise:
 
 ![noise water](/images/posts/autopanic-devlog/0011/15.png)
 

@@ -11,7 +11,7 @@ Created: November 25, 2025
 
 # What is *Ultra Void* about?
 
-***Ultra Void*** is a narritve-focused short experimental incremental game, with gameplay mechanics designed with storytelling in mind. Featuring a stamina managing gameplay inspired by minesweeper.
+***Ultra Void*** is a narrative-focused short experimental incremental game, with gameplay mechanics designed with storytelling in mind. Featuring a stamina managing gameplay inspired by minesweeper.
 
 # Where can I get *Ultra Void*?
 

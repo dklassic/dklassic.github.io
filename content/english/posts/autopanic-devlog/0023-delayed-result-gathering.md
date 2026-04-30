@@ -7,7 +7,7 @@ tags: ["Autopanic"]
 
 So there's this technique called Delayed Result Gathering where you can delay the gathering of Jobs' result, to prevent stalling the main thread in waiting.
 
-In normal method, a Job related loop would look like this:
+In the normal method, a Job related loop would look like this:
 
 ```C#
 Loop()
@@ -57,9 +57,9 @@ Loop()
 }
 ```
 
-Though for some reason, back when I tried to implement it [when I'm researching how to write a scalable AI]({{< ref "/0000-scalable-ai" >}}), Unity gave me some error preventing me to do so. I figure the performance improvement is already good enough, so I just leave it as is.
+Though for some reason, back when I tried to implement it [when I was researching how to write a scalable AI]({{< ref "/0000-scalable-ai" >}}), Unity gave me some error preventing me to do so. I figure the performance improvement is already good enough, so I just leave it as is.
 
-Recently I read [an example](https://github.com/simplestargame/SimpleMeshChunkSample) on how to generate combined mesh asynchronously using Jobs. And I realized that there's a much intuitive way of implementing Delayed Result Gathering, which allows me to write it in the much intuitive DispatchJob -> GatherResult order.
+Recently I read [an example](https://github.com/simplestargame/SimpleMeshChunkSample) on how to generate combined mesh asynchronously using Jobs. And I realized that there's a more intuitive way of implementing Delayed Result Gathering, which allows me to write it in the more intuitive DispatchJob -> GatherResult order.
 
 So I've done it using Coroutine:
 

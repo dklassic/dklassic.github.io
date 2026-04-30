@@ -11,7 +11,7 @@ Created: July 31, 2025
 
 # What is *NetDive* about?
 
-***NetDive*** is a very short experimental incremental game. Featuring a simple loop of intercepting packets, gaining stimulations, become stronger, and dive deeper.
+***NetDive*** is a very short experimental incremental game. Featuring a simple loop of intercepting packets, gaining stimulations, becoming stronger, and diving deeper.
 
 # Where can I get *NetDive*?
 

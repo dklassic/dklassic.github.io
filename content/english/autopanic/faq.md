@@ -11,7 +11,7 @@ Created: May 10, 2022
 
 # What is *Autopanic*?
 
-***Autopanic*** is fully diegetic twinstick shooter with rogue-like elements in which you need to follow the guidance of an AI to reach the top floor of a mysteries facility. ***Autopanic*** is intentionally designed to be a freeing experience where the player can learn the world at their own pace. I aim to deliver a game with some interesting narrative design along with satisfying fast-paced combat.
+***Autopanic*** is a fully diegetic twin-stick shooter with rogue-like elements in which you need to follow the guidance of an AI to reach the top floor of a mysterious facility. ***Autopanic*** is intentionally designed to be a freeing experience where the player can learn the world at their own pace. I aim to deliver a game with some interesting narrative design along with satisfying fast-paced combat.
 
 # Where can I get *Autopanic*?
 
@@ -54,9 +54,9 @@ All elements shown in Autopanic are in-universe without exception.
 
 # And you said there are Rogue-like elements?
 
-Each attempt will feature different layout, enemy composition, and whatever rewards you can find.
+Each attempt will feature a different layout, enemy composition, and whatever rewards you can find.
 
-I wouldn’t dare say this is a full-blown Rogue-like but there should be enough stuffs around for you to enjoy!
+I wouldn’t dare say this is a full-blown Rogue-like but there should be enough stuff around for you to enjoy!
 
 <!-- # Now that *Autopanic* has launched, what's next?
 
@@ -78,7 +78,7 @@ The first prototype of Autopanic is finished in April 2020. The actual developme
 
 # Is *Autopanic* a multiplayer game, or are there any plans for multiplayer?
 
-***Autopanic*** is a single-player game. I initially have some idea for a couch coop mode, but that end up being scrapped, for now. The gameplay and narrative of ***Autopanic*** has always been designed with a solo experience in mind anyways.
+***Autopanic*** is a single-player game. I initially had some ideas for a couch coop mode, but that ended up being scrapped, for now. The gameplay and narrative of ***Autopanic*** has always been designed with a solo experience in mind anyways.
 
 # Does *Autopanic* include DRM of any kind?
 

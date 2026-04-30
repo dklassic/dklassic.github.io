@@ -12,7 +12,7 @@ I'm currently making a fully diegetic minimalist twin-stick shooter with Rogue-l
 
 # Setup
 
-An AI assistant wake you up from a long slumber. All you can do is to follow its guidance and ascend to the top floor.
+An AI assistant wakes you up from a long slumber. All you can do is to follow its guidance and ascend to the top floor.
 
 # Goals
 
@@ -28,11 +28,11 @@ I'm doing the devlog retrospectively because I started with zero game developmen
 
 Since I started this project with zero knowledge about 3D and art in general, I limited myself early on to use only vector graphics and 3D primitives throughout the game.
 
-This decision also has impact on my design. Sometimes I give up on a design only because of my visual design toolset couldn't do it justice. In the end this design choice helped my game to be focused.
+This decision also had an impact on my design. Sometimes I give up on a design only because of my visual design toolset couldn't do it justice. In the end this design choice helped my game to be focused.
 
 # Fully Diegetic
 
-For no apparent reason, I've decided to make every single element in my game to be diegetic, as in, existing in the game world. To simply put, for whatever stuff player is looking at, that thing actually has a meaning in-game.
+For no apparent reason, I've decided to make every single element in my game to be diegetic, as in, existing in the game world. To simply put, for whatever the player is looking at, that thing actually has a meaning in-game.
 
 Some quick examples:
 
