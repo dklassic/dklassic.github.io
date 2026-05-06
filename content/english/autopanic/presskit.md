@@ -10,7 +10,7 @@ showTip: false
 <span style="opacity:0; display:none; visibility: collapse;">dummy.account@outmail.com</span>
 <!-- dummy.account@outmail.com -->
 <!-- another.account@glook.com -->
-![autopanic-zero](/images/autopanic/Autopanic_en.png)
+![autopanic](/images/autopanic/Autopanic_en.png)
 
 # Factsheet
 
@@ -22,7 +22,7 @@ DK Liao
 
 **Release Date**
 
-2023 TBA
+2027 TBA
 
 **Platform**
 
@@ -34,7 +34,7 @@ DK Liao
 
 **Regular Price**
 
-Free
+TBD
 
 # Description
 

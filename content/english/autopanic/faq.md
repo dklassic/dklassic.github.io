@@ -2,16 +2,19 @@
 title: "Autopanic FAQ"
 draft: false
 enableComments: false
+showToc: true
 showTip: false
 ---
 
 Created: May 10, 2022
 
-*Last Updated April 3, 2023:* Here are answers to frequently asked questions about my first game, ***Autopanic***!
+*Last Updated May 6, 2026:* Here are answers to frequently asked questions about my first game, ***Autopanic***!
 
 # What is *Autopanic*?
 
-***Autopanic*** is a fully diegetic twin-stick shooter with rogue-like elements in which you need to follow the guidance of an AI to reach the top floor of a mysterious facility. ***Autopanic*** is intentionally designed to be a freeing experience where the player can learn the world at their own pace. I aim to deliver a game with some interesting narrative design along with satisfying fast-paced combat.
+***Autopanic*** is a fully diegetic twin-stick shooter with rogue-like elements in which you need to follow the guidance of an AI to reach the top floor of a mysterious facility. 
+
+***Autopanic*** is intentionally designed to be a freeing experience where the player can learn the world at their own pace. I aim to deliver a game with some interesting narrative design along with satisfying fast-paced combat.
 
 # Where can I get *Autopanic*?
 
@@ -22,9 +25,7 @@ Created: May 10, 2022
 
 # What are the PC versions' minimum system requirements?
 
-For PC, the lowest spec machine tested sports an Intel i5-8400 + RX470 combination and can run 1080p/60fps consistently. In addition, I've made sure Steam Deck can run the game at a consistent 800p/60fps, and can have a decent enough 90fps gameplay experience if you want.
-
-It can go a lot lower if you’re willing to run it at even lower resolution, engage lower FPS cap, and even lowering the visual quality.
+***Autopanic*** is designed around Steam Deck's capability, targeting 800p/90FPS, which means as long as you have a rig faster than Steam Deck you should be able to run the game just fine.
 
 # Does *Autopanic* have PC controller support?
 
@@ -42,17 +43,15 @@ You can look it up at YouTube for free or buy the Naumi's Endgame DLC to get acc
 
 # Does *Autopanic* support PC cloud saves?
 
-Yes! ***Autopanic*** supports cloud saves on Steam. You may also find local copies of your saves under Documents\Saved Games\Autopanic.
+Yes! ***Autopanic*** supports cloud saves on Steam. You may also find local copies of your saves under:
+- Windows - `Documents\Saved Games\Autopanic`.
+- macOS - `/Users/[UserName]/Library/Application Support/ChosenConcept/Autopanic/Save/save.dat`
 
 <!-- # I ran into a technical issue with the game. What should I do?
 
 If you need technical support, please have a look in [Autopanic Tech Fixes]({{< ref "/autopanic/tech-fixes" >}}). If the problem still hasn't been resolved, you can seek help in [Autopanic Steam Technical Support forum](https://steamcommunity.com/app/1274830/discussions/3/) or in the official Discord server `#autopaniczero-tech-support` channel, which should help get you sorted. -->
 
-# What does fully diegetic mean, anyway...?
-
-All elements shown in Autopanic are in-universe without exception.
-
-# And you said there are Rogue-like elements?
+# You said there are Rogue-like elements?
 
 Each attempt will feature a different layout, enemy composition, and whatever rewards you can find.
 
@@ -74,7 +73,7 @@ I figure with all the things I’ve learnt, game development is the only choice 
 
 # How long was *Autopanic* in development?
 
-The first prototype of Autopanic is finished in April 2020. The actual development started at May 1st 2020. The project was put on hold several times but three years of development should be accurate enough. If you're interested, I've keep tabs on my development for the most part [here](https://blog.chosenconcept.dev/tags/autopanic/) on this little site of mine.
+The first prototype of Autopanic is finished in April 2020. The actual development started at May 1st 2020. The project was put on hold several times. If you're interested, I've keep tabs on my development for the most part [here](https://blog.chosenconcept.dev/tags/autopanic/) on this little site of mine.
 
 # Is *Autopanic* a multiplayer game, or are there any plans for multiplayer?
 

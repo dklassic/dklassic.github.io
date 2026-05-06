@@ -10,7 +10,7 @@ showTip: false
 <span style="opacity:0; display:none; visibility: collapse;">dummy.account@outmail.com</span>
 <!-- dummy.account@outmail.com -->
 <!-- another.account@glook.com -->
-![autopanic-zero](/images/autopanic/Autopanic_tw.png)
+![autopanic](/images/autopanic/Autopanic_tw.png)
 
 # 資料表
 
@@ -22,7 +22,7 @@ showTip: false
 
 **上市日期**
 
-2023 年內
+2027 TBA
 
 **平台**
 
@@ -34,7 +34,7 @@ showTip: false
 
 **售價**
 
-免費
+TBD
 
 # 遊戲描述
 
@@ -71,6 +71,9 @@ showTip: false
 # 獲獎紀錄
 
 - 2022 年巴哈姆特 ACG 創作大賽－銅賞
+- Tiny Teams 2023 - Official Selection
+- Game Devs of Color Expo 2023 - Official Selection
+- BitSummit 2024 - Official Selection
 
 <!-- # 文章選輯 -->
 

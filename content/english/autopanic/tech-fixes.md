@@ -15,18 +15,7 @@ Thank you for playing my game! It’ll be a bummer if you can’t enjoy it at it
 
 *Autopanic* runs through Proton on Steam Deck instead of a native port, the reason is because Unity's native Linux port runs way worse than emulation through Proton.
 
-*Autopanic* can confidently run at both 60FPS and 90FPS, but for 90FPS you might need to further enable "Visual"→"Advance"→"CPU Lightweight Mode" to ensure a near locked experience.
-
-Currently Unity Engine has some problem locking FPS on Steam Deck OLED: in-game framerate lock results into a weird 68FPS. If there's a need to run past 60FPS, please unlock framerate in-game and rely on only system framerate lock.
-
-Upon first launch on Steam Deck, the following settings will be applied:
-
-- Change Dynamic Lighting to "Self"
-- Enable Dynamic Resolution：with target as 90FPS
-- Enable CPU Lightweight Mode
-- Unlock in-game Vsync
-
-As to why 90FPS, it's because while Steamworks allow the detection of played through Steam Deck, it lacks the ability to detect OLED model. The setting is much more aggressive by default to ensure out-of-the-box good experience.
+*Autopanic* is designed around Steam Deck's capability, targeting 800p/90FPS, the game should run fine on Steam Deck without any issue.
 
 # Please Be Sure You Have the Latest Graphics Drivers!
 
@@ -96,17 +85,13 @@ Please try the following solutions, whichever ones are relevant to your system, 
 
 # If You're Experiencing Hitching / Freezing / Lag / Frame Rate / Performance Issues
 
-***Autopanic*** is generally a CPU heavy game due to my enemy AI implementation. Though it may not work well on lower power devices (e.g. older U series CPU from Intel and AMD), it should scale suitably well on multicore.
+***Autopanic*** runs on a custom framework which is extremely CPU-lite, so unfortunately there's not really much to scale back if you're running into CPU bound performance issue.
 
-There are also some ways to improve general gameplay:
+Though if you're running into GPU bound performance issues, the following options might help:
 
 - Enable framerate limit for a consistent gameplay
-- Disable "Dynamic Lighting" Setting in "Visual" → "Advanced"
+- Lower or Disable "Global Illumination" Setting in "Visual" → "Advanced"
 - Enable "Dynamic Resolution" and/or "FSR2"/"DLSS" setting in "Visual" → "Advanced"
-
-Usually lowering resolution isn't associated with easing CPU overhead, but due to the way this game is rendered, lowering resolution can drastically improve the CPU performance. If you'd like to further reduce CPU load at a cost of changing visual presentation, you can:
-
-- Enable "CPU Lightweight Mode" setting in "Visual" → "Advanced"
 
 If all of above doesn’t help and you believe your device is better than minimum tested device, try each of the following steps:
 
@@ -128,7 +113,7 @@ If all of above doesn’t help and you believe your device is better than minimu
 
 That’s probably due to dynamic resolution. You can manually disable it in `Visual` → `Advanced`.
 
-Dynamic resolution will be enabled automatically if the platform supports it and your first few minutes is too janky, which is maybe a bit too aggressive but I want to ensure those who can’t hit 60FPS consistently have a smooth gameplay experience.
+Dynamic Resolution will be enabled automatically if the platform supports it and your first few minutes is too janky, which is maybe a bit too aggressive but I want to ensure those who can’t hit 60FPS consistently have a smooth gameplay experience.
 
 # If you cannot change monitor despite having multiple screen available
 
@@ -142,7 +127,7 @@ If you are experiencing issues with the game registering input at times, please 
 
 ***Autopanic*** may have issues with some wireless or bluetooth game controllers; turning off Vibration in the Settings menu may alleviate any issues.
 
-If you experience any other issues with mouse input, such as aiming not being as smooth as you expect, try the following: In the System Menu, go to `Accessibility`, then change `Use Mouse Aim` to `Mouse Only`. In most cases, this should alleviate the issue.
+If you experience any other issues with mouse input, such as aiming not being as smooth as you expect, try the following: In the System Menu, go to `Input`, then change `Use Mouse Aim` to `Mouse Only`. In most cases, this should alleviate the issue.
 
 If your controller isn’t detected by the game, try disconnecting all controllers and ensuring all controller devices are removed from the Device Manager. Then, reconnect your primary controller and try again. Keep in mind the game will always recognize all controllers at all times.
 
@@ -171,13 +156,17 @@ If something happens and you lose progress or find your save data missing, chanc
 If your save files have disappeared or seemly corrupted for cannot load in the game properly, please try uninstalling and reinstalling the game. Otherwise, please follow these steps:
 
 - On **Windows**, navigate to '\Documents\Saved Games\Autopanic'
-    1. Rename 'save.dat' to 'save.dat.old' just in case
-    2. Sort by **Date modified** to locate your most recent backup save
-        - For example: 'save.dat.bak1', 'save.dat.bak2'
-        - If your save data is corrupted, use 'save.dat.bak0' instead, it is the run start backup save and should always be perfectly usable.
-    3. Rename that file to 'save.dat'
-    4. Open the game and see if it loads properly
-    5. If that doesn't work, repeat from **Step 1** with the next most recent '.sav' file
+- On **macOS**, navigate to '/Users/[UserName]/Library/Application Support/ChosenConcept/Autopanic/Save/'
+
+Then do the following:
+
+1. Rename 'save.dat' to 'save.dat.old' just in case
+2. Sort by **Date modified** to locate your most recent backup save
+	- For example: 'save.dat.bak1', 'save.dat.bak2'
+	- If your save data is corrupted, use 'save.dat.bak0' instead, it is the run start backup save and should always be perfectly usable.
+3. Rename that file to 'save.dat'
+4. Open the game and see if it loads properly
+5. If that doesn't work, repeat from **Step 1** with the next most recent '.sav' file
 
 If you've checked all of your '.sav' files without success, please go to Steam and send a message in **Technical Support** forum, and I’ll do my best to help you get your progress back.
 
