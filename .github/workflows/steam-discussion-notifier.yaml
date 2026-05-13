@@ -1,0 +1,69 @@
+name: Steam Discussion Notifier
+
+on:
+  schedule:
+    # Run every hour
+    - cron: '0 * * * *'
+  # Allow manual triggering for testing
+  workflow_dispatch:
+    inputs:
+      steam_app_id:
+        description: 'Steam App ID to monitor'
+        required: false
+        type: string
+
+env:
+  STEAM_APP_ID: ${{ inputs.steam_app_id || '3718870' }}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-discussions:
+    runs-on: ubuntu-latest
+    outputs:
+      posts: ${{ steps.fetch.outputs.posts }}
+      has_posts: ${{ steps.fetch.outputs.has_posts }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch new Steam discussions
+        id: fetch
+        run: |
+          STATE_FILE=".github/steam_discussion_state.txt"
+          POSTS=$(python3 .github/scripts/fetch_steam_discussions.py \
+            "https://steamcommunity.com/app/${{ env.STEAM_APP_ID }}/discussions/" \
+            "$STATE_FILE")
+          echo "posts=$POSTS" >> "$GITHUB_OUTPUT"
+          if [ "$POSTS" = "[]" ]; then
+            echo "has_posts=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_posts=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit updated state file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github/steam_discussion_state.txt
+          git diff --cached --quiet || git commit -m "chore: update Steam discussion state [skip ci]"
+          git push
+
+  notify-discord:
+    needs: fetch-discussions
+    if: needs.fetch-discussions.outputs.has_posts == 'true'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        post: ${{ fromJSON(needs.fetch-discussions.outputs.posts) }}
+      # Send notifications one at a time to avoid rate limiting
+      max-parallel: 1
+    steps:
+      - name: Send Discord notification
+        uses: tsickert/discord-webhook@v7.0.0
+        with:
+          webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          embed-title: ${{ matrix.post.title }}
+          embed-url: ${{ matrix.post.url }}
+          embed-description: ${{ matrix.post.url }}
