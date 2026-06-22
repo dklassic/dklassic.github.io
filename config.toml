@@ -37,6 +37,7 @@ paginate = 10
       [languages.tw.params.navigation]
 [social]
   twitter = 'https://www.twitter.com/justdkliao'
+  bluesky = 'https://bsky.app/profile/chosenconcept.dev'
 [params]
   author = 'DK Liao'
   description = 'A small site about random stuffs'

@@ -13,5 +13,5 @@ I like to make games about telling interesting narratives in interesting ways.
 You can also follow me on:
 
 - X/Twitter－[@justdkliao](https://x.com/justdkliao)
-- Bluesky－[dklassic.bsky.social](https://bsky.app/profile/dklassic.bsky.social)
+- Bluesky－[chosenconcept.dev](https://bsky.app/profile/chosenconcept.dev)
 - Discord－[Autopanic](https://discord.gg/w57PEN42KV)
