@@ -10,6 +10,8 @@ Mold is my answer to a very specific problem: **“I just want to draw a shape h
 
 It is a procedural 2D/3D geometric primitive renderer for Unity and Godot. Instead of opening image-editing or modeling software every time I need a box, a rounded cylinder, a dashed line, or some other simple shape, I can describe it in code and keep working in the engine.
 
+![Mold Thumbnail](/images/projects/mold/mold.png)
+
 # Why I made it
 
 I have always liked making games out of simple geometry. While working on *Autopanic*, I needed to draw a lot primitives, and I wanted my game to run really fast, so I made my own solution. That small utility kept growing until it became something generic enough to use across projects—and, hopefully, useful to other people who enjoy working the same way.
