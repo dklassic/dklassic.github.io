@@ -6,21 +6,15 @@ showToc: true
 showTip: false
 ---
 
-Mold is my answer to a very specific problem: **“I just want to draw a shape here.”**
-
-It is a procedural 2D/3D geometric primitive renderer for Unity and Godot. Instead of opening image-editing or modeling software every time I need a box, a rounded cylinder, a dashed line, or some other simple shape, I can describe it in code and keep working in the engine.
+Mold is a real-time vector graphics library for Unity and Godot.
 
 ![Mold Thumbnail](/images/projects/mold/mold.png)
-
-# Why I made it
-
-I have always liked making games out of simple geometry. While working on *Autopanic*, I needed to draw a lot primitives, and I wanted my game to run really fast, so I made my own solution. That small utility kept growing until it became something generic enough to use across projects—and, hopefully, useful to other people who enjoy working the same way.
 
 ![A selection of animated shapes rendered with Mold](/images/projects/mold/mold-shapes.gif)
 
 # What it does
 
-Mold includes a broad collection of 2D and 3D primitives, with a few features I especially like.
+Mold includes a broad collection of 2D and 3D primitives, and capable of rendering 2D primitives with infinite resolution while capable of efficiently presenting 3D primitives silky smooth. A few additional features really helped my work:
 
 ## Rounded 3D geometry
 
@@ -42,13 +36,13 @@ Mold can automatically select a lower-detail version of each 3D primitive as it 
 
 ![Mold's primitive and blend-mode catalog](/images/projects/mold/basic-molds.png)
 
-The API is code-centric, but it does not force everything to live in code. Unity has optional `MoldComponent` authoring, while Godot has `MoldNode`, so shapes can also be adjusted directly in the editor.
+A monilithic MoldComponent/MoldNode to create any shape you want, while still batch them efficiently with underlying low level rendering.
 
 | Unity component authoring | Godot node authoring |
 | --- | --- |
 | ![Editing a Mold component in Unity](/images/projects/mold/component-authoring.png) | ![Editing a Mold node in Godot](/images/projects/mold/node-authoring.png) |
 
-Under the hood, Mold uses Unity's low-level instanced mesh drawing and Godot's `MultiMesh` rendering. It supports retained-mode rendering as the main workflow, with an immediate-mode API when that is more convenient.
+Under the hood, Mold uses Unity's DrawMeshInstanced API and Godot's `MultiMesh` for rendering. It supports retained-mode rendering as the main workflow, with an immediate-mode API when that is more convenient.
 
 # What can you make with it?
 
