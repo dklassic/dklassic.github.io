@@ -4,7 +4,6 @@ draft: false
 enableComments: false
 showToc: true
 showTip: false
-fullSizeImage: "/images/projects/mold/mold.png"
 ---
 
 Mold is my answer to a very specific problem: **“I just want to draw a shape here.”**

@@ -9,7 +9,7 @@ zoomImage: false
 
 # Mold
 
-[Read more about Mold]({{< ref "/projects/mold" >}})
+[![Mold Thumbnail](/images/projects/mold/mold.png)]({{< ref "projects/mold" >}})
 
 > A procedural 2D/3D geometric primitive renderer for Unity and Godot, with rounded 3D geometry, Oklab color blending, and automatic LOD. Draw simple shapes without leaving your code or game engine.
 
