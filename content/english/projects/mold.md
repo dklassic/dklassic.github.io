@@ -19,7 +19,25 @@ I have always liked making games out of simple geometry. While working on *Autop
 
 # What it does
 
-Mold includes a broad collection of 2D and 3D primitives, including rounded 3D geometry. Shapes support plenty of color-blending modes, including Oklab blending when a smoother perceptual result is worth the extra cost.
+Mold includes a broad collection of 2D and 3D primitives, with a few features I especially like.
+
+## Rounded 3D geometry
+
+Pretty much every shape looks friendlier with softened edges, so Mold can generate rounded boxes, cylinders, prisms, and other primitives without sending them through a modeling tool first.
+
+![Editing a rounded 3D mesh in Mold](/images/projects/mold/rounded-mesh.gif)
+
+## Oklab color blending
+
+In addition to the usual blend modes, Mold can blend colors in the perceptually uniform Oklab color space. Gradients stay vivid and travel between colors more naturally, which is particularly handy for making a whole scene feel coherent.
+
+![Mold color blending modes, including linear RGB and Oklab](/images/projects/mold/color-blending.gif)
+
+## Automatic level of detail
+
+Mold can automatically select a lower-detail version of each 3D primitive as it moves farther from the camera. The levels cross-fade with a dithered transition, reducing the cost of dense scenes without a distracting hard pop when the geometry changes.
+
+![Mold automatically changing primitive detail levels across a dense scene](/images/projects/mold/automatic-lod.gif)
 
 ![Mold's primitive and blend-mode catalog](/images/projects/mold/basic-molds.png)
 
@@ -29,7 +47,7 @@ The API is code-centric, but it does not force everything to live in code. Unity
 | --- | --- |
 | ![Editing a Mold component in Unity](/images/projects/mold/component-authoring.png) | ![Editing a Mold node in Godot](/images/projects/mold/node-authoring.png) |
 
-Under the hood, Mold uses Unity's low-level instanced mesh drawing and Godot's `MultiMesh` rendering. It supports retained-mode rendering as the main workflow, an immediate-mode API when that is more convenient, and automatic level-of-detail transitions with dithered cross-fading for 3D primitives.
+Under the hood, Mold uses Unity's low-level instanced mesh drawing and Godot's `MultiMesh` rendering. It supports retained-mode rendering as the main workflow, with an immediate-mode API when that is more convenient.
 
 # What can you make with it?
 
