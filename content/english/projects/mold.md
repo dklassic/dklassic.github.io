@@ -40,7 +40,7 @@ A monilithic MoldComponent/MoldNode to create any shape you want, while still ba
 
 | Unity component authoring | Godot node authoring |
 | --- | --- |
-| ![Editing a Mold component in Unity](/images/projects/mold/component-authoring.png) | ![Editing a Mold node in Godot](/images/projects/mold/node-authoring.png) |
+| ![Editing a Mold component in Unity](/images/projects/mold/component-authoring.png) | ![Editing a Mold node in Godot](/images/projects/mold/node-authoring.gif) |
 
 Under the hood, Mold uses Unity's DrawMeshInstanced API and Godot's `MultiMesh` for rendering. It supports retained-mode rendering as the main workflow, with an immediate-mode API when that is more convenient.
 
