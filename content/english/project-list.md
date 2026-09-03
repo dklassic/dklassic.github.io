@@ -11,7 +11,7 @@ zoomImage: false
 
 [![Mold Thumbnail](/images/projects/mold/mold.png)]({{< ref "projects/mold" >}})
 
-> A procedural 2D/3D geometric primitive renderer for Unity and Godot, with rounded 3D geometry, Oklab color blending, and automatic LOD. Draw simple shapes without leaving your code or game engine.
+> A vector graphics library for Unity and Godot, with rounded 3D geometry, Oklab color blending, automatic LOD, and tons of customizability.
 
 
 # APFrameworkUI
