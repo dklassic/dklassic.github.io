@@ -34,6 +34,15 @@ Mold can automatically select a lower-detail version of each 3D primitive as it 
 
 ![Mold automatically changing primitive detail levels across a dense scene](/images/projects/mold/automatic-lod.gif)
 
+## GPU based polyine (Unity only for now)
+
+Mold implements a GPU based polyline solution which can handle potentially millions of lines and points without a hitch.
+Optional CPU based polyline is still available for precise mesh construction.
+
+![Mold GPU based polyline running on Unity](/images/projects/mold/gpu-polyline.gif)
+
+## Monilithic MoldComponent/MoldNode
+
 ![Mold's primitive and blend-mode catalog](/images/projects/mold/basic-molds.png)
 
 A monilithic MoldComponent/MoldNode to create any shape you want, while still batch them efficiently with underlying low level rendering.
