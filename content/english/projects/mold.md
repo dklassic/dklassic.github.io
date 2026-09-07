@@ -34,7 +34,7 @@ Mold can automatically select a lower-detail version of each 3D primitive as it 
 
 ![Mold automatically changing primitive detail levels across a dense scene](/images/projects/mold/automatic-lod.gif)
 
-## GPU based polyine (Unity only for now)
+## GPU based polyine
 
 Mold implements a GPU based polyline solution which can handle potentially millions of lines and points without a hitch.
 Optional CPU based polyline is still available for precise mesh construction.
