@@ -57,7 +57,7 @@ Loop()
 }
 ```
 
-Though for some reason, back when I tried to implement it [when I was researching how to write a scalable AI]({{< ref "/0000-scalable-ai" >}}), Unity gave me some error preventing me to do so. I figure the performance improvement is already good enough, so I just leave it as is.
+Though for some reason, back when I tried to implement it [when I was researching how to write a scalable AI]({{< ref "/posts/autopanic-zero-devlog/0000-scalable-ai" >}}), Unity gave me some error preventing me to do so. I figure the performance improvement is already good enough, so I just leave it as is.
 
 Recently I read [an example](https://github.com/simplestargame/SimpleMeshChunkSample) on how to generate combined mesh asynchronously using Jobs. And I realized that there's a more intuitive way of implementing Delayed Result Gathering, which allows me to write it in the more intuitive DispatchJob -> GatherResult order.
 

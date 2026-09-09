@@ -8,7 +8,7 @@ tags: ["自動混亂"]
 大部分情況下提到類 Rogue，大概就會跟隨機產生關卡綁在一起吧。
 當時最讓我印象深刻的隨機關卡就是《Bad North》，一般 2D 作品都只能使用普通的 Tileset 拼貼，但《Bad North》可以產生出有地形起伏、全 3D 的關卡。
 
-因此我就開始研究 Oskar Stålberg 的一些演講，相關內容可以回頭參考我寫的[基礎篇]({{< ref "/0001-wave-function-collapse" >}})與[實用篇]({{< ref "/0002-wfc-tips" >}})。
+因此我就開始研究 Oskar Stålberg 的一些演講，相關內容可以回頭參考我寫的[基礎篇]({{< ref "/posts/game-design/0001-wave-function-collapse" >}})與[實用篇]({{< ref "/posts/game-design/0002-wfc-tips" >}})。
 
 總之當時的實驗成果大概像這樣：
 

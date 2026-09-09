@@ -25,7 +25,7 @@ tags: ["Unity"]
 
 Unity 有對鏡頭內建動態解析度系統，但是除了要求要使用 DX12、Vulkan 這兩個都還不太穩定的 Graphics API 以外（或者是在家用主機有對應的 API），實際上他的運作原理是完全的謎。
 
-[我遊戲的渲染設計]({{< ref "/0013-rendering-pipeline" >}})上用了多個鏡頭堆疊，UI 是使用 Screen Space Camera 顯示，自然而然想說「只要不要勾選 UI 鏡頭的 Allow Dynamic Resolution 應該就可以維持 UI 在原生解析度」但是大錯特錯。實際上只要 depth 最低的鏡頭啟用就會影響到剩下的鏡頭，反過來說最下面的沒啟用上面的就全都啟動不了的詭異狀況。
+[我遊戲的渲染設計]({{< ref "/posts/autopanic-devlog/0013-rendering-pipeline" >}})上用了多個鏡頭堆疊，UI 是使用 Screen Space Camera 顯示，自然而然想說「只要不要勾選 UI 鏡頭的 Allow Dynamic Resolution 應該就可以維持 UI 在原生解析度」但是大錯特錯。實際上只要 depth 最低的鏡頭啟用就會影響到剩下的鏡頭，反過來說最下面的沒啟用上面的就全都啟動不了的詭異狀況。
 
 這問題也另外有多層面的影響，並不是只是透過這個官方支援的 DRS 做法才會有問題，而是看來是整個渲染流程的問題。
 目前我知道 Scale 鏡頭解析度的方式有這幾種：

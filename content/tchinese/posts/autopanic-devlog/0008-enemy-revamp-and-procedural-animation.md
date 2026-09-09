@@ -7,7 +7,7 @@ tags: ["自動混亂"]
 
 # 敵人翻新
 
-敵人的翻新過去曾經寫過一篇文解釋[低效能需求的區域性碰撞迴避 AI]({{< ref "/0004-low-cost-ai" >}})，所以在這邊就只講剩下的部分。
+敵人的翻新過去曾經寫過一篇文解釋[低效能需求的區域性碰撞迴避 AI]({{< ref "/posts/game-design/0004-low-cost-ai" >}})，所以在這邊就只講剩下的部分。
 
 ![enemy roaming](/images/posts/autopanic-devlog/0008/1.gif)
 
@@ -64,7 +64,7 @@ recoilTarget.DOPunchPosition(recoilForce / unitSize, recoilDuration, 1)
 
 ## 移動動畫
 
-而最後移動動畫的部分可以去參考以前寫過的[程序性動畫實作雜談]({{< ref "/0005-procedural-animation" >}})。基本上是一系列「被動式動畫系統」的實作，會直接根據物件的位移去決定行動方式（移動腳、轉前導輪），完成之後就可以做出完全獨立於角色行動的動畫，讓角色移動不會被動畫干擾回去。
+而最後移動動畫的部分可以去參考以前寫過的[程序性動畫實作雜談]({{< ref "/posts/game-design/0005-procedural-animation" >}})。基本上是一系列「被動式動畫系統」的實作，會直接根據物件的位移去決定行動方式（移動腳、轉前導輪），完成之後就可以做出完全獨立於角色行動的動畫，讓角色移動不會被動畫干擾回去。
 
 ![procedural animation](/images/posts/autopanic-devlog/0008/9.gif)
 

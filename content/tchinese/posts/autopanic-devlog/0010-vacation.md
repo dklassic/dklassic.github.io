@@ -52,7 +52,7 @@ tags: ["自動混亂"]
 
 ![sphere collision](/images/posts/autopanic-devlog/0010/4.png "移動運算使用的 Collider 是普通的球體的情況下，物理計算基本上很穩定，不用考慮各種真實車輛的物理問題")
 
-順帶一提也是為什麼我[對速度感的表現稍微有些研究心得]({{< ref "/0008-speed" >}}) XD
+順帶一提也是為什麼我[對速度感的表現稍微有些研究心得]({{< ref "/posts/game-design/0008-speed" >}}) XD
 
 ![bus movement](/images/posts/autopanic-devlog/0010/5.gif)
 ![bus route](/images/posts/autopanic-devlog/0010/6.gif)

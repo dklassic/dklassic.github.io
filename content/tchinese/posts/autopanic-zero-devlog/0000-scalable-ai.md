@@ -44,7 +44,7 @@ tags: ["自動混亂零式","遊戲設計"]
 
 ![manager](/images/posts/autopanic-zero-devlog/0000/3.png)
 
-原先交給 `EnemyBehaviour` 更新的周邊環境碰撞偵測獨立拉出來一項為 EnemyVectorUpdate()，這邊就不多解釋運作方式，可以參考過去寫過的[低效能需求 AI 介紹]({{< ref "/0004-low-cost-ai" >}})。
+原先交給 `EnemyBehaviour` 更新的周邊環境碰撞偵測獨立拉出來一項為 EnemyVectorUpdate()，這邊就不多解釋運作方式，可以參考過去寫過的[低效能需求 AI 介紹]({{< ref "/posts/game-design/0004-low-cost-ai" >}})。
 
 然後把一些視覺相關的更新都統一包進去給 `EnemyController` 一起更新，畢竟我遊戲中大多數視覺更新都跟移動機制本身有關，所以交給負責移動的 `EnemyController` 統一更新也算合適。
 

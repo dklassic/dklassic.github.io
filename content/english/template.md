@@ -17,7 +17,7 @@ showTip: true
 
 ## Twitter Simple Shortcode
 
-{{< twitter_simple 1085870671291310081 >}}
+{{< x user="DesignReviewed" id="1085870671291310081" >}}
 
 
 ---

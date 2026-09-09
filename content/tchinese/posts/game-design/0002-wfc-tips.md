@@ -5,7 +5,7 @@ draft: false
 tags: ["遊戲設計"]
 ---
 
-[上篇]({{< ref "/0001-wave-function-collapse" >}})大致上講述了 Wave Function Collapse 的基本概念。如果照著做的話大概可以做出像這樣的東西：
+[上篇]({{< ref "/posts/game-design/0001-wave-function-collapse" >}})大致上講述了 Wave Function Collapse 的基本概念。如果照著做的話大概可以做出像這樣的東西：
 
 ![early-result](/images/posts/game-design/0002/pF36Ds5.png)
 

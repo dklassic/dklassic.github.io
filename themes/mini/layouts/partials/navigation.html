@@ -11,15 +11,8 @@
 		<a href="{{ $element.path }}">{{ $element.name }}</a>
 	{{ end }}
 
-	{{ $siteLanguages := site.Languages}}
-	{{ $pageLang := .Page.Lang}}
 	{{- range .Page.AllTranslations }}
-		{{ $translation := . }}
-		{{- range sort $siteLanguages "Weight" "asc" }}
-			{{- if eq $translation.Lang .Lang }}
-				<a class="langavailable" href="{{ $translation.Permalink | relURL }}">{{ .Params.languageNameShort }}</a>
-			{{- end }}
-		{{- end }}
+		<a class="langavailable" href="{{ .Permalink | relURL }}">{{ .Language.Params.languageNameShort }}</a>
 	{{- end }}
 
 

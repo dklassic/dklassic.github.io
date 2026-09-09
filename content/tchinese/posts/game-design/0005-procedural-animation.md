@@ -82,7 +82,7 @@ Animation Curve 是個很適合拿來提供調整空間的工具，第一個是�
 
 ![jakob's gif](/images/posts/game-design/0005/7.gif)
 
-{{< twitter_simple Jakob_Wahlberg 1399100594288218112 >}}
+{{< x user="Jakob_Wahlberg" id="1399100594288218112" >}}
 
 # 雜項討論點
 
