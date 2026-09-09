@@ -6,6 +6,8 @@ showToc: true
 showTip: false
 ---
 
+https://dkliao.itch.io/mold
+
 Mold is a real-time vector graphics library for Unity and Godot.
 
 ![Mold Thumbnail](/images/projects/mold/mold.png)

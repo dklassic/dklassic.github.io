@@ -9,8 +9,6 @@ zoomImage: false
 
 # Mold
 
-https://dkliao.itch.io/mold
-
 [![Mold Thumbnail](/images/projects/mold/mold.png)]({{< ref "projects/mold" >}})
 
 > A vector graphics library for Unity and Godot, with rounded 3D geometry, Oklab color blending, automatic LOD, and tons of customizability.
