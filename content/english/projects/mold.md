@@ -16,6 +16,18 @@ Mold is a real-time vector graphics library for Unity and Godot.
 
 Mold includes a broad collection of 2D and 3D primitives, and capable of rendering 2D primitives with infinite resolution while capable of efficiently presenting 3D primitives silky smooth. A few additional features really helped my work:
 
+## Monilithic MoldComponent/MoldNode
+
+![Mold's primitive and blend-mode catalog](/images/projects/mold/basic-molds.png)
+
+A monilithic MoldComponent/MoldNode to create any shape you want, while still batch them efficiently with underlying low level rendering.
+
+| Unity component authoring | Godot node authoring |
+| --- | --- |
+| ![Editing a Mold component in Unity](/images/projects/mold/component-authoring.gif) | ![Editing a Mold node in Godot](/images/projects/mold/node-authoring.gif) |
+
+Under the hood, Mold uses Unity's `RenderMeshPrimitives` API and Godot's `MultiMesh` for rendering. It supports retained-mode rendering as the main workflow, with an immediate-mode API when that is more convenient.
+
 ## Rounded 3D geometry
 
 Pretty much every shape looks friendlier with softened edges, so Mold can generate rounded boxes, cylinders, prisms, and other primitives without sending them through a modeling tool first.
@@ -41,17 +53,11 @@ Optional CPU based polyline is still available for precise mesh construction.
 
 ![Mold GPU based polyline running on Unity](/images/projects/mold/gpu-polyline.gif)
 
-## Monilithic MoldComponent/MoldNode
+## Optional order-independent transparency support
 
-![Mold's primitive and blend-mode catalog](/images/projects/mold/basic-molds.png)
+Mold supports both Weighted OIT and AdaptiveVoxel OIT, which while requires additional setup to be used on typical engine transparent objects, works about perfect if your project only has Mold transparent objects.
 
-A monilithic MoldComponent/MoldNode to create any shape you want, while still batch them efficiently with underlying low level rendering.
-
-| Unity component authoring | Godot node authoring |
-| --- | --- |
-| ![Editing a Mold component in Unity](/images/projects/mold/component-authoring.gif) | ![Editing a Mold node in Godot](/images/projects/mold/node-authoring.gif) |
-
-Under the hood, Mold uses Unity's DrawMeshInstanced API and Godot's `MultiMesh` for rendering. It supports retained-mode rendering as the main workflow, with an immediate-mode API when that is more convenient.
+![Mold with AVOIT](/images/projects/mold/avoit.gif)
 
 # What can you make with it?
 
