@@ -55,6 +55,13 @@ Optional CPU based polyline is still available for precise mesh construction.
 
 ![Mold GPU based polyline running on Unity](/images/projects/mold/gpu-polyline.gif)
 
+## Curve support
+
+Who don't love a nice curve amirite!
+Well, to be honest, I don't actually use curve in my project, but this seemed to be a nice to have and it is cool!
+
+![Mold Curve running on Unity](/images/projects/mold/curve.gif)
+
 ## Optional order-independent transparency support
 
 Mold supports both Weighted OIT and AdaptiveVoxel OIT, which while requires additional setup to be used on typical engine transparent objects, works about perfect if your project only has Mold transparent objects.
