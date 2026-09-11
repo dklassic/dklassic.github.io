@@ -32,7 +32,9 @@ Under the hood, Mold uses Unity's `RenderMeshPrimitives` API and Godot's `MultiM
 
 ## Rounded 3D geometry
 
-Pretty much every shape looks friendlier with softened edges, so Mold can generate rounded boxes, cylinders, prisms, and other primitives without sending them through a modeling tool first.
+Mold can generate rounded boxes, cylinders, prisms, and other primitives without sending them through a modeling tool.
+Additionally, Mold uses vertex shader to deform the mesh, which means most of the resizing does not trigger the
+regeneration of meshes and you can cheaply do so.
 
 ![Editing a rounded 3D mesh in Mold](/images/projects/mold/rounded-mesh.gif)
 
@@ -55,12 +57,19 @@ Optional CPU based polyline is still available for precise mesh construction.
 
 ![Mold GPU based polyline running on Unity](/images/projects/mold/gpu-polyline.gif)
 
-## Curve support
-
-Who don't love a nice curve amirite!
-Well, to be honest, I don't actually use curve in my project, but this seemed to be a nice to have and it is cool!
+Additionally, full fledge Curbe is also supported. The curve also exposes an Evaluate function so that you can
+sample the path should you need it.
 
 ![Mold Curve running on Unity](/images/projects/mold/curve.gif)
+
+## Built-in paint and pencil visual available
+
+Mold supports custom materials, but creating one by adapting the built-in shaders can be very difficult.
+So Mold also has two premade custom materials: paint and pencil, which mimics the look of paint and pencil
+strokes. Use them directly and maybe reference them to create your own custom materials!
+
+![Mold pencil stroke](/images/projects/mold/stroke-pencil.png)
+![Mold paint stroke](/images/projects/mold/stroke-paint.png)
 
 ## Optional order-independent transparency support
 
