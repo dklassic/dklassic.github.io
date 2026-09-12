@@ -78,8 +78,7 @@ Mold supports custom materials, but creating one by adapting the built-in shader
 So Mold also has two premade custom materials: paint and pencil, which mimics the look of paint and pencil
 strokes. Use them directly and maybe reference them to create your own custom materials!
 
-![Mold pencil stroke](/images/projects/mold/stroke-pencil.png)
-![Mold paint stroke](/images/projects/mold/stroke-paint.png)
+![Mold procedural stroke](/images/projects/mold/procedural-stroke.png)
 
 ## Optional order-independent transparency support
 
