@@ -8,6 +8,8 @@ showTip: false
 
 https://dkliao.itch.io/mold
 
+[Join the Discord](https://discord.gg/w57PEN42KV)
+
 Mold is a real-time vector graphics library for Unity and Godot.
 
 ![Mold Thumbnail](/images/projects/mold/mold.png)
@@ -57,8 +59,16 @@ Optional CPU based polyline is still available for precise mesh construction.
 
 ![Mold GPU based polyline running on Unity](/images/projects/mold/gpu-polyline.gif)
 
-Additionally, full fledge Curbe is also supported. The curve also exposes an Evaluate function so that you can
-sample the path should you need it.
+Additionally, full fledge Curve is also supported with the following types:
+
+- Cubic Bézier
+- Quadratic Bézier
+- Hermite
+- B-spline
+- NURBS
+- Catmull–Rom
+
+The curve also exposes an Evaluate function so that you can sample the path should you need it.
 
 ![Mold Curve running on Unity](/images/projects/mold/curve.gif)
 
@@ -92,5 +102,3 @@ The full [Mini Outer Wilds](https://dkliao.itch.io/mini-outer-wilds) experiment 
 # A small reality check
 
 Mold is mainly designed for world-space rendering. Unity UI rendering is possible, but it is not the most straightforward use case. Its anti-aliased 2D primitives can look crisp and vector-like at any resolution, but Mold is not an SVG renderer. Oklab blending also costs more than ordinary linear RGB blending, so it is best used where the visual difference matters.
-
-Mold is currently in beta while I work out the final distribution and licensing plan. If this sounds useful for something you are making, [join the Discord](https://discord.gg/w57PEN42KV).
