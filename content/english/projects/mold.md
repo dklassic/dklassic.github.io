@@ -14,15 +14,13 @@ Mold is a real-time vector graphics library for Unity and Godot.
 
 ![Mold Thumbnail](/images/projects/mold/mold.png)
 
-![A selection of animated shapes rendered with Mold](/images/projects/mold/mold-shapes.gif)
+![A selection of animated shapes rendered with Mold](/images/projects/mold/mold-all.gif)
 
 # What it does
 
 Mold includes a broad collection of 2D and 3D primitives, and capable of rendering 2D primitives with infinite resolution while capable of efficiently presenting 3D primitives silky smooth. A few additional features really helped my work:
 
 ## Monilithic MoldComponent/MoldNode
-
-![Mold's primitive and blend-mode catalog](/images/projects/mold/basic-molds.png)
 
 A monilithic MoldComponent/MoldNode to create any shape you want, while still batch them efficiently with underlying low level rendering.
 
