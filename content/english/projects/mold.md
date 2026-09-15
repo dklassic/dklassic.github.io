@@ -86,7 +86,11 @@ Mold supports both Weighted OIT and AdaptiveVoxel OIT, which while requires addi
 
 # What can you make with it?
 
-Simple shapes can go surprisingly far. This little solar system was rendered in Godot using only Mold:
+Mold was originally created to make my own game [Autopanic]({{< ref "autopanic/game.md" >}}), which is a game heavily based on stylized geometric primitives:
+
+![Simple preview of Autopanic](/images/projects/mold/autopanic-preview.jpg)
+
+Simple shapes can also go surprisingly far. This little solar system was rendered in Godot using only Mold:
 
 ![A miniature solar system rendered with Mold in Godot](/images/projects/mold/mold-godot-demo.gif)
 
