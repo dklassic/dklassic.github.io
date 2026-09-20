@@ -96,9 +96,13 @@ Simple shapes can also go surprisingly far. This little solar system was rendere
 
 The full [Mini Outer Wilds](https://dkliao.itch.io/mini-outer-wilds) experiment was built with roughly 3,000 lines of GDScript and no art assets. Mold has also been used to assemble colorful miniature towns and small strategy-game scenes:
 
-![A miniature town made from Mold primitives](/images/projects/mold/mold-town.png)
+![A Racer](/images/projects/mold/racer.png)
 
-![A small hex-grid world made from Mold primitives](/images/projects/mold/hex-kingdom.png)
+![A plane scene](/images/projects/mold/flight.png)
+
+![A RTS example](/images/projects/mold/rts.png)
+
+![A Earth example](/images/projects/mold/earth.png)
 
 # A small reality check
 
