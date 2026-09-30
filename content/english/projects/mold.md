@@ -6,11 +6,12 @@ showToc: true
 showTip: false
 ---
 
-https://dkliao.itch.io/mold
+- [itch](https://dkliao.itch.io/mold) (Godot/Unity/Free non-commercial)
+- [Unity Asset Store](https://assetstore.unity.com/packages/slug/404220) (Unity)
+- [Fab](https://www.fab.com/listings/5f36080a-9899-4deb-b1ca-1281518b9814) (Unity)
+- [Join the Discord](https://discord.gg/w57PEN42KV)
 
-[Join the Discord](https://discord.gg/w57PEN42KV)
-
-Mold is a real-time vector graphics library for Unity and Godot.
+Mold is a real-time vector graphics library for Godot and Unity.
 
 ![Mold Thumbnail](/images/projects/mold/mold.png)
 
@@ -20,9 +21,9 @@ Mold is a real-time vector graphics library for Unity and Godot.
 
 Mold includes a broad collection of 2D and 3D primitives, and capable of rendering 2D primitives with infinite resolution while capable of efficiently presenting 3D primitives silky smooth. A few additional features really helped my work:
 
-## Monilithic MoldComponent/MoldNode
+## Monilithic MoldPrimitive
 
-A monilithic MoldComponent/MoldNode to create any shape you want, while still batch them efficiently with underlying low level rendering.
+A monilithic MoldPrimitive to create any shape you want, while still batch them efficiently with underlying low level rendering.
 
 | Unity component authoring | Godot node authoring |
 | --- | --- |
