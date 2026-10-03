@@ -9,7 +9,7 @@ zoomImage: false
 
 # Mold
 
-[![Mold Thumbnail](/images/projects/mold/mold.png)]({{< ref "mold/mold" >}})
+[![Mold Thumbnail](/images/projects/mold/mold.png)]({{< ref "mold/about" >}})
 
 > A vector graphics library for Unity and Godot, with rounded 3D geometry, Oklab color blending, automatic LOD, and tons of customizability.
 
