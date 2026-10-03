@@ -10,6 +10,7 @@ showTip: false
 - [Unity Asset Store](https://assetstore.unity.com/packages/slug/404220) (Unity)
 - [Fab](https://www.fab.com/listings/5f36080a-9899-4deb-b1ca-1281518b9814) (Unity)
 - [Join the Discord](https://discord.gg/w57PEN42KV)
+- [Frequently Asked Questions]({{< ref "mold/faq" >}})
 
 Mold is a real-time vector graphics library for Godot and Unity.
 
