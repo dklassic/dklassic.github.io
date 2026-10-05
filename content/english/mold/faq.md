@@ -10,6 +10,10 @@ showTip: false
 
 None. They're the exact same with license difference.
 
+# The C# addon cannot be loaded?
+
+Be sure to create the C# solution and build the project before attempting to activate the addon.
+
 # Does the performance holds up under XXX?
 
 Performance problem is always a very complicated question to answer. A more detailed answer will be down below but the truly short answer is "It depends" and "Benchmark is king".
