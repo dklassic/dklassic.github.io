@@ -10,6 +10,11 @@ showTip: false
 
 None. They're the exact same with license difference.
 
+Also there's been a lot of discussions about the pricing so lemme spell out the following:
+
+- For any properly funded projects, you're expected to aquire the commercial version.
+- If you're running on shoestring budget or none at all, feel free to just get a headstart with the non-commercial verion I won't hold it against you. I'll trust your judgement because there's literally no way I can tell if your project uses Mold or not.
+
 # The C# addon cannot be loaded?
 
 Be sure to create the C# solution and build the project before attempting to activate the addon.
