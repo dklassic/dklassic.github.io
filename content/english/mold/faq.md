@@ -15,6 +15,10 @@ Also there's been a lot of discussions about the pricing so lemme spell out the 
 - For any properly funded projects, you're expected to aquire the commercial version.
 - If you're running on shoestring budget or none at all, feel free to just get a headstart with the non-commercial verion I won't hold it against you. I'll trust your judgement because there's literally no way I can tell if your project uses Mold or not.
 
+# If I purchased Mold on Unity Asset Store, can I get the Godot version as well?
+
+You have my blessing to just download the itch non-commercial version and use it as if it is licensed. Again, not like I can track it anyways.
+
 # The C# addon cannot be loaded?
 
 Be sure to create the C# solution and build the project before attempting to activate the addon.
