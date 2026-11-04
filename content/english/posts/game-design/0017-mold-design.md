@@ -13,7 +13,7 @@ It's a very surreal feeling seeing something I made getting thousands of downloa
 
 # What and Why
 
-Mold is a vector graphics library for both Godot and Unity, created for my game Autopanic. The visual design of Autopanic is in the vein of graphics realism, focusing on broad stroke graphics design like visual but used to represent actual objects to create some surreal scifi visual.
+Mold is a real-time vector graphics library for both Godot and Unity, created for my game Autopanic. The visual design of Autopanic is in the vein of graphics realism, focusing on broad stroke graphics design like visual but used to represent actual objects to create some surreal scifi visual.
 
 ![Simple preview of Autopanic](/images/projects/mold/autopanic-preview.jpg)
 
