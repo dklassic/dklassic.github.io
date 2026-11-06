@@ -47,6 +47,15 @@ Mold also uses a mesh template system, which entails it will only dynamically ge
 
 Lastly while Mold has Component based workflow and I would assume a lot of users will use it exclusively (and I do love prototyping with it). These components will generate preview mesh renderer to be used in Edit Mode, but when running in Play Mode, they will be automatically batched into the efficient renderer. Therefore all the performance benefit still applies when using the Components.
 
+# Transparency Sorting
+
+Overall everything seems great. Good performance, tons of customizabilities. There however lies an issue where using the efficient batched rendering API in Godot/Unity also means transparent objects drawn this way will result in unexpected sorting behavior. For my own game Autopanic, all transparencies had a fixed sorting order so it never became an issue, but this behavior might cause some confusion when used by others.
+
+
+Ultimately I decided to create additional order-independent-transparency (OIT) renderer for Mold with two modes to choose from. The first mode is Weighted OIT, which produces stable visual but with a look that's far from ground truth. The second mode is Adapative Voxel Based OIT, which was proposed by Activision and produces visuals that are closer to ground truth. When the batch efficiency out weights the additional cost of OIT renderer, using OIT will provide both better performance and closer to ground truth visual since native engine behavior isn't ground truth either.
+
+The only complication with this approach is that OIT rendered objects cannot automatically blend with transparent objects rendered natively with engine's renderer, which means either it'll be on top of or below other transparent objects. The only way to make sure both work in tandem is by rendering all transparent objects through Mold's OIT renderer. Not the most painless setup, but this is the best I can provide for now and if you're rendering transparent objects exclusively with Mold then it's a net positive.
+
 # Porting to Godot
 
 I've been on the fence to dive into Godot for a while now, and one of the reasons that holds me off is exactly the fact that Shapes' creator showed little interest in porting Shapes to Godot. Now that I had my own plugin I feel like attempting the port is a good excuse to get me start using Godot, so I started the work. The good news is while Godot and Unity are structured a lot differently, they still rely on similar underlying graphics API and shared quite a lot of similarities. The bad news is Godot isn't quite in feature parity when it comes to rendering, and therefore I couldn't use the low level RenderingServer API for what Mold can do equivalently when using low level rendering API in Unity, like for example `RenderMeshPrimitives`. Ultimately I still used something similar to ensure the best performance I can get, but certainly that's something worth revisiting in the future.
