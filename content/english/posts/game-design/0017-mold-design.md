@@ -51,6 +51,7 @@ Lastly while Mold has Component based workflow and I would assume a lot of users
 
 Overall everything seems great. Good performance, tons of customizabilities. There however lies an issue where using the efficient batched rendering API in Godot/Unity also means transparent objects drawn this way will result in unexpected sorting behavior. For my own game Autopanic, all transparencies had a fixed sorting order so it never became an issue, but this behavior might cause some confusion when used by others.
 
+In the end I opted to create multiple modes for the Mold's renderer when handling transparency. By default it'll use the engine's native renderer so that the outcome will remain consistent against what people would normally assume, then addtional batched rendering mode will ignore the sorting issue and make it batched. This is of course unsatisfactory, as native renderer had way worse performance.
 
 Ultimately I decided to create additional order-independent-transparency (OIT) renderer for Mold with two modes to choose from. The first mode is Weighted OIT, which produces stable visual but with a look that's far from ground truth. The second mode is Adapative Voxel Based OIT, which was proposed by Activision and produces visuals that are closer to ground truth. When the batch efficiency out weights the additional cost of OIT renderer, using OIT will provide both better performance and closer to ground truth visual since native engine behavior isn't ground truth either.
 
