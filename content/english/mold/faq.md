@@ -36,6 +36,11 @@ And here's the long answer:
 - Mold had a dedicated section in the documentation about everything performance, my suggestion is to simply try it out and see if it works (especially since there's free version available), and if the things mentioned in the performance section can help. I cannot in good faith guarantee you it "holds up" without knowing anything about the exact budgeting of your project and your lowest targeted device, the only thing trustworthy is benchmark in build, rinse and repeat.
 - None of my personal project does mobile export, but my own game Autoapnic runs at 800p/90FPS on Steam Deck with tens of thousands of objects animated at any given time.
 
+# The versioning seems to skip numbers every now and then, why is that?
+
+In general Mold's versioning will follow the sematics of `major.minor.patch`. Major includes big functionality changes that will introduce substantial breaking changes. Minor includes functionality changes while breaking will happen infrequently and very easy to fix. Finally patch includes no functionality changes at all, at most a QoL changes.
+
+This however is complicated by how the Mold had three ports: Godot C#, Godot GDscript, and Unity. So in general the version bump will intentionally keep all ports in sync whenever possible in order to make parity immediately understandable. For example when a Unity only change happens it might bump a minor version, but if a new shared change were made to bump both the minor version of Godot and Unity they'll be bumped to the same minor version instead. This might feel confusing but it also makes understanding the parity between Unity and Godot easier.
 
 # What's the difference between Mold and the Unity Asset Shapes?
 
