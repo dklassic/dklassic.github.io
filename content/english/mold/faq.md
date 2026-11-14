@@ -19,6 +19,8 @@ Also there's been a lot of discussions about the pricing so lemme spell out the 
 
 You have my blessing to just download the itch non-commercial version and use it as if it is licensed. Again, not like I can track it anyways.
 
+Or if you really want to get a explicitly licensed copy you can send me a mail through the Asset Store support mail with proof of purchase and I'd be glad to send you an itch redeem link.
+
 # The C# addon cannot be loaded?
 
 Be sure to create the C# solution and build the project before attempting to activate the addon.
